@@ -1,0 +1,9 @@
+# Obsidian
+.obsidian/cache/       # Ignore le cache d'Obsidian
+.obsidian/workspace    # Ignore les paramètres de l'espace de travail
+.obsidian/config       # Ignore les fichiers de configuration utilisateur
+*.md~                  # Ignore les fichiers temporaires de sauvegarde Markdown
+*.bak                  # Ignore les fichiers de sauvegarde
+*.swp                  # Ignore les fichiers swap (souvent créés par les éditeurs de texte comme Vim)
+.DS_Store              # Ignore les fichiers spécifiques à macOS
+Thumbs.db              # Ignore les fichiers spécifiques à Windows
