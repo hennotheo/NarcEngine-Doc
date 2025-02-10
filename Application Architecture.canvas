@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "color": "1",
+      "fromNode": "7c4103bdc30c057f",
+      "fromSide": "right",
+      "id": "3158a1eb5fb9a4dd",
+      "styleAttributes": {
+        "path": "short-dashed"
+      },
+      "toNode": "bb334793524208ef",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c0c821b45b4aa2c3",
+      "fromSide": "right",
+      "id": "289e689595e81ca0",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "3695176f5c878be4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c0c821b45b4aa2c3",
+      "fromSide": "right",
+      "id": "be1df4506694b516",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "61960da14ecf29b8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c0c821b45b4aa2c3",
+      "fromSide": "right",
+      "id": "796737a1e9f26bdb",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "d496a32d1dfc96da",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "5",
+      "height": 1060,
+      "id": "f693532b4d833058",
+      "label": "Core & Platform Abstraction",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 440,
+      "x": 960,
+      "y": -620
+    },
+    {
+      "color": "3",
+      "height": 1060,
+      "id": "639ff0604e0e24f0",
+      "label": "Vendors",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 440,
+      "x": 1480,
+      "y": -620
+    },
+    {
+      "color": "6",
+      "height": 1060,
+      "id": "bb334793524208ef",
+      "label": "Ressources Manager",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 420,
+      "x": 440,
+      "y": -620
+    },
+    {
+      "color": "1",
+      "height": 240,
+      "id": "7c4103bdc30c057f",
+      "styleAttributes": {
+        "border": null,
+        "shape": null
+      },
+      "text": "#### NarcEngine.exe\nFinal Application",
+      "type": "text",
+      "width": 220,
+      "x": 0,
+      "y": -600
+    },
+    {
+      "color": "3",
+      "height": 180,
+      "id": "61960da14ecf29b8",
+      "styleAttributes": {
+        "border": null,
+        "shape": null
+      },
+      "text": "### GLFW\n![![Vendors/GLFW.md]]",
+      "type": "text",
+      "width": 400,
+      "x": 1500,
+      "y": -600
+    },
+    {
+      "color": "5",
+      "height": 120,
+      "id": "8acb116d7b9ae896",
+      "styleAttributes": {
+        "border": null,
+        "shape": null
+      },
+      "text": "#### NarcIO.dll\n![![Core/NarcIO.dll]]",
+      "type": "text",
+      "width": 400,
+      "x": 980,
+      "y": -320
+    },
+    {
+      "color": "5",
+      "height": 120,
+      "id": "05e08a34a8b4f843",
+      "styleAttributes": {
+        "border": null,
+        "shape": null
+      },
+      "text": "#### NarcPhysX.dll\n![![Core/NarcPhysX.dll]]",
+      "type": "text",
+      "width": 400,
+      "x": 980,
+      "y": -180
+    },
+    {
+      "color": "5",
+      "height": 260,
+      "id": "c0c821b45b4aa2c3",
+      "styleAttributes": {
+        "border": null,
+        "shape": null
+      },
+      "text": "#### NarcEngine.dll\nHandle All Graphics Engine side, Windows and user input\n![![Core/NarcEngine.dll]]",
+      "type": "text",
+      "width": 400,
+      "x": 980,
+      "y": -600
+    },
+    {
+      "color": "5",
+      "height": 120,
+      "id": "5efa151b0cd1ca5e",
+      "styleAttributes": {
+        "border": null,
+        "shape": null
+      },
+      "text": "#### NarcGUI.dll\n!![![NarcGUI]]",
+      "type": "text",
+      "width": 400,
+      "x": 980,
+      "y": -40
+    },
+    {
+      "color": "3",
+      "height": 200,
+      "id": "3695176f5c878be4",
+      "styleAttributes": {
+        "border": null,
+        "shape": null
+      },
+      "text": "#### Vulkan API\n![![Vendors/Vulkan API.md]]",
+      "type": "text",
+      "width": 400,
+      "x": 1500,
+      "y": -400
+    },
+    {
+      "color": "3",
+      "height": 200,
+      "id": "d496a32d1dfc96da",
+      "styleAttributes": {
+        "border": null,
+        "shape": null
+      },
+      "text": "#### GLM\n![![Vendors/GLM.md]]",
+      "type": "text",
+      "width": 400,
+      "x": 1500,
+      "y": -180
+    }
+  ]
+}
