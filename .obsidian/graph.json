@@ -3,35 +3,63 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": true,
-  "showOrphans": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "section:(.dll)",
+      "query": "file:\"NarcEngine App\"",
+      "color": {
+        "a": 1,
+        "rgb": 8339861
+      }
+    },
+    {
+      "query": "tag:#DLL",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "tag:#vendors",
+      "query": "tag:#DLL_EXPORT",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 16741120
+      }
+    },
+    {
+      "query": "tag:#vendors  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "path:Vendors  ",
+      "color": {
+        "a": 1,
+        "rgb": 2829099
+      }
+    },
+    {
+      "query": "path:/",
+      "color": {
+        "a": 1,
+        "rgb": 16769397
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.7,
-  "nodeSizeMultiplier": 5,
-  "lineSizeMultiplier": 2.26927083333333,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 2.55,
+  "lineSizeMultiplier": 0.967708333333333,
   "collapse-forces": false,
-  "centerStrength": 0.520833333333333,
-  "repelStrength": 13.125,
+  "centerStrength": 0.635416666666667,
+  "repelStrength": 16.875,
   "linkStrength": 1,
-  "linkDistance": 292,
-  "scale": 0.13168724279835453,
+  "linkDistance": 121,
+  "scale": 0.45050811767578297,
   "close": false
 }

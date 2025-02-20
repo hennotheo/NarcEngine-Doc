@@ -1,1 +1,0 @@
-[[GLM]] [[Vulkan API]] [[GLFW]]

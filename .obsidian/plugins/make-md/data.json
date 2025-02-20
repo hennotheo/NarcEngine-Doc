@@ -39,12 +39,14 @@
     "//Core/Core/NarcGUI",
     "//Core/Core/NarcIO.dll",
     "//Core/Core/NarcPhysX.dll",
-    "//Core",
-    "//Tags",
-    "//Vendors",
     "//Core/Core/Enige.dll",
     "//Core/Core/NarcEngine.dll",
-    "//Core/Core/NarcGUI.dll"
+    "//Core/Core/NarcGUI.dll",
+    "//Vendors/Vendors/GLM",
+    "//Vendors",
+    "//Vendors/Vendors/Vulkan API",
+    "//Core",
+    "//Core/Core/NarcEngine"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

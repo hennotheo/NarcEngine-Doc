@@ -8,109 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b8dd3413cbf9085c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core/NarcEngine.dll/Engine.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Engine"
-            }
-          },
-          {
-            "id": "0a5c25ebc7cd4829",
+            "id": "f3d1d5ab0d10513d",
             "type": "leaf",
             "pinned": true,
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Core/NarcEngine/NarcEngine.DLL.canvas",
+                "viewState": {
+                  "x": 496.503631763929,
+                  "y": 775.5962405709108,
+                  "zoom": -1.2368023229720269
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "NarcEngine.DLL"
+            }
+          },
+          {
+            "id": "9d11f328a2865c77",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {},
-              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "3bbb956af8bfba9f",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Core"
-              },
-              "icon": "lucide-file",
-              "title": "Core"
-            }
-          },
-          {
-            "id": "196ab432445f5c8b",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Core/NarcEngine.dll"
-              },
-              "icon": "lucide-file",
-              "title": "NarcEngine.dll"
-            }
-          },
-          {
-            "id": "219b539983774ebc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core/NarcEngine.dll/Engine.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Engine"
-            }
-          },
-          {
-            "id": "6fb11599d4ab2cf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core/NarcEngine.dll/Engine.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Engine"
-            }
-          },
-          {
-            "id": "4d54b4d2815cd8f8",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Core/NarcGUI.dll"
-              },
-              "icon": "lucide-file",
-              "title": "NarcGUI.dll"
-            }
-          },
-          {
-            "id": "e8278c3fe125199f",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Core/NarcGUI.dll"
-              },
-              "icon": "lucide-file",
-              "title": "NarcGUI.dll"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +90,7 @@
             }
           },
           {
-            "id": "052a715f41898369",
+            "id": "8ea4d71e07310c7d",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -194,16 +120,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "Core/NarcEngine/NarcEngine.DLL.canvas",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for NarcEngine.DLL"
             }
           },
           {
@@ -212,11 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Core/NarcEngine/NarcEngine.DLL.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from NarcEngine.DLL"
             }
           },
           {
@@ -226,7 +154,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -240,25 +168,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Core/NarcEngine/NarcEngine.DLL.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "2833d1aaa88a6099",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "title": "Outline of NarcEngine.DLL"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -276,43 +196,47 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0a5c25ebc7cd4829",
+  "active": "f3d1d5ab0d10513d",
   "lastOpenFiles": [
-    "Core/NarcGUI.dll/NarcGUI.dll.md",
-    "Core/NarcGUI.dll/[[Vulkan API]].md",
-    "Core/NarcEngine.dll/Engine.md",
-    "Vendors/GLFW.md",
-    "Core/NarcEngine.dll/NarcEngine.dll.md",
-    "Vendors/GLM.md",
-    "Core/NarcEngine.dll",
-    "Vendors/Vulkan API.md",
-    "Tags/#vendors",
-    "Vendors/Vendors.md",
-    "Application Architecture.canvas",
-    "Vendors",
-    "Templates/Documented Object.md",
-    "Templates/Select Note.md",
-    "Core/NarcEngine.dll/Untitled 1.md",
-    "Templates/Templates.md",
-    "Templates",
+    "Vendors/Vulkan API/VKQueue.md",
+    "Core/NarcEngine/NarcEngine.DLL.canvas",
+    "Core/NarcEngine/Device Handler.md",
+    "Core/NarcEngine/QueueFamilyIndices.md",
+    "Core/NarcEngine/CommandBuffer.md",
+    "Core/NarcEngine/Pipeline.md",
+    "Vendors/Vulkan API/VkCommandBuffer.md",
+    "Vendors/Vulkan API/VKInstance.md",
+    "Core/NarcEngine/CommandPool.md",
+    "Core/NarcEngine/Engine.md",
+    "Core/NarcEngine/DescriptorPool.md",
     "Core/Core.md",
-    "Tags/#dll",
-    "Tags/Dynamic Library.md",
-    "Tags/#tags/#tags.md",
-    "Tags/#tags",
-    "Untitled.canvas",
-    "Vault.md",
-    "Core/NarcIO.dll/NarcIO.dll.md",
-    "NarcIO.md",
-    "Core/NarcGUI.dll",
+    "Vendors/GLFW/GLFW.md",
+    "Vendors/GLFW/GLFWwindow.md",
+    "Vendors/Vulkan API/VKSurfaceKHR.md",
+    "Vendors/Vendors.md",
+    "Vendors/Vulkan API/VKSwapchain.md",
+    "Core/NarcEngine/NarcEngine.md",
+    "Core/NarcEngine/Window.md",
     "Core/NarcPhysX.dll/NarcPhysX.dll.md",
-    "Core/NarcPhysX.dll",
-    "Core/NarcIO.dll",
+    "Core/NarcIO.dll/NarcIO.dll.md",
+    "Vendors/GLM/GLM.md",
+    "Core/NarcEngine/Schemas/DrawFrame Schema.canvas",
+    "Core/NarcEngine/Schemas/Schemas.md",
+    "Vendors/Vulkan API/Vulkan API.md",
+    "Application Architecture.canvas",
+    "NarcEngine App.md",
     "README.md",
-    "Core/NarcEngine.dll",
-    "Core/Untitled.md",
-    "Core/NarcEngine.dll.md",
-    "Untitled.md",
-    "Welcome.md"
+    "Vendors/GLM",
+    "Vendors/GLFW",
+    "Core/NarcEngine/Schemas",
+    "Vendors/Vulkan API",
+    "Core/NarcPhysX.dll",
+    "Core/NarcGUI.dll",
+    "Core/NarcEngine",
+    "Core/NarcEngine/NarcEngine.dll.canvas",
+    "Core/NarcEngine",
+    "Tags/#vendors",
+    "Vendors",
+    "Untitled.canvas"
   ]
 }

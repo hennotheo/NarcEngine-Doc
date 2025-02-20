@@ -1,9 +1,10 @@
 [
   "obsidian-icon-folder",
-  "multi-column-markdown",
   "advanced-canvas",
-  "obsidian-tasks-plugin",
-  "table-editor-obsidian",
+  "make-md",
   "obsidian-style-settings",
-  "make-md"
+  "obsidian-tasks-plugin",
+  "multi-column-markdown",
+  "table-editor-obsidian",
+  "custom-node-size"
 ]

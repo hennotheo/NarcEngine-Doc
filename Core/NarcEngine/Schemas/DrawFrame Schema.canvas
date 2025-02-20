@@ -1,0 +1,321 @@
+{
+  "edges": [
+    {
+      "fromNode": "0e2b71165b438407",
+      "fromSide": "bottom",
+      "id": "406fa1ac42944d1b",
+      "styleAttributes": {
+      },
+      "toNode": "d5b8804e98eae0a5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d5b8804e98eae0a5",
+      "fromSide": "bottom",
+      "id": "a3dabd3b873f9577",
+      "styleAttributes": {
+      },
+      "toNode": "7aec15cb21e32e7d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7aec15cb21e32e7d",
+      "fromSide": "bottom",
+      "id": "87ea81b82a583e35",
+      "styleAttributes": {
+      },
+      "toNode": "24102cb4b50433db",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "24102cb4b50433db",
+      "fromSide": "bottom",
+      "id": "c9705f8c350ab486",
+      "styleAttributes": {
+      },
+      "toNode": "c73aae72f3571259",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c73aae72f3571259",
+      "fromSide": "bottom",
+      "id": "2752d11e25793a2a",
+      "styleAttributes": {
+      },
+      "toNode": "e89cf96d2ff85854",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e89cf96d2ff85854",
+      "fromSide": "bottom",
+      "id": "75dd729ebb4eb2cc",
+      "styleAttributes": {
+      },
+      "toNode": "3a05d3c6182ac662",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "3a05d3c6182ac662",
+      "fromSide": "bottom",
+      "id": "946c73ab5d22597e",
+      "styleAttributes": {
+      },
+      "toNode": "d95d78c2e06f0965",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d95d78c2e06f0965",
+      "fromSide": "bottom",
+      "id": "ca0396bf2b4c2038",
+      "label": "No",
+      "styleAttributes": {
+      },
+      "toNode": "c8ba311a2b5af9c7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d95d78c2e06f0965",
+      "fromSide": "right",
+      "id": "329d83f55d2de5b6",
+      "label": "Yes",
+      "styleAttributes": {
+      },
+      "toNode": "ef5c3e9a9b397360",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ef5c3e9a9b397360",
+      "fromSide": "bottom",
+      "id": "265fcea8bd44a00a",
+      "styleAttributes": {
+        "arrow": null
+      },
+      "toNode": "c8ba311a2b5af9c7",
+      "toSide": "right"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1160,
+      "id": "6989b60dc8cd9862",
+      "label": "Draw A Frame",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 620,
+      "x": -340,
+      "y": -100
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "7aec15cb21e32e7d",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Reset Frame Fence and command buffer",
+      "type": "text",
+      "width": 260,
+      "x": -320,
+      "y": 200
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "23b26fa3971a2d91",
+      "styleAttributes": {
+        "border": "dashed",
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "text": "WAIT",
+      "type": "text",
+      "width": 260,
+      "x": -1040,
+      "y": -920
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "7fb84509e4d87364",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "MAIN ACTIONS",
+      "type": "text",
+      "width": 260,
+      "x": -1040,
+      "y": -810
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "f489256feaa68e03",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "RESET, RELEASE, or DESTROY",
+      "type": "text",
+      "width": 260,
+      "x": -1040,
+      "y": -710
+    },
+    {
+      "color": "#ffffff",
+      "height": 60,
+      "id": "5c2878b5ac3910db",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "CREATE, INIT, CONFIG",
+      "type": "text",
+      "width": 260,
+      "x": -1040,
+      "y": -600
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "91c72857bfa3f60b",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "UPDATE",
+      "type": "text",
+      "width": 260,
+      "x": -1040,
+      "y": -490
+    },
+    {
+      "color": "6",
+      "height": 60,
+      "id": "7354cb904a0d09bd",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "GET",
+      "type": "text",
+      "width": 260,
+      "x": -1040,
+      "y": -370
+    },
+    {
+      "color": "6",
+      "height": 60,
+      "id": "0e2b71165b438407",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Wait acquire next image from swap chain",
+      "type": "text",
+      "width": 260,
+      "x": -320,
+      "y": -60
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "d5b8804e98eae0a5",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Update uniformbuffers data",
+      "type": "text",
+      "width": 260,
+      "x": -320,
+      "y": 80
+    },
+    {
+      "color": "#ffffff",
+      "height": 60,
+      "id": "24102cb4b50433db",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Record Command Buffer",
+      "type": "text",
+      "width": 260,
+      "x": -320,
+      "y": 320
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "c73aae72f3571259",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Submit to graphics queue",
+      "type": "text",
+      "width": 260,
+      "x": -320,
+      "y": 440
+    },
+    {
+      "color": "#ffffff",
+      "height": 60,
+      "id": "e89cf96d2ff85854",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Config Present Queue",
+      "type": "text",
+      "width": 260,
+      "x": -320,
+      "y": 560
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "3a05d3c6182ac662",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Present to Present Queue",
+      "type": "text",
+      "width": 260,
+      "x": -320,
+      "y": 680
+    },
+    {
+      "height": 100,
+      "id": "d95d78c2e06f0965",
+      "styleAttributes": {
+        "shape": "diamond",
+        "textAlign": "center"
+      },
+      "text": "\n\n\nWindow resized ?",
+      "type": "text",
+      "width": 140,
+      "x": -260,
+      "y": 780
+    },
+    {
+      "color": "#000000",
+      "height": 60,
+      "id": "c8ba311a2b5af9c7",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "End",
+      "type": "text",
+      "width": 60,
+      "x": -220,
+      "y": 980
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "ef5c3e9a9b397360",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Recreate Swapchain",
+      "type": "text",
+      "width": 260,
+      "x": 0,
+      "y": 800
+    }
+  ]
+}
