@@ -50,7 +50,7 @@
     "//Vendors/Vendors/GLFW",
     "//Templates",
     "//Core/Core/NarcEngine",
-    "//Core/Core/NarcEngine/Core/NarcEngine/Schemas"
+    "//Vendors/Vendors/Vulkan API"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

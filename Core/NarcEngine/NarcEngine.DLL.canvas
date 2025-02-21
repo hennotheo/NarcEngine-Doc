@@ -120,7 +120,7 @@
       "styleAttributes": {
         "arrow": "diamond",
         "path": null,
-        "pathfindingMethod": "square"
+        "pathfindingMethod": null
       },
       "toNode": "88d2cf41a8dfc726",
       "toSide": "right"
@@ -136,14 +136,55 @@
       "toSide": "bottom"
     },
     {
-      "fromNode": "88d2cf41a8dfc726",
-      "fromSide": "right",
-      "id": "43c5d2eaa592ae7f",
+      "fromNode": "f52a708596fb5de0",
+      "fromSide": "bottom",
+      "id": "7972f4af968db61d",
+      "styleAttributes": {
+      },
+      "toNode": "34d78c4bd863e9f6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f52a708596fb5de0",
+      "fromSide": "top",
+      "id": "75021076e3cd1b9d",
+      "styleAttributes": {
+        "arrow": "diamond",
+        "pathfindingMethod": "square"
+      },
+      "toNode": "6397e516cfe83117",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "ab607e8bd99668d9",
+      "fromSide": "top",
+      "id": "aaf1cb8c678daafd",
+      "styleAttributes": {
+        "arrow": "diamond-outline"
+      },
+      "toNode": "88d2cf41a8dfc726",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "ab607e8bd99668d9",
+      "fromSide": "left",
+      "id": "885b59517d64de88",
       "styleAttributes": {
         "path": "short-dashed"
       },
-      "toNode": "59bed85455f6b0a5",
-      "toSide": "right"
+      "toNode": "478f60a346a204e4",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "88d2cf41a8dfc726",
+      "fromSide": "right",
+      "id": "7f96efc40a2a16d0",
+      "styleAttributes": {
+        "arrow": "thin-triangle",
+        "path": "short-dashed"
+      },
+      "toNode": "f52a708596fb5de0",
+      "toSide": "left"
     }
   ],
   "nodes": [
@@ -157,6 +198,28 @@
       "width": 1480,
       "x": -1700,
       "y": -140
+    },
+    {
+      "file": "Core/NarcEngine/EngineCore.md",
+      "height": 100,
+      "id": "57b86851256a50b9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1160,
+      "y": -100
+    },
+    {
+      "file": "Core/NarcEngine/Device Handler.md",
+      "height": 120,
+      "id": "651036174029547a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 360,
+      "x": -1140,
+      "y": 140
     },
     {
       "color": "4",
@@ -194,50 +257,6 @@
       "y": 140
     },
     {
-      "file": "Core/NarcEngine/Window.md",
-      "height": 120,
-      "id": "453048889a07a0a9",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 360,
-      "x": -600,
-      "y": 140
-    },
-    {
-      "file": "Core/NarcEngine/EngineCore.md",
-      "height": 100,
-      "id": "57b86851256a50b9",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -1160,
-      "y": -100
-    },
-    {
-      "file": "Core/NarcEngine/Device Handler.md",
-      "height": 120,
-      "id": "651036174029547a",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 360,
-      "x": -1140,
-      "y": 140
-    },
-    {
-      "file": "Core/NarcEngine/EngineLogger.md",
-      "height": 120,
-      "id": "5a457534495ceac6",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -1680,
-      "y": 140
-    },
-    {
       "file": "Core/NarcEngine/EngineRenderer.md",
       "height": 120,
       "id": "88d2cf41a8dfc726",
@@ -249,14 +268,80 @@
       "y": -100
     },
     {
-      "file": "Core/NarcEngine/Shader.md",
+      "file": "Core/NarcEngine/PipelineBuilder.md",
       "height": 120,
-      "id": "99b2323e11b1d035",
+      "id": "478f60a346a204e4",
       "styleAttributes": {
       },
       "type": "file",
-      "width": 300,
+      "width": 280,
+      "x": 320,
+      "y": 140
+    },
+    {
+      "file": "Core/NarcEngine/Window.md",
+      "height": 120,
+      "id": "453048889a07a0a9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 360,
+      "x": -600,
+      "y": 140
+    },
+    {
+      "file": "Core/NarcEngine/CommandPool.md",
+      "height": 120,
+      "id": "f52a708596fb5de0",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 2000,
+      "y": -100
+    },
+    {
+      "file": "Core/NarcEngine/CommandBuffer.md",
+      "height": 115,
+      "id": "34d78c4bd863e9f6",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 2000,
+      "y": 140
+    },
+    {
+      "file": "Core/NarcEngine/DescriptorHandler.md",
+      "height": 138,
+      "id": "59bed85455f6b0a5",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 350,
       "x": 690,
+      "y": 522
+    },
+    {
+      "file": "Core/NarcEngine/RenderPass.md",
+      "height": 120,
+      "id": "ab607e8bd99668d9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 240,
+      "x": 1200,
+      "y": 320
+    },
+    {
+      "file": "Core/NarcEngine/EngineLogger.md",
+      "height": 120,
+      "id": "5a457534495ceac6",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1680,
       "y": 140
     },
     {
@@ -296,59 +381,26 @@
       "y": -1580
     },
     {
-      "file": "Core/NarcEngine/CommandPool.md",
-      "height": 100,
-      "id": "f52a708596fb5de0",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 880,
-      "y": -670
-    },
-    {
-      "file": "Core/NarcEngine/CommandBuffer.md",
-      "height": 110,
-      "id": "34d78c4bd863e9f6",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 860,
-      "y": -385
-    },
-    {
-      "file": "Core/NarcEngine/DescriptorHandler.md",
-      "height": 140,
-      "id": "59bed85455f6b0a5",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 690,
-      "y": 380
-    },
-    {
-      "file": "Core/NarcEngine/PipelineBuilder.md",
-      "height": 120,
-      "id": "478f60a346a204e4",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 280,
-      "x": 320,
-      "y": 140
-    },
-    {
       "file": "Core/NarcEngine/Swapchain.md",
-      "height": 220,
+      "height": 115,
       "id": "a7752e0f61eedc02",
       "styleAttributes": {
       },
       "type": "file",
       "width": 360,
-      "x": 1420,
-      "y": 80
+      "x": 1480,
+      "y": 160
+    },
+    {
+      "file": "Core/NarcEngine/ShaderModule.md",
+      "height": 120,
+      "id": "99b2323e11b1d035",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 300,
+      "x": 690,
+      "y": 140
     }
   ]
 }
