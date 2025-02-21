@@ -1,2 +1,4 @@
 Handle Image to present to screen
-[[VKSwapchain]]
+
+private: 
+- [[VKSwapchain]] m_swapchain;

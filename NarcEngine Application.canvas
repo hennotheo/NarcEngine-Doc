@@ -1,0 +1,148 @@
+{
+  "edges": [
+    {
+      "fromNode": "7c4103bdc30c057f",
+      "fromSide": "right",
+      "id": "dc95321ae59a83b1",
+      "styleAttributes": {
+      },
+      "toNode": "4f6c54cd7b6490ca",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "7c4103bdc30c057f",
+      "fromSide": "right",
+      "id": "d593e40f983c2d95",
+      "styleAttributes": {
+      },
+      "toNode": "f341e580df226192",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4f6c54cd7b6490ca",
+      "fromSide": "right",
+      "id": "dbba135fc8b2820c",
+      "styleAttributes": {
+      },
+      "toNode": "7090a2d0b24110e0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4f6c54cd7b6490ca",
+      "fromSide": "right",
+      "id": "760f80acbdb067b0",
+      "styleAttributes": {
+      },
+      "toNode": "e0e08d925521d9e6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4f6c54cd7b6490ca",
+      "fromSide": "right",
+      "id": "c90b681c9e3434c1",
+      "styleAttributes": {
+      },
+      "toNode": "4fdeb43ee9d516a0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f341e580df226192",
+      "fromSide": "right",
+      "id": "97a99076383b696b",
+      "styleAttributes": {
+      },
+      "toNode": "9afe15bd24382b3e",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "3",
+      "height": 60,
+      "id": "7090a2d0b24110e0",
+      "styleAttributes": {
+      },
+      "text": "Vulkan API",
+      "type": "text",
+      "width": 260,
+      "x": 1880,
+      "y": -1030
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "e0e08d925521d9e6",
+      "styleAttributes": {
+      },
+      "text": "GLM",
+      "type": "text",
+      "width": 260,
+      "x": 1880,
+      "y": -950
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "4fdeb43ee9d516a0",
+      "styleAttributes": {
+      },
+      "text": "GLFW",
+      "type": "text",
+      "width": 260,
+      "x": 1880,
+      "y": -870
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "9afe15bd24382b3e",
+      "styleAttributes": {
+      },
+      "text": "STB",
+      "type": "text",
+      "width": 260,
+      "x": 1880,
+      "y": -790
+    },
+    {
+      "color": "5",
+      "height": 100,
+      "id": "4f6c54cd7b6490ca",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "# NarcEngine",
+      "type": "text",
+      "width": 340,
+      "x": 1360,
+      "y": -990
+    },
+    {
+      "color": "5",
+      "height": 100,
+      "id": "f341e580df226192",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "# NarcIO",
+      "type": "text",
+      "width": 340,
+      "x": 1360,
+      "y": -870
+    },
+    {
+      "color": "1",
+      "height": 240,
+      "id": "7c4103bdc30c057f",
+      "styleAttributes": {
+        "border": null,
+        "shape": null
+      },
+      "text": "#### NarcEngine.exe\nFinal Application",
+      "type": "text",
+      "width": 220,
+      "x": 900,
+      "y": -990
+    }
+  ]
+}

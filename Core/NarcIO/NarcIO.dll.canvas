@@ -1,0 +1,28 @@
+{
+  "edges": [
+  ],
+  "nodes": [
+    {
+      "height": 60,
+      "id": "eba66ae6fd1f1c1a",
+      "styleAttributes": {
+      },
+      "text": "#DLL ",
+      "type": "text",
+      "width": 260,
+      "x": -380,
+      "y": -360
+    },
+    {
+      "file": "Vendors/STBLIB/STBLIB.md",
+      "height": 400,
+      "id": "94e9fee01644ee9c",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 80,
+      "y": -200
+    }
+  ]
+}

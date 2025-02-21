@@ -1,9 +1,7 @@
-Manage graphic side of the engine
+Main Class for Graphics
 #DLL_EXPORT
 
 private: 
-- [[Window]]
-- [[Swapchain]]
-- [[Device Handler]]
-- [[Pipeline]]
+- [[EngineCore]]
+- [[EngineRenderer]]
 - [[CommandPool]]

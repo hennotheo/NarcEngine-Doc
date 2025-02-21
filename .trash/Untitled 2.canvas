@@ -1,0 +1,48 @@
+{
+  "edges": [
+  ],
+  "nodes": [
+    {
+      "height": 260,
+      "id": "08c07d82389eeb97",
+      "label": "Untitled group",
+      "type": "group",
+      "width": 300,
+      "x": -260,
+      "y": -300
+    },
+    {
+      "height": 60,
+      "id": "cf36f38d32128b48",
+      "styleAttributes": {
+      },
+      "text": "RenderPass",
+      "type": "text",
+      "width": 260,
+      "x": -250,
+      "y": -271
+    },
+    {
+      "height": 60,
+      "id": "0bcb8ce084a10995",
+      "styleAttributes": {
+      },
+      "text": "RenderPass",
+      "type": "text",
+      "width": 260,
+      "x": -250,
+      "y": -191
+    },
+    {
+      "height": 60,
+      "id": "10458f2a3aaa93c6",
+      "styleAttributes": {
+      },
+      "text": "RenderPass",
+      "type": "text",
+      "width": 260,
+      "x": -250,
+      "y": -111
+    }
+  ]
+}

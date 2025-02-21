@@ -1,0 +1,1 @@
+Object use to create [[Pipeline]]
