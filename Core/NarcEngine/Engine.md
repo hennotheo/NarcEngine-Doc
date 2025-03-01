@@ -1,7 +1,13 @@
 Main Class for Graphics
-#DLL_EXPORT
+
+[[IEngine]]
+friend class [[EngineBinder]]
 
 private: 
-- [[EngineCore]]
 - [[EngineRenderer]]
+- [[CommandPool]]
+- [[EngineDebugLogger]]
+- [[VKInstance]]
+- [[Device Handler]]
+- [[EngineBinder]]
 - [[CommandPool]]

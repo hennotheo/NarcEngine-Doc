@@ -45,12 +45,10 @@
     "//Vendors/Vendors/GLM",
     "/",
     "//Core",
-    "//Core/Core/NarcIO",
-    "//Vendors",
     "//Vendors/Vendors/GLFW",
-    "//Templates",
-    "//Core/Core/NarcEngine",
-    "//Vendors/Vendors/Vulkan API"
+    "//Vendors/Vendors/Vulkan API",
+    "//Core/Core/NarcLog",
+    "//Core/Core/NarcEngine"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

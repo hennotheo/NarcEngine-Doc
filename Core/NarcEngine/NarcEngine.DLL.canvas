@@ -1,141 +1,6 @@
 {
   "edges": [
     {
-      "fromNode": "57b86851256a50b9",
-      "fromSide": "top",
-      "id": "a79f9757795f9f72",
-      "styleAttributes": {
-        "arrow": "diamond",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "6397e516cfe83117",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "651036174029547a",
-      "fromSide": "top",
-      "id": "507543a9263cb24d",
-      "styleAttributes": {
-        "arrow": "diamond",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "57b86851256a50b9",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "453048889a07a0a9",
-      "fromSide": "top",
-      "id": "4a85672efe104273",
-      "styleAttributes": {
-        "arrow": "diamond",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "57b86851256a50b9",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "5a457534495ceac6",
-      "fromSide": "top",
-      "id": "36cc8b9b324dc84b",
-      "styleAttributes": {
-        "arrow": "diamond",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "57b86851256a50b9",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "88d2cf41a8dfc726",
-      "fromSide": "top",
-      "id": "aee18dcef6f6f808",
-      "styleAttributes": {
-        "arrow": "diamond",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "6397e516cfe83117",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "b6af7407c5625c95",
-      "fromSide": "top",
-      "id": "0b21afacb1a058be",
-      "styleAttributes": {
-        "arrow": "diamond",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "88d2cf41a8dfc726",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "478f60a346a204e4",
-      "fromSide": "top",
-      "id": "2fd42caa02b823cd",
-      "styleAttributes": {
-        "arrow": "thin-triangle",
-        "path": "short-dashed",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "b6af7407c5625c95",
-      "toSide": "right"
-    },
-    {
-      "fromNode": "88d2cf41a8dfc726",
-      "fromSide": "bottom",
-      "id": "82d79c100eff8d1c",
-      "styleAttributes": {
-        "arrow": "thin-triangle",
-        "path": "short-dashed",
-        "pathfindingMethod": null
-      },
-      "toNode": "478f60a346a204e4",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "99b2323e11b1d035",
-      "fromSide": "left",
-      "id": "adea1be94a3c8e4a",
-      "styleAttributes": {
-        "arrow": "diamond-outline",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "478f60a346a204e4",
-      "toSide": "right"
-    },
-    {
-      "fromNode": "88d2cf41a8dfc726",
-      "fromSide": "bottom",
-      "id": "65f0c78dd469857b",
-      "styleAttributes": {
-        "arrow": "thin-triangle",
-        "path": "short-dashed",
-        "pathfindingMethod": null
-      },
-      "toNode": "99b2323e11b1d035",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "a7752e0f61eedc02",
-      "fromSide": "top",
-      "id": "20ad0cf719cfdb59",
-      "styleAttributes": {
-        "arrow": "diamond",
-        "path": null,
-        "pathfindingMethod": null
-      },
-      "toNode": "88d2cf41a8dfc726",
-      "toSide": "right"
-    },
-    {
-      "fromNode": "59bed85455f6b0a5",
-      "fromSide": "left",
-      "id": "b9f9c355a89751cf",
-      "styleAttributes": {
-        "arrow": "diamond"
-      },
-      "toNode": "478f60a346a204e4",
-      "toSide": "bottom"
-    },
-    {
       "fromNode": "f52a708596fb5de0",
       "fromSide": "bottom",
       "id": "7972f4af968db61d",
@@ -156,24 +21,27 @@
       "toSide": "bottom"
     },
     {
-      "fromNode": "ab607e8bd99668d9",
+      "fromNode": "88d2cf41a8dfc726",
       "fromSide": "top",
-      "id": "aaf1cb8c678daafd",
+      "id": "aee18dcef6f6f808",
       "styleAttributes": {
-        "arrow": "diamond-outline"
+        "arrow": "diamond",
+        "pathfindingMethod": "square"
+      },
+      "toNode": "6397e516cfe83117",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "a7752e0f61eedc02",
+      "fromSide": "top",
+      "id": "20ad0cf719cfdb59",
+      "styleAttributes": {
+        "arrow": "diamond",
+        "path": null,
+        "pathfindingMethod": null
       },
       "toNode": "88d2cf41a8dfc726",
       "toSide": "right"
-    },
-    {
-      "fromNode": "ab607e8bd99668d9",
-      "fromSide": "left",
-      "id": "885b59517d64de88",
-      "styleAttributes": {
-        "path": "short-dashed"
-      },
-      "toNode": "478f60a346a204e4",
-      "toSide": "bottom"
     },
     {
       "fromNode": "88d2cf41a8dfc726",
@@ -185,11 +53,38 @@
       },
       "toNode": "f52a708596fb5de0",
       "toSide": "left"
+    },
+    {
+      "fromNode": "651036174029547a",
+      "fromSide": "top",
+      "id": "501cc56b7c9ba32e",
+      "styleAttributes": {
+      },
+      "toNode": "6397e516cfe83117",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "453048889a07a0a9",
+      "fromSide": "top",
+      "id": "60818a69c9e38910",
+      "styleAttributes": {
+      },
+      "toNode": "6397e516cfe83117",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "5a457534495ceac6",
+      "fromSide": "top",
+      "id": "fc2d63d59a9963fb",
+      "styleAttributes": {
+      },
+      "toNode": "6397e516cfe83117",
+      "toSide": "bottom"
     }
   ],
   "nodes": [
     {
-      "height": 440,
+      "height": 180,
       "id": "8d0e7f51919253b7",
       "label": "CORE",
       "styleAttributes": {
@@ -200,18 +95,64 @@
       "y": -140
     },
     {
-      "file": "Core/NarcEngine/EngineCore.md",
-      "height": 100,
-      "id": "57b86851256a50b9",
+      "file": "Core/NarcEngine/CommandPool.md",
+      "height": 120,
+      "id": "f52a708596fb5de0",
       "styleAttributes": {
       },
       "type": "file",
       "width": 400,
-      "x": -1160,
+      "x": 2000,
       "y": -100
     },
     {
-      "file": "Core/NarcEngine/Device Handler.md",
+      "color": "3",
+      "file": "Vendors/GLFW/GLFW.md",
+      "height": 180,
+      "id": "5d80970302eea1b7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1330,
+      "y": -1580
+    },
+    {
+      "file": "Core/NarcEngine/renderer/Swapchain.md",
+      "height": 115,
+      "id": "a7752e0f61eedc02",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 360,
+      "x": 1480,
+      "y": 160
+    },
+    {
+      "color": "3",
+      "file": "Vendors/GLM/GLM.md",
+      "height": 180,
+      "id": "a1c4f7e4da16a04a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1800,
+      "y": -1580
+    },
+    {
+      "file": "Core/NarcEngine/core/EngineDebugLogger.md",
+      "height": 120,
+      "id": "5a457534495ceac6",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1680,
+      "y": -100
+    },
+    {
+      "file": "Core/NarcEngine/core/Device Handler.md",
       "height": 120,
       "id": "651036174029547a",
       "styleAttributes": {
@@ -219,7 +160,29 @@
       "type": "file",
       "width": 360,
       "x": -1140,
-      "y": 140
+      "y": -100
+    },
+    {
+      "height": 60,
+      "id": "e475c38541956e53",
+      "styleAttributes": {
+      },
+      "text": "#DLL",
+      "type": "text",
+      "width": 260,
+      "x": -300,
+      "y": -700
+    },
+    {
+      "file": "Core/NarcEngine/core/Window.md",
+      "height": 120,
+      "id": "453048889a07a0a9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 360,
+      "x": -600,
+      "y": -100
     },
     {
       "color": "4",
@@ -235,70 +198,26 @@
       "y": -600
     },
     {
-      "height": 60,
-      "id": "e475c38541956e53",
-      "styleAttributes": {
-      },
-      "text": "#DLL",
-      "type": "text",
-      "width": 260,
-      "x": -300,
-      "y": -700
-    },
-    {
-      "file": "Core/NarcEngine/Pipeline.md",
-      "height": 120,
-      "id": "b6af7407c5625c95",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 320,
-      "x": -80,
-      "y": 140
-    },
-    {
-      "file": "Core/NarcEngine/EngineRenderer.md",
-      "height": 120,
-      "id": "88d2cf41a8dfc726",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 920,
-      "x": 200,
-      "y": -100
-    },
-    {
-      "file": "Core/NarcEngine/PipelineBuilder.md",
-      "height": 120,
-      "id": "478f60a346a204e4",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 280,
-      "x": 320,
-      "y": 140
-    },
-    {
-      "file": "Core/NarcEngine/Window.md",
-      "height": 120,
-      "id": "453048889a07a0a9",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 360,
-      "x": -600,
-      "y": 140
-    },
-    {
-      "file": "Core/NarcEngine/CommandPool.md",
-      "height": 120,
-      "id": "f52a708596fb5de0",
+      "file": "Core/NarcEngine/buffers/Buffer.md",
+      "height": 400,
+      "id": "a8d0bf97e31b4950",
       "styleAttributes": {
       },
       "type": "file",
       "width": 400,
-      "x": 2000,
-      "y": -100
+      "x": -2020,
+      "y": 280
+    },
+    {
+      "file": "Core/NarcEngine/buffers/GraphicsBuffer.md",
+      "height": 400,
+      "id": "ba33bf6d0d69fde4",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2460,
+      "y": 440
     },
     {
       "file": "Core/NarcEngine/CommandBuffer.md",
@@ -309,39 +228,6 @@
       "type": "file",
       "width": 400,
       "x": 2000,
-      "y": 140
-    },
-    {
-      "file": "Core/NarcEngine/DescriptorHandler.md",
-      "height": 138,
-      "id": "59bed85455f6b0a5",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 350,
-      "x": 690,
-      "y": 522
-    },
-    {
-      "file": "Core/NarcEngine/RenderPass.md",
-      "height": 120,
-      "id": "ab607e8bd99668d9",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 240,
-      "x": 1200,
-      "y": 320
-    },
-    {
-      "file": "Core/NarcEngine/EngineLogger.md",
-      "height": 120,
-      "id": "5a457534495ceac6",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -1680,
       "y": 140
     },
     {
@@ -357,50 +243,226 @@
       "y": -1580
     },
     {
-      "color": "3",
-      "file": "Vendors/GLFW/GLFW.md",
-      "height": 180,
-      "id": "5d80970302eea1b7",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 1330,
-      "y": -1580
-    },
-    {
-      "color": "3",
-      "file": "Vendors/GLM/GLM.md",
-      "height": 180,
-      "id": "a1c4f7e4da16a04a",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 1800,
-      "y": -1580
-    },
-    {
-      "file": "Core/NarcEngine/Swapchain.md",
-      "height": 115,
-      "id": "a7752e0f61eedc02",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 360,
-      "x": 1480,
-      "y": 160
-    },
-    {
-      "file": "Core/NarcEngine/ShaderModule.md",
+      "file": "Core/NarcEngine/renderer/EngineRenderer.md",
       "height": 120,
-      "id": "99b2323e11b1d035",
+      "id": "88d2cf41a8dfc726",
       "styleAttributes": {
       },
       "type": "file",
-      "width": 300,
-      "x": 690,
-      "y": 140
+      "width": 920,
+      "x": 200,
+      "y": -100
+    },
+    {
+      "file": "Core/NarcEngine/buffers/StagingBuffer.md",
+      "height": 400,
+      "id": "6514045b53cfa663",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1540,
+      "y": 780
+    },
+    {
+      "file": "Core/NarcEngine/buffers/UniformBuffer.md",
+      "height": 400,
+      "id": "bc8cf6fc29ad8850",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1840,
+      "y": 840
+    },
+    {
+      "color": "3",
+      "height": 180,
+      "id": "54549d478586868f",
+      "styleAttributes": {
+      },
+      "text": "# NarcIO\n\n[[NarcIO.dll.canvas|NarcIO.dll]]",
+      "type": "text",
+      "width": 380,
+      "x": 340,
+      "y": -1580
+    },
+    {
+      "color": "3",
+      "height": 180,
+      "id": "bcdff5fe33b6bf41",
+      "styleAttributes": {
+      },
+      "text": "# NarcLog\n\n[[NarcLog.dll.canvas|NarcLog.dll]]",
+      "type": "text",
+      "width": 380,
+      "x": -120,
+      "y": -1580
+    },
+    {
+      "file": "Core/NarcEngine/data/UniformBufferObject.md",
+      "height": 400,
+      "id": "05f0a1bddfebba6b",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1400,
+      "y": 1840
+    },
+    {
+      "file": "Core/NarcEngine/core/EngineBinder.md",
+      "height": 400,
+      "id": "9284997077a2323a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1000,
+      "y": 640
+    },
+    {
+      "file": "Core/NarcEngine/data/Mesh.md",
+      "height": 400,
+      "id": "6ad2205b33e6d0af",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1300,
+      "y": 1360
+    },
+    {
+      "file": "Core/NarcEngine/core/Device Handler.md",
+      "height": 400,
+      "id": "25e78ea382cc846a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -580,
+      "y": 500
+    },
+    {
+      "file": "Core/NarcEngine/core/EngineDebugLogger.md",
+      "height": 400,
+      "id": "224084118fe053e7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 220,
+      "y": 700
+    },
+    {
+      "file": "Core/NarcEngine/core/QueueFamilyIndices.md",
+      "height": 400,
+      "id": "c1c693d09ce1fc95",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -180,
+      "y": 1000
+    },
+    {
+      "file": "Core/NarcEngine/core/Window.md",
+      "height": 400,
+      "id": "40a7e8c42367612c",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -600,
+      "y": 1040
+    },
+    {
+      "file": "Core/NarcEngine/data/Vertex.md",
+      "height": 400,
+      "id": "d528fce422ac62cd",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -440,
+      "y": 1680
+    },
+    {
+      "file": "Core/NarcEngine/renderer/DescriptorPoolBuilder.md",
+      "height": 400,
+      "id": "f30d4e34e43aa5f6",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1240,
+      "y": 2420
+    },
+    {
+      "file": "Core/NarcEngine/renderer/EngineRenderer.md",
+      "height": 400,
+      "id": "b64d60e4085fb8c7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1320,
+      "y": 2260
+    },
+    {
+      "file": "Core/NarcEngine/renderer/SwapChainSupportDetails.md",
+      "height": 400,
+      "id": "7f59ae2efd6323e1",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 280,
+      "y": 1600
+    },
+    {
+      "file": "Core/NarcEngine/interfaces/IEngine.md",
+      "height": 400,
+      "id": "74cf97497bcce084",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 200,
+      "y": 1840
+    },
+    {
+      "file": "Core/NarcEngine/renderer/Swapchain.md",
+      "height": 400,
+      "id": "53bb9cd41c0ea985",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -800,
+      "y": 1780
+    },
+    {
+      "file": "Core/NarcEngine/renderer/DescriptorPool.md",
+      "height": 400,
+      "id": "469c7d6c884a35e0",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -400,
+      "y": 2300
+    },
+    {
+      "file": "Core/NarcEngine/renderer/RenderTask.md",
+      "height": 400,
+      "id": "8c78bd2d287aeffe",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -700,
+      "y": 2060
     }
   ]
 }

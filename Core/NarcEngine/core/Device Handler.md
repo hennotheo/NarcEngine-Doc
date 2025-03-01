@@ -5,3 +5,4 @@ private:
 - [[VKPhysicalDevice]] m_physicalDevice;
 - [[VKQueue]] m_presentQueue;
 - [[VKQueue]] m_graphicsQueue;
+- [[VKPhysicalDeviceProperties]] m_physicalDeviceProperties;

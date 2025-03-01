@@ -107,19 +107,6 @@
       "y": -100
     },
     {
-      "color": "1",
-      "height": 60,
-      "id": "7aec15cb21e32e7d",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Reset Frame Fence and command buffer",
-      "type": "text",
-      "width": 260,
-      "x": -320,
-      "y": 200
-    },
-    {
       "color": "3",
       "height": 60,
       "id": "23b26fa3971a2d91",
@@ -172,6 +159,59 @@
       "width": 260,
       "x": -1040,
       "y": -600
+    },
+    {
+      "height": 100,
+      "id": "d95d78c2e06f0965",
+      "styleAttributes": {
+        "shape": "diamond",
+        "textAlign": "center"
+      },
+      "text": "\n\n\nWindow resized ?",
+      "type": "text",
+      "width": 140,
+      "x": -260,
+      "y": 780
+    },
+    {
+      "color": "#000000",
+      "height": 60,
+      "id": "c8ba311a2b5af9c7",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "End",
+      "type": "text",
+      "width": 60,
+      "x": -220,
+      "y": 980
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "ef5c3e9a9b397360",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Recreate Swapchain",
+      "type": "text",
+      "width": 260,
+      "x": 0,
+      "y": 800
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "7aec15cb21e32e7d",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Reset Frame Fence and command buffer",
+      "type": "text",
+      "width": 260,
+      "x": -320,
+      "y": 200
     },
     {
       "color": "4",
@@ -276,46 +316,6 @@
       "width": 260,
       "x": -320,
       "y": 680
-    },
-    {
-      "height": 100,
-      "id": "d95d78c2e06f0965",
-      "styleAttributes": {
-        "shape": "diamond",
-        "textAlign": "center"
-      },
-      "text": "\n\n\nWindow resized ?",
-      "type": "text",
-      "width": 140,
-      "x": -260,
-      "y": 780
-    },
-    {
-      "color": "#000000",
-      "height": 60,
-      "id": "c8ba311a2b5af9c7",
-      "styleAttributes": {
-        "shape": "circle",
-        "textAlign": "center"
-      },
-      "text": "End",
-      "type": "text",
-      "width": 60,
-      "x": -220,
-      "y": 980
-    },
-    {
-      "color": "1",
-      "height": 60,
-      "id": "ef5c3e9a9b397360",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Recreate Swapchain",
-      "type": "text",
-      "width": 260,
-      "x": 0,
-      "y": 800
     }
   ]
 }

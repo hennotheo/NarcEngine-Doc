@@ -11,7 +11,7 @@
       "query": "file:\"NarcEngine.exe\"",
       "color": {
         "a": 1,
-        "rgb": 12408290
+        "rgb": 16711680
       }
     },
     {
@@ -25,7 +25,7 @@
       "query": "tag:#DLL_EXPORT",
       "color": {
         "a": 1,
-        "rgb": 14385721
+        "rgb": 15910961
       }
     },
     {
@@ -39,7 +39,7 @@
       "query": "path:Vendors  ",
       "color": {
         "a": 1,
-        "rgb": 2829099
+        "rgb": 13288884
       }
     },
     {
@@ -53,13 +53,13 @@
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -1.3,
-  "nodeSizeMultiplier": 2.37135416666667,
+  "nodeSizeMultiplier": 2.79244791666667,
   "lineSizeMultiplier": 1.26119791666667,
   "collapse-forces": false,
-  "centerStrength": 1,
+  "centerStrength": 0.495841995841996,
   "repelStrength": 20,
-  "linkStrength": 0.7890625,
-  "linkDistance": 30,
-  "scale": 0.7514342322277638,
+  "linkStrength": 1,
+  "linkDistance": 288,
+  "scale": 0.13873223932666426,
   "close": false
 }

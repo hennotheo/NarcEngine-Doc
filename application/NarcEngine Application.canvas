@@ -118,19 +118,6 @@
       "y": -990
     },
     {
-      "color": "5",
-      "height": 100,
-      "id": "f341e580df226192",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "# NarcIO",
-      "type": "text",
-      "width": 340,
-      "x": 1360,
-      "y": -870
-    },
-    {
       "color": "1",
       "height": 240,
       "id": "7c4103bdc30c057f",
@@ -141,8 +128,21 @@
       "text": "#### NarcEngine.exe\nFinal Application",
       "type": "text",
       "width": 220,
-      "x": 900,
+      "x": 800,
       "y": -990
+    },
+    {
+      "color": "5",
+      "height": 100,
+      "id": "f341e580df226192",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "# NarcIO",
+      "type": "text",
+      "width": 340,
+      "x": 1360,
+      "y": -860
     }
   ]
 }

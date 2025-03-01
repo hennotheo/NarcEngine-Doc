@@ -1,1 +1,0 @@
-Handle all [[VKDescriptorSet]] used by the [[Pipeline]]
