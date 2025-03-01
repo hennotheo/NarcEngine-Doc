@@ -23,6 +23,15 @@
       "width": 400,
       "x": 80,
       "y": -200
+    },
+    {
+      "file": "Core/NarcIO/data/Image.md",
+      "height": 400,
+      "id": "578f0e329bd436ff",
+      "type": "file",
+      "width": 400,
+      "x": -420,
+      "y": -200
     }
   ]
 }

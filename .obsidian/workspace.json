@@ -18,6 +18,23 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "6606b75949754c39",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Core/NarcIO/NarcIO.dll.canvas",
+                "viewState": {
+                  "x": 116.4000244140625,
+                  "y": -29.400009155273438,
+                  "zoom": -1.3333333333333333
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "NarcIO.dll"
+            }
           }
         ]
       }
@@ -178,6 +195,11 @@
   },
   "active": "bf1dab29e28e6bbc",
   "lastOpenFiles": [
+    "Core/NarcIO/data/Image.md",
+    "Core/NarcIO/NarcIO.dll.canvas",
+    "Core/NarcIO/FileReader.md",
+    "Core/NarcIO/data",
+    "Core/NarcIO/NarcIO.md",
     "Vendors/Vulkan API/VKCommandPool.md",
     "application/Application.md",
     "application/NarcEngine.exe.md",
@@ -198,8 +220,6 @@
     "application/NarcEngine Application.canvas",
     "Tags/#dll/#dll.md",
     "Core/NarcEngine/NarcEngine.DLL.canvas",
-    "Core/NarcIO/NarcIO.md",
-    "Core/NarcIO/NarcIO.dll.canvas",
     "Core/NarcEngine/renderer/SwapChainSupportDetails.md",
     "Core/NarcEngine/renderer/EngineRenderer.md",
     "Core/NarcEngine/renderer/DescriptorPoolBuilder.md",
@@ -209,15 +229,12 @@
     "Core/NarcEngine/core/EngineDebugLogger.md",
     "Core/NarcEngine/core/Device Handler.md",
     "Core/NarcEngine/buffers/Buffer.md",
-    "Core/NarcEngine/Engine.md",
-    "Vendors/Vulkan API/VkFramebuffer.md",
     "Core/NarcEngine/Schemas/DrawFrame Schema.canvas",
     "Core/NarcEngine/renderer",
     "Core/NarcEngine/interfaces",
     "Core/NarcEngine/data",
     "Core/NarcEngine/buffers",
     "Core/NarcEngine/core",
-    "application",
     "Core/NarcEngine/Schemas/Untitled.canvas",
     "Core/NarcEngine/NarcEngine.dll.canvas",
     "Untitled.canvas"
