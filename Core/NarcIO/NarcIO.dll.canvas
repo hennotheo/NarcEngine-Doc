@@ -25,12 +25,23 @@
       "y": -200
     },
     {
-      "file": "Core/NarcIO/data/Image.md",
+      "file": "Core/NarcIO/models/Image.md",
       "height": 400,
       "id": "578f0e329bd436ff",
+      "styleAttributes": {
+      },
       "type": "file",
       "width": 400,
       "x": -420,
+      "y": -200
+    },
+    {
+      "file": "Vendors/TinyObjLoader/TinyObjLoader.md",
+      "height": 400,
+      "id": "abb1937856261778",
+      "type": "file",
+      "width": 400,
+      "x": 560,
       "y": -200
     }
   ]

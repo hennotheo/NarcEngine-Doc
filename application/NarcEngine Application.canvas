@@ -10,30 +10,12 @@
       "toSide": "left"
     },
     {
-      "fromNode": "7c4103bdc30c057f",
-      "fromSide": "right",
-      "id": "d593e40f983c2d95",
-      "styleAttributes": {
-      },
-      "toNode": "f341e580df226192",
-      "toSide": "left"
-    },
-    {
       "fromNode": "4f6c54cd7b6490ca",
       "fromSide": "right",
       "id": "dbba135fc8b2820c",
       "styleAttributes": {
       },
       "toNode": "7090a2d0b24110e0",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "4f6c54cd7b6490ca",
-      "fromSide": "right",
-      "id": "760f80acbdb067b0",
-      "styleAttributes": {
-      },
-      "toNode": "e0e08d925521d9e6",
       "toSide": "left"
     },
     {
@@ -46,6 +28,15 @@
       "toSide": "left"
     },
     {
+      "fromNode": "4f6c54cd7b6490ca",
+      "fromSide": "right",
+      "id": "c5929cec598bf931",
+      "styleAttributes": {
+      },
+      "toNode": "a7d5968f6d2b95b6",
+      "toSide": "left"
+    },
+    {
       "fromNode": "f341e580df226192",
       "fromSide": "right",
       "id": "97a99076383b696b",
@@ -53,9 +44,51 @@
       },
       "toNode": "9afe15bd24382b3e",
       "toSide": "left"
+    },
+    {
+      "fromNode": "f341e580df226192",
+      "fromSide": "right",
+      "id": "a4fa2bfb149541e2",
+      "styleAttributes": {
+      },
+      "toNode": "005d191c64b32d8f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ccaca189849d7f51",
+      "fromSide": "right",
+      "id": "2748225fd59ae8c5",
+      "styleAttributes": {
+      },
+      "toNode": "e0e08d925521d9e6",
+      "toSide": "left"
     }
   ],
   "nodes": [
+    {
+      "color": "6",
+      "height": 380,
+      "id": "a7d5968f6d2b95b6",
+      "label": "NarcCore",
+      "type": "group",
+      "width": 780,
+      "x": 1820,
+      "y": -1020
+    },
+    {
+      "color": "1",
+      "height": 100,
+      "id": "7c4103bdc30c057f",
+      "styleAttributes": {
+        "border": null,
+        "shape": null
+      },
+      "text": "#### NarcEngine.exe\nFinal Application",
+      "type": "text",
+      "width": 280,
+      "x": 700,
+      "y": -1220
+    },
     {
       "color": "3",
       "height": 60,
@@ -65,20 +98,8 @@
       "text": "Vulkan API",
       "type": "text",
       "width": 260,
-      "x": 1880,
-      "y": -1030
-    },
-    {
-      "color": "3",
-      "height": 60,
-      "id": "e0e08d925521d9e6",
-      "styleAttributes": {
-      },
-      "text": "GLM",
-      "type": "text",
-      "width": 260,
-      "x": 1880,
-      "y": -950
+      "x": 1820,
+      "y": -1220
     },
     {
       "color": "3",
@@ -89,8 +110,46 @@
       "text": "GLFW",
       "type": "text",
       "width": 260,
-      "x": 1880,
-      "y": -870
+      "x": 1820,
+      "y": -1140
+    },
+    {
+      "color": "5",
+      "height": 100,
+      "id": "ccaca189849d7f51",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "# NarcMath",
+      "type": "text",
+      "width": 340,
+      "x": 1840,
+      "y": -1010
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "e0e08d925521d9e6",
+      "styleAttributes": {
+      },
+      "text": "GLM",
+      "type": "text",
+      "width": 260,
+      "x": 2320,
+      "y": -950
+    },
+    {
+      "color": "5",
+      "height": 100,
+      "id": "3b765290d9b79c99",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "# NarcLog",
+      "type": "text",
+      "width": 340,
+      "x": 1840,
+      "y": -890
     },
     {
       "color": "3",
@@ -101,7 +160,32 @@
       "text": "STB",
       "type": "text",
       "width": 260,
-      "x": 1880,
+      "x": 2320,
+      "y": -870
+    },
+    {
+      "color": "5",
+      "height": 100,
+      "id": "f341e580df226192",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "# NarcIO",
+      "type": "text",
+      "width": 340,
+      "x": 1840,
+      "y": -770
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "005d191c64b32d8f",
+      "styleAttributes": {
+      },
+      "text": "TinyObjLoader",
+      "type": "text",
+      "width": 260,
+      "x": 2320,
       "y": -790
     },
     {
@@ -114,35 +198,21 @@
       "text": "# NarcEngine",
       "type": "text",
       "width": 340,
-      "x": 1360,
-      "y": -990
-    },
-    {
-      "color": "1",
-      "height": 240,
-      "id": "7c4103bdc30c057f",
-      "styleAttributes": {
-        "border": null,
-        "shape": null
-      },
-      "text": "#### NarcEngine.exe\nFinal Application",
-      "type": "text",
-      "width": 220,
-      "x": 800,
-      "y": -990
+      "x": 1320,
+      "y": -1220
     },
     {
       "color": "5",
       "height": 100,
-      "id": "f341e580df226192",
+      "id": "fe94b5c305cda57b",
       "styleAttributes": {
         "textAlign": null
       },
-      "text": "# NarcIO",
+      "text": "# NarcPhysX",
       "type": "text",
       "width": 340,
-      "x": 1360,
-      "y": -860
+      "x": 1320,
+      "y": -990
     }
   ]
 }
