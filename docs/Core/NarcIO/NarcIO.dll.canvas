@@ -1,0 +1,50 @@
+{
+  "edges": [
+  ],
+  "nodes": [
+    {
+      "height": 60,
+      "id": "eba66ae6fd1f1c1a",
+      "styleAttributes": {
+      },
+      "text": "#DLL ",
+      "type": "text",
+      "width": 260,
+      "x": -380,
+      "y": -360
+    },
+    {
+      "file": "Vendors/STBLIB/STBLIB.md",
+      "height": 400,
+      "id": "94e9fee01644ee9c",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 80,
+      "y": -200
+    },
+    {
+      "file": "Core/NarcIO/models/Image.md",
+      "height": 400,
+      "id": "578f0e329bd436ff",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -420,
+      "y": -200
+    },
+    {
+      "file": "Vendors/TinyObjLoader/TinyObjLoader.md",
+      "height": 400,
+      "id": "abb1937856261778",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 560,
+      "y": -200
+    }
+  ]
+}

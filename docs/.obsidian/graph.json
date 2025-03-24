@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "-tag:#index",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:\"NarcEngine.exe\"",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#DLL",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#DLL_EXPORT",
+      "color": {
+        "a": 1,
+        "rgb": 15910961
+      }
+    },
+    {
+      "query": "tag:#vendors  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "path:Vendors  ",
+      "color": {
+        "a": 1,
+        "rgb": 13288884
+      }
+    },
+    {
+      "query": "path:/",
+      "color": {
+        "a": 1,
+        "rgb": 16769397
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1.4,
+  "nodeSizeMultiplier": 2.79244791666667,
+  "lineSizeMultiplier": 1.26119791666667,
+  "collapse-forces": false,
+  "centerStrength": 0.495841995841996,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 288,
+  "scale": 0.27268599173602576,
+  "close": false
+}

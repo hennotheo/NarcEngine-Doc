@@ -1,0 +1,22 @@
+site_name: NarcEngine Documentation
+
+plugins:
+  - search
+  - ezlinks:
+      wikilinks: true
+      warn_ambiguities: true
+      reference_links: true
+
+nav:
+  - Home: index.md
+  - Core:
+      - NarcIO: Core/NarcIO/NarcIO.md
+      - NarcLog: Core/NarcLog/NarcLog.md
+      - NarcMath: Core/NarcMath/NarcMath.md
+      - NarcCore: Core/NarcCore/NarcCore.md
+
+  - Rendering: 
+    - NarcEngine: Rendering/NarcEngine/NarcEngine.md
+    - Shaders: Rendering/Shaders/Shaders.md
+
+theme: material
