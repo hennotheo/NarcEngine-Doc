@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_98667597ee9b8e52daf563354eec60ad" kind="dir">
+    <compoundname>src/rendering/narc_engine/include/models</compoundname>
+    <innerfile refid="_material_8h">Material.h</innerfile>
+    <innerfile refid="_mesh_8h">Mesh.h</innerfile>
+    <innerfile refid="_renderer_8h">Renderer.h</innerfile>
+    <innerfile refid="_shader_module_8h">ShaderModule.h</innerfile>
+    <innerfile refid="_uniform_buffer_object_8h">UniformBufferObject.h</innerfile>
+    <innerfile refid="_vertex_8h">Vertex.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/models/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarclog_1_1_error_exception" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>narclog::ErrorException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::runtime_error</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarclog_1_1_error_exception_1ade69ba720c6f187d5e277b8d08eaef3e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>narclog::ErrorException::ErrorException</definition>
+        <argsstring>(const std::string &amp;message)</argsstring>
+        <name>ErrorException</name>
+        <qualifiedname>narclog::ErrorException::ErrorException</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/ErrorException.h" line="12" column="18" bodyfile="src/core/narclog/include/exceptions/ErrorException.h" bodystart="12" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>narclog::ErrorException</label>
+        <link refid="classnarclog_1_1_error_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::runtime_error</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>narclog::ErrorException</label>
+        <link refid="classnarclog_1_1_error_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::runtime_error</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/core/narclog/include/exceptions/ErrorException.h" line="9" column="5" bodyfile="src/core/narclog/include/exceptions/ErrorException.h" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classnarclog_1_1_error_exception_1ade69ba720c6f187d5e277b8d08eaef3e" prot="public" virt="non-virtual"><scope>narclog::ErrorException</scope><name>ErrorException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc_1_1_application" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>narc::Application</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc_1_1_application_1a40c4ef15db86e5356859251bbb239fb4" prot="private" static="no" mutable="no">
+        <type><ref refid="classnarc__engine_1_1_i_engine" kindref="compound">narc_engine::IEngine</ref> *</type>
+        <definition>narc_engine::IEngine* narc::Application::m_engine</definition>
+        <argsstring></argsstring>
+        <name>m_engine</name>
+        <qualifiedname>narc::Application::m_engine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="19" column="30" bodyfile="src/application/include/Application.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc_1_1_application_1ad85f660efeb3b4f2e99a03a4b02775e9" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classnarc__engine_1_1_material" kindref="compound">narc_engine::Material</ref> *</type>
+        <definition>const narc_engine::Material* narc::Application::m_renderMaterial</definition>
+        <argsstring></argsstring>
+        <name>m_renderMaterial</name>
+        <qualifiedname>narc::Application::m_renderMaterial</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="21" column="37" bodyfile="src/application/include/Application.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc_1_1_application_1af3817b1ce6a1835ff3b5f352e9ff2b5d" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classnarc__engine_1_1_material" kindref="compound">narc_engine::Material</ref> *</type>
+        <definition>const narc_engine::Material* narc::Application::m_renderMaterial2</definition>
+        <argsstring></argsstring>
+        <name>m_renderMaterial2</name>
+        <qualifiedname>narc::Application::m_renderMaterial2</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="22" column="37" bodyfile="src/application/include/Application.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc_1_1_application_1a244a03a4d391909504312546a3c2e64b" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classnarc__engine_1_1_mesh" kindref="compound">narc_engine::Mesh</ref> *</type>
+        <definition>const narc_engine::Mesh* narc::Application::m_mesh</definition>
+        <argsstring></argsstring>
+        <name>m_mesh</name>
+        <qualifiedname>narc::Application::m_mesh</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="23" column="33" bodyfile="src/application/include/Application.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc_1_1_application_1ae41e09a8c3b7bc386c683377cff7e6d0" prot="private" static="no" mutable="no">
+        <type><ref refid="classnarc__engine_1_1_renderer" kindref="compound">narc_engine::Renderer</ref> *</type>
+        <definition>narc_engine::Renderer* narc::Application::m_renderer</definition>
+        <argsstring></argsstring>
+        <name>m_renderer</name>
+        <qualifiedname>narc::Application::m_renderer</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="25" column="31" bodyfile="src/application/include/Application.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc_1_1_application_1ac31cfc460111aad3d946dcc67c6b6d60" prot="private" static="no" mutable="no">
+        <type><ref refid="classnarc__engine_1_1_renderer" kindref="compound">narc_engine::Renderer</ref> *</type>
+        <definition>narc_engine::Renderer* narc::Application::m_renderer2</definition>
+        <argsstring></argsstring>
+        <name>m_renderer2</name>
+        <qualifiedname>narc::Application::m_renderer2</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="26" column="31" bodyfile="src/application/include/Application.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc_1_1_application_1a844e39852a1693fcbc1bd58ab04c6c01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc::Application::Application</definition>
+        <argsstring>()</argsstring>
+        <name>Application</name>
+        <qualifiedname>narc::Application::Application</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="10" column="9" bodyfile="src/application/src/Application.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc_1_1_application_1ae763477ae013ac0245fc5afd5eda4765" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>narc::Application::~Application</definition>
+        <argsstring>()</argsstring>
+        <name>~Application</name>
+        <qualifiedname>narc::Application::~Application</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="11" column="17" bodyfile="src/application/src/Application.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc_1_1_application_1ac57ae4328787f6e6960e81949a8db01a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool narc::Application::shouldClose</definition>
+        <argsstring>() const</argsstring>
+        <name>shouldClose</name>
+        <qualifiedname>narc::Application::shouldClose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="13" column="14" bodyfile="src/application/src/Application.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc_1_1_application_1ab94f9a31f0c8e6f36761b7d59881645e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc::Application::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <qualifiedname>narc::Application::start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="14" column="14" bodyfile="src/application/src/Application.cpp" bodystart="31" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc_1_1_application_1abb85e0861b08fe0bdbfb835cff077666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc::Application::appLoopBody</definition>
+        <argsstring>()</argsstring>
+        <name>appLoopBody</name>
+        <qualifiedname>narc::Application::appLoopBody</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="15" column="14" bodyfile="src/application/src/Application.cpp" bodystart="52" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc_1_1_application_1acbf7f5fa7fdea71b76148b475da9b823" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc::Application::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <qualifiedname>narc::Application::stop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/include/Application.h" line="16" column="14" bodyfile="src/application/src/Application.cpp" bodystart="42" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/application/include/Application.h" line="7" column="5" bodyfile="src/application/include/Application.h" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classnarc_1_1_application_1a844e39852a1693fcbc1bd58ab04c6c01" prot="public" virt="non-virtual"><scope>narc::Application</scope><name>Application</name></member>
+      <member refid="classnarc_1_1_application_1abb85e0861b08fe0bdbfb835cff077666" prot="public" virt="non-virtual"><scope>narc::Application</scope><name>appLoopBody</name></member>
+      <member refid="classnarc_1_1_application_1a40c4ef15db86e5356859251bbb239fb4" prot="private" virt="non-virtual"><scope>narc::Application</scope><name>m_engine</name></member>
+      <member refid="classnarc_1_1_application_1a244a03a4d391909504312546a3c2e64b" prot="private" virt="non-virtual"><scope>narc::Application</scope><name>m_mesh</name></member>
+      <member refid="classnarc_1_1_application_1ae41e09a8c3b7bc386c683377cff7e6d0" prot="private" virt="non-virtual"><scope>narc::Application</scope><name>m_renderer</name></member>
+      <member refid="classnarc_1_1_application_1ac31cfc460111aad3d946dcc67c6b6d60" prot="private" virt="non-virtual"><scope>narc::Application</scope><name>m_renderer2</name></member>
+      <member refid="classnarc_1_1_application_1ad85f660efeb3b4f2e99a03a4b02775e9" prot="private" virt="non-virtual"><scope>narc::Application</scope><name>m_renderMaterial</name></member>
+      <member refid="classnarc_1_1_application_1af3817b1ce6a1835ff3b5f352e9ff2b5d" prot="private" virt="non-virtual"><scope>narc::Application</scope><name>m_renderMaterial2</name></member>
+      <member refid="classnarc_1_1_application_1ac57ae4328787f6e6960e81949a8db01a" prot="public" virt="non-virtual"><scope>narc::Application</scope><name>shouldClose</name></member>
+      <member refid="classnarc_1_1_application_1ab94f9a31f0c8e6f36761b7d59881645e" prot="public" virt="non-virtual"><scope>narc::Application</scope><name>start</name></member>
+      <member refid="classnarc_1_1_application_1acbf7f5fa7fdea71b76148b475da9b823" prot="public" virt="non-virtual"><scope>narc::Application</scope><name>stop</name></member>
+      <member refid="classnarc_1_1_application_1ae763477ae013ac0245fc5afd5eda4765" prot="public" virt="virtual"><scope>narc::Application</scope><name>~Application</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

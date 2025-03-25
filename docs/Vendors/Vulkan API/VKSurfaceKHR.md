@@ -1,1 +1,0 @@
-[[Vulkan API]] Describe the surface where image will be draw.

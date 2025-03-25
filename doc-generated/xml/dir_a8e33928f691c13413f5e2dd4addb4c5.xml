@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_a8e33928f691c13413f5e2dd4addb4c5" kind="dir">
+    <compoundname>src/rendering/narc_engine/src</compoundname>
+    <innerdir refid="dir_96fd879f88e243ce1beea680fbb38535">src/rendering/narc_engine/src/buffers</innerdir>
+    <innerdir refid="dir_a9e5eda6e09e3f0263bcfe4c45f8c903">src/rendering/narc_engine/src/core</innerdir>
+    <innerdir refid="dir_7bbe2ecc3ed50a3f5d9fa1e7366ea747">src/rendering/narc_engine/src/models</innerdir>
+    <innerdir refid="dir_b46eecf1db443cbc502ae596a0f714f1">src/rendering/narc_engine/src/renderer</innerdir>
+    <innerdir refid="dir_c4093fd5b807b5bfdd55531986737e1a">src/rendering/narc_engine/src/resources</innerdir>
+    <innerfile refid="_command_buffer_8cpp">CommandBuffer.cpp</innerfile>
+    <innerfile refid="_command_pool_8cpp">CommandPool.cpp</innerfile>
+    <innerfile refid="_engine_8cpp">Engine.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/src/"/>
+  </compounddef>
+</doxygen>

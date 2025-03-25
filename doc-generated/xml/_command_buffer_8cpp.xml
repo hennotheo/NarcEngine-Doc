@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_command_buffer_8cpp" kind="file" language="C++">
+    <compoundname>CommandBuffer.cpp</compoundname>
+    <includes refid="_command_buffer_8h" local="yes">CommandBuffer.h</includes>
+    <includes refid="_narc_log_8h" local="no">NarcLog.h</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>NarcCore.h</label>
+        <link refid="_narc_core_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>pch.h</label>
+        <link refid="core_2core_2include_2pch_8h_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>Core.h</label>
+        <link refid="core_2narclog_2include_2_core_8h_source"/>
+      </node>
+      <node id="13">
+        <label>NarcLog.h</label>
+        <link refid="_narc_log_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>exceptions/ErrorException.h</label>
+        <link refid="_error_exception_8h_source"/>
+      </node>
+      <node id="41">
+        <label>exceptions/ExceptionHandlerBuilder.h</label>
+        <link refid="_exception_handler_builder_8h_source"/>
+      </node>
+      <node id="40">
+        <label>exceptions/FatalException.h</label>
+        <link refid="_fatal_exception_8h_source"/>
+      </node>
+      <node id="42">
+        <label>exceptions/MethodExceptionHandler.h</label>
+        <link refid="_method_exception_handler_8h_source"/>
+      </node>
+      <node id="37">
+        <label>keywords/KeyWords.h</label>
+        <link refid="_key_words_8h_source"/>
+      </node>
+      <node id="38">
+        <label>keywords/LogLevel.h</label>
+        <link refid="_log_level_8h_source"/>
+      </node>
+      <node id="14">
+        <label>pch.h</label>
+        <link refid="core_2narclog_2include_2pch_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CommandBuffer.h</label>
+        <link refid="_command_buffer_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>buffers/Buffer.h</label>
+        <link refid="_buffer_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>core/DeviceComponent.h</label>
+        <link refid="_device_component_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>DeviceHandler.h</label>
+        <link refid="_device_handler_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>EngineDebugLogger.h</label>
+        <link refid="_engine_debug_logger_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>QueueFamilyIndices.h</label>
+        <link refid="_queue_family_indices_8h_source"/>
+      </node>
+      <node id="9">
+        <label>Window.h</label>
+        <link refid="_window_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>renderer/SwapChainSupportDetails.h</label>
+        <link refid="_swap_chain_support_details_8h_source"/>
+      </node>
+      <node id="1">
+        <label>src/rendering/narc_engine/src/CommandBuffer.cpp</label>
+        <link refid="_command_buffer_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="17">
+        <label>algorithm</label>
+      </node>
+      <node id="18">
+        <label>array</label>
+      </node>
+      <node id="19">
+        <label>chrono</label>
+      </node>
+      <node id="20">
+        <label>cstdint</label>
+      </node>
+      <node id="21">
+        <label>cstring</label>
+      </node>
+      <node id="22">
+        <label>ctime</label>
+      </node>
+      <node id="23">
+        <label>exception</label>
+      </node>
+      <node id="24">
+        <label>filesystem</label>
+      </node>
+      <node id="25">
+        <label>fstream</label>
+      </node>
+      <node id="26">
+        <label>functional</label>
+      </node>
+      <node id="27">
+        <label>iostream</label>
+      </node>
+      <node id="28">
+        <label>map</label>
+      </node>
+      <node id="29">
+        <label>memory</label>
+      </node>
+      <node id="30">
+        <label>optional</label>
+      </node>
+      <node id="31">
+        <label>set</label>
+      </node>
+      <node id="32">
+        <label>stdexcept</label>
+      </node>
+      <node id="33">
+        <label>string</label>
+      </node>
+      <node id="34">
+        <label>type_traits</label>
+      </node>
+      <node id="35">
+        <label>vector</label>
+      </node>
+      <node id="4">
+        <label>vulkan/vulkan.h</label>
+      </node>
+      <node id="7">
+        <label>vulkan/vulkan_core.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacenarc__engine">narc_engine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;CommandBuffer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;NarcLog.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">narc_engine<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::allocate(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnarc__engine_1_1_device_handler" kindref="compound">DeviceHandler</ref>*<sp/>deviceHandler,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkCommandBufferAllocateInfo*<sp/>allocInfo)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(vkAllocateCommandBuffers(deviceHandler-&gt;getDevice(),<sp/>allocInfo,<sp/>&amp;m_commandBuffer)<sp/>!=<sp/>VK_SUCCESS)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NARCLOG_FATAL(</highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>allocate<sp/>command<sp/>buffers!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::reset(VkCommandBufferResetFlags<sp/>flags)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(vkResetCommandBuffer(m_commandBuffer,<sp/>flags)<sp/>!=<sp/>VK_SUCCESS)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NARCLOG_FATAL(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>reset<sp/>command<sp/>buffer!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::begin(VkCommandBufferBeginInfo<sp/>beginInfo)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(vkBeginCommandBuffer(m_commandBuffer,<sp/>&amp;beginInfo)<sp/>!=<sp/>VK_SUCCESS)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NARCLOG_FATAL(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>begin<sp/>recording<sp/>command<sp/>buffer!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>VkResult<sp/>CommandBuffer::end()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vkEndCommandBuffer(m_commandBuffer);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::release(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnarc__engine_1_1_device_handler" kindref="compound">DeviceHandler</ref>*<sp/>deviceHandler,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkCommandPool&amp;<sp/>commandPool)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkFreeCommandBuffers(deviceHandler-&gt;getDevice(),<sp/>commandPool,<sp/>1,<sp/>&amp;m_commandBuffer);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdBeginRenderPass(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkRenderPassBeginInfo*<sp/>renderPassInfo,<sp/>VkSubpassContents<sp/>contents)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="41"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdBeginRenderPass(m_commandBuffer,<sp/>renderPassInfo,<sp/>contents);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdBindPipeline(VkPipelineBindPoint<sp/>pipelineBindPoint,<sp/>VkPipeline<sp/>pipeline)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="46"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdBindPipeline(m_commandBuffer,<sp/>pipelineBindPoint,<sp/>pipeline);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdSetViewport(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkViewport*<sp/>viewport,<sp/>uint32_t<sp/>firstViewport,<sp/>uint32_t<sp/>viewportCount)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="51"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdSetViewport(m_commandBuffer,<sp/>firstViewport,<sp/>viewportCount,<sp/>viewport);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdSetScissor(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkRect2D*<sp/>scissor,<sp/>uint32_t<sp/>firstScissor,<sp/>uint32_t<sp/>scissorCount)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="56"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdSetScissor(m_commandBuffer,<sp/>firstScissor,<sp/>scissorCount,<sp/>scissor);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdBindVertexBuffers(uint32_t<sp/>firstBinding,<sp/>uint32_t<sp/>bindingCount,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkBuffer*<sp/>buffers,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkDeviceSize*<sp/>offsets)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="61"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdBindVertexBuffers(m_commandBuffer,<sp/>firstBinding,<sp/>bindingCount,<sp/>buffers,<sp/>offsets);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdBindIndexBuffer(VkBuffer<sp/>buffer,<sp/>VkDeviceSize<sp/>offset,<sp/>VkIndexType<sp/>indexType)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="66"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdBindIndexBuffer(m_commandBuffer,<sp/>buffer,<sp/>offset,<sp/>indexType);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdBindDescriptorSets(VkPipelineBindPoint<sp/>pipelineBindPoint,<sp/>VkPipelineLayout<sp/>layout,<sp/>uint32_t<sp/>firstSet,<sp/>uint32_t<sp/>descriptorSetCount,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkDescriptorSet*<sp/>descriptorSets,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>dynamicOffsetCount,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t*<sp/>dynamicOffsets)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="72"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdBindDescriptorSets(m_commandBuffer,<sp/>pipelineBindPoint,<sp/>layout,<sp/>firstSet,<sp/>descriptorSetCount,<sp/>descriptorSets,<sp/>dynamicOffsetCount,<sp/>dynamicOffsets);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdDrawIndexed(uint32_t<sp/>indexCount,<sp/>uint32_t<sp/>instanceCount,<sp/>uint32_t<sp/>firstIndex,<sp/>int32_t<sp/>vertexOffset,<sp/>uint32_t<sp/>firstInstance)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="77"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdDrawIndexed(m_commandBuffer,<sp/>indexCount,<sp/>instanceCount,<sp/>firstIndex,<sp/>vertexOffset,<sp/>firstInstance);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdEndRenderPass()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="82"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdEndRenderPass(m_commandBuffer);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdPipelineBarrier(VkPipelineStageFlags<sp/>sourceStage,<sp/>VkPipelineStageFlags<sp/>destinationStage,<sp/>VkDependencyFlags<sp/>dependencyFlags,<sp/>uint32_t<sp/>memoryBarrierCount,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkMemoryBarrier*<sp/>memoryBarriers,<sp/>uint32_t<sp/>bufferMemoryBarrierCount,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkBufferMemoryBarrier*<sp/>bufferMemoryBarriers,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>imageMemoryBarrierCount,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkImageMemoryBarrier*<sp/>imageMemoryBarriers)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="90"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdPipelineBarrier(</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_commandBuffer,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sourceStage,<sp/>destinationStage,<sp/>dependencyFlags,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memoryBarrierCount,<sp/>memoryBarriers,<sp/>bufferMemoryBarrierCount,<sp/>bufferMemoryBarriers,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageMemoryBarrierCount,<sp/>imageMemoryBarriers</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdCopyBufferImage(VkBuffer<sp/>srcBuffer,<sp/>VkImage<sp/>dstImage,<sp/>VkImageLayout<sp/>dstImageLayout,<sp/>uint32_t<sp/>regionCount,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkBufferImageCopy*<sp/>regions)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="100"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdCopyBufferToImage(m_commandBuffer,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>srcBuffer,<sp/>dstImage,<sp/>dstImageLayout,<sp/>regionCount,<sp/>regions</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::cmdCopyBuffer(VkBuffer<sp/>srcBuffer,<sp/>VkBuffer<sp/>dstBuffer,<sp/>uint32_t<sp/>regionCount,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkBufferCopy*<sp/>copyRegion)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="107"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkCmdCopyBuffer(m_commandBuffer,<sp/>srcBuffer,<sp/>dstBuffer,<sp/>regionCount,<sp/>copyRegion);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommandBuffer::allocateBuffers(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnarc__engine_1_1_device_handler" kindref="compound">DeviceHandler</ref>*<sp/>deviceHandler,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkCommandBufferAllocateInfo*<sp/>allocInfo,<sp/>std::vector&lt;CommandBuffer&gt;&amp;<sp/>commandBuffers)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>commandBuffer:<sp/>commandBuffers)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(commandBuffer.m_allocated)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NARCLOG_ERROR(</highlight><highlight class="stringliteral">&quot;Trying<sp/>to<sp/>allocate<sp/>an<sp/>already<sp/>allocated<sp/>command<sp/>buffer!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;VkCommandBuffer&gt;<sp/>vkCommandBuffers(commandBuffers.size());</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(vkAllocateCommandBuffers(deviceHandler-&gt;getDevice(),<sp/>allocInfo,<sp/>vkCommandBuffers.data())<sp/>!=<sp/>VK_SUCCESS)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NARCLOG_FATAL(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>allocate<sp/>command<sp/>buffers!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>commandBuffers.size();<sp/>++i)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>commandBuffers[i].m_commandBuffer<sp/>=<sp/>vkCommandBuffers[i];</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>commandBuffers[i].m_allocated<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/rendering/narc_engine/src/CommandBuffer.cpp"/>
+  </compounddef>
+</doxygen>

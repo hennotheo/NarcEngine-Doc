@@ -1,3 +1,0 @@
-#DLL_EXPORT
-
-[[LogLevel]]

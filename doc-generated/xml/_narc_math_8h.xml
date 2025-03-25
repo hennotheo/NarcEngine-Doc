@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_narc_math_8h" kind="file" language="C++">
+    <compoundname>NarcMath.h</compoundname>
+    <includes local="no">glm/glm.hpp</includes>
+    <includes local="no">glm/gtx/hash.hpp</includes>
+    <includes local="no">glm/ext/matrix_clip_space.hpp</includes>
+    <includes local="no">glm/ext/matrix_transform.hpp</includes>
+    <includes local="no">glm/ext/scalar_constants.hpp</includes>
+    <includedby refid="_narc_math_8cpp" local="yes">src/core/narc_math/src/NarcMath.cpp</includedby>
+    <includedby refid="core_2narcio_2include_2pch_8h" local="no">src/core/narcio/include/pch.h</includedby>
+    <includedby refid="_file_reader_8cpp" local="no">src/core/narcio/src/FileReader.cpp</includedby>
+    <includedby refid="_uniform_buffer_object_8h" local="no">src/rendering/narc_engine/include/models/UniformBufferObject.h</includedby>
+    <includedby refid="_vertex_8h" local="no">src/rendering/narc_engine/include/models/Vertex.h</includedby>
+    <includedby refid="rendering_2narc__engine_2include_2pch_8h" local="no">src/rendering/narc_engine/include/pch.h</includedby>
+    <includedby refid="_engine_renderer_8cpp" local="no">src/rendering/narc_engine/src/renderer/EngineRenderer.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>src/core/narc_math/include/NarcMath.h</label>
+        <link refid="_narc_math_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>glm/ext/matrix_clip_space.hpp</label>
+      </node>
+      <node id="5">
+        <label>glm/ext/matrix_transform.hpp</label>
+      </node>
+      <node id="6">
+        <label>glm/ext/scalar_constants.hpp</label>
+      </node>
+      <node id="2">
+        <label>glm/glm.hpp</label>
+      </node>
+      <node id="3">
+        <label>glm/gtx/hash.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>src/application/include/Application.h</label>
+        <link refid="_application_8h_source"/>
+      </node>
+      <node id="1">
+        <label>src/core/narc_math/include/NarcMath.h</label>
+        <link refid="_narc_math_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/core/narcio/include/NarcIO.h</label>
+        <link refid="_narc_i_o_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/core/narcio/include/pch.h</label>
+        <link refid="core_2narcio_2include_2pch_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>src/rendering/narc_engine/include/Engine.h</label>
+        <link refid="_engine_8h_source"/>
+      </node>
+      <node id="5">
+        <label>src/rendering/narc_engine/include/NarcEngine.h</label>
+        <link refid="_narc_engine_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>src/rendering/narc_engine/include/buffers/UniformBuffer.h</label>
+        <link refid="_uniform_buffer_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>src/rendering/narc_engine/include/interfaces/IEngine.h</label>
+        <link refid="_i_engine_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>src/rendering/narc_engine/include/models/UniformBufferObject.h</label>
+        <link refid="_uniform_buffer_object_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>src/rendering/narc_engine/include/models/Vertex.h</label>
+        <link refid="_vertex_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/rendering/narc_engine/include/pch.h</label>
+        <link refid="rendering_2narc__engine_2include_2pch_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>src/rendering/narc_engine/include/renderer/EngineRenderer.h</label>
+        <link refid="_engine_renderer_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>src/rendering/narc_engine/include/renderer/FrameHandler.h</label>
+        <link refid="_frame_handler_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>src/rendering/narc_engine/include/renderer/MultiFrameManager.h</label>
+        <link refid="_multi_frame_manager_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>src/rendering/narc_engine/include/renderer/RenderTask.h</label>
+        <link refid="_render_task_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_narc_math_8h_1a53aeecf6b7ba36273b6998fbd206ca7d" prot="public" static="no">
+        <name>GLM_FORCE_DEFAULT_ALIGNED_GENTYPES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narc_math/include/NarcMath.h" line="7" column="9" bodyfile="src/core/narc_math/include/NarcMath.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_narc_math_8h_1aa53e0967978ad7a8792f6961156ec968" prot="public" static="no">
+        <name>GLM_FORCE_DEPTH_ZERO_TO_ONE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narc_math/include/NarcMath.h" line="8" column="9" bodyfile="src/core/narc_math/include/NarcMath.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_narc_math_8h_1abd75661fe7969e19439052a5f69ba5d1" prot="public" static="no">
+        <name>GLM_ENABLE_EXPERIMENTAL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narc_math/include/NarcMath.h" line="9" column="9" bodyfile="src/core/narc_math/include/NarcMath.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Created<sp/>by<sp/>theoh<sp/>on<sp/>3/4/2025.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GLM_FORCE_DEFAULT_ALIGNED_GENTYPES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GLM_FORCE_DEPTH_ZERO_TO_ONE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GLM_ENABLE_EXPERIMENTAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;glm/glm.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;glm/gtx/hash.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;glm/ext/matrix_clip_space.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;glm/ext/matrix_transform.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;glm/ext/scalar_constants.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/core/narc_math/include/NarcMath.h"/>
+  </compounddef>
+</doxygen>

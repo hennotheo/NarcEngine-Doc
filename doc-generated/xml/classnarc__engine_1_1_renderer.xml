@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_renderer" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::Renderer</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_renderer_1a6c7dfd1063334f9b369c5d2a1c30548e" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classnarc__engine_1_1_mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Mesh&gt; narc_engine::Renderer::m_mesh</definition>
+        <argsstring></argsstring>
+        <name>m_mesh</name>
+        <qualifiedname>narc_engine::Renderer::m_mesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Renderer.h" line="25" column="25" bodyfile="src/rendering/narc_engine/include/models/Renderer.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_renderer_1af6ecd640bb76e00391b8cddd5b7c72a0" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classnarc__engine_1_1_material" kindref="compound">Material</ref> *</type>
+        <definition>const Material* narc_engine::Renderer::m_material</definition>
+        <argsstring></argsstring>
+        <name>m_material</name>
+        <qualifiedname>narc_engine::Renderer::m_material</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Renderer.h" line="26" column="24" bodyfile="src/rendering/narc_engine/include/models/Renderer.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_renderer_1aeba4dd03958b2ecc11761c0d10b0b234" prot="private" static="no" mutable="no">
+        <type>glm::mat4</type>
+        <definition>glm::mat4 narc_engine::Renderer::m_modelMatrix</definition>
+        <argsstring></argsstring>
+        <name>m_modelMatrix</name>
+        <qualifiedname>narc_engine::Renderer::m_modelMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Renderer.h" line="28" column="19" bodyfile="src/rendering/narc_engine/include/models/Renderer.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_renderer_1a360b7fdfa4d16f8d3dc659ea844a0ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::Renderer::Renderer</definition>
+        <argsstring>(const narc_io::Model3D *model, const Material *material)</argsstring>
+        <name>Renderer</name>
+        <qualifiedname>narc_engine::Renderer::Renderer</qualifiedname>
+        <param>
+          <type>const <ref refid="structnarc__io_1_1_model3_d" kindref="compound">narc_io::Model3D</ref> *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classnarc__engine_1_1_material" kindref="compound">Material</ref> *</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Renderer.h" line="15" column="9" bodyfile="src/rendering/narc_engine/src/models/Renderer.cpp" bodystart="11" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_renderer_1ac954c8521c2893478c20c8eb3bb95717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::Renderer::~Renderer</definition>
+        <argsstring>()</argsstring>
+        <name>~Renderer</name>
+        <qualifiedname>narc_engine::Renderer::~Renderer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Renderer.h" line="16" column="9" bodyfile="src/rendering/narc_engine/src/models/Renderer.cpp" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_renderer_1ad479de6e83077ac925893a9957a9aa87" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER const <ref refid="classnarc__engine_1_1_material" kindref="compound">Material</ref> *</type>
+        <definition>GETTER const Material * narc_engine::Renderer::getMaterial</definition>
+        <argsstring>() const</argsstring>
+        <name>getMaterial</name>
+        <qualifiedname>narc_engine::Renderer::getMaterial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Renderer.h" line="18" column="31" bodyfile="src/rendering/narc_engine/include/models/Renderer.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_renderer_1af43f92f396441f2a42863f547699bccb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER const <ref refid="classnarc__engine_1_1_mesh" kindref="compound">Mesh</ref> *</type>
+        <definition>GETTER const Mesh * narc_engine::Renderer::getMesh</definition>
+        <argsstring>() const</argsstring>
+        <name>getMesh</name>
+        <qualifiedname>narc_engine::Renderer::getMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Renderer.h" line="19" column="27" bodyfile="src/rendering/narc_engine/include/models/Renderer.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_renderer_1a65bac7b99b5a01b55b653d8c56548c1c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER const glm::mat4 &amp;</type>
+        <definition>GETTER const glm::mat4 &amp; narc_engine::Renderer::getModelMatrix</definition>
+        <argsstring>() const</argsstring>
+        <name>getModelMatrix</name>
+        <qualifiedname>narc_engine::Renderer::getModelMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Renderer.h" line="21" column="32" bodyfile="src/rendering/narc_engine/include/models/Renderer.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_renderer_1a29836b9d7dd6ded9f8146ec054230f2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TEMP_CODE void</type>
+        <definition>TEMP_CODE void narc_engine::Renderer::setModelMatrix</definition>
+        <argsstring>(const glm::mat4 &amp;modelMatrix)</argsstring>
+        <name>setModelMatrix</name>
+        <qualifiedname>narc_engine::Renderer::setModelMatrix</qualifiedname>
+        <param>
+          <type>const glm::mat4 &amp;</type>
+          <declname>modelMatrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Renderer.h" line="22" column="24" bodyfile="src/rendering/narc_engine/include/models/Renderer.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/models/Renderer.h" line="12" column="5" bodyfile="src/rendering/narc_engine/include/models/Renderer.h" bodystart="13" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_renderer_1ad479de6e83077ac925893a9957a9aa87" prot="public" virt="non-virtual"><scope>narc_engine::Renderer</scope><name>getMaterial</name></member>
+      <member refid="classnarc__engine_1_1_renderer_1af43f92f396441f2a42863f547699bccb" prot="public" virt="non-virtual"><scope>narc_engine::Renderer</scope><name>getMesh</name></member>
+      <member refid="classnarc__engine_1_1_renderer_1a65bac7b99b5a01b55b653d8c56548c1c" prot="public" virt="non-virtual"><scope>narc_engine::Renderer</scope><name>getModelMatrix</name></member>
+      <member refid="classnarc__engine_1_1_renderer_1af6ecd640bb76e00391b8cddd5b7c72a0" prot="private" virt="non-virtual"><scope>narc_engine::Renderer</scope><name>m_material</name></member>
+      <member refid="classnarc__engine_1_1_renderer_1a6c7dfd1063334f9b369c5d2a1c30548e" prot="private" virt="non-virtual"><scope>narc_engine::Renderer</scope><name>m_mesh</name></member>
+      <member refid="classnarc__engine_1_1_renderer_1aeba4dd03958b2ecc11761c0d10b0b234" prot="private" virt="non-virtual"><scope>narc_engine::Renderer</scope><name>m_modelMatrix</name></member>
+      <member refid="classnarc__engine_1_1_renderer_1a360b7fdfa4d16f8d3dc659ea844a0ead" prot="public" virt="non-virtual"><scope>narc_engine::Renderer</scope><name>Renderer</name></member>
+      <member refid="classnarc__engine_1_1_renderer_1a29836b9d7dd6ded9f8146ec054230f2c" prot="public" virt="non-virtual"><scope>narc_engine::Renderer</scope><name>setModelMatrix</name></member>
+      <member refid="classnarc__engine_1_1_renderer_1ac954c8521c2893478c20c8eb3bb95717" prot="public" virt="non-virtual"><scope>narc_engine::Renderer</scope><name>~Renderer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

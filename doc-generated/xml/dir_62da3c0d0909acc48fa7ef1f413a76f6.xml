@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_62da3c0d0909acc48fa7ef1f413a76f6" kind="dir">
+    <compoundname>src/core/narcio/include/models</compoundname>
+    <innerfile refid="_image_8h">Image.h</innerfile>
+    <innerfile refid="_model3_d_8h">Model3D.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narcio/include/models/"/>
+  </compounddef>
+</doxygen>

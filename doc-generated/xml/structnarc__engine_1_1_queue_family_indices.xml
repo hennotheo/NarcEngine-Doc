@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structnarc__engine_1_1_queue_family_indices" kind="struct" language="C++" prot="public">
+    <compoundname>narc_engine::QueueFamilyIndices</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnarc__engine_1_1_queue_family_indices_1ab425d917a089a2dbab60d99a3392fdfe" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; uint32_t &gt;</type>
+        <definition>std::optional&lt;uint32_t&gt; narc_engine::QueueFamilyIndices::GraphicsFamily</definition>
+        <argsstring></argsstring>
+        <name>GraphicsFamily</name>
+        <qualifiedname>narc_engine::QueueFamilyIndices::GraphicsFamily</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/QueueFamilyIndices.h" line="7" column="23" bodyfile="src/rendering/narc_engine/include/core/QueueFamilyIndices.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnarc__engine_1_1_queue_family_indices_1a5c92bd07d44761f0ae26d61ed64d9f31" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; uint32_t &gt;</type>
+        <definition>std::optional&lt;uint32_t&gt; narc_engine::QueueFamilyIndices::PresentFamily</definition>
+        <argsstring></argsstring>
+        <name>PresentFamily</name>
+        <qualifiedname>narc_engine::QueueFamilyIndices::PresentFamily</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/QueueFamilyIndices.h" line="8" column="23" bodyfile="src/rendering/narc_engine/include/core/QueueFamilyIndices.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnarc__engine_1_1_queue_family_indices_1a2c5f04b73db6d568d4b1fd14f2f36679" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool narc_engine::QueueFamilyIndices::isComplete</definition>
+        <argsstring>() const</argsstring>
+        <name>isComplete</name>
+        <qualifiedname>narc_engine::QueueFamilyIndices::isComplete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/QueueFamilyIndices.h" line="10" column="14" bodyfile="src/rendering/narc_engine/include/core/QueueFamilyIndices.h" bodystart="10" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/core/QueueFamilyIndices.h" line="5" column="5" bodyfile="src/rendering/narc_engine/include/core/QueueFamilyIndices.h" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structnarc__engine_1_1_queue_family_indices_1ab425d917a089a2dbab60d99a3392fdfe" prot="public" virt="non-virtual"><scope>narc_engine::QueueFamilyIndices</scope><name>GraphicsFamily</name></member>
+      <member refid="structnarc__engine_1_1_queue_family_indices_1a2c5f04b73db6d568d4b1fd14f2f36679" prot="public" virt="non-virtual"><scope>narc_engine::QueueFamilyIndices</scope><name>isComplete</name></member>
+      <member refid="structnarc__engine_1_1_queue_family_indices_1a5c92bd07d44761f0ae26d61ed64d9f31" prot="public" virt="non-virtual"><scope>narc_engine::QueueFamilyIndices</scope><name>PresentFamily</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

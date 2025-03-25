@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarclog_1_1_method_exception_handler" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>narclog::MethodExceptionHandler</compoundname>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classnarclog_1_1_method_exception_handler_1ac77e39a0b793a71ea47c0251c7f8cb2d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class ExceptionHandlerBuilder</definition>
+        <argsstring></argsstring>
+        <name>ExceptionHandlerBuilder</name>
+        <qualifiedname>narclog::MethodExceptionHandler::ExceptionHandlerBuilder</qualifiedname>
+        <param>
+          <type><ref refid="classnarclog_1_1_exception_handler_builder" kindref="compound">ExceptionHandlerBuilder</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="15" column="22" bodyfile="src/core/narclog/include/exceptions/MethodExceptionHandler.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarclog_1_1_method_exception_handler_1a3aaf679c433a5cfbcca6c3ffa9145a9f" prot="private" static="no" mutable="no">
+        <type>const std::function&lt; void()&gt;</type>
+        <definition>const std::function&lt;void()&gt; narclog::MethodExceptionHandler::m_function</definition>
+        <argsstring></argsstring>
+        <name>m_function</name>
+        <qualifiedname>narclog::MethodExceptionHandler::m_function</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="27" column="29" bodyfile="src/core/narclog/include/exceptions/MethodExceptionHandler.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarclog_1_1_method_exception_handler_1a6224c39bbb153a208ba25b17565af491" prot="private" static="no" mutable="no">
+        <type>const std::function&lt; void()&gt;</type>
+        <definition>const std::function&lt;void()&gt; narclog::MethodExceptionHandler::m_finallyCallback</definition>
+        <argsstring></argsstring>
+        <name>m_finallyCallback</name>
+        <qualifiedname>narclog::MethodExceptionHandler::m_finallyCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="28" column="29" bodyfile="src/core/narclog/include/exceptions/MethodExceptionHandler.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarclog_1_1_method_exception_handler_1af522d38de38299391af89ccdb645d771" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool narclog::MethodExceptionHandler::m_handleAllNonFatalExceptionAsFatal</definition>
+        <argsstring></argsstring>
+        <name>m_handleAllNonFatalExceptionAsFatal</name>
+        <qualifiedname>narclog::MethodExceptionHandler::m_handleAllNonFatalExceptionAsFatal</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="30" column="14" bodyfile="src/core/narclog/include/exceptions/MethodExceptionHandler.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarclog_1_1_method_exception_handler_1acd3cfd68974f90d7b8b4db58c4088bed" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool narclog::MethodExceptionHandler::m_rethrowFatal</definition>
+        <argsstring></argsstring>
+        <name>m_rethrowFatal</name>
+        <qualifiedname>narclog::MethodExceptionHandler::m_rethrowFatal</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="31" column="14" bodyfile="src/core/narclog/include/exceptions/MethodExceptionHandler.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarclog_1_1_method_exception_handler_1a8190c94c8b5123141993918a1fbc7731" prot="private" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* narclog::MethodExceptionHandler::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <qualifiedname>narclog::MethodExceptionHandler::m_name</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="33" column="20" bodyfile="src/core/narclog/include/exceptions/MethodExceptionHandler.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarclog_1_1_method_exception_handler_1a1371084b68dae789071980b9a5d6cdd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narclog::MethodExceptionHandler::~MethodExceptionHandler</definition>
+        <argsstring>()</argsstring>
+        <name>~MethodExceptionHandler</name>
+        <qualifiedname>narclog::MethodExceptionHandler::~MethodExceptionHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="18" column="9" bodyfile="src/core/narclog/src/exceptions/MethodExceptionHandler.cpp" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarclog_1_1_method_exception_handler_1acc8556646598f316d39e04118ac0e6f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int narclog::MethodExceptionHandler::invoke</definition>
+        <argsstring>()</argsstring>
+        <name>invoke</name>
+        <qualifiedname>narclog::MethodExceptionHandler::invoke</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="20" column="13" bodyfile="src/core/narclog/src/exceptions/MethodExceptionHandler.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarclog_1_1_method_exception_handler_1aa1ee59dd82c05996d5be055bfcee3230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int narclog::MethodExceptionHandler::execute</definition>
+        <argsstring>(const std::function&lt; void()&gt; &amp;method)</argsstring>
+        <name>execute</name>
+        <qualifiedname>narclog::MethodExceptionHandler::execute</qualifiedname>
+        <param>
+          <type>const std::function&lt; void()&gt; &amp;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="21" column="13" bodyfile="src/core/narclog/src/exceptions/MethodExceptionHandler.cpp" bodystart="15" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classnarclog_1_1_method_exception_handler_1aadf28cb1a3ebb4e374fedff2908573f8" prot="private" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narclog::MethodExceptionHandler::MethodExceptionHandler</definition>
+        <argsstring>(const std::function&lt; void()&gt; &amp;function, const std::function&lt; void()&gt; &amp;finallyCallback)</argsstring>
+        <name>MethodExceptionHandler</name>
+        <qualifiedname>narclog::MethodExceptionHandler::MethodExceptionHandler</qualifiedname>
+        <param>
+          <type>const std::function&lt; void()&gt; &amp;</type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>const std::function&lt; void()&gt; &amp;</type>
+          <declname>finallyCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="24" column="18" bodyfile="src/core/narclog/src/exceptions/MethodExceptionHandler.cpp" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarclog_1_1_method_exception_handler_1a44ae7a9d67d3a2e1e78ca92d128cb67b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narclog::MethodExceptionHandler::fatalExceptionHandler</definition>
+        <argsstring>(const FatalException &amp;e)</argsstring>
+        <name>fatalExceptionHandler</name>
+        <qualifiedname>narclog::MethodExceptionHandler::fatalExceptionHandler</qualifiedname>
+        <param>
+          <type>const <ref refid="classnarclog_1_1_fatal_exception" kindref="compound">FatalException</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="35" column="14" bodyfile="src/core/narclog/src/exceptions/MethodExceptionHandler.cpp" bodystart="52" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarclog_1_1_method_exception_handler_1aad813fccab48f840fd470007ad9c93df" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narclog::MethodExceptionHandler::errorExceptionHandler</definition>
+        <argsstring>(const std::exception &amp;e) const</argsstring>
+        <name>errorExceptionHandler</name>
+        <qualifiedname>narclog::MethodExceptionHandler::errorExceptionHandler</qualifiedname>
+        <param>
+          <type>const std::exception &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="36" column="14" bodyfile="src/core/narclog/src/exceptions/MethodExceptionHandler.cpp" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarclog_1_1_method_exception_handler_1a872b69b9082da9b230e21c11fccc4c1b" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>GETTER std::string</type>
+        <definition>std::string narclog::MethodExceptionHandler::format</definition>
+        <argsstring>(const std::exception &amp;e) const</argsstring>
+        <name>format</name>
+        <qualifiedname>narclog::MethodExceptionHandler::format</qualifiedname>
+        <param>
+          <type>const std::exception &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="37" column="28" bodyfile="src/core/narclog/src/exceptions/MethodExceptionHandler.cpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarclog_1_1_method_exception_handler_1a31335ebbd210f3ec5e8ada58e21e66c4" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>GETTER std::string</type>
+        <definition>std::string narclog::MethodExceptionHandler::format</definition>
+        <argsstring>(const std::exception &amp;e, const std::string &amp;handlerName) const</argsstring>
+        <name>format</name>
+        <qualifiedname>narclog::MethodExceptionHandler::format</qualifiedname>
+        <param>
+          <type>const std::exception &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>handlerName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="38" column="28" bodyfile="src/core/narclog/src/exceptions/MethodExceptionHandler.cpp" bodystart="82" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarclog_1_1_method_exception_handler_1a04ba3bf36174caa40dd9ea19ec923fed" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narclog::MethodExceptionHandler::finally</definition>
+        <argsstring>() const</argsstring>
+        <name>finally</name>
+        <qualifiedname>narclog::MethodExceptionHandler::finally</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="40" column="14" bodyfile="src/core/narclog/src/exceptions/MethodExceptionHandler.cpp" bodystart="90" bodyend="94"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narclog/include/exceptions/MethodExceptionHandler.h" line="13" column="5" bodyfile="src/core/narclog/include/exceptions/MethodExceptionHandler.h" bodystart="14" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classnarclog_1_1_method_exception_handler_1aad813fccab48f840fd470007ad9c93df" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>errorExceptionHandler</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1ac77e39a0b793a71ea47c0251c7f8cb2d" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>ExceptionHandlerBuilder</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1aa1ee59dd82c05996d5be055bfcee3230" prot="public" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>execute</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1a44ae7a9d67d3a2e1e78ca92d128cb67b" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>fatalExceptionHandler</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1a04ba3bf36174caa40dd9ea19ec923fed" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>finally</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1a872b69b9082da9b230e21c11fccc4c1b" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>format</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1a31335ebbd210f3ec5e8ada58e21e66c4" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>format</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1acc8556646598f316d39e04118ac0e6f8" prot="public" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>invoke</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1a6224c39bbb153a208ba25b17565af491" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>m_finallyCallback</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1a3aaf679c433a5cfbcca6c3ffa9145a9f" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>m_function</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1af522d38de38299391af89ccdb645d771" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>m_handleAllNonFatalExceptionAsFatal</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1a8190c94c8b5123141993918a1fbc7731" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>m_name</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1acd3cfd68974f90d7b8b4db58c4088bed" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>m_rethrowFatal</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1aadf28cb1a3ebb4e374fedff2908573f8" prot="private" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>MethodExceptionHandler</name></member>
+      <member refid="classnarclog_1_1_method_exception_handler_1a1371084b68dae789071980b9a5d6cdd5" prot="public" virt="non-virtual"><scope>narclog::MethodExceptionHandler</scope><name>~MethodExceptionHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

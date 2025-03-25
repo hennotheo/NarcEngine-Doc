@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_engine_renderer" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::EngineRenderer</compoundname>
+    <basecompoundref refid="classnarc__engine_1_1_device_component" prot="public" virt="non-virtual">narc_engine::DeviceComponent</basecompoundref>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classnarc__engine_1_1_engine_renderer_1a348595c99b6bdc681f277fa75b752a62" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class EngineBinder</definition>
+        <argsstring></argsstring>
+        <name>EngineBinder</name>
+        <qualifiedname>narc_engine::EngineRenderer::EngineBinder</qualifiedname>
+        <param>
+          <type><ref refid="classnarc__engine_1_1_engine_binder" kindref="compound">EngineBinder</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="18" column="22" bodyfile="src/rendering/narc_engine/include/renderer/EngineRenderer.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classnarc__engine_1_1_engine_renderer_1a3e1914489e4bed4f9f23cdeab34a43dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Engine</definition>
+        <argsstring></argsstring>
+        <name>Engine</name>
+        <qualifiedname>narc_engine::EngineRenderer::Engine</qualifiedname>
+        <param>
+          <type><ref refid="classnarc__engine_1_1_engine" kindref="compound">Engine</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="19" column="22" bodyfile="src/rendering/narc_engine/include/renderer/EngineRenderer.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_engine_renderer_1a431f68c98cec5f3302cd6a6f68347a60" prot="private" static="no" mutable="no">
+        <type><ref refid="classnarc__engine_1_1_swap_chain" kindref="compound">SwapChain</ref></type>
+        <definition>SwapChain narc_engine::EngineRenderer::m_swapChain</definition>
+        <argsstring></argsstring>
+        <name>m_swapChain</name>
+        <qualifiedname>narc_engine::EngineRenderer::m_swapChain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="31" column="19" bodyfile="src/rendering/narc_engine/include/renderer/EngineRenderer.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_engine_renderer_1a637037e90175e3f3baefbdcdea8806b8" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classnarc__engine_1_1_multi_frame_manager" kindref="compound">MultiFrameManager</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;MultiFrameManager&gt; narc_engine::EngineRenderer::m_frameManager</definition>
+        <argsstring></argsstring>
+        <name>m_frameManager</name>
+        <qualifiedname>narc_engine::EngineRenderer::m_frameManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="32" column="25" bodyfile="src/rendering/narc_engine/include/renderer/EngineRenderer.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_engine_renderer_1a3639ac94baf3b6812c64c051b63a0b50" prot="private" static="no" mutable="no">
+        <type>std::map&lt; uint32_t, <ref refid="classnarc__engine_1_1_render_task" kindref="compound">RenderTask</ref> * &gt;</type>
+        <definition>std::map&lt;uint32_t, RenderTask*&gt; narc_engine::EngineRenderer::m_rendererTasks</definition>
+        <argsstring></argsstring>
+        <name>m_rendererTasks</name>
+        <qualifiedname>narc_engine::EngineRenderer::m_rendererTasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="33" column="18" bodyfile="src/rendering/narc_engine/include/renderer/EngineRenderer.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_engine_renderer_1aeb992faf2f03225fb83a4f014dba8cde" prot="private" static="no" mutable="no">
+        <type>VkDescriptorSetLayout</type>
+        <definition>VkDescriptorSetLayout narc_engine::EngineRenderer::m_descriptorSetLayout</definition>
+        <argsstring></argsstring>
+        <name>m_descriptorSetLayout</name>
+        <qualifiedname>narc_engine::EngineRenderer::m_descriptorSetLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="35" column="31" bodyfile="src/rendering/narc_engine/include/renderer/EngineRenderer.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_renderer_1a29f81cd9f3ae4c2394b8f160bd27ffd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::EngineRenderer::EngineRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>EngineRenderer</name>
+        <qualifiedname>narc_engine::EngineRenderer::EngineRenderer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="22" column="9" bodyfile="src/rendering/narc_engine/src/renderer/EngineRenderer.cpp" bodystart="11" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_renderer_1ae72373b9c8abe50251caa23634c5ee1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::EngineRenderer::~EngineRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>~EngineRenderer</name>
+        <qualifiedname>narc_engine::EngineRenderer::~EngineRenderer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="23" column="9" bodyfile="src/rendering/narc_engine/src/renderer/EngineRenderer.cpp" bodystart="19" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_renderer_1ae7d8f611715b9eecc1b03e24ca606a99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::EngineRenderer::drawFrame</definition>
+        <argsstring>()</argsstring>
+        <name>drawFrame</name>
+        <qualifiedname>narc_engine::EngineRenderer::drawFrame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="25" column="14" bodyfile="src/rendering/narc_engine/src/renderer/EngineRenderer.cpp" bodystart="37" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_renderer_1abbd177925ade338ad3144975ad2e8265" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::EngineRenderer::updateUniformBuffer</definition>
+        <argsstring>(UniformBuffer *buffer, RenderTask *rendererTask) const</argsstring>
+        <name>updateUniformBuffer</name>
+        <qualifiedname>narc_engine::EngineRenderer::updateUniformBuffer</qualifiedname>
+        <param>
+          <type><ref refid="classnarc__engine_1_1_uniform_buffer" kindref="compound">UniformBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classnarc__engine_1_1_render_task" kindref="compound">RenderTask</ref> *</type>
+          <declname>rendererTask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="26" column="14" bodyfile="src/rendering/narc_engine/src/renderer/EngineRenderer.cpp" bodystart="117" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_renderer_1a4c7c3a13f0056a6c567c7fc8d88ab4e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::EngineRenderer::attachRenderer</definition>
+        <argsstring>(const Renderer *renderer)</argsstring>
+        <name>attachRenderer</name>
+        <qualifiedname>narc_engine::EngineRenderer::attachRenderer</qualifiedname>
+        <param>
+          <type>const <ref refid="classnarc__engine_1_1_renderer" kindref="compound">Renderer</ref> *</type>
+          <declname>renderer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="28" column="14" bodyfile="src/rendering/narc_engine/src/renderer/EngineRenderer.cpp" bodystart="131" bodyend="140"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_renderer_1a1bff12a9a7c587bb4de31bd98fed515b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::EngineRenderer::createDescriptorSetLayout</definition>
+        <argsstring>()</argsstring>
+        <name>createDescriptorSetLayout</name>
+        <qualifiedname>narc_engine::EngineRenderer::createDescriptorSetLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="37" column="14" bodyfile="src/rendering/narc_engine/src/renderer/EngineRenderer.cpp" bodystart="142" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_renderer_1aaf509f069170dad6181b3fadb4b1eaf6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::EngineRenderer::recordCommandBuffer</definition>
+        <argsstring>(CommandBuffer *commandBuffer, uint32_t imageIndex, const std::vector&lt; VkDescriptorSet &gt; &amp;descriptorSets)</argsstring>
+        <name>recordCommandBuffer</name>
+        <qualifiedname>narc_engine::EngineRenderer::recordCommandBuffer</qualifiedname>
+        <param>
+          <type><ref refid="classnarc__engine_1_1_command_buffer" kindref="compound">CommandBuffer</ref> *</type>
+          <declname>commandBuffer</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>imageIndex</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; VkDescriptorSet &gt; &amp;</type>
+          <declname>descriptorSets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="38" column="14" bodyfile="src/rendering/narc_engine/src/renderer/EngineRenderer.cpp" bodystart="171" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_renderer_1a8a28c82809203df7deb0d3ca4a1b06f1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnarc__engine_1_1_render_task" kindref="compound">RenderTask</ref> *</type>
+        <definition>RenderTask * narc_engine::EngineRenderer::createRenderTask</definition>
+        <argsstring>(const Material *material)</argsstring>
+        <name>createRenderTask</name>
+        <qualifiedname>narc_engine::EngineRenderer::createRenderTask</qualifiedname>
+        <param>
+          <type>const <ref refid="classnarc__engine_1_1_material" kindref="compound">Material</ref> *</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="39" column="20" bodyfile="src/rendering/narc_engine/src/renderer/EngineRenderer.cpp" bodystart="220" bodyend="240"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::EngineRenderer</label>
+        <link refid="classnarc__engine_1_1_engine_renderer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::EngineRenderer</label>
+        <link refid="classnarc__engine_1_1_engine_renderer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/rendering/narc_engine/include/renderer/EngineRenderer.h" line="16" column="5" bodyfile="src/rendering/narc_engine/include/renderer/EngineRenderer.h" bodystart="17" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_engine_renderer_1a4c7c3a13f0056a6c567c7fc8d88ab4e4" prot="public" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>attachRenderer</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1a1bff12a9a7c587bb4de31bd98fed515b" prot="private" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>createDescriptorSetLayout</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1a8a28c82809203df7deb0d3ca4a1b06f1" prot="private" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>createRenderTask</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1ae7d8f611715b9eecc1b03e24ca606a99" prot="public" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>drawFrame</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1a3e1914489e4bed4f9f23cdeab34a43dc" prot="private" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>Engine</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1a348595c99b6bdc681f277fa75b752a62" prot="private" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>EngineBinder</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1a29f81cd9f3ae4c2394b8f160bd27ffd9" prot="public" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>EngineRenderer</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1aeb992faf2f03225fb83a4f014dba8cde" prot="private" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>m_descriptorSetLayout</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1a637037e90175e3f3baefbdcdea8806b8" prot="private" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>m_frameManager</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1a3639ac94baf3b6812c64c051b63a0b50" prot="private" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>m_rendererTasks</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1a431f68c98cec5f3302cd6a6f68347a60" prot="private" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>m_swapChain</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1aaf509f069170dad6181b3fadb4b1eaf6" prot="private" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>recordCommandBuffer</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1abbd177925ade338ad3144975ad2e8265" prot="public" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>updateUniformBuffer</name></member>
+      <member refid="classnarc__engine_1_1_engine_renderer_1ae72373b9c8abe50251caa23634c5ee1d" prot="public" virt="non-virtual"><scope>narc_engine::EngineRenderer</scope><name>~EngineRenderer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

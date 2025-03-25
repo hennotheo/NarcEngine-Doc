@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_67e5d8aa62f1cc59cc4f8a6ff3bd4a61" kind="dir">
+    <compoundname>src/rendering/narc_engine/include/core</compoundname>
+    <innerfile refid="_device_component_8h">DeviceComponent.h</innerfile>
+    <innerfile refid="_device_handler_8h">DeviceHandler.h</innerfile>
+    <innerfile refid="_engine_binder_8h">EngineBinder.h</innerfile>
+    <innerfile refid="_engine_debug_logger_8h">EngineDebugLogger.h</innerfile>
+    <innerfile refid="_engine_instance_8h">EngineInstance.h</innerfile>
+    <innerfile refid="_engine_resources_manager_8h">EngineResourcesManager.h</innerfile>
+    <innerfile refid="_queue_family_indices_8h">QueueFamilyIndices.h</innerfile>
+    <innerfile refid="_window_8h">Window.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/core/"/>
+  </compounddef>
+</doxygen>

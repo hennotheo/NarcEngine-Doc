@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_engine_instance" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>narc_engine::EngineInstance</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_engine_instance_1a2f73fcbfc0d6ad13518e4d6b4c96db2b" prot="private" static="no" mutable="no">
+        <type>VkInstance</type>
+        <definition>VkInstance narc_engine::EngineInstance::m_instance</definition>
+        <argsstring></argsstring>
+        <name>m_instance</name>
+        <qualifiedname>narc_engine::EngineInstance::m_instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineInstance.h" line="27" column="20" bodyfile="src/rendering/narc_engine/include/core/EngineInstance.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_instance_1a4abd391fb43d3755f93c93e54c6870a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::EngineInstance::EngineInstance</definition>
+        <argsstring>()</argsstring>
+        <name>EngineInstance</name>
+        <qualifiedname>narc_engine::EngineInstance::EngineInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineInstance.h" line="16" column="9" bodyfile="src/rendering/narc_engine/src/core/EngineInstance.cpp" bodystart="12" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_instance_1a466aa325feaecdc99454760869855570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::EngineInstance::~EngineInstance</definition>
+        <argsstring>()</argsstring>
+        <name>~EngineInstance</name>
+        <qualifiedname>narc_engine::EngineInstance::~EngineInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineInstance.h" line="17" column="9" bodyfile="src/rendering/narc_engine/src/core/EngineInstance.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_instance_1ac610f3c35ee62a79fb3d4033ea3625f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::EngineInstance::getAllPhysicalDevices</definition>
+        <argsstring>(uint32_t *pPhysicalDeviceCount, VkPhysicalDevice *pPhysicalDevices) const</argsstring>
+        <name>getAllPhysicalDevices</name>
+        <qualifiedname>narc_engine::EngineInstance::getAllPhysicalDevices</qualifiedname>
+        <param>
+          <type>uint32_t *</type>
+          <declname>pPhysicalDeviceCount</declname>
+        </param>
+        <param>
+          <type>VkPhysicalDevice *</type>
+          <declname>pPhysicalDevices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineInstance.h" line="19" column="14" bodyfile="src/rendering/narc_engine/src/core/EngineInstance.cpp" bodystart="46" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_instance_1a980b7b5a36c09055eaff290f8a28b7d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::EngineInstance::createGLFWSurface</definition>
+        <argsstring>(GLFWwindow *window, VkSurfaceKHR *surface, const VkAllocationCallbacks *pAllocator) const</argsstring>
+        <name>createGLFWSurface</name>
+        <qualifiedname>narc_engine::EngineInstance::createGLFWSurface</qualifiedname>
+        <param>
+          <type>GLFWwindow *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>VkSurfaceKHR *</type>
+          <declname>surface</declname>
+        </param>
+        <param>
+          <type>const VkAllocationCallbacks *</type>
+          <declname>pAllocator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineInstance.h" line="21" column="14" bodyfile="src/rendering/narc_engine/src/core/EngineInstance.cpp" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_instance_1a2952fc67be0dd5d9516a4419a4a2593f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::EngineInstance::createDebugUtilsMessenger</definition>
+        <argsstring>(const VkDebugUtilsMessengerCreateInfoEXT *pCreateInfo, const VkAllocationCallbacks *pAllocator, VkDebugUtilsMessengerEXT *pDebugMessenger) const</argsstring>
+        <name>createDebugUtilsMessenger</name>
+        <qualifiedname>narc_engine::EngineInstance::createDebugUtilsMessenger</qualifiedname>
+        <param>
+          <type>const VkDebugUtilsMessengerCreateInfoEXT *</type>
+          <declname>pCreateInfo</declname>
+        </param>
+        <param>
+          <type>const VkAllocationCallbacks *</type>
+          <declname>pAllocator</declname>
+        </param>
+        <param>
+          <type>VkDebugUtilsMessengerEXT *</type>
+          <declname>pDebugMessenger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineInstance.h" line="22" column="14" bodyfile="src/rendering/narc_engine/src/core/EngineInstance.cpp" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_instance_1a300bb6f243b7730ab458ab5893928774" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::EngineInstance::destroyGLFWSurface</definition>
+        <argsstring>(VkSurfaceKHR surface, const VkAllocationCallbacks *pAllocator) const</argsstring>
+        <name>destroyGLFWSurface</name>
+        <qualifiedname>narc_engine::EngineInstance::destroyGLFWSurface</qualifiedname>
+        <param>
+          <type>VkSurfaceKHR</type>
+          <declname>surface</declname>
+        </param>
+        <param>
+          <type>const VkAllocationCallbacks *</type>
+          <declname>pAllocator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineInstance.h" line="23" column="14" bodyfile="src/rendering/narc_engine/src/core/EngineInstance.cpp" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_instance_1ace5a266b63286d45817d785ea1cc5e7e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::EngineInstance::destroyDebugUtilsMessenger</definition>
+        <argsstring>(VkDebugUtilsMessengerEXT debugMessenger, const VkAllocationCallbacks *pAllocator) const</argsstring>
+        <name>destroyDebugUtilsMessenger</name>
+        <qualifiedname>narc_engine::EngineInstance::destroyDebugUtilsMessenger</qualifiedname>
+        <param>
+          <type>VkDebugUtilsMessengerEXT</type>
+          <declname>debugMessenger</declname>
+        </param>
+        <param>
+          <type>const VkAllocationCallbacks *</type>
+          <declname>pAllocator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineInstance.h" line="24" column="14" bodyfile="src/rendering/narc_engine/src/core/EngineInstance.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/core/EngineInstance.h" line="13" column="5" bodyfile="src/rendering/narc_engine/include/core/EngineInstance.h" bodystart="14" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_engine_instance_1a2952fc67be0dd5d9516a4419a4a2593f" prot="public" virt="non-virtual"><scope>narc_engine::EngineInstance</scope><name>createDebugUtilsMessenger</name></member>
+      <member refid="classnarc__engine_1_1_engine_instance_1a980b7b5a36c09055eaff290f8a28b7d4" prot="public" virt="non-virtual"><scope>narc_engine::EngineInstance</scope><name>createGLFWSurface</name></member>
+      <member refid="classnarc__engine_1_1_engine_instance_1ace5a266b63286d45817d785ea1cc5e7e" prot="public" virt="non-virtual"><scope>narc_engine::EngineInstance</scope><name>destroyDebugUtilsMessenger</name></member>
+      <member refid="classnarc__engine_1_1_engine_instance_1a300bb6f243b7730ab458ab5893928774" prot="public" virt="non-virtual"><scope>narc_engine::EngineInstance</scope><name>destroyGLFWSurface</name></member>
+      <member refid="classnarc__engine_1_1_engine_instance_1a4abd391fb43d3755f93c93e54c6870a4" prot="public" virt="non-virtual"><scope>narc_engine::EngineInstance</scope><name>EngineInstance</name></member>
+      <member refid="classnarc__engine_1_1_engine_instance_1ac610f3c35ee62a79fb3d4033ea3625f8" prot="public" virt="non-virtual"><scope>narc_engine::EngineInstance</scope><name>getAllPhysicalDevices</name></member>
+      <member refid="classnarc__engine_1_1_engine_instance_1a2f73fcbfc0d6ad13518e4d6b4c96db2b" prot="private" virt="non-virtual"><scope>narc_engine::EngineInstance</scope><name>m_instance</name></member>
+      <member refid="classnarc__engine_1_1_engine_instance_1a466aa325feaecdc99454760869855570" prot="public" virt="non-virtual"><scope>narc_engine::EngineInstance</scope><name>~EngineInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_console_style_8h" kind="file" language="C++">
+    <compoundname>ConsoleStyle.h</compoundname>
+    <includedby refid="_logger_8cpp" local="no">src/core/narclog/src/Logger.cpp</includedby>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_console_style_8h_1a69bd5bdc0c6d7661484a0dc607467b05" prot="public" static="no">
+        <name>CONSOLE_TEXT_COLOR_BLACK</name>
+        <initializer>&quot;\033[30m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="7" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1ab113309de186441b0d4620b60e083b33" prot="public" static="no">
+        <name>CONSOLE_TEXT_COLOR_RED</name>
+        <initializer>&quot;\033[31m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="8" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a1131ff6afd066a8b75abcb9d3875bb7d" prot="public" static="no">
+        <name>CONSOLE_TEXT_COLOR_GREEN</name>
+        <initializer>&quot;\033[32m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="9" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1aec2546c81fa7aa6dee330d42b2fa27f2" prot="public" static="no">
+        <name>CONSOLE_TEXT_COLOR_YELLOW</name>
+        <initializer>&quot;\033[33m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="10" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a89c8a566ed1858e462f88740cf88d18f" prot="public" static="no">
+        <name>CONSOLE_TEXT_COLOR_BLUE</name>
+        <initializer>&quot;\033[34m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="11" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a67ca9d174b72cf7fbcc4ca5812a8dd3f" prot="public" static="no">
+        <name>CONSOLE_TEXT_COLOR_MAGENTA</name>
+        <initializer>&quot;\033[35m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="12" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a2cf951b642148dfb06bc61b12e0de552" prot="public" static="no">
+        <name>CONSOLE_TEXT_COLOR_CYAN</name>
+        <initializer>&quot;\033[36m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="13" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1abada78c91e0a077e741d6d0289fd3362" prot="public" static="no">
+        <name>CONSOLE_TEXT_COLOR_WHITE</name>
+        <initializer>&quot;\033[37m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="14" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a60a5afe059e1a47fc543d67ba215e346" prot="public" static="no">
+        <name>CONSOLE_TEXT_COLOR_DEFAULT</name>
+        <initializer>&quot;\033[0m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="15" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a46c27dde24b2ba6742e277c599e8b6d3" prot="public" static="no">
+        <name>CONSOLE_TEXT_BOLD</name>
+        <initializer>&quot;\033[1m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="17" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a5baaf35ff942d5b17f2310e9468de6a6" prot="public" static="no">
+        <name>CONSOLE_TEXT_DIM</name>
+        <initializer>&quot;\033[2m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="18" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a18791d52b39b397a8ee3777be3f129a1" prot="public" static="no">
+        <name>CONSOLE_TEXT_ITALIC</name>
+        <initializer>&quot;\033[3m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="19" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1affd4f2809e8379fd0f05882068cb0591" prot="public" static="no">
+        <name>CONSOLE_TEXT_UNDERLINE</name>
+        <initializer>&quot;\033[4m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="20" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a4f28b562ae01682bf8287b4a63be6fd2" prot="public" static="no">
+        <name>CONSOLE_TEXT_BLINK</name>
+        <initializer>&quot;\033[5m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="21" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1aa26746a9a7f07a045a7c5b8762c374ee" prot="public" static="no">
+        <name>CONSOLE_TEXT_REVERSE</name>
+        <initializer>&quot;\033[7m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="22" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a4ccdd6875d4ebe3d86f675bff4b9a713" prot="public" static="no">
+        <name>CONSOLE_TEXT_INVISIBLE</name>
+        <initializer>&quot;\033[8m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="23" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a73a27627898c11473ef7606db6effaa5" prot="public" static="no">
+        <name>CONSOLE_MESSAGE_PREFIX_FATAL</name>
+        <initializer>&quot;FATAL&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="25" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a348b073d296e132a6b765b37f38037b4" prot="public" static="no">
+        <name>CONSOLE_MESSAGE_PREFIX_ERROR</name>
+        <initializer>&quot;ERROR&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="26" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a5e6b1b44695a4bc20e9c381d937f27c5" prot="public" static="no">
+        <name>CONSOLE_MESSAGE_PREFIX_WARNING</name>
+        <initializer>&quot;WARNING&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="27" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a167d93b86c753f37b6e792de88cc2cd3" prot="public" static="no">
+        <name>CONSOLE_MESSAGE_PREFIX_INFO</name>
+        <initializer>&quot;INFO&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="28" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a5d89780d85a4821441b501765a724cb6" prot="public" static="no">
+        <name>CONSOLE_MESSAGE_PREFIX_DEBUG</name>
+        <initializer>&quot;DEBUG&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="29" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1ae2a86963a0ac68744d51db7019e58c2b" prot="public" static="no">
+        <name>LOG_MESSAGE_FORMATER</name>
+        <param><defname>prefix</defname></param>
+        <param><defname>message</defname></param>
+        <param><defname>date</defname></param>
+        <initializer>date + &quot; - [&quot; + prefix + &quot;] : &quot; + message</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="31" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_console_style_8h_1a79ffe31c266599f7dee0b2a8f21190d4" prot="public" static="no">
+        <name>CONSOLE_MESSAGE_FORMATER</name>
+        <param><defname>color</defname></param>
+        <param><defname>prefix</defname></param>
+        <param><defname>message</defname></param>
+        <param><defname>date</defname></param>
+        <initializer>color + LOG_MESSAGE_FORMATER(prefix, message, date) + CONSOLE_TEXT_COLOR_DEFAULT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/keywords/ConsoleStyle.h" line="32" column="9" bodyfile="src/core/narclog/include/keywords/ConsoleStyle.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Created<sp/>by<sp/>theoh<sp/>on<sp/>26/02/2025.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_COLOR_BLACK<sp/>&quot;\033[30m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_COLOR_RED<sp/>&quot;\033[31m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_COLOR_GREEN<sp/>&quot;\033[32m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_COLOR_YELLOW<sp/>&quot;\033[33m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_COLOR_BLUE<sp/>&quot;\033[34m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_COLOR_MAGENTA<sp/>&quot;\033[35m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_COLOR_CYAN<sp/>&quot;\033[36m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_COLOR_WHITE<sp/>&quot;\033[37m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_COLOR_DEFAULT<sp/>&quot;\033[0m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_BOLD<sp/>&quot;\033[1m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_DIM<sp/>&quot;\033[2m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_ITALIC<sp/>&quot;\033[3m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_UNDERLINE<sp/>&quot;\033[4m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_BLINK<sp/>&quot;\033[5m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_REVERSE<sp/>&quot;\033[7m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_TEXT_INVISIBLE<sp/>&quot;\033[8m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_MESSAGE_PREFIX_FATAL<sp/>&quot;FATAL&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_MESSAGE_PREFIX_ERROR<sp/>&quot;ERROR&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_MESSAGE_PREFIX_WARNING<sp/>&quot;WARNING&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_MESSAGE_PREFIX_INFO<sp/>&quot;INFO&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_MESSAGE_PREFIX_DEBUG<sp/>&quot;DEBUG&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOG_MESSAGE_FORMATER(prefix,<sp/>message,<sp/>date)<sp/>date<sp/>+<sp/>&quot;<sp/>-<sp/>[&quot;<sp/>+<sp/>prefix<sp/>+<sp/>&quot;]<sp/>:<sp/>&quot;<sp/>+<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSOLE_MESSAGE_FORMATER(color,<sp/>prefix,<sp/>message,<sp/>date)<sp/>color<sp/>+<sp/>LOG_MESSAGE_FORMATER(prefix,<sp/>message,<sp/>date)<sp/>+<sp/>CONSOLE_TEXT_COLOR_DEFAULT</highlight></codeline>
+    </programlisting>
+    <location file="src/core/narclog/include/keywords/ConsoleStyle.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_1cf274f0769d1a04147739022e7262df" kind="dir">
+    <compoundname>src/core/narclog/src/platforms/windows</compoundname>
+    <innerfile refid="_windows_logger_8cpp">WindowsLogger.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narclog/src/platforms/windows/"/>
+  </compounddef>
+</doxygen>

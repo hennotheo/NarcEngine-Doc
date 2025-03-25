@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_5e20dcf68d9b953181611deee0939630" kind="dir">
+    <compoundname>src/core/narclog/include/platform</compoundname>
+    <innerdir refid="dir_05ee871924d5b35d6c24d4c9c8be8f73">src/core/narclog/include/platform/windows</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narclog/include/platform/"/>
+  </compounddef>
+</doxygen>

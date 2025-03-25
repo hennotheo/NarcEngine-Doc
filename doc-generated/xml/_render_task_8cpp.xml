@@ -1,0 +1,676 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_render_task_8cpp" kind="file" language="C++">
+    <compoundname>RenderTask.cpp</compoundname>
+    <includes refid="_render_task_8h" local="yes">renderer/RenderTask.h</includes>
+    <includes refid="_engine_8h" local="yes">Engine.h</includes>
+    <includes refid="_graphics_buffer_8h" local="yes">buffers/GraphicsBuffer.h</includes>
+    <includes refid="_shader_module_8h" local="yes">models/ShaderModule.h</includes>
+    <includes refid="_texture2_d_resource_8h" local="yes">resources/Texture2DResource.h</includes>
+    <incdepgraph>
+      <node id="37">
+        <label>NarcCore.h</label>
+        <link refid="_narc_core_8h_source"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>pch.h</label>
+        <link refid="core_2core_2include_2pch_8h_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>NarcMath.h</label>
+        <link refid="_narc_math_8h_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>Core.h</label>
+        <link refid="core_2narcio_2include_2_core_8h_source"/>
+      </node>
+      <node id="60">
+        <label>FileReader.h</label>
+        <link refid="_file_reader_8h_source"/>
+      </node>
+      <node id="35">
+        <label>NarcIO.h</label>
+        <link refid="_narc_i_o_8h_source"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>models/Image.h</label>
+        <link refid="_image_8h_source"/>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>models/Model3D.h</label>
+        <link refid="_model3_d_8h_source"/>
+      </node>
+      <node id="36">
+        <label>pch.h</label>
+        <link refid="core_2narcio_2include_2pch_8h_source"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>Core.h</label>
+        <link refid="core_2narclog_2include_2_core_8h_source"/>
+      </node>
+      <node id="62">
+        <label>NarcLog.h</label>
+        <link refid="_narc_log_8h_source"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>exceptions/ErrorException.h</label>
+        <link refid="_error_exception_8h_source"/>
+      </node>
+      <node id="69">
+        <label>exceptions/ExceptionHandlerBuilder.h</label>
+        <link refid="_exception_handler_builder_8h_source"/>
+      </node>
+      <node id="68">
+        <label>exceptions/FatalException.h</label>
+        <link refid="_fatal_exception_8h_source"/>
+      </node>
+      <node id="70">
+        <label>exceptions/MethodExceptionHandler.h</label>
+        <link refid="_method_exception_handler_8h_source"/>
+      </node>
+      <node id="65">
+        <label>keywords/KeyWords.h</label>
+        <link refid="_key_words_8h_source"/>
+      </node>
+      <node id="66">
+        <label>keywords/LogLevel.h</label>
+        <link refid="_log_level_8h_source"/>
+      </node>
+      <node id="63">
+        <label>pch.h</label>
+        <link refid="core_2narclog_2include_2pch_8h_source"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CommandBuffer.h</label>
+        <link refid="_command_buffer_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>CommandPool.h</label>
+        <link refid="_command_pool_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>Core.h</label>
+        <link refid="rendering_2narc__engine_2include_2_core_8h_source"/>
+      </node>
+      <node id="31">
+        <label>Engine.h</label>
+        <link refid="_engine_8h_source"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>NarcEngine.h</label>
+        <link refid="_narc_engine_8h_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>buffers/Buffer.h</label>
+        <link refid="_buffer_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>buffers/GraphicsBuffer.h</label>
+        <link refid="_graphics_buffer_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>buffers/UniformBuffer.h</label>
+        <link refid="_uniform_buffer_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>core/DeviceComponent.h</label>
+        <link refid="_device_component_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>DeviceHandler.h</label>
+        <link refid="_device_handler_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>core/EngineBinder.h</label>
+        <link refid="_engine_binder_8h_source"/>
+      </node>
+      <node id="9">
+        <label>EngineDebugLogger.h</label>
+        <link refid="_engine_debug_logger_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>core/EngineInstance.h</label>
+        <link refid="_engine_instance_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>core/EngineResourcesManager.h</label>
+        <link refid="_engine_resources_manager_8h_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>QueueFamilyIndices.h</label>
+        <link refid="_queue_family_indices_8h_source"/>
+      </node>
+      <node id="10">
+        <label>Window.h</label>
+        <link refid="_window_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>interfaces/IEngine.h</label>
+        <link refid="_i_engine_8h_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>models/Material.h</label>
+        <link refid="_material_8h_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>models/Mesh.h</label>
+        <link refid="_mesh_8h_source"/>
+      </node>
+      <node id="74">
+        <label>models/Renderer.h</label>
+        <link refid="_renderer_8h_source"/>
+      </node>
+      <node id="83">
+        <label>models/ShaderModule.h</label>
+        <link refid="_shader_module_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>models/UniformBufferObject.h</label>
+        <link refid="_uniform_buffer_object_8h_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>models/Vertex.h</label>
+        <link refid="_vertex_8h_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>pch.h</label>
+        <link refid="rendering_2narc__engine_2include_2pch_8h_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>renderer/DepthResources.h</label>
+        <link refid="_depth_resources_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>DescriptorPool.h</label>
+        <link refid="_descriptor_pool_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>DescriptorPoolBuilder.h</label>
+        <link refid="_descriptor_pool_builder_8h_source"/>
+      </node>
+      <node id="79">
+        <label>renderer/EngineRenderer.h</label>
+        <link refid="_engine_renderer_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>FrameHandler.h</label>
+        <link refid="_frame_handler_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>GraphicsPipeline.h</label>
+        <link refid="_graphics_pipeline_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>MultiFrameManager.h</label>
+        <link refid="_multi_frame_manager_8h_source"/>
+        <childnode refid="81" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>RenderPass.h</label>
+        <link refid="_render_pass_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>renderer/RenderTask.h</label>
+        <link refid="_render_task_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>SwapChain.h</label>
+        <link refid="_swap_chain_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>renderer/SwapChainSupportDetails.h</label>
+        <link refid="_swap_chain_support_details_8h_source"/>
+      </node>
+      <node id="85">
+        <label>GraphicResource.h</label>
+        <link refid="_graphic_resource_8h_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>resources/GraphicResourceHandler.h</label>
+        <link refid="_graphic_resource_handler_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>GraphicResourceType.h</label>
+        <link refid="_graphic_resource_type_8h_source"/>
+      </node>
+      <node id="84">
+        <label>resources/Texture2DResource.h</label>
+        <link refid="_texture2_d_resource_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/rendering/narc_engine/src/renderer/RenderTask.cpp</label>
+        <link refid="_render_task_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="39">
+        <label>algorithm</label>
+      </node>
+      <node id="40">
+        <label>array</label>
+      </node>
+      <node id="41">
+        <label>chrono</label>
+      </node>
+      <node id="42">
+        <label>cstdint</label>
+      </node>
+      <node id="43">
+        <label>cstring</label>
+      </node>
+      <node id="44">
+        <label>ctime</label>
+      </node>
+      <node id="45">
+        <label>exception</label>
+      </node>
+      <node id="46">
+        <label>filesystem</label>
+      </node>
+      <node id="47">
+        <label>fstream</label>
+      </node>
+      <node id="48">
+        <label>functional</label>
+      </node>
+      <node id="25">
+        <label>glm/ext/matrix_clip_space.hpp</label>
+      </node>
+      <node id="26">
+        <label>glm/ext/matrix_transform.hpp</label>
+      </node>
+      <node id="27">
+        <label>glm/ext/scalar_constants.hpp</label>
+      </node>
+      <node id="23">
+        <label>glm/glm.hpp</label>
+      </node>
+      <node id="24">
+        <label>glm/gtx/hash.hpp</label>
+      </node>
+      <node id="49">
+        <label>iostream</label>
+      </node>
+      <node id="50">
+        <label>map</label>
+      </node>
+      <node id="51">
+        <label>memory</label>
+      </node>
+      <node id="52">
+        <label>optional</label>
+      </node>
+      <node id="53">
+        <label>set</label>
+      </node>
+      <node id="54">
+        <label>stdexcept</label>
+      </node>
+      <node id="55">
+        <label>string</label>
+      </node>
+      <node id="56">
+        <label>type_traits</label>
+      </node>
+      <node id="57">
+        <label>vector</label>
+      </node>
+      <node id="5">
+        <label>vulkan/vulkan.h</label>
+      </node>
+      <node id="8">
+        <label>vulkan/vulkan_core.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacenarc__engine">narc_engine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;renderer/RenderTask.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Engine.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;buffers/GraphicsBuffer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/ShaderModule.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;resources/Texture2DResource.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">narc_engine<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>RenderTask::RenderTask(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnarc__engine_1_1_swap_chain" kindref="compound">SwapChain</ref>*<sp/>swapChain,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkDescriptorSetLayout*<sp/>descriptorSetLayout,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnarc__engine_1_1_material" kindref="compound">Material</ref>*<sp/>material)<sp/>:<sp/><ref refid="classnarc__engine_1_1_device_component" kindref="compound">DeviceComponent</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_material<sp/>=<sp/>material;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pipeline<sp/>=<sp/>std::make_unique&lt;GraphicsPipeline&gt;(swapChain,<sp/>descriptorSetLayout);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>RenderTask::~RenderTask()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RenderTask::recordTask(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CommandBuffer*<sp/>commandBuffer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkDescriptorSet*<sp/>m_descriptorSet)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="22"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pipeline-&gt;bindPipeline(commandBuffer);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>commandBuffer-&gt;cmdBindDescriptorSets(VK_PIPELINE_BIND_POINT_GRAPHICS,<sp/>m_pipeline-&gt;getLayout(),<sp/>0,<sp/>1,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_descriptorSet,<sp/>0,<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>renderer:<sp/>m_renderers)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Mesh*<sp/>mesh<sp/>=<sp/>renderer-&gt;getMesh();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VkBuffer<sp/>vertexBuffers[]<sp/>=<sp/>{mesh-&gt;getVertexBuffer()-&gt;getBuffer()};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VkDeviceSize<sp/>offsets[]<sp/>=<sp/>{0};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>commandBuffer-&gt;cmdBindVertexBuffers(0,<sp/>1,<sp/>vertexBuffers,<sp/>offsets);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>commandBuffer-&gt;cmdBindIndexBuffer(mesh-&gt;getIndexBuffer()-&gt;getBuffer(),<sp/>0,<sp/>VK_INDEX_TYPE_UINT32);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>commandBuffer-&gt;cmdDrawIndexed(mesh-&gt;getIndexCount(),<sp/>1,<sp/>0,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RenderTask::updateDescriptorSet(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkDescriptorSet<sp/>descriptorSet,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UniformBuffer*<sp/>uniformBuffers)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="40"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VkDescriptorBufferInfo<sp/>bufferInfo{};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bufferInfo.buffer<sp/>=<sp/>uniformBuffers-&gt;getBuffer();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bufferInfo.offset<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bufferInfo.range<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(UniformBufferObject);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GraphicResourceHandler<sp/>textureHandler<sp/>=<sp/>m_material-&gt;getMainTexture();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Texture2DResource*<sp/>texture<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="keyword">const<sp/></highlight><highlight class="normal">Texture2DResource*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(Engine::getInstance()-&gt;resourceManager()-&gt;getResource(textureHandler));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VkDescriptorImageInfo<sp/>imageInfo{};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageInfo.imageLayout<sp/>=<sp/>VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageInfo.imageView<sp/>=<sp/>texture-&gt;getImageView();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imageInfo.sampler<sp/>=<sp/>texture-&gt;getSampler();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::array&lt;VkWriteDescriptorSet,<sp/>2&gt;<sp/>descriptorWrites{};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[0].sType<sp/>=<sp/>VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[0].dstSet<sp/>=<sp/>descriptorSet;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[0].dstBinding<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[0].dstArrayElement<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[0].descriptorType<sp/>=<sp/>VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[0].descriptorCount<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[0].pBufferInfo<sp/>=<sp/>&amp;bufferInfo;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[1].sType<sp/>=<sp/>VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[1].dstSet<sp/>=<sp/>descriptorSet;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[1].dstBinding<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[1].dstArrayElement<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[1].descriptorType<sp/>=<sp/>VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[1].descriptorCount<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites[1].pImageInfo<sp/>=<sp/>&amp;imageInfo;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkUpdateDescriptorSets(getVkDevice(),<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">uint32_t</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(descriptorWrites.size()),</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>descriptorWrites.data(),<sp/>0,<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>narc_engine</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/rendering/narc_engine/src/renderer/RenderTask.cpp"/>
+  </compounddef>
+</doxygen>

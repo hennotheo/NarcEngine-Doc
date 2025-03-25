@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespacenarclog" kind="namespace" language="C++">
+    <compoundname>narclog</compoundname>
+    <innerclass refid="classnarclog_1_1_error_exception" prot="public">narclog::ErrorException</innerclass>
+    <innerclass refid="classnarclog_1_1_exception_handler_builder" prot="public">narclog::ExceptionHandlerBuilder</innerclass>
+    <innerclass refid="classnarclog_1_1_fatal_exception" prot="public">narclog::FatalException</innerclass>
+    <innerclass refid="classnarclog_1_1_file_logger" prot="public">narclog::FileLogger</innerclass>
+    <innerclass refid="classnarclog_1_1_logger" prot="public">narclog::Logger</innerclass>
+    <innerclass refid="classnarclog_1_1_method_exception_handler" prot="public">narclog::MethodExceptionHandler</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_file_logger_8cpp_1af8f126ca91762aa29b3d9930f82f4094" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* narclog::g_path</definition>
+        <argsstring></argsstring>
+        <name>g_path</name>
+        <qualifiedname>narclog::g_path</qualifiedname>
+        <initializer>= &quot;logs/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/FileLogger.cpp" line="13" column="16" bodyfile="src/core/narclog/src/FileLogger.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_file_logger_8cpp_1a33e965ed307743aa07da2dceed5f6ede" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* narclog::g_extension</definition>
+        <argsstring></argsstring>
+        <name>g_extension</name>
+        <qualifiedname>narclog::g_extension</qualifiedname>
+        <initializer>= &quot;.txt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/FileLogger.cpp" line="14" column="16" bodyfile="src/core/narclog/src/FileLogger.cpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_narc_log_8cpp_1a77452c16ecb2a6cd459a7a84342d77c4" prot="public" static="no" mutable="no">
+        <type><ref refid="classnarclog_1_1_logger" kindref="compound">Logger</ref> *</type>
+        <definition>Logger* narclog::g_logger</definition>
+        <argsstring></argsstring>
+        <name>g_logger</name>
+        <qualifiedname>narclog::g_logger</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="19" column="12" bodyfile="src/core/narclog/src/NarcLog.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_narc_log_8h_1a9665b40fa600a2cca5fce7f7927fce04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NARCLOG_API void</type>
+        <definition>void narclog::createLogger</definition>
+        <argsstring>()</argsstring>
+        <name>createLogger</name>
+        <qualifiedname>narclog::createLogger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="21" column="10" bodyfile="src/core/narclog/src/NarcLog.cpp" bodystart="21" bodyend="29" declfile="src/core/narclog/include/NarcLog.h" declline="24" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="_narc_log_8h_1a76dfdae011df049aa88773c418584109" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>NARCLOG_API void</type>
+        <definition>void narclog::destroyLogger</definition>
+        <argsstring>()</argsstring>
+        <name>destroyLogger</name>
+        <qualifiedname>narclog::destroyLogger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="31" column="10" bodyfile="src/core/narclog/src/NarcLog.cpp" bodystart="31" bodyend="40" declfile="src/core/narclog/include/NarcLog.h" declline="25" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="_narc_log_8h_1a90ec5ad63c08f873e0875e4d79f584df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>LogConcept</type>
+            <declname>TMsg</declname>
+            <defname>TMsg</defname>
+          </param>
+        </templateparamlist>
+        <type>NARCLOG_API void</type>
+        <definition>NARCLOG_API void narclog::log</definition>
+        <argsstring>(LogLevel level, TMsg message)</argsstring>
+        <name>log</name>
+        <qualifiedname>narclog::log</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>TMsg</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/NarcLog.h" line="28" column="22" bodyfile="src/core/narclog/src/NarcLog.cpp" bodystart="43" bodyend="63" declfile="src/core/narclog/include/NarcLog.h" declline="28" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="_narc_log_8cpp_1a9b5ff4e871518b4b0883e559e09e518b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>LogConcept</type>
+            <declname>TMsg</declname>
+            <defname>TMsg</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void narclog::log</definition>
+        <argsstring>(LogLevel level, TMsg message)</argsstring>
+        <name>log</name>
+        <qualifiedname>narclog::log</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>TMsg</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="43" column="10" bodyfile="src/core/narclog/src/NarcLog.cpp" bodystart="43" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="_narc_log_8cpp_1aa5a0a2f35d7881c71560e7980ac1907a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void narclog::log&lt; const char * &gt;</definition>
+        <argsstring>(LogLevel, const char *)</argsstring>
+        <name>log&lt; const char * &gt;</name>
+        <qualifiedname>narclog::log&lt; const char * &gt;</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+        </param>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="65" column="14" declfile="src/core/narclog/src/NarcLog.cpp" declline="65" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="_narc_log_8cpp_1abaa03d3deabe12837e8bb9222be026c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void narclog::log&lt; const std::string &amp; &gt;</definition>
+        <argsstring>(LogLevel, const std::string &amp;)</argsstring>
+        <name>log&lt; const std::string &amp; &gt;</name>
+        <qualifiedname>narclog::log&lt; const std::string &amp; &gt;</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="66" column="14" declfile="src/core/narclog/src/NarcLog.cpp" declline="66" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="_narc_log_8cpp_1ad8e6807deda51c3b127255ecd3e962f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void narclog::log&lt; std::string &gt;</definition>
+        <argsstring>(LogLevel, std::string)</argsstring>
+        <name>log&lt; std::string &gt;</name>
+        <qualifiedname>narclog::log&lt; std::string &gt;</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+        </param>
+        <param>
+          <type>std::string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="67" column="14" declfile="src/core/narclog/src/NarcLog.cpp" declline="67" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="_narc_log_8cpp_1a869e9e9b5f5cb5f8ef30ac51f78c9dea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void narclog::log&lt; std::string &amp; &gt;</definition>
+        <argsstring>(LogLevel, std::string &amp;)</argsstring>
+        <name>log&lt; std::string &amp; &gt;</name>
+        <qualifiedname>narclog::log&lt; std::string &amp; &gt;</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="68" column="14" declfile="src/core/narclog/src/NarcLog.cpp" declline="68" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="_narc_log_8cpp_1a75deb9160b3f35ef404fa0f96066d2e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void narclog::log&lt; size_t &gt;</definition>
+        <argsstring>(LogLevel, size_t)</argsstring>
+        <name>log&lt; size_t &gt;</name>
+        <qualifiedname>narclog::log&lt; size_t &gt;</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="69" column="14" declfile="src/core/narclog/src/NarcLog.cpp" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="_narc_log_8cpp_1a60c6979d14d923be124e0e3cee8f7838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void narclog::log&lt; uint32_t &gt;</definition>
+        <argsstring>(LogLevel, uint32_t)</argsstring>
+        <name>log&lt; uint32_t &gt;</name>
+        <qualifiedname>narclog::log&lt; uint32_t &gt;</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+        </param>
+        <param>
+          <type>uint32_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="70" column="14" declfile="src/core/narclog/src/NarcLog.cpp" declline="70" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="_narc_log_8cpp_1a61bd3c0b4451a2239215fceafa81b2f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void narclog::log&lt; uint16_t &gt;</definition>
+        <argsstring>(LogLevel, uint16_t)</argsstring>
+        <name>log&lt; uint16_t &gt;</name>
+        <qualifiedname>narclog::log&lt; uint16_t &gt;</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+        </param>
+        <param>
+          <type>uint16_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="71" column="14" declfile="src/core/narclog/src/NarcLog.cpp" declline="71" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="_narc_log_8cpp_1a5073ac95a6f376c418ab535da9665d27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void narclog::log&lt; bool &gt;</definition>
+        <argsstring>(LogLevel, bool)</argsstring>
+        <name>log&lt; bool &gt;</name>
+        <qualifiedname>narclog::log&lt; bool &gt;</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/src/NarcLog.cpp" line="72" column="14" declfile="src/core/narclog/src/NarcLog.cpp" declline="72" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narclog/include/exceptions/ErrorException.h" line="7" column="1"/>
+  </compounddef>
+</doxygen>

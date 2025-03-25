@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_i_engine" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>narc_engine::IEngine</compoundname>
+    <derivedcompoundref refid="classnarc__engine_1_1_engine" prot="public" virt="non-virtual">narc_engine::Engine</derivedcompoundref>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classnarc__engine_1_1_i_engine_1a348595c99b6bdc681f277fa75b752a62" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class EngineBinder</definition>
+        <argsstring></argsstring>
+        <name>EngineBinder</name>
+        <qualifiedname>narc_engine::IEngine::EngineBinder</qualifiedname>
+        <param>
+          <type><ref refid="classnarc__engine_1_1_engine_binder" kindref="compound">EngineBinder</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/interfaces/IEngine.h" line="9" column="22" bodyfile="src/rendering/narc_engine/include/interfaces/IEngine.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_i_engine_1a52d1b6eec21bc47e93052c00b5388ba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual narc_engine::IEngine::~IEngine</definition>
+        <argsstring>()=default</argsstring>
+        <name>~IEngine</name>
+        <qualifiedname>narc_engine::IEngine::~IEngine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/interfaces/IEngine.h" line="12" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_i_engine_1a980c9e0be288ae8f09869c574c040aab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>GETTER <ref refid="classnarc__engine_1_1_engine_binder" kindref="compound">EngineBinder</ref> *</type>
+        <definition>virtual GETTER EngineBinder * narc_engine::IEngine::binder</definition>
+        <argsstring>() const =0</argsstring>
+        <name>binder</name>
+        <qualifiedname>narc_engine::IEngine::binder</qualifiedname>
+        <reimplementedby refid="classnarc__engine_1_1_engine_1a42969115b9575bb6dcffd4cea5f8c322">binder</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/interfaces/IEngine.h" line="14" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_i_engine_1a4f802f0487b9e9ffb39e942a658f750e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>GETTER <ref refid="classnarc__engine_1_1_engine_resources_manager" kindref="compound">EngineResourcesManager</ref> *</type>
+        <definition>virtual GETTER EngineResourcesManager * narc_engine::IEngine::resourceManager</definition>
+        <argsstring>() const =0</argsstring>
+        <name>resourceManager</name>
+        <qualifiedname>narc_engine::IEngine::resourceManager</qualifiedname>
+        <reimplementedby refid="classnarc__engine_1_1_engine_1a18a280f92bc608049215f07bfda50002">resourceManager</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/interfaces/IEngine.h" line="15" column="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_i_engine_1a31dc11746397ab54de20f327e78aab16" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>GETTER bool</type>
+        <definition>virtual GETTER bool narc_engine::IEngine::shouldClose</definition>
+        <argsstring>() const =0</argsstring>
+        <name>shouldClose</name>
+        <qualifiedname>narc_engine::IEngine::shouldClose</qualifiedname>
+        <reimplementedby refid="classnarc__engine_1_1_engine_1a181b0956217eff099af02702cdc367ef">shouldClose</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/interfaces/IEngine.h" line="16" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_i_engine_1aef330b371820527fc15f7b2ef08453ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void narc_engine::IEngine::pollEvents</definition>
+        <argsstring>()=0</argsstring>
+        <name>pollEvents</name>
+        <qualifiedname>narc_engine::IEngine::pollEvents</qualifiedname>
+        <reimplementedby refid="classnarc__engine_1_1_engine_1a7943fb821d740f7cddc1ab46a5ca5060">pollEvents</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/interfaces/IEngine.h" line="17" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_i_engine_1ade4d2d5a9008350ade41e526a96ac187" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void narc_engine::IEngine::render</definition>
+        <argsstring>()=0</argsstring>
+        <name>render</name>
+        <qualifiedname>narc_engine::IEngine::render</qualifiedname>
+        <reimplementedby refid="classnarc__engine_1_1_engine_1a771949878a4604d5285b267899aaec3b">render</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/interfaces/IEngine.h" line="18" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_i_engine_1a078d493bfd5571c7ea8ba9056c1e1adf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void narc_engine::IEngine::waitDeviceIdle</definition>
+        <argsstring>()=0</argsstring>
+        <name>waitDeviceIdle</name>
+        <qualifiedname>narc_engine::IEngine::waitDeviceIdle</qualifiedname>
+        <reimplementedby refid="classnarc__engine_1_1_engine_1accf4650dfcd86634f7f36a4c03c76de3">waitDeviceIdle</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/interfaces/IEngine.h" line="19" column="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::Engine</label>
+        <link refid="classnarc__engine_1_1_engine"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>narc_engine::IEngine</label>
+        <link refid="classnarc__engine_1_1_i_engine"/>
+      </node>
+    </inheritancegraph>
+    <location file="src/rendering/narc_engine/include/interfaces/IEngine.h" line="7" column="5" bodyfile="src/rendering/narc_engine/include/interfaces/IEngine.h" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_i_engine_1a980c9e0be288ae8f09869c574c040aab" prot="public" virt="pure-virtual"><scope>narc_engine::IEngine</scope><name>binder</name></member>
+      <member refid="classnarc__engine_1_1_i_engine_1a348595c99b6bdc681f277fa75b752a62" prot="private" virt="non-virtual"><scope>narc_engine::IEngine</scope><name>EngineBinder</name></member>
+      <member refid="classnarc__engine_1_1_i_engine_1aef330b371820527fc15f7b2ef08453ae" prot="public" virt="pure-virtual"><scope>narc_engine::IEngine</scope><name>pollEvents</name></member>
+      <member refid="classnarc__engine_1_1_i_engine_1ade4d2d5a9008350ade41e526a96ac187" prot="public" virt="pure-virtual"><scope>narc_engine::IEngine</scope><name>render</name></member>
+      <member refid="classnarc__engine_1_1_i_engine_1a4f802f0487b9e9ffb39e942a658f750e" prot="public" virt="pure-virtual"><scope>narc_engine::IEngine</scope><name>resourceManager</name></member>
+      <member refid="classnarc__engine_1_1_i_engine_1a31dc11746397ab54de20f327e78aab16" prot="public" virt="pure-virtual"><scope>narc_engine::IEngine</scope><name>shouldClose</name></member>
+      <member refid="classnarc__engine_1_1_i_engine_1a078d493bfd5571c7ea8ba9056c1e1adf" prot="public" virt="pure-virtual"><scope>narc_engine::IEngine</scope><name>waitDeviceIdle</name></member>
+      <member refid="classnarc__engine_1_1_i_engine_1a52d1b6eec21bc47e93052c00b5388ba3" prot="public" virt="virtual"><scope>narc_engine::IEngine</scope><name>~IEngine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_graphics_buffer" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>narc_engine::GraphicsBuffer</compoundname>
+    <basecompoundref refid="classnarc__engine_1_1_buffer" prot="public" virt="non-virtual">narc_engine::Buffer</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_buffer_1a787050cbef9f804bdd013aa3968c6d75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::GraphicsBuffer&lt; T &gt;::GraphicsBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>GraphicsBuffer</name>
+        <qualifiedname>narc_engine::GraphicsBuffer::GraphicsBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/buffers/GraphicsBuffer.h" line="10" column="9" bodyfile="src/rendering/narc_engine/include/buffers/GraphicsBuffer.h" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_buffer_1a8ba2289f2c1fe1f16fb43caafdb31343" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::GraphicsBuffer&lt; T &gt;::create</definition>
+        <argsstring>(const std::vector&lt; T &gt; &amp;input, VkBufferUsageFlagBits usage)</argsstring>
+        <name>create</name>
+        <qualifiedname>narc_engine::GraphicsBuffer::create</qualifiedname>
+        <param>
+          <type>const std::vector&lt; T &gt; &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>VkBufferUsageFlagBits</type>
+          <declname>usage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/buffers/GraphicsBuffer.h" line="14" column="14" bodyfile="src/rendering/narc_engine/src/buffers/GraphicsBuffer.cpp" bodystart="12" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::Buffer</label>
+        <link refid="classnarc__engine_1_1_buffer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::GraphicsBuffer&lt; T &gt;</label>
+        <link refid="classnarc__engine_1_1_graphics_buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>narc_engine::Buffer</label>
+        <link refid="classnarc__engine_1_1_buffer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::GraphicsBuffer&lt; T &gt;</label>
+        <link refid="classnarc__engine_1_1_graphics_buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/rendering/narc_engine/include/buffers/GraphicsBuffer.h" line="7" column="5" bodyfile="src/rendering/narc_engine/include/buffers/GraphicsBuffer.h" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_buffer_1ae4ac2cb0186650e1fdeda6104c2cf0a9" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsBuffer</scope><name>Buffer</name></member>
+      <member refid="classnarc__engine_1_1_graphics_buffer_1a8ba2289f2c1fe1f16fb43caafdb31343" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsBuffer</scope><name>create</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a013a4be1fef844d9c9d5a80fb7086f38" prot="protected" virt="non-virtual"><scope>narc_engine::GraphicsBuffer</scope><name>createBuffer</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsBuffer</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a7a8d8bf33f0fbc9b5fdaf85c9d6f6349" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsBuffer</scope><name>getBuffer</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::GraphicsBuffer</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::GraphicsBuffer</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_graphics_buffer_1a787050cbef9f804bdd013aa3968c6d75" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsBuffer</scope><name>GraphicsBuffer</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a3dd0400968a714a89de71c09963b7b77" prot="protected" virt="non-virtual"><scope>narc_engine::GraphicsBuffer</scope><name>m_buffer</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1ad7cf12cd94efba3f89a49ee8a8780805" prot="protected" virt="non-virtual"><scope>narc_engine::GraphicsBuffer</scope><name>m_bufferMemory</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a964d1cd685431b1ef62abd49cadd745e" prot="protected" virt="virtual"><scope>narc_engine::GraphicsBuffer</scope><name>release</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a36ccdf30bcd37f5d3c988c0c5c910ec1" prot="public" virt="virtual"><scope>narc_engine::GraphicsBuffer</scope><name>~Buffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespacenarc" kind="namespace" language="C++">
+    <compoundname>narc</compoundname>
+    <innerclass refid="classnarc_1_1_application" prot="public">narc::Application</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_application_8cpp_1abce06dca6d18cc7327beee44bde25ee2" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string narc::g_modelPath</definition>
+        <argsstring></argsstring>
+        <name>g_modelPath</name>
+        <qualifiedname>narc::g_modelPath</qualifiedname>
+        <initializer>= &quot;models/test.obj&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/src/Application.cpp" line="11" column="23" bodyfile="src/application/src/Application.cpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_application_8cpp_1ac96f9366314cfa541343b5e707845812" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string narc::g_model2Path</definition>
+        <argsstring></argsstring>
+        <name>g_model2Path</name>
+        <qualifiedname>narc::g_model2Path</qualifiedname>
+        <initializer>= &quot;models/test2.obj&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/src/Application.cpp" line="12" column="23" bodyfile="src/application/src/Application.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_application_8cpp_1a105373d2efadd261267a9201f75b89e7" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string narc::g_texturePath</definition>
+        <argsstring></argsstring>
+        <name>g_texturePath</name>
+        <qualifiedname>narc::g_texturePath</qualifiedname>
+        <initializer>= &quot;textures/test.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/src/Application.cpp" line="13" column="23" bodyfile="src/application/src/Application.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_application_8cpp_1a0ab5135ffce8358d192cdbf0b6d950eb" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string narc::g_texture2Path</definition>
+        <argsstring></argsstring>
+        <name>g_texture2Path</name>
+        <qualifiedname>narc::g_texture2Path</qualifiedname>
+        <initializer>= &quot;textures/test2.png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/application/src/Application.cpp" line="14" column="23" bodyfile="src/application/src/Application.cpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/application/include/Application.h" line="5" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_1243271318b2b38807a3b1d2ca08dd72" kind="dir">
+    <compoundname>src/rendering</compoundname>
+    <innerdir refid="dir_33c138db1917dc9f905bf554c805583a">src/rendering/narc_engine</innerdir>
+    <innerdir refid="dir_3636ba0dcfc4d869c467e3af768e5d80">src/rendering/shaders</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/"/>
+  </compounddef>
+</doxygen>

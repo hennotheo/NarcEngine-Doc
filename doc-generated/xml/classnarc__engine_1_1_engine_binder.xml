@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_engine_binder" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::EngineBinder</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_engine_binder_1a62613caf51c12106427bd47a95ff61c8" prot="private" static="no" mutable="no">
+        <type><ref refid="classnarc__engine_1_1_i_engine" kindref="compound">IEngine</ref> *</type>
+        <definition>IEngine* narc_engine::EngineBinder::m_engine</definition>
+        <argsstring></argsstring>
+        <name>m_engine</name>
+        <qualifiedname>narc_engine::EngineBinder::m_engine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineBinder.h" line="23" column="17" bodyfile="src/rendering/narc_engine/include/core/EngineBinder.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_binder_1a75ec8d65943d1625239dd156482cd14f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::EngineBinder::EngineBinder</definition>
+        <argsstring>(IEngine *engine)</argsstring>
+        <name>EngineBinder</name>
+        <qualifiedname>narc_engine::EngineBinder::EngineBinder</qualifiedname>
+        <param>
+          <type><ref refid="classnarc__engine_1_1_i_engine" kindref="compound">IEngine</ref> *</type>
+          <declname>engine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineBinder.h" line="16" column="9" bodyfile="src/rendering/narc_engine/include/core/EngineBinder.h" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_binder_1ac264132c1be6758cb24079cee569aea9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::EngineBinder::attachRenderer</definition>
+        <argsstring>(const Renderer *renderer) const</argsstring>
+        <name>attachRenderer</name>
+        <qualifiedname>narc_engine::EngineBinder::attachRenderer</qualifiedname>
+        <param>
+          <type>const <ref refid="classnarc__engine_1_1_renderer" kindref="compound">Renderer</ref> *</type>
+          <declname>renderer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineBinder.h" line="20" column="14" bodyfile="src/rendering/narc_engine/src/core/EngineBinder.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/core/EngineBinder.h" line="13" column="5" bodyfile="src/rendering/narc_engine/include/core/EngineBinder.h" bodystart="14" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_engine_binder_1ac264132c1be6758cb24079cee569aea9" prot="public" virt="non-virtual"><scope>narc_engine::EngineBinder</scope><name>attachRenderer</name></member>
+      <member refid="classnarc__engine_1_1_engine_binder_1a75ec8d65943d1625239dd156482cd14f" prot="public" virt="non-virtual"><scope>narc_engine::EngineBinder</scope><name>EngineBinder</name></member>
+      <member refid="classnarc__engine_1_1_engine_binder_1a62613caf51c12106427bd47a95ff61c8" prot="private" virt="non-virtual"><scope>narc_engine::EngineBinder</scope><name>m_engine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

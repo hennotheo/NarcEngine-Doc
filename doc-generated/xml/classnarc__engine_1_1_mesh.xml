@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_mesh" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::Mesh</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_mesh_1a58ff3d47b2587b6128b59fd551ce0bdd" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classnarc__engine_1_1_graphics_buffer" kindref="compound">VertexBuffer</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;VertexBuffer&gt; narc_engine::Mesh::m_vertexBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_vertexBuffer</name>
+        <qualifiedname>narc_engine::Mesh::m_vertexBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Mesh.h" line="23" column="25" bodyfile="src/rendering/narc_engine/include/models/Mesh.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_mesh_1a3d66f3b06f29a93a3f8cd745fdd06729" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classnarc__engine_1_1_graphics_buffer" kindref="compound">IndexBuffer</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;IndexBuffer&gt; narc_engine::Mesh::m_indexBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_indexBuffer</name>
+        <qualifiedname>narc_engine::Mesh::m_indexBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Mesh.h" line="24" column="25" bodyfile="src/rendering/narc_engine/include/models/Mesh.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_mesh_1a687fcf72427bae38f243f889d4f3951f" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t narc_engine::Mesh::m_indexCount</definition>
+        <argsstring></argsstring>
+        <name>m_indexCount</name>
+        <qualifiedname>narc_engine::Mesh::m_indexCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Mesh.h" line="26" column="18" bodyfile="src/rendering/narc_engine/include/models/Mesh.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_mesh_1afbf9b7c34cbb6419483ca192cd0c403b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::Mesh::Mesh</definition>
+        <argsstring>(const std::vector&lt; Vertex &gt; &amp;vertices, const std::vector&lt; uint32_t &gt; &amp;indices)</argsstring>
+        <name>Mesh</name>
+        <qualifiedname>narc_engine::Mesh::Mesh</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="structnarc__engine_1_1_vertex" kindref="compound">Vertex</ref> &gt; &amp;</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; uint32_t &gt; &amp;</type>
+          <declname>indices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Mesh.h" line="15" column="9" bodyfile="src/rendering/narc_engine/src/models/Mesh.cpp" bodystart="9" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_mesh_1ab6acae2bc098f80541f7d549d277d04c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::Mesh::~Mesh</definition>
+        <argsstring>()</argsstring>
+        <name>~Mesh</name>
+        <qualifiedname>narc_engine::Mesh::~Mesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Mesh.h" line="16" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_mesh_1a2c845f207823b2a7f39ceae4c7e43c4f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classnarc__engine_1_1_graphics_buffer" kindref="compound">VertexBuffer</ref> *</type>
+        <definition>const VertexBuffer * narc_engine::Mesh::getVertexBuffer</definition>
+        <argsstring>() const</argsstring>
+        <name>getVertexBuffer</name>
+        <qualifiedname>narc_engine::Mesh::getVertexBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Mesh.h" line="18" column="28" bodyfile="src/rendering/narc_engine/include/models/Mesh.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_mesh_1a0129eda9b3a4003563efc7900a4dd1d2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classnarc__engine_1_1_graphics_buffer" kindref="compound">IndexBuffer</ref> *</type>
+        <definition>const IndexBuffer * narc_engine::Mesh::getIndexBuffer</definition>
+        <argsstring>() const</argsstring>
+        <name>getIndexBuffer</name>
+        <qualifiedname>narc_engine::Mesh::getIndexBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Mesh.h" line="19" column="27" bodyfile="src/rendering/narc_engine/include/models/Mesh.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_mesh_1a99cebb456879bbfb4facad6817147e2a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t narc_engine::Mesh::getIndexCount</definition>
+        <argsstring>() const</argsstring>
+        <name>getIndexCount</name>
+        <qualifiedname>narc_engine::Mesh::getIndexCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Mesh.h" line="20" column="18" bodyfile="src/rendering/narc_engine/include/models/Mesh.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/models/Mesh.h" line="12" column="5" bodyfile="src/rendering/narc_engine/include/models/Mesh.h" bodystart="13" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_mesh_1a0129eda9b3a4003563efc7900a4dd1d2" prot="public" virt="non-virtual"><scope>narc_engine::Mesh</scope><name>getIndexBuffer</name></member>
+      <member refid="classnarc__engine_1_1_mesh_1a99cebb456879bbfb4facad6817147e2a" prot="public" virt="non-virtual"><scope>narc_engine::Mesh</scope><name>getIndexCount</name></member>
+      <member refid="classnarc__engine_1_1_mesh_1a2c845f207823b2a7f39ceae4c7e43c4f" prot="public" virt="non-virtual"><scope>narc_engine::Mesh</scope><name>getVertexBuffer</name></member>
+      <member refid="classnarc__engine_1_1_mesh_1a3d66f3b06f29a93a3f8cd745fdd06729" prot="private" virt="non-virtual"><scope>narc_engine::Mesh</scope><name>m_indexBuffer</name></member>
+      <member refid="classnarc__engine_1_1_mesh_1a687fcf72427bae38f243f889d4f3951f" prot="private" virt="non-virtual"><scope>narc_engine::Mesh</scope><name>m_indexCount</name></member>
+      <member refid="classnarc__engine_1_1_mesh_1a58ff3d47b2587b6128b59fd551ce0bdd" prot="private" virt="non-virtual"><scope>narc_engine::Mesh</scope><name>m_vertexBuffer</name></member>
+      <member refid="classnarc__engine_1_1_mesh_1afbf9b7c34cbb6419483ca192cd0c403b" prot="public" virt="non-virtual"><scope>narc_engine::Mesh</scope><name>Mesh</name></member>
+      <member refid="classnarc__engine_1_1_mesh_1ab6acae2bc098f80541f7d549d277d04c" prot="public" virt="non-virtual"><scope>narc_engine::Mesh</scope><name>~Mesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

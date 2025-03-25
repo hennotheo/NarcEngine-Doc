@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_ba4eed870949016d6ca7853c50544116" kind="dir">
+    <compoundname>src/rendering/narc_engine/include/renderer</compoundname>
+    <innerfile refid="_depth_resources_8h">DepthResources.h</innerfile>
+    <innerfile refid="_descriptor_pool_8h">DescriptorPool.h</innerfile>
+    <innerfile refid="_descriptor_pool_builder_8h">DescriptorPoolBuilder.h</innerfile>
+    <innerfile refid="_engine_renderer_8h">EngineRenderer.h</innerfile>
+    <innerfile refid="_frame_handler_8h">FrameHandler.h</innerfile>
+    <innerfile refid="_graphics_pipeline_8h">GraphicsPipeline.h</innerfile>
+    <innerfile refid="_multi_frame_manager_8h">MultiFrameManager.h</innerfile>
+    <innerfile refid="_render_pass_8h">RenderPass.h</innerfile>
+    <innerfile refid="_render_task_8h">RenderTask.h</innerfile>
+    <innerfile refid="_swap_chain_8h">SwapChain.h</innerfile>
+    <innerfile refid="_swap_chain_support_details_8h">SwapChainSupportDetails.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/renderer/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structnarc__engine_1_1_descriptor_pool_builder" kind="struct" language="C++" prot="public">
+    <compoundname>narc_engine::DescriptorPoolBuilder</compoundname>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structnarc__engine_1_1_descriptor_pool_builder_1a580b2e7743fb5db76d84a307272a3cec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class DescriptorPool</definition>
+        <argsstring></argsstring>
+        <name>DescriptorPool</name>
+        <qualifiedname>narc_engine::DescriptorPoolBuilder::DescriptorPool</qualifiedname>
+        <param>
+          <type><ref refid="classnarc__engine_1_1_descriptor_pool" kindref="compound">DescriptorPool</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" line="6" column="22" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structnarc__engine_1_1_descriptor_pool_builder_1a48a9701ffb894983120e66b00fb3a03d" prot="private" static="no" mutable="no">
+        <type>const uint32_t</type>
+        <definition>const uint32_t narc_engine::DescriptorPoolBuilder::m_poolCount</definition>
+        <argsstring></argsstring>
+        <name>m_poolCount</name>
+        <qualifiedname>narc_engine::DescriptorPoolBuilder::m_poolCount</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" line="45" column="24" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnarc__engine_1_1_descriptor_pool_builder_1a6c87eac96938c5d965f9109140fd7add" prot="private" static="no" mutable="no">
+        <type>VkDescriptorPoolCreateInfo</type>
+        <definition>VkDescriptorPoolCreateInfo narc_engine::DescriptorPoolBuilder::m_poolInfo</definition>
+        <argsstring></argsstring>
+        <name>m_poolInfo</name>
+        <qualifiedname>narc_engine::DescriptorPoolBuilder::m_poolInfo</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" line="46" column="36" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnarc__engine_1_1_descriptor_pool_builder_1a0f25f5ba833a86954da6b04b6eceefeb" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; VkDescriptorPoolSize &gt;</type>
+        <definition>std::vector&lt;VkDescriptorPoolSize&gt; narc_engine::DescriptorPoolBuilder::m_poolSizes</definition>
+        <argsstring></argsstring>
+        <name>m_poolSizes</name>
+        <qualifiedname>narc_engine::DescriptorPoolBuilder::m_poolSizes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" line="48" column="21" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnarc__engine_1_1_descriptor_pool_builder_1ab1b2d0e0ce5437e70f303e4882fa4fab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnarc__engine_1_1_descriptor_pool_builder" kindref="compound">DescriptorPoolBuilder</ref> *</type>
+        <definition>DescriptorPoolBuilder * narc_engine::DescriptorPoolBuilder::setMaxSet</definition>
+        <argsstring>(const uint32_t maxSets)</argsstring>
+        <name>setMaxSet</name>
+        <qualifiedname>narc_engine::DescriptorPoolBuilder::setMaxSet</qualifiedname>
+        <param>
+          <type>const uint32_t</type>
+          <declname>maxSets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" line="8" column="38" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" bodystart="8" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structnarc__engine_1_1_descriptor_pool_builder_1aca96875559db9ffacb989fc9d209d476" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnarc__engine_1_1_descriptor_pool_builder" kindref="compound">DescriptorPoolBuilder</ref> *</type>
+        <definition>DescriptorPoolBuilder * narc_engine::DescriptorPoolBuilder::addPoolSize</definition>
+        <argsstring>(VkDescriptorType type, uint32_t count)</argsstring>
+        <name>addPoolSize</name>
+        <qualifiedname>narc_engine::DescriptorPoolBuilder::addPoolSize</qualifiedname>
+        <param>
+          <type>VkDescriptorType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" line="15" column="38" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" bodystart="15" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structnarc__engine_1_1_descriptor_pool_builder_1a9024edf853864d7b3a13af8a0fc6ef09" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::DescriptorPoolBuilder::DescriptorPoolBuilder</definition>
+        <argsstring>(const uint32_t poolCount=1)</argsstring>
+        <name>DescriptorPoolBuilder</name>
+        <qualifiedname>narc_engine::DescriptorPoolBuilder::DescriptorPoolBuilder</qualifiedname>
+        <param>
+          <type>const uint32_t</type>
+          <declname>poolCount</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" line="27" column="18" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" bodystart="27" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="structnarc__engine_1_1_descriptor_pool_builder_1abb09a1e922d6befa285da866a297bc84" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VkDescriptorPoolCreateInfo *</type>
+        <definition>VkDescriptorPoolCreateInfo * narc_engine::DescriptorPoolBuilder::build</definition>
+        <argsstring>()</argsstring>
+        <name>build</name>
+        <qualifiedname>narc_engine::DescriptorPoolBuilder::build</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" line="36" column="36" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" bodystart="36" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" line="4" column="5" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPoolBuilder.h" bodystart="5" bodyend="49"/>
+    <listofallmembers>
+      <member refid="structnarc__engine_1_1_descriptor_pool_builder_1aca96875559db9ffacb989fc9d209d476" prot="public" virt="non-virtual"><scope>narc_engine::DescriptorPoolBuilder</scope><name>addPoolSize</name></member>
+      <member refid="structnarc__engine_1_1_descriptor_pool_builder_1abb09a1e922d6befa285da866a297bc84" prot="protected" virt="non-virtual"><scope>narc_engine::DescriptorPoolBuilder</scope><name>build</name></member>
+      <member refid="structnarc__engine_1_1_descriptor_pool_builder_1a580b2e7743fb5db76d84a307272a3cec" prot="public" virt="non-virtual"><scope>narc_engine::DescriptorPoolBuilder</scope><name>DescriptorPool</name></member>
+      <member refid="structnarc__engine_1_1_descriptor_pool_builder_1a9024edf853864d7b3a13af8a0fc6ef09" prot="public" virt="non-virtual"><scope>narc_engine::DescriptorPoolBuilder</scope><name>DescriptorPoolBuilder</name></member>
+      <member refid="structnarc__engine_1_1_descriptor_pool_builder_1a48a9701ffb894983120e66b00fb3a03d" prot="private" virt="non-virtual"><scope>narc_engine::DescriptorPoolBuilder</scope><name>m_poolCount</name></member>
+      <member refid="structnarc__engine_1_1_descriptor_pool_builder_1a6c87eac96938c5d965f9109140fd7add" prot="private" virt="non-virtual"><scope>narc_engine::DescriptorPoolBuilder</scope><name>m_poolInfo</name></member>
+      <member refid="structnarc__engine_1_1_descriptor_pool_builder_1a0f25f5ba833a86954da6b04b6eceefeb" prot="private" virt="non-virtual"><scope>narc_engine::DescriptorPoolBuilder</scope><name>m_poolSizes</name></member>
+      <member refid="structnarc__engine_1_1_descriptor_pool_builder_1ab1b2d0e0ce5437e70f303e4882fa4fab" prot="public" virt="non-virtual"><scope>narc_engine::DescriptorPoolBuilder</scope><name>setMaxSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespacenarc__io" kind="namespace" language="C++">
+    <compoundname>narc_io</compoundname>
+    <innerclass refid="classnarc__io_1_1_file_reader" prot="public">narc_io::FileReader</innerclass>
+    <innerclass refid="structnarc__io_1_1_image" prot="public">narc_io::Image</innerclass>
+    <innerclass refid="structnarc__io_1_1_model3_d" prot="public">narc_io::Model3D</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_model3_d_8h_1a2d1355c7f6fa0bf9207ad2f424eac0ae" prot="public" static="no">
+        <type>std::vector&lt; glm::vec3 &gt;</type>
+        <definition>typedef std::vector&lt;glm::vec3&gt; narc_io::VertexList</definition>
+        <argsstring></argsstring>
+        <name>VertexList</name>
+        <qualifiedname>narc_io::VertexList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narcio/include/models/Model3D.h" line="10" column="25" bodyfile="src/core/narcio/include/models/Model3D.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_model3_d_8h_1a3c7c92f84ed7d4489357900ef37092e3" prot="public" static="no">
+        <type>std::vector&lt; glm::vec3 &gt;</type>
+        <definition>typedef std::vector&lt;glm::vec3&gt; narc_io::ColorList</definition>
+        <argsstring></argsstring>
+        <name>ColorList</name>
+        <qualifiedname>narc_io::ColorList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narcio/include/models/Model3D.h" line="11" column="25" bodyfile="src/core/narcio/include/models/Model3D.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_model3_d_8h_1ad488a411e4f2e124747f73cbb4949aad" prot="public" static="no">
+        <type>std::vector&lt; glm::vec2 &gt;</type>
+        <definition>typedef std::vector&lt;glm::vec2&gt; narc_io::TexCoordList</definition>
+        <argsstring></argsstring>
+        <name>TexCoordList</name>
+        <qualifiedname>narc_io::TexCoordList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narcio/include/models/Model3D.h" line="12" column="25" bodyfile="src/core/narcio/include/models/Model3D.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_model3_d_8h_1a5cf15022811a370f893d02481f7f7746" prot="public" static="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>typedef std::vector&lt;uint32_t&gt; narc_io::IndexList</definition>
+        <argsstring></argsstring>
+        <name>IndexList</name>
+        <qualifiedname>narc_io::IndexList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narcio/include/models/Model3D.h" line="13" column="25" bodyfile="src/core/narcio/include/models/Model3D.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narcio/include/FileReader.h" line="3" column="1"/>
+  </compounddef>
+</doxygen>

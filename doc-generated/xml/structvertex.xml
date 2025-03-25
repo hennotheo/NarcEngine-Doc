@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structvertex" kind="struct" language="C++" prot="public">
+    <compoundname>vertex</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvertex_1a565f0e00859fefb4b226a4d6d26a223b" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 vertex::pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <qualifiedname>vertex::pos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narcio/src/FileReader.cpp" line="15" column="15" bodyfile="src/core/narcio/src/FileReader.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvertex_1a6b9a4d49465117369bc1eb347e6e65b2" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 vertex::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <qualifiedname>vertex::color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narcio/src/FileReader.cpp" line="16" column="15" bodyfile="src/core/narcio/src/FileReader.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvertex_1afc9e07325d97dfd2971cd03de3db6092" prot="public" static="no" mutable="no">
+        <type>glm::vec2</type>
+        <definition>glm::vec2 vertex::tex</definition>
+        <argsstring></argsstring>
+        <name>tex</name>
+        <qualifiedname>vertex::tex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narcio/src/FileReader.cpp" line="17" column="15" bodyfile="src/core/narcio/src/FileReader.cpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structvertex_1a50c17b0eaa547f8db9828ca08a099a1d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool vertex::operator==</definition>
+        <argsstring>(const vertex &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>vertex::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structvertex" kindref="compound">vertex</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narcio/src/FileReader.cpp" line="19" column="10" bodyfile="src/core/narcio/src/FileReader.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narcio/src/FileReader.cpp" line="13" column="1" bodyfile="src/core/narcio/src/FileReader.cpp" bodystart="14" bodyend="23"/>
+    <listofallmembers>
+      <member refid="structvertex_1a6b9a4d49465117369bc1eb347e6e65b2" prot="public" virt="non-virtual"><scope>vertex</scope><name>color</name></member>
+      <member refid="structvertex_1a50c17b0eaa547f8db9828ca08a099a1d" prot="public" virt="non-virtual"><scope>vertex</scope><name>operator==</name></member>
+      <member refid="structvertex_1a565f0e00859fefb4b226a4d6d26a223b" prot="public" virt="non-virtual"><scope>vertex</scope><name>pos</name></member>
+      <member refid="structvertex_1afc9e07325d97dfd2971cd03de3db6092" prot="public" virt="non-virtual"><scope>vertex</scope><name>tex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

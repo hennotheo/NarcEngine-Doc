@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>NarcEngine</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="index_1md_src_2_r_e_a_d_m_e"/></para>
+<para>NarcEngine is a C++ game engine that leverages Vulkan for high-performance graphics rendering. This project includes several dependencies and is structured to facilitate easy development and integration.</para>
+<sect1 id="index_1autotoc_md1">
+<title>Features</title><para><itemizedlist>
+<listitem><para>High-performance graphics rendering using Vulkan</para>
+</listitem><listitem><para>Modular architecture with separate components for IO and core engine functionality</para>
+</listitem><listitem><para>Integration with GLFW for window management and input handling</para>
+</listitem><listitem><para>Integration with GLM for mathematics operations</para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="index_1autotoc_md2">
+<title>Dependencies</title><para><itemizedlist>
+<listitem><para><ulink url="https://vulkan.lunarg.com/sdk/home">Vulkan SDK</ulink></para>
+</listitem><listitem><para><ulink url="https://github.com/glfw/glfw">GLFW</ulink></para>
+</listitem><listitem><para><ulink url="https://github.com/g-truc/glm">GLM</ulink></para>
+</listitem><listitem><para><ulink url="https://www.python.org/">Python</ulink></para>
+</listitem><listitem><para><ulink url="https://cmake.org/">CMake</ulink></para>
+</listitem><listitem><para><ulink url="https://github.com/nothings/stb.git">STB</ulink></para>
+</listitem><listitem><para><ulink url="https://github.com/tinyobjloader/tinyobjloader.git">Tinyobjloader</ulink></para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="index_1autotoc_md3">
+<title>Building the Project</title><sect2 id="index_1autotoc_md4">
+<title>Prerequisites</title><para><itemizedlist>
+<listitem><para>CMake 3.10 or higher</para>
+</listitem><listitem><para>A C++17 compatible compiler</para>
+</listitem><listitem><para>Vulkan SDK installed</para>
+</listitem><listitem><para>Python 3.6 or higher (for building dependencies)</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="index_1autotoc_md5">
+<title>Steps</title><para><orderedlist>
+<listitem><para>Clone the repository: <programlisting filename=".sh"><codeline><highlight class="normal">git<sp/>clone<sp/>https://github.com/hennotheo/NarcEngine.git</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>NarcEngine</highlight></codeline>
+</programlisting></para>
+</listitem><listitem><para>Create a build directory and navigate into it: <programlisting filename=".sh"><codeline><highlight class="normal">mkdir<sp/>build</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>build</highlight></codeline>
+</programlisting></para>
+</listitem><listitem><para>Configure the project with CMake: <programlisting filename=".sh"><codeline><highlight class="normal">cmake<sp/>..</highlight></codeline>
+</programlisting></para>
+</listitem><listitem><para>Build the project: <programlisting filename=".sh"><codeline><highlight class="normal">cmake<sp/>--build<sp/>.</highlight></codeline>
+</programlisting></para>
+</listitem></orderedlist>
+</para>
+</sect2>
+</sect1>
+<sect1 id="index_1autotoc_md6">
+<title>Usage</title><para>To use the NarcEngine in your project, link against the <computeroutput>NarcEngine</computeroutput> library and include the necessary headers.</para>
+</sect1>
+<sect1 id="index_1autotoc_md7">
+<title>License</title><para>This project is licensed under the MIT License. See the <computeroutput>LICENSE</computeroutput> file for details. </para>
+</sect1>
+    </detaileddescription>
+    <location file="src/README.md"/>
+  </compounddef>
+</doxygen>

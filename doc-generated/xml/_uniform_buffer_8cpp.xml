@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_uniform_buffer_8cpp" kind="file" language="C++">
+    <compoundname>UniformBuffer.cpp</compoundname>
+    <includes refid="_uniform_buffer_8h" local="yes">buffers/UniformBuffer.h</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>NarcMath.h</label>
+        <link refid="_narc_math_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Buffer.h</label>
+        <link refid="_buffer_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>buffers/UniformBuffer.h</label>
+        <link refid="_uniform_buffer_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>core/DeviceComponent.h</label>
+        <link refid="_device_component_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>DeviceHandler.h</label>
+        <link refid="_device_handler_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>EngineDebugLogger.h</label>
+        <link refid="_engine_debug_logger_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>QueueFamilyIndices.h</label>
+        <link refid="_queue_family_indices_8h_source"/>
+      </node>
+      <node id="9">
+        <label>Window.h</label>
+        <link refid="_window_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>models/UniformBufferObject.h</label>
+        <link refid="_uniform_buffer_object_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>renderer/SwapChainSupportDetails.h</label>
+        <link refid="_swap_chain_support_details_8h_source"/>
+      </node>
+      <node id="1">
+        <label>src/rendering/narc_engine/src/buffers/UniformBuffer.cpp</label>
+        <link refid="_uniform_buffer_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="17">
+        <label>glm/ext/matrix_clip_space.hpp</label>
+      </node>
+      <node id="18">
+        <label>glm/ext/matrix_transform.hpp</label>
+      </node>
+      <node id="19">
+        <label>glm/ext/scalar_constants.hpp</label>
+      </node>
+      <node id="15">
+        <label>glm/glm.hpp</label>
+      </node>
+      <node id="16">
+        <label>glm/gtx/hash.hpp</label>
+      </node>
+      <node id="4">
+        <label>vulkan/vulkan.h</label>
+      </node>
+      <node id="7">
+        <label>vulkan/vulkan_core.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacenarc__engine">narc_engine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;buffers/UniformBuffer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">narc_engine</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>UniformBuffer::UniformBuffer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VkDeviceSize&amp;<sp/>bufferSize)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;createBuffer(bufferSize,<sp/>VK_BUFFER_USAGE_UNIFORM_BUFFER_BIT,<sp/>VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT<sp/>|<sp/>VK_MEMORY_PROPERTY_HOST_COHERENT_BIT,<sp/>this-&gt;m_buffer,<sp/>this-&gt;m_bufferMemory);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vkMapMemory(getVkDevice(),<sp/>this-&gt;m_bufferMemory,<sp/>0,<sp/>bufferSize,<sp/>0,<sp/>&amp;uniformBuffersMapped);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UniformBuffer::setData(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnarc__engine_1_1_uniform_buffer_object" kindref="compound">UniformBufferObject</ref>&amp;<sp/>ubo)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(uniformBuffersMapped,<sp/>&amp;ubo,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(ubo));</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/rendering/narc_engine/src/buffers/UniformBuffer.cpp"/>
+  </compounddef>
+</doxygen>

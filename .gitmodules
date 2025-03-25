@@ -1,3 +1,3 @@
-[submodule "src"]
-	path = src
+[submodule "narc_engine"]
+	path = narc_engine
 	url = https://github.com/hennotheo/NarcEngine.git

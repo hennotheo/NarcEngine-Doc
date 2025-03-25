@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_dbb93f0ed4f38bca67b820d482be2ab5" kind="dir">
+    <compoundname>src/rendering/narc_engine/include</compoundname>
+    <innerdir refid="dir_8bf26e107a278ffe7b97581b7e656bed">src/rendering/narc_engine/include/buffers</innerdir>
+    <innerdir refid="dir_67e5d8aa62f1cc59cc4f8a6ff3bd4a61">src/rendering/narc_engine/include/core</innerdir>
+    <innerdir refid="dir_f9d608fbee870081aeaebc375b79c1b9">src/rendering/narc_engine/include/interfaces</innerdir>
+    <innerdir refid="dir_98667597ee9b8e52daf563354eec60ad">src/rendering/narc_engine/include/models</innerdir>
+    <innerdir refid="dir_ba4eed870949016d6ca7853c50544116">src/rendering/narc_engine/include/renderer</innerdir>
+    <innerdir refid="dir_ae1e9a96e577876a8e649b73a18e4c3d">src/rendering/narc_engine/include/resources</innerdir>
+    <innerfile refid="_command_buffer_8h">CommandBuffer.h</innerfile>
+    <innerfile refid="_command_pool_8h">CommandPool.h</innerfile>
+    <innerfile refid="rendering_2narc__engine_2include_2_core_8h">Core.h</innerfile>
+    <innerfile refid="_engine_8h">Engine.h</innerfile>
+    <innerfile refid="_narc_engine_8h">NarcEngine.h</innerfile>
+    <innerfile refid="rendering_2narc__engine_2include_2pch_8h">pch.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/"/>
+  </compounddef>
+</doxygen>

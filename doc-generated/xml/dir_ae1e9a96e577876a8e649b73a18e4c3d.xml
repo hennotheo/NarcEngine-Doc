@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_ae1e9a96e577876a8e649b73a18e4c3d" kind="dir">
+    <compoundname>src/rendering/narc_engine/include/resources</compoundname>
+    <innerfile refid="_graphic_resource_8h">GraphicResource.h</innerfile>
+    <innerfile refid="_graphic_resource_handler_8h">GraphicResourceHandler.h</innerfile>
+    <innerfile refid="_graphic_resource_type_8h">GraphicResourceType.h</innerfile>
+    <innerfile refid="_texture2_d_resource_8h">Texture2DResource.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/resources/"/>
+  </compounddef>
+</doxygen>

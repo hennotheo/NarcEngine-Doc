@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_uniform_buffer" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>narc_engine::UniformBuffer</compoundname>
+    <basecompoundref refid="classnarc__engine_1_1_buffer" prot="public" virt="non-virtual">narc_engine::Buffer</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_uniform_buffer_1adfb7ad0d761ab8c0cd5416700d9becf3" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* narc_engine::UniformBuffer::uniformBuffersMapped</definition>
+        <argsstring></argsstring>
+        <name>uniformBuffersMapped</name>
+        <qualifiedname>narc_engine::UniformBuffer::uniformBuffersMapped</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/buffers/UniformBuffer.h" line="14" column="14" bodyfile="src/rendering/narc_engine/include/buffers/UniformBuffer.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_uniform_buffer_1a0fbc804839243707837eeff72da7d367" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::UniformBuffer::UniformBuffer</definition>
+        <argsstring>(const VkDeviceSize &amp;bufferSize)</argsstring>
+        <name>UniformBuffer</name>
+        <qualifiedname>narc_engine::UniformBuffer::UniformBuffer</qualifiedname>
+        <param>
+          <type>const VkDeviceSize &amp;</type>
+          <declname>bufferSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/buffers/UniformBuffer.h" line="10" column="18" bodyfile="src/rendering/narc_engine/src/buffers/UniformBuffer.cpp" bodystart="5" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_uniform_buffer_1a0575346a2a83c3ed256f3e08588a2b47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::UniformBuffer::setData</definition>
+        <argsstring>(const UniformBufferObject &amp;ubo)</argsstring>
+        <name>setData</name>
+        <qualifiedname>narc_engine::UniformBuffer::setData</qualifiedname>
+        <param>
+          <type>const <ref refid="structnarc__engine_1_1_uniform_buffer_object" kindref="compound">UniformBufferObject</ref> &amp;</type>
+          <declname>ubo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/buffers/UniformBuffer.h" line="12" column="14" bodyfile="src/rendering/narc_engine/src/buffers/UniformBuffer.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::Buffer</label>
+        <link refid="classnarc__engine_1_1_buffer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::UniformBuffer</label>
+        <link refid="classnarc__engine_1_1_uniform_buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>narc_engine::Buffer</label>
+        <link refid="classnarc__engine_1_1_buffer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::UniformBuffer</label>
+        <link refid="classnarc__engine_1_1_uniform_buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/rendering/narc_engine/include/buffers/UniformBuffer.h" line="7" column="5" bodyfile="src/rendering/narc_engine/include/buffers/UniformBuffer.h" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_buffer_1ae4ac2cb0186650e1fdeda6104c2cf0a9" prot="public" virt="non-virtual"><scope>narc_engine::UniformBuffer</scope><name>Buffer</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a013a4be1fef844d9c9d5a80fb7086f38" prot="protected" virt="non-virtual"><scope>narc_engine::UniformBuffer</scope><name>createBuffer</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::UniformBuffer</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a7a8d8bf33f0fbc9b5fdaf85c9d6f6349" prot="public" virt="non-virtual"><scope>narc_engine::UniformBuffer</scope><name>getBuffer</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::UniformBuffer</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::UniformBuffer</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a3dd0400968a714a89de71c09963b7b77" prot="protected" virt="non-virtual"><scope>narc_engine::UniformBuffer</scope><name>m_buffer</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1ad7cf12cd94efba3f89a49ee8a8780805" prot="protected" virt="non-virtual"><scope>narc_engine::UniformBuffer</scope><name>m_bufferMemory</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a964d1cd685431b1ef62abd49cadd745e" prot="protected" virt="virtual"><scope>narc_engine::UniformBuffer</scope><name>release</name></member>
+      <member refid="classnarc__engine_1_1_uniform_buffer_1a0575346a2a83c3ed256f3e08588a2b47" prot="public" virt="non-virtual"><scope>narc_engine::UniformBuffer</scope><name>setData</name></member>
+      <member refid="classnarc__engine_1_1_uniform_buffer_1a0fbc804839243707837eeff72da7d367" prot="public" virt="non-virtual"><scope>narc_engine::UniformBuffer</scope><name>UniformBuffer</name></member>
+      <member refid="classnarc__engine_1_1_uniform_buffer_1adfb7ad0d761ab8c0cd5416700d9becf3" prot="private" virt="non-virtual"><scope>narc_engine::UniformBuffer</scope><name>uniformBuffersMapped</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a36ccdf30bcd37f5d3c988c0c5c910ec1" prot="public" virt="virtual"><scope>narc_engine::UniformBuffer</scope><name>~Buffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

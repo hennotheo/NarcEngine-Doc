@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_window" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::Window</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_window_1a401bc6b3263d5eabbb072681c02f2af6" prot="private" static="no" mutable="no">
+        <type>GLFWwindow *</type>
+        <definition>GLFWwindow* narc_engine::Window::m_window</definition>
+        <argsstring></argsstring>
+        <name>m_window</name>
+        <qualifiedname>narc_engine::Window::m_window</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="36" column="20" bodyfile="src/rendering/narc_engine/include/core/Window.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_window_1a774e0fe7dd8caf2f8fe78b5a70b8dca5" prot="private" static="no" mutable="no">
+        <type>VkSurfaceKHR</type>
+        <definition>VkSurfaceKHR narc_engine::Window::m_surface</definition>
+        <argsstring></argsstring>
+        <name>m_surface</name>
+        <qualifiedname>narc_engine::Window::m_surface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="37" column="22" bodyfile="src/rendering/narc_engine/include/core/Window.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_window_1a36f34cb6c970e84b5adfbd17634744d7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool narc_engine::Window::m_framebufferResized</definition>
+        <argsstring></argsstring>
+        <name>m_framebufferResized</name>
+        <qualifiedname>narc_engine::Window::m_framebufferResized</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="39" column="14" bodyfile="src/rendering/narc_engine/include/core/Window.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_window_1a94507c98f0a72541cfe3870aef5582a8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool narc_engine::Window::m_shouldClose</definition>
+        <argsstring></argsstring>
+        <name>m_shouldClose</name>
+        <qualifiedname>narc_engine::Window::m_shouldClose</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="40" column="14" bodyfile="src/rendering/narc_engine/include/core/Window.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_window_1ae49d3f1d58973c5d9b83d97cd0cc4943" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classnarc__engine_1_1_engine_instance" kindref="compound">EngineInstance</ref> *</type>
+        <definition>const EngineInstance* narc_engine::Window::m_engineInstance</definition>
+        <argsstring></argsstring>
+        <name>m_engineInstance</name>
+        <qualifiedname>narc_engine::Window::m_engineInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="42" column="30" bodyfile="src/rendering/narc_engine/include/core/Window.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a3b0a7cb8d564d68993401f4fae8c2aaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::Window::Window</definition>
+        <argsstring>()</argsstring>
+        <name>Window</name>
+        <qualifiedname>narc_engine::Window::Window</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="14" column="9" bodyfile="src/rendering/narc_engine/src/core/Window.cpp" bodystart="11" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a4999c7cbe3ee77f0bad1451ccbafd414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::Window::~Window</definition>
+        <argsstring>()</argsstring>
+        <name>~Window</name>
+        <qualifiedname>narc_engine::Window::~Window</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="15" column="9" bodyfile="src/rendering/narc_engine/src/core/Window.cpp" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a6af5f272afd58b297a7f6f48d8f08267" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::Window::init</definition>
+        <argsstring>(const EngineInstance *engineInstance)</argsstring>
+        <name>init</name>
+        <qualifiedname>narc_engine::Window::init</qualifiedname>
+        <param>
+          <type>const <ref refid="classnarc__engine_1_1_engine_instance" kindref="compound">EngineInstance</ref> *</type>
+          <declname>engineInstance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="17" column="14" bodyfile="src/rendering/narc_engine/src/core/Window.cpp" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a002ba9dd2564e0fb12ff9a6385499235" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool narc_engine::Window::isFramebufferResized</definition>
+        <argsstring>() const</argsstring>
+        <name>isFramebufferResized</name>
+        <qualifiedname>narc_engine::Window::isFramebufferResized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="19" column="21" bodyfile="src/rendering/narc_engine/include/core/Window.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a5181fc5483be57b4159cef9c7ea8bd44" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool narc_engine::Window::shouldClose</definition>
+        <argsstring>() const</argsstring>
+        <name>shouldClose</name>
+        <qualifiedname>narc_engine::Window::shouldClose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="20" column="21" bodyfile="src/rendering/narc_engine/include/core/Window.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a107dc5fed30294767d5b40f0edd2722c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>VkSurfaceKHR</type>
+        <definition>VkSurfaceKHR narc_engine::Window::getSurface</definition>
+        <argsstring>() const</argsstring>
+        <name>getSurface</name>
+        <qualifiedname>narc_engine::Window::getSurface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="21" column="29" bodyfile="src/rendering/narc_engine/include/core/Window.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1aa7f11b008a33660cf72bd955823c1f89" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structnarc__engine_1_1_swap_chain_support_details" kindref="compound">SwapChainSupportDetails</ref></type>
+        <definition>SwapChainSupportDetails narc_engine::Window::querySwapChainSupport</definition>
+        <argsstring>(VkPhysicalDevice device) const</argsstring>
+        <name>querySwapChainSupport</name>
+        <qualifiedname>narc_engine::Window::querySwapChainSupport</qualifiedname>
+        <param>
+          <type>VkPhysicalDevice</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="25" column="33" bodyfile="src/rendering/narc_engine/src/core/Window.cpp" bodystart="48" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a9ff92855a5f927f5f1506fb3964e20f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::Window::getValidFramebufferSize</definition>
+        <argsstring>(int *width, int *height) const</argsstring>
+        <name>getValidFramebufferSize</name>
+        <qualifiedname>narc_engine::Window::getValidFramebufferSize</qualifiedname>
+        <param>
+          <type>int *</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="26" column="14" bodyfile="src/rendering/narc_engine/src/core/Window.cpp" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a50e8eff982d379904d631ed806c6199b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::Window::getFramebufferSize</definition>
+        <argsstring>(int *width, int *height) const</argsstring>
+        <name>getFramebufferSize</name>
+        <qualifiedname>narc_engine::Window::getFramebufferSize</qualifiedname>
+        <param>
+          <type>int *</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="27" column="14" bodyfile="src/rendering/narc_engine/src/core/Window.cpp" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a2d1c219de87939e96f1197f2c99a1c44" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>VkBool32</type>
+        <definition>VkBool32 narc_engine::Window::isPhysicalDeviceSupported</definition>
+        <argsstring>(VkPhysicalDevice physicalDevice, uint32_t queueFamilyIndex) const</argsstring>
+        <name>isPhysicalDeviceSupported</name>
+        <qualifiedname>narc_engine::Window::isPhysicalDeviceSupported</qualifiedname>
+        <param>
+          <type>VkPhysicalDevice</type>
+          <declname>physicalDevice</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>queueFamilyIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="28" column="18" bodyfile="src/rendering/narc_engine/src/core/Window.cpp" bodystart="90" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a9fbd46d3838f558baa6c217f4e0d921d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::Window::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <qualifiedname>narc_engine::Window::update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="30" column="14" bodyfile="src/rendering/narc_engine/src/core/Window.cpp" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1ae701817f95447f5d5127e42d8091d511" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::Window::setFramebufferResized</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setFramebufferResized</name>
+        <qualifiedname>narc_engine::Window::setFramebufferResized</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="33" column="21" bodyfile="src/rendering/narc_engine/include/core/Window.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a769a0043055cac1e54a2f72ace6f1466" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char **</type>
+        <definition>const char ** narc_engine::Window::getRequiredInstanceExtensions</definition>
+        <argsstring>(uint32_t *glfwExtensionCount)</argsstring>
+        <name>getRequiredInstanceExtensions</name>
+        <qualifiedname>narc_engine::Window::getRequiredInstanceExtensions</qualifiedname>
+        <param>
+          <type>uint32_t *</type>
+          <declname>glfwExtensionCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="23" column="27" bodyfile="src/rendering/narc_engine/src/core/Window.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_window_1a5daf2277ba74e62906512d0b9a5fc2ad" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::Window::framebufferResizeCallback</definition>
+        <argsstring>(GLFWwindow *window, int width, int height)</argsstring>
+        <name>framebufferResizeCallback</name>
+        <qualifiedname>narc_engine::Window::framebufferResizeCallback</qualifiedname>
+        <param>
+          <type>GLFWwindow *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/Window.h" line="45" column="21" bodyfile="src/rendering/narc_engine/src/core/Window.cpp" bodystart="97" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/core/Window.h" line="11" column="5" bodyfile="src/rendering/narc_engine/include/core/Window.h" bodystart="12" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_window_1a5daf2277ba74e62906512d0b9a5fc2ad" prot="private" virt="non-virtual"><scope>narc_engine::Window</scope><name>framebufferResizeCallback</name></member>
+      <member refid="classnarc__engine_1_1_window_1a50e8eff982d379904d631ed806c6199b" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>getFramebufferSize</name></member>
+      <member refid="classnarc__engine_1_1_window_1a769a0043055cac1e54a2f72ace6f1466" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>getRequiredInstanceExtensions</name></member>
+      <member refid="classnarc__engine_1_1_window_1a107dc5fed30294767d5b40f0edd2722c" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>getSurface</name></member>
+      <member refid="classnarc__engine_1_1_window_1a9ff92855a5f927f5f1506fb3964e20f1" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>getValidFramebufferSize</name></member>
+      <member refid="classnarc__engine_1_1_window_1a6af5f272afd58b297a7f6f48d8f08267" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>init</name></member>
+      <member refid="classnarc__engine_1_1_window_1a002ba9dd2564e0fb12ff9a6385499235" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>isFramebufferResized</name></member>
+      <member refid="classnarc__engine_1_1_window_1a2d1c219de87939e96f1197f2c99a1c44" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>isPhysicalDeviceSupported</name></member>
+      <member refid="classnarc__engine_1_1_window_1ae49d3f1d58973c5d9b83d97cd0cc4943" prot="private" virt="non-virtual"><scope>narc_engine::Window</scope><name>m_engineInstance</name></member>
+      <member refid="classnarc__engine_1_1_window_1a36f34cb6c970e84b5adfbd17634744d7" prot="private" virt="non-virtual"><scope>narc_engine::Window</scope><name>m_framebufferResized</name></member>
+      <member refid="classnarc__engine_1_1_window_1a94507c98f0a72541cfe3870aef5582a8" prot="private" virt="non-virtual"><scope>narc_engine::Window</scope><name>m_shouldClose</name></member>
+      <member refid="classnarc__engine_1_1_window_1a774e0fe7dd8caf2f8fe78b5a70b8dca5" prot="private" virt="non-virtual"><scope>narc_engine::Window</scope><name>m_surface</name></member>
+      <member refid="classnarc__engine_1_1_window_1a401bc6b3263d5eabbb072681c02f2af6" prot="private" virt="non-virtual"><scope>narc_engine::Window</scope><name>m_window</name></member>
+      <member refid="classnarc__engine_1_1_window_1aa7f11b008a33660cf72bd955823c1f89" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>querySwapChainSupport</name></member>
+      <member refid="classnarc__engine_1_1_window_1ae701817f95447f5d5127e42d8091d511" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>setFramebufferResized</name></member>
+      <member refid="classnarc__engine_1_1_window_1a5181fc5483be57b4159cef9c7ea8bd44" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>shouldClose</name></member>
+      <member refid="classnarc__engine_1_1_window_1a9fbd46d3838f558baa6c217f4e0d921d" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>update</name></member>
+      <member refid="classnarc__engine_1_1_window_1a3b0a7cb8d564d68993401f4fae8c2aaa" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>Window</name></member>
+      <member refid="classnarc__engine_1_1_window_1a4999c7cbe3ee77f0bad1451ccbafd414" prot="public" virt="non-virtual"><scope>narc_engine::Window</scope><name>~Window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

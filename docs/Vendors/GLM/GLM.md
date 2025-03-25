@@ -1,1 +1,0 @@
-OpenGL Math Library #vendors 

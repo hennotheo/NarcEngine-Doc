@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_command_buffer" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::CommandBuffer</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_command_buffer_1a5a2db4775b95a48c332b336f5fc9e201" prot="private" static="no" mutable="no">
+        <type>VkCommandBuffer</type>
+        <definition>VkCommandBuffer narc_engine::CommandBuffer::m_commandBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_commandBuffer</name>
+        <qualifiedname>narc_engine::CommandBuffer::m_commandBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="36" column="25" bodyfile="src/rendering/narc_engine/include/CommandBuffer.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_command_buffer_1aeee52f5824edea80ed4a003239f90bcc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool narc_engine::CommandBuffer::m_allocated</definition>
+        <argsstring></argsstring>
+        <name>m_allocated</name>
+        <qualifiedname>narc_engine::CommandBuffer::m_allocated</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="37" column="14" bodyfile="src/rendering/narc_engine/include/CommandBuffer.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a8c9c72704d5f08f72d4511b29b69406d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER VkCommandBuffer</type>
+        <definition>GETTER VkCommandBuffer narc_engine::CommandBuffer::getVkCommandBuffer</definition>
+        <argsstring>() const</argsstring>
+        <name>getVkCommandBuffer</name>
+        <qualifiedname>narc_engine::CommandBuffer::getVkCommandBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="8" column="32" bodyfile="src/rendering/narc_engine/include/CommandBuffer.h" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1ab6c9fc74f28c319ed876c0c429704b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::allocate</definition>
+        <argsstring>(const DeviceHandler *deviceHandler, const VkCommandBufferAllocateInfo *allocInfo)</argsstring>
+        <name>allocate</name>
+        <qualifiedname>narc_engine::CommandBuffer::allocate</qualifiedname>
+        <param>
+          <type>const <ref refid="classnarc__engine_1_1_device_handler" kindref="compound">DeviceHandler</ref> *</type>
+          <declname>deviceHandler</declname>
+        </param>
+        <param>
+          <type>const VkCommandBufferAllocateInfo *</type>
+          <declname>allocInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="10" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="6" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1ac05d6c8119af26d75b4af293ea7d6582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::reset</definition>
+        <argsstring>(VkCommandBufferResetFlags flags)</argsstring>
+        <name>reset</name>
+        <qualifiedname>narc_engine::CommandBuffer::reset</qualifiedname>
+        <param>
+          <type>VkCommandBufferResetFlags</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="11" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="14" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a9c6a5ae16b9daa1593f72e2398ca342a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::begin</definition>
+        <argsstring>(VkCommandBufferBeginInfo beginInfo)</argsstring>
+        <name>begin</name>
+        <qualifiedname>narc_engine::CommandBuffer::begin</qualifiedname>
+        <param>
+          <type>VkCommandBufferBeginInfo</type>
+          <declname>beginInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="12" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1aa520bdee8b788c29bb1c18a68923b954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkResult</type>
+        <definition>VkResult narc_engine::CommandBuffer::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <qualifiedname>narc_engine::CommandBuffer::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="13" column="18" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a3f838abb66b7fec46b5fe1b99a9f30e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::release</definition>
+        <argsstring>(const DeviceHandler *deviceHandler, const VkCommandPool &amp;commandPool)</argsstring>
+        <name>release</name>
+        <qualifiedname>narc_engine::CommandBuffer::release</qualifiedname>
+        <param>
+          <type>const <ref refid="classnarc__engine_1_1_device_handler" kindref="compound">DeviceHandler</ref> *</type>
+          <declname>deviceHandler</declname>
+        </param>
+        <param>
+          <type>const VkCommandPool &amp;</type>
+          <declname>commandPool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="14" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a389547b86753d95c4bef4261852708c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdBeginRenderPass</definition>
+        <argsstring>(const VkRenderPassBeginInfo *renderPassInfo, VkSubpassContents contents) const</argsstring>
+        <name>cmdBeginRenderPass</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdBeginRenderPass</qualifiedname>
+        <param>
+          <type>const VkRenderPassBeginInfo *</type>
+          <declname>renderPassInfo</declname>
+        </param>
+        <param>
+          <type>VkSubpassContents</type>
+          <declname>contents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="16" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a111d0628086b89ef99373362c8f2ba27" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdBindPipeline</definition>
+        <argsstring>(VkPipelineBindPoint pipelineBindPoint, VkPipeline pipeline) const</argsstring>
+        <name>cmdBindPipeline</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdBindPipeline</qualifiedname>
+        <param>
+          <type>VkPipelineBindPoint</type>
+          <declname>pipelineBindPoint</declname>
+        </param>
+        <param>
+          <type>VkPipeline</type>
+          <declname>pipeline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="17" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a00b7f3528d2f2a170bc0dbc5360983d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdSetViewport</definition>
+        <argsstring>(const VkViewport *viewport, uint32_t firstViewport, uint32_t viewportCount) const</argsstring>
+        <name>cmdSetViewport</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdSetViewport</qualifiedname>
+        <param>
+          <type>const VkViewport *</type>
+          <declname>viewport</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>firstViewport</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>viewportCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="18" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a77084252e8d65021ae8b0105bec08c67" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdSetScissor</definition>
+        <argsstring>(const VkRect2D *scissor, uint32_t firstScissor, uint32_t scissorCount) const</argsstring>
+        <name>cmdSetScissor</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdSetScissor</qualifiedname>
+        <param>
+          <type>const VkRect2D *</type>
+          <declname>scissor</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>firstScissor</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>scissorCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="19" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a0ba86ed2a141d2e51ef535f308fd518b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdBindVertexBuffers</definition>
+        <argsstring>(uint32_t firstBinding, uint32_t bindingCount, const VkBuffer *buffers, const VkDeviceSize *offsets) const</argsstring>
+        <name>cmdBindVertexBuffers</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdBindVertexBuffers</qualifiedname>
+        <param>
+          <type>uint32_t</type>
+          <declname>firstBinding</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>bindingCount</declname>
+        </param>
+        <param>
+          <type>const VkBuffer *</type>
+          <declname>buffers</declname>
+        </param>
+        <param>
+          <type>const VkDeviceSize *</type>
+          <declname>offsets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="20" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1ace87aef16f26257c573932c9c56d7439" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdBindIndexBuffer</definition>
+        <argsstring>(VkBuffer buffer, VkDeviceSize offset, VkIndexType indexType) const</argsstring>
+        <name>cmdBindIndexBuffer</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdBindIndexBuffer</qualifiedname>
+        <param>
+          <type>VkBuffer</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>VkDeviceSize</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>VkIndexType</type>
+          <declname>indexType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="21" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a9a99fa9c48ed987dd24fff8af1951f06" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdBindDescriptorSets</definition>
+        <argsstring>(VkPipelineBindPoint pipelineBindPoint, VkPipelineLayout layout, uint32_t firstSet, uint32_t descriptorSetCount, const VkDescriptorSet *descriptorSets, uint32_t dynamicOffsetCount, const uint32_t *dynamicOffsets) const</argsstring>
+        <name>cmdBindDescriptorSets</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdBindDescriptorSets</qualifiedname>
+        <param>
+          <type>VkPipelineBindPoint</type>
+          <declname>pipelineBindPoint</declname>
+        </param>
+        <param>
+          <type>VkPipelineLayout</type>
+          <declname>layout</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>firstSet</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>descriptorSetCount</declname>
+        </param>
+        <param>
+          <type>const VkDescriptorSet *</type>
+          <declname>descriptorSets</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>dynamicOffsetCount</declname>
+        </param>
+        <param>
+          <type>const uint32_t *</type>
+          <declname>dynamicOffsets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="22" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a4ad8d274cc64e873d91e6b958cc74c9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdDrawIndexed</definition>
+        <argsstring>(uint32_t indexCount, uint32_t instanceCount, uint32_t firstIndex, int32_t vertexOffset, uint32_t firstInstance) const</argsstring>
+        <name>cmdDrawIndexed</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdDrawIndexed</qualifiedname>
+        <param>
+          <type>uint32_t</type>
+          <declname>indexCount</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>instanceCount</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>firstIndex</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>vertexOffset</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>firstInstance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="24" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a68ec3a82f6a2cdbfeb678c56b53f66fb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdEndRenderPass</definition>
+        <argsstring>() const</argsstring>
+        <name>cmdEndRenderPass</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdEndRenderPass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="25" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a4a8cd2cd7fc23768cf4e2408382e2fc5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdPipelineBarrier</definition>
+        <argsstring>(VkPipelineStageFlags sourceStage, VkPipelineStageFlags destinationStage, VkDependencyFlags dependencyFlags, uint32_t memoryBarrierCount, const VkMemoryBarrier *memoryBarriers, uint32_t bufferMemoryBarrierCount, const VkBufferMemoryBarrier *bufferMemoryBarriers, uint32_t imageMemoryBarrierCount, const VkImageMemoryBarrier *imageMemoryBarriers) const</argsstring>
+        <name>cmdPipelineBarrier</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdPipelineBarrier</qualifiedname>
+        <param>
+          <type>VkPipelineStageFlags</type>
+          <declname>sourceStage</declname>
+        </param>
+        <param>
+          <type>VkPipelineStageFlags</type>
+          <declname>destinationStage</declname>
+        </param>
+        <param>
+          <type>VkDependencyFlags</type>
+          <declname>dependencyFlags</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>memoryBarrierCount</declname>
+        </param>
+        <param>
+          <type>const VkMemoryBarrier *</type>
+          <declname>memoryBarriers</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>bufferMemoryBarrierCount</declname>
+        </param>
+        <param>
+          <type>const VkBufferMemoryBarrier *</type>
+          <declname>bufferMemoryBarriers</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>imageMemoryBarrierCount</declname>
+        </param>
+        <param>
+          <type>const VkImageMemoryBarrier *</type>
+          <declname>imageMemoryBarriers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="27" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a352a1173855925f88cff3ed25a085ada" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdCopyBufferImage</definition>
+        <argsstring>(VkBuffer srcBuffer, VkImage dstImage, VkImageLayout dstImageLayout, uint32_t regionCount, const VkBufferImageCopy *regions) const</argsstring>
+        <name>cmdCopyBufferImage</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdCopyBufferImage</qualifiedname>
+        <param>
+          <type>VkBuffer</type>
+          <declname>srcBuffer</declname>
+        </param>
+        <param>
+          <type>VkImage</type>
+          <declname>dstImage</declname>
+        </param>
+        <param>
+          <type>VkImageLayout</type>
+          <declname>dstImageLayout</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>regionCount</declname>
+        </param>
+        <param>
+          <type>const VkBufferImageCopy *</type>
+          <declname>regions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="30" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1abe014825af9d6ebe8e6f10648bc1a1c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::cmdCopyBuffer</definition>
+        <argsstring>(VkBuffer srcBuffer, VkBuffer dstBuffer, uint32_t regionCount, const VkBufferCopy *copyRegion) const</argsstring>
+        <name>cmdCopyBuffer</name>
+        <qualifiedname>narc_engine::CommandBuffer::cmdCopyBuffer</qualifiedname>
+        <param>
+          <type>VkBuffer</type>
+          <declname>srcBuffer</declname>
+        </param>
+        <param>
+          <type>VkBuffer</type>
+          <declname>dstBuffer</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>regionCount</declname>
+        </param>
+        <param>
+          <type>const VkBufferCopy *</type>
+          <declname>copyRegion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="31" column="14" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="106" bodyend="109"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_command_buffer_1a5f90ba1ef3484199f90d7fe03d6ff1bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::CommandBuffer::allocateBuffers</definition>
+        <argsstring>(const DeviceHandler *deviceHandler, const VkCommandBufferAllocateInfo *allocInfo, std::vector&lt; CommandBuffer &gt; &amp;commandBuffers)</argsstring>
+        <name>allocateBuffers</name>
+        <qualifiedname>narc_engine::CommandBuffer::allocateBuffers</qualifiedname>
+        <param>
+          <type>const <ref refid="classnarc__engine_1_1_device_handler" kindref="compound">DeviceHandler</ref> *</type>
+          <declname>deviceHandler</declname>
+        </param>
+        <param>
+          <type>const VkCommandBufferAllocateInfo *</type>
+          <declname>allocInfo</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="classnarc__engine_1_1_command_buffer" kindref="compound">CommandBuffer</ref> &gt; &amp;</type>
+          <declname>commandBuffers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="33" column="21" bodyfile="src/rendering/narc_engine/src/CommandBuffer.cpp" bodystart="111" bodyend="132"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/CommandBuffer.h" line="5" column="5" bodyfile="src/rendering/narc_engine/include/CommandBuffer.h" bodystart="6" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_command_buffer_1ab6c9fc74f28c319ed876c0c429704b78" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>allocate</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a5f90ba1ef3484199f90d7fe03d6ff1bc" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>allocateBuffers</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a9c6a5ae16b9daa1593f72e2398ca342a" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>begin</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a389547b86753d95c4bef4261852708c2" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdBeginRenderPass</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a9a99fa9c48ed987dd24fff8af1951f06" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdBindDescriptorSets</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1ace87aef16f26257c573932c9c56d7439" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdBindIndexBuffer</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a111d0628086b89ef99373362c8f2ba27" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdBindPipeline</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a0ba86ed2a141d2e51ef535f308fd518b" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdBindVertexBuffers</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1abe014825af9d6ebe8e6f10648bc1a1c4" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdCopyBuffer</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a352a1173855925f88cff3ed25a085ada" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdCopyBufferImage</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a4ad8d274cc64e873d91e6b958cc74c9e" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdDrawIndexed</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a68ec3a82f6a2cdbfeb678c56b53f66fb" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdEndRenderPass</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a4a8cd2cd7fc23768cf4e2408382e2fc5" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdPipelineBarrier</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a77084252e8d65021ae8b0105bec08c67" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdSetScissor</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a00b7f3528d2f2a170bc0dbc5360983d1" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>cmdSetViewport</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1aa520bdee8b788c29bb1c18a68923b954" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>end</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a8c9c72704d5f08f72d4511b29b69406d" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>getVkCommandBuffer</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1aeee52f5824edea80ed4a003239f90bcc" prot="private" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>m_allocated</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a5a2db4775b95a48c332b336f5fc9e201" prot="private" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>m_commandBuffer</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1a3f838abb66b7fec46b5fe1b99a9f30e8" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>release</name></member>
+      <member refid="classnarc__engine_1_1_command_buffer_1ac05d6c8119af26d75b4af293ea7d6582" prot="public" virt="non-virtual"><scope>narc_engine::CommandBuffer</scope><name>reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

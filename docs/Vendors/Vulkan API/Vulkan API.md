@@ -1,1 +1,0 @@
-Graphics & Rendering API #vendors

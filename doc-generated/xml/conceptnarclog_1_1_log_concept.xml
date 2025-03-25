@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="conceptnarclog_1_1_log_concept" kind="concept">
+    <compoundname>narclog::LogConcept</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <initializer>template&lt;typename T&gt;
+concept <ref refid="conceptnarclog_1_1_log_concept" kindref="compound">narclog::LogConcept</ref> = 
+        MessageConcept&lt;T&gt; ||
+        ArithmeticConcept&lt;T&gt;    </initializer>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narclog/include/keywords/KeyWords.h" line="18" column="5"/>
+  </compounddef>
+</doxygen>

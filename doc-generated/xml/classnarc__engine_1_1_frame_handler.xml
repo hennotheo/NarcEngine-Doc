@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_frame_handler" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::FrameHandler</compoundname>
+    <basecompoundref refid="classnarc__engine_1_1_device_component" prot="public" virt="non-virtual">narc_engine::DeviceComponent</basecompoundref>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classnarc__engine_1_1_frame_handler_1a24a6fc8570717f23c346ec772bf5a95a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class MultiFrameManager</definition>
+        <argsstring></argsstring>
+        <name>MultiFrameManager</name>
+        <qualifiedname>narc_engine::FrameHandler::MultiFrameManager</qualifiedname>
+        <param>
+          <type><ref refid="classnarc__engine_1_1_multi_frame_manager" kindref="compound">MultiFrameManager</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="17" column="22" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_frame_handler_1a0f16e6b07e5a2893a00946a225abd3d2" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classnarc__engine_1_1_command_pool" kindref="compound">CommandPool</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;CommandPool&gt; narc_engine::FrameHandler::m_commandPool</definition>
+        <argsstring></argsstring>
+        <name>m_commandPool</name>
+        <qualifiedname>narc_engine::FrameHandler::m_commandPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="33" column="25" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_frame_handler_1a14971f5d05774292e7bd78daa04a2508" prot="private" static="no" mutable="no">
+        <type>VkSemaphore</type>
+        <definition>VkSemaphore narc_engine::FrameHandler::m_imageAvailableSemaphore</definition>
+        <argsstring></argsstring>
+        <name>m_imageAvailableSemaphore</name>
+        <qualifiedname>narc_engine::FrameHandler::m_imageAvailableSemaphore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="35" column="21" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_frame_handler_1a560b73bdb6cc53e7f8913bdf16574c05" prot="private" static="no" mutable="no">
+        <type>VkSemaphore</type>
+        <definition>VkSemaphore narc_engine::FrameHandler::m_renderFinishedSemaphore</definition>
+        <argsstring></argsstring>
+        <name>m_renderFinishedSemaphore</name>
+        <qualifiedname>narc_engine::FrameHandler::m_renderFinishedSemaphore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="36" column="21" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_frame_handler_1a1fea8aa7c277119cb6d31f9938891356" prot="private" static="no" mutable="no">
+        <type>VkFence</type>
+        <definition>VkFence narc_engine::FrameHandler::m_inFlightFence</definition>
+        <argsstring></argsstring>
+        <name>m_inFlightFence</name>
+        <qualifiedname>narc_engine::FrameHandler::m_inFlightFence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="37" column="17" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_frame_handler_1a190a4d35aeb8b06748adf4ce2f494fc5" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classnarc__engine_1_1_uniform_buffer" kindref="compound">UniformBuffer</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;UniformBuffer&gt; narc_engine::FrameHandler::m_uniformBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_uniformBuffer</name>
+        <qualifiedname>narc_engine::FrameHandler::m_uniformBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="39" column="25" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_frame_handler_1aa294dac5276ec361e0d7313fd6f728f2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; VkDescriptorSet &gt;</type>
+        <definition>std::vector&lt;VkDescriptorSet&gt; narc_engine::FrameHandler::m_descriptorSets</definition>
+        <argsstring></argsstring>
+        <name>m_descriptorSets</name>
+        <qualifiedname>narc_engine::FrameHandler::m_descriptorSets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="41" column="21" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_frame_handler_1a87bca51da9ecc4585ed67d2246aa3b51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::FrameHandler::FrameHandler</definition>
+        <argsstring>()</argsstring>
+        <name>FrameHandler</name>
+        <qualifiedname>narc_engine::FrameHandler::FrameHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="20" column="9" bodyfile="src/rendering/narc_engine/src/renderer/FrameHandler.cpp" bodystart="12" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_frame_handler_1a30a284a8d6b1b427de556e662ef7c97c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::FrameHandler::~FrameHandler</definition>
+        <argsstring>()</argsstring>
+        <name>~FrameHandler</name>
+        <qualifiedname>narc_engine::FrameHandler::~FrameHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="21" column="9" bodyfile="src/rendering/narc_engine/src/renderer/FrameHandler.cpp" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_frame_handler_1a95e112159619f4c416a594b381514cda" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER <ref refid="classnarc__engine_1_1_command_pool" kindref="compound">CommandPool</ref> *</type>
+        <definition>GETTER CommandPool * narc_engine::FrameHandler::getCommandPool</definition>
+        <argsstring>() const</argsstring>
+        <name>getCommandPool</name>
+        <qualifiedname>narc_engine::FrameHandler::getCommandPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="23" column="28" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_frame_handler_1a7a6e89925ec0e6f47940c101e5a6e639" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER VkSemaphore</type>
+        <definition>GETTER VkSemaphore narc_engine::FrameHandler::getImageAvailableSemaphore</definition>
+        <argsstring>() const</argsstring>
+        <name>getImageAvailableSemaphore</name>
+        <qualifiedname>narc_engine::FrameHandler::getImageAvailableSemaphore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="25" column="28" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_frame_handler_1a0970d560526cef7163fbf9eb1db6d079" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER VkSemaphore</type>
+        <definition>GETTER VkSemaphore narc_engine::FrameHandler::getRenderFinishedSemaphore</definition>
+        <argsstring>() const</argsstring>
+        <name>getRenderFinishedSemaphore</name>
+        <qualifiedname>narc_engine::FrameHandler::getRenderFinishedSemaphore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="26" column="28" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_frame_handler_1af340ebd2ec2b6bff75acffa4b66e75ed" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER VkFence</type>
+        <definition>GETTER VkFence narc_engine::FrameHandler::getInFlightFence</definition>
+        <argsstring>() const</argsstring>
+        <name>getInFlightFence</name>
+        <qualifiedname>narc_engine::FrameHandler::getInFlightFence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="27" column="24" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_frame_handler_1ada4d14b2f5e90d30efb1b3c1219cb46a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER <ref refid="classnarc__engine_1_1_uniform_buffer" kindref="compound">UniformBuffer</ref> *</type>
+        <definition>GETTER UniformBuffer * narc_engine::FrameHandler::getUniformBuffer</definition>
+        <argsstring>() const</argsstring>
+        <name>getUniformBuffer</name>
+        <qualifiedname>narc_engine::FrameHandler::getUniformBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="29" column="30" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_frame_handler_1a71d41279542a45ee2ff4da23c041eb83" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER const std::vector&lt; VkDescriptorSet &gt; &amp;</type>
+        <definition>GETTER const std::vector&lt; VkDescriptorSet &gt; &amp; narc_engine::FrameHandler::getDescriptorSets</definition>
+        <argsstring>() const</argsstring>
+        <name>getDescriptorSets</name>
+        <qualifiedname>narc_engine::FrameHandler::getDescriptorSets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="30" column="34" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_frame_handler_1aa08787b22c3d4941f9a799700ab26e3c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::FrameHandler::addDescriptorSets</definition>
+        <argsstring>(const VkDescriptorSet descriptorSet)</argsstring>
+        <name>addDescriptorSets</name>
+        <qualifiedname>narc_engine::FrameHandler::addDescriptorSets</qualifiedname>
+        <param>
+          <type>const VkDescriptorSet</type>
+          <declname>descriptorSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="43" column="14" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::FrameHandler</label>
+        <link refid="classnarc__engine_1_1_frame_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::FrameHandler</label>
+        <link refid="classnarc__engine_1_1_frame_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/rendering/narc_engine/include/renderer/FrameHandler.h" line="15" column="5" bodyfile="src/rendering/narc_engine/include/renderer/FrameHandler.h" bodystart="16" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_frame_handler_1aa08787b22c3d4941f9a799700ab26e3c" prot="private" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>addDescriptorSets</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a87bca51da9ecc4585ed67d2246aa3b51" prot="public" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>FrameHandler</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a95e112159619f4c416a594b381514cda" prot="public" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>getCommandPool</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a71d41279542a45ee2ff4da23c041eb83" prot="public" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>getDescriptorSets</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a7a6e89925ec0e6f47940c101e5a6e639" prot="public" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>getImageAvailableSemaphore</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1af340ebd2ec2b6bff75acffa4b66e75ed" prot="public" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>getInFlightFence</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a0970d560526cef7163fbf9eb1db6d079" prot="public" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>getRenderFinishedSemaphore</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1ada4d14b2f5e90d30efb1b3c1219cb46a" prot="public" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>getUniformBuffer</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a0f16e6b07e5a2893a00946a225abd3d2" prot="private" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>m_commandPool</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1aa294dac5276ec361e0d7313fd6f728f2" prot="private" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>m_descriptorSets</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a14971f5d05774292e7bd78daa04a2508" prot="private" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>m_imageAvailableSemaphore</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a1fea8aa7c277119cb6d31f9938891356" prot="private" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>m_inFlightFence</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a560b73bdb6cc53e7f8913bdf16574c05" prot="private" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>m_renderFinishedSemaphore</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a190a4d35aeb8b06748adf4ce2f494fc5" prot="private" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>m_uniformBuffer</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a24a6fc8570717f23c346ec772bf5a95a" prot="private" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>MultiFrameManager</name></member>
+      <member refid="classnarc__engine_1_1_frame_handler_1a30a284a8d6b1b427de556e662ef7c97c" prot="public" virt="non-virtual"><scope>narc_engine::FrameHandler</scope><name>~FrameHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

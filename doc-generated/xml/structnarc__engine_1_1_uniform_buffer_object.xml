@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structnarc__engine_1_1_uniform_buffer_object" kind="struct" language="C++" prot="public">
+    <compoundname>narc_engine::UniformBufferObject</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnarc__engine_1_1_uniform_buffer_object_1a5074d7216b38ce0c0e3cdfd92b3e1ffc" prot="public" static="no" mutable="no">
+        <type>glm::mat4</type>
+        <definition>glm::mat4 narc_engine::UniformBufferObject::Model</definition>
+        <argsstring></argsstring>
+        <name>Model</name>
+        <qualifiedname>narc_engine::UniformBufferObject::Model</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/UniformBufferObject.h" line="9" column="19" bodyfile="src/rendering/narc_engine/include/models/UniformBufferObject.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnarc__engine_1_1_uniform_buffer_object_1a75398385b141f0e9263c9893b631f1ae" prot="public" static="no" mutable="no">
+        <type>glm::mat4</type>
+        <definition>glm::mat4 narc_engine::UniformBufferObject::View</definition>
+        <argsstring></argsstring>
+        <name>View</name>
+        <qualifiedname>narc_engine::UniformBufferObject::View</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/UniformBufferObject.h" line="10" column="19" bodyfile="src/rendering/narc_engine/include/models/UniformBufferObject.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnarc__engine_1_1_uniform_buffer_object_1a4dc07cd5aada667b54211ebfb599b912" prot="public" static="no" mutable="no">
+        <type>glm::mat4</type>
+        <definition>glm::mat4 narc_engine::UniformBufferObject::Proj</definition>
+        <argsstring></argsstring>
+        <name>Proj</name>
+        <qualifiedname>narc_engine::UniformBufferObject::Proj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/UniformBufferObject.h" line="11" column="19" bodyfile="src/rendering/narc_engine/include/models/UniformBufferObject.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/models/UniformBufferObject.h" line="7" column="5" bodyfile="src/rendering/narc_engine/include/models/UniformBufferObject.h" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="structnarc__engine_1_1_uniform_buffer_object_1a5074d7216b38ce0c0e3cdfd92b3e1ffc" prot="public" virt="non-virtual"><scope>narc_engine::UniformBufferObject</scope><name>Model</name></member>
+      <member refid="structnarc__engine_1_1_uniform_buffer_object_1a4dc07cd5aada667b54211ebfb599b912" prot="public" virt="non-virtual"><scope>narc_engine::UniformBufferObject</scope><name>Proj</name></member>
+      <member refid="structnarc__engine_1_1_uniform_buffer_object_1a75398385b141f0e9263c9893b631f1ae" prot="public" virt="non-virtual"><scope>narc_engine::UniformBufferObject</scope><name>View</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

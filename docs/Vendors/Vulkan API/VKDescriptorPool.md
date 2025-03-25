@@ -1,4 +1,0 @@
----
-aliases: []
----
-[[Vulkan API]]

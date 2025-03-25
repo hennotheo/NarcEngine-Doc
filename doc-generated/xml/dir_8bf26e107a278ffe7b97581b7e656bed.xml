@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_8bf26e107a278ffe7b97581b7e656bed" kind="dir">
+    <compoundname>src/rendering/narc_engine/include/buffers</compoundname>
+    <innerfile refid="_buffer_8h">Buffer.h</innerfile>
+    <innerfile refid="_graphics_buffer_8h">GraphicsBuffer.h</innerfile>
+    <innerfile refid="_staging_buffer_8h">StagingBuffer.h</innerfile>
+    <innerfile refid="_uniform_buffer_8h">UniformBuffer.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/buffers/"/>
+  </compounddef>
+</doxygen>

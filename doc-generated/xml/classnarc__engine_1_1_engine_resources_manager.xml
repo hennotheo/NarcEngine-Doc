@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_engine_resources_manager" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>narc_engine::EngineResourcesManager</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_engine_resources_manager_1a77143fafe1f00dc2b7ae966a9f4d86f2" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t narc_engine::EngineResourcesManager::m_resourceIDCounter</definition>
+        <argsstring></argsstring>
+        <name>m_resourceIDCounter</name>
+        <qualifiedname>narc_engine::EngineResourcesManager::m_resourceIDCounter</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineResourcesManager.h" line="24" column="18" bodyfile="src/rendering/narc_engine/include/core/EngineResourcesManager.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_engine_resources_manager_1a9f6efce8ace674e48ffe8c072d3987b7" prot="private" static="no" mutable="no">
+        <type>std::map&lt; uint32_t, <ref refid="classnarc__engine_1_1_graphic_resource" kindref="compound">GraphicResource</ref> * &gt;</type>
+        <definition>std::map&lt;uint32_t, GraphicResource*&gt; narc_engine::EngineResourcesManager::m_resources</definition>
+        <argsstring></argsstring>
+        <name>m_resources</name>
+        <qualifiedname>narc_engine::EngineResourcesManager::m_resources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineResourcesManager.h" line="25" column="18" bodyfile="src/rendering/narc_engine/include/core/EngineResourcesManager.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_resources_manager_1a4cd93881c7f2dcca77df137c4e90bada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::EngineResourcesManager::EngineResourcesManager</definition>
+        <argsstring>()=default</argsstring>
+        <name>EngineResourcesManager</name>
+        <qualifiedname>narc_engine::EngineResourcesManager::EngineResourcesManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineResourcesManager.h" line="17" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_resources_manager_1a52b61d9552f24664774940367139048f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::EngineResourcesManager::~EngineResourcesManager</definition>
+        <argsstring>()</argsstring>
+        <name>~EngineResourcesManager</name>
+        <qualifiedname>narc_engine::EngineResourcesManager::~EngineResourcesManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineResourcesManager.h" line="18" column="9" bodyfile="src/rendering/narc_engine/src/core/EngineResourcesManager.cpp" bodystart="12" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_resources_manager_1af2f9e62de46a32a5310c9d82aabaae04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structnarc__engine_1_1_graphic_resource_handler" kindref="compound">GraphicResourceHandler</ref> &amp;</type>
+        <definition>const GraphicResourceHandler &amp; narc_engine::EngineResourcesManager::createTexture2D</definition>
+        <argsstring>(const char *path)</argsstring>
+        <name>createTexture2D</name>
+        <qualifiedname>narc_engine::EngineResourcesManager::createTexture2D</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineResourcesManager.h" line="20" column="38" bodyfile="src/rendering/narc_engine/src/core/EngineResourcesManager.cpp" bodystart="21" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_engine_resources_manager_1a8cd8b03b6a615876ce6b30869ed41640" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>GETTER const <ref refid="classnarc__engine_1_1_graphic_resource" kindref="compound">GraphicResource</ref> *</type>
+        <definition>const GraphicResource * narc_engine::EngineResourcesManager::getResource</definition>
+        <argsstring>(const GraphicResourceHandler &amp;resourceHandler) const</argsstring>
+        <name>getResource</name>
+        <qualifiedname>narc_engine::EngineResourcesManager::getResource</qualifiedname>
+        <param>
+          <type>const <ref refid="structnarc__engine_1_1_graphic_resource_handler" kindref="compound">GraphicResourceHandler</ref> &amp;</type>
+          <declname>resourceHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/EngineResourcesManager.h" line="22" column="38" bodyfile="src/rendering/narc_engine/src/core/EngineResourcesManager.cpp" bodystart="31" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/core/EngineResourcesManager.h" line="14" column="5" bodyfile="src/rendering/narc_engine/include/core/EngineResourcesManager.h" bodystart="15" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_engine_resources_manager_1af2f9e62de46a32a5310c9d82aabaae04" prot="public" virt="non-virtual"><scope>narc_engine::EngineResourcesManager</scope><name>createTexture2D</name></member>
+      <member refid="classnarc__engine_1_1_engine_resources_manager_1a4cd93881c7f2dcca77df137c4e90bada" prot="public" virt="non-virtual"><scope>narc_engine::EngineResourcesManager</scope><name>EngineResourcesManager</name></member>
+      <member refid="classnarc__engine_1_1_engine_resources_manager_1a8cd8b03b6a615876ce6b30869ed41640" prot="public" virt="non-virtual"><scope>narc_engine::EngineResourcesManager</scope><name>getResource</name></member>
+      <member refid="classnarc__engine_1_1_engine_resources_manager_1a77143fafe1f00dc2b7ae966a9f4d86f2" prot="private" virt="non-virtual"><scope>narc_engine::EngineResourcesManager</scope><name>m_resourceIDCounter</name></member>
+      <member refid="classnarc__engine_1_1_engine_resources_manager_1a9f6efce8ace674e48ffe8c072d3987b7" prot="private" virt="non-virtual"><scope>narc_engine::EngineResourcesManager</scope><name>m_resources</name></member>
+      <member refid="classnarc__engine_1_1_engine_resources_manager_1a52b61d9552f24664774940367139048f" prot="public" virt="non-virtual"><scope>narc_engine::EngineResourcesManager</scope><name>~EngineResourcesManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

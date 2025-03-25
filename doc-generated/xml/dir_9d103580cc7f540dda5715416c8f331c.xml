@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_9d103580cc7f540dda5715416c8f331c" kind="dir">
+    <compoundname>src/core/narclog/include/exceptions</compoundname>
+    <innerfile refid="_error_exception_8h">ErrorException.h</innerfile>
+    <innerfile refid="_exception_handler_builder_8h">ExceptionHandlerBuilder.h</innerfile>
+    <innerfile refid="_fatal_exception_8h">FatalException.h</innerfile>
+    <innerfile refid="_method_exception_handler_8h">MethodExceptionHandler.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narclog/include/exceptions/"/>
+  </compounddef>
+</doxygen>

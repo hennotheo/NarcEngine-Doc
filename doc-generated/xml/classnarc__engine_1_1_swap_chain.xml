@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_swap_chain" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::SwapChain</compoundname>
+    <basecompoundref refid="classnarc__engine_1_1_device_component" prot="public" virt="non-virtual">narc_engine::DeviceComponent</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_swap_chain_1a6225493a5d50360d6cec55ad61ed7f25" prot="private" static="no" mutable="no">
+        <type>VkSwapchainKHR</type>
+        <definition>VkSwapchainKHR narc_engine::SwapChain::m_swapChain</definition>
+        <argsstring></argsstring>
+        <name>m_swapChain</name>
+        <qualifiedname>narc_engine::SwapChain::m_swapChain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="30" column="24" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_swap_chain_1a9f78bee02d9abb5cfc3c55c706ea946e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; VkImage &gt;</type>
+        <definition>std::vector&lt;VkImage&gt; narc_engine::SwapChain::m_swapChainImages</definition>
+        <argsstring></argsstring>
+        <name>m_swapChainImages</name>
+        <qualifiedname>narc_engine::SwapChain::m_swapChainImages</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="31" column="21" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_swap_chain_1a980630510b7f7c629c6cab8693a2d031" prot="private" static="no" mutable="no">
+        <type>VkFormat</type>
+        <definition>VkFormat narc_engine::SwapChain::m_swapChainImageFormat</definition>
+        <argsstring></argsstring>
+        <name>m_swapChainImageFormat</name>
+        <qualifiedname>narc_engine::SwapChain::m_swapChainImageFormat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="32" column="18" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_swap_chain_1a5608d546f102d7dbabf9a20d574c62f8" prot="private" static="no" mutable="no">
+        <type>VkExtent2D</type>
+        <definition>VkExtent2D narc_engine::SwapChain::m_swapChainExtent</definition>
+        <argsstring></argsstring>
+        <name>m_swapChainExtent</name>
+        <qualifiedname>narc_engine::SwapChain::m_swapChainExtent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="33" column="20" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_swap_chain_1ade74cd29dcb0ff16596c6cb01b9db42a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; VkImageView &gt;</type>
+        <definition>std::vector&lt;VkImageView&gt; narc_engine::SwapChain::m_swapChainImageViews</definition>
+        <argsstring></argsstring>
+        <name>m_swapChainImageViews</name>
+        <qualifiedname>narc_engine::SwapChain::m_swapChainImageViews</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="34" column="21" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_swap_chain_1a685548742e9a36690a143c68198d958b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; VkFramebuffer &gt;</type>
+        <definition>std::vector&lt;VkFramebuffer&gt; narc_engine::SwapChain::m_swapChainFramebuffers</definition>
+        <argsstring></argsstring>
+        <name>m_swapChainFramebuffers</name>
+        <qualifiedname>narc_engine::SwapChain::m_swapChainFramebuffers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="35" column="21" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_swap_chain_1a70241b396cc93f1abfdd88111fe9913d" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classnarc__engine_1_1_depth_resources" kindref="compound">DepthResources</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;DepthResources&gt; narc_engine::SwapChain::m_depthResources</definition>
+        <argsstring></argsstring>
+        <name>m_depthResources</name>
+        <qualifiedname>narc_engine::SwapChain::m_depthResources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="37" column="25" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_swap_chain_1a0f5af69b2845443a8cf70d8cb3f56530" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classnarc__engine_1_1_render_pass" kindref="compound">RenderPass</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;RenderPass&gt; narc_engine::SwapChain::m_renderPass</definition>
+        <argsstring></argsstring>
+        <name>m_renderPass</name>
+        <qualifiedname>narc_engine::SwapChain::m_renderPass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="38" column="25" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_swap_chain_1a1e246509c572306084468b2c4038c5b5" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classnarc__engine_1_1_window" kindref="compound">Window</ref> *</type>
+        <definition>const Window* narc_engine::SwapChain::m_window</definition>
+        <argsstring></argsstring>
+        <name>m_window</name>
+        <qualifiedname>narc_engine::SwapChain::m_window</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="40" column="22" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1a1c2c167c75a39c4ea8690d555273d042" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const VkExtent2D &amp;</type>
+        <definition>const VkExtent2D &amp; narc_engine::SwapChain::getSwapChainExtent</definition>
+        <argsstring>() const</argsstring>
+        <name>getSwapChainExtent</name>
+        <qualifiedname>narc_engine::SwapChain::getSwapChainExtent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="15" column="26" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1a44e5c6e36511eb129377b05b98d3a7e8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classnarc__engine_1_1_render_pass" kindref="compound">RenderPass</ref> *</type>
+        <definition>const RenderPass * narc_engine::SwapChain::getRenderPass</definition>
+        <argsstring>() const</argsstring>
+        <name>getRenderPass</name>
+        <qualifiedname>narc_engine::SwapChain::getRenderPass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="16" column="26" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1a3856490288f7422d0c91ffa42e4a0461" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const VkSwapchainKHR &amp;</type>
+        <definition>const VkSwapchainKHR &amp; narc_engine::SwapChain::getSwapChain</definition>
+        <argsstring>() const</argsstring>
+        <name>getSwapChain</name>
+        <qualifiedname>narc_engine::SwapChain::getSwapChain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="17" column="30" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1a42620f21b3421c4ec3993e2143c93ed7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::SwapChain::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>narc_engine::SwapChain::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="19" column="14" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="10" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1abe378ec4f7198f3378ec936e904b9a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::SwapChain::createFramebuffers</definition>
+        <argsstring>()</argsstring>
+        <name>createFramebuffers</name>
+        <qualifiedname>narc_engine::SwapChain::createFramebuffers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="20" column="14" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="77" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1adf5ce13acb3781160959ebf32553e80c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>VkRenderPassBeginInfo</type>
+        <definition>VkRenderPassBeginInfo narc_engine::SwapChain::getRenderPassBeginInfos</definition>
+        <argsstring>(uint32_t imageIndex) const</argsstring>
+        <name>getRenderPassBeginInfos</name>
+        <qualifiedname>narc_engine::SwapChain::getRenderPassBeginInfos</qualifiedname>
+        <param>
+          <type>uint32_t</type>
+          <declname>imageIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="22" column="31" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="104" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1aaa93e43077b166960e61c7d0d8704ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkResult</type>
+        <definition>VkResult narc_engine::SwapChain::acquireNextImage</definition>
+        <argsstring>(const VkSemaphore &amp;semaphore, uint32_t *imageIndex)</argsstring>
+        <name>acquireNextImage</name>
+        <qualifiedname>narc_engine::SwapChain::acquireNextImage</qualifiedname>
+        <param>
+          <type>const VkSemaphore &amp;</type>
+          <declname>semaphore</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>imageIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="23" column="18" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="22" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1af2b88a62f620b23b87f76ad9a1c0e034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::SwapChain::reCreate</definition>
+        <argsstring>()</argsstring>
+        <name>reCreate</name>
+        <qualifiedname>narc_engine::SwapChain::reCreate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="24" column="14" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="61" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1af17ebf1c5f94be3c696c6852c8188d57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::SwapChain::cleanSwapChain</definition>
+        <argsstring>()</argsstring>
+        <name>cleanSwapChain</name>
+        <qualifiedname>narc_engine::SwapChain::cleanSwapChain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="26" column="14" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="40" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1a953a06b6c0f047574936d5b174394c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::SwapChain::cleanRenderPass</definition>
+        <argsstring>()</argsstring>
+        <name>cleanRenderPass</name>
+        <qualifiedname>narc_engine::SwapChain::cleanRenderPass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="27" column="14" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1a82dd08ff5dc8d2b3d77378cb35e18c3c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::SwapChain::createSwapChain</definition>
+        <argsstring>()</argsstring>
+        <name>createSwapChain</name>
+        <qualifiedname>narc_engine::SwapChain::createSwapChain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="42" column="14" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="116" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1a796ec331b850755e5f0cf966c1f6bee0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::SwapChain::createImageViews</definition>
+        <argsstring>()</argsstring>
+        <name>createImageViews</name>
+        <qualifiedname>narc_engine::SwapChain::createImageViews</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="43" column="14" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="155" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1a1fcdec59a047144cbfc1280da685fc60" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>VkExtent2D</type>
+        <definition>VkExtent2D narc_engine::SwapChain::chooseSwapExtent</definition>
+        <argsstring>(const VkSurfaceCapabilitiesKHR &amp;capabilities) const</argsstring>
+        <name>chooseSwapExtent</name>
+        <qualifiedname>narc_engine::SwapChain::chooseSwapExtent</qualifiedname>
+        <param>
+          <type>const VkSurfaceCapabilitiesKHR &amp;</type>
+          <declname>capabilities</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="46" column="20" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="191" bodyend="211"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1a5b3c87a936c623ffd813243f66c181a4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkSurfaceFormatKHR</type>
+        <definition>VkSurfaceFormatKHR narc_engine::SwapChain::chooseSwapSurfaceFormat</definition>
+        <argsstring>(const std::vector&lt; VkSurfaceFormatKHR &gt; &amp;availableFormats)</argsstring>
+        <name>chooseSwapSurfaceFormat</name>
+        <qualifiedname>narc_engine::SwapChain::chooseSwapSurfaceFormat</qualifiedname>
+        <param>
+          <type>const std::vector&lt; VkSurfaceFormatKHR &gt; &amp;</type>
+          <declname>availableFormats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="44" column="35" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="165" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_swap_chain_1a0802e813e7c262b20f326dd1698fa34e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPresentModeKHR</type>
+        <definition>VkPresentModeKHR narc_engine::SwapChain::chooseSwapPresentMode</definition>
+        <argsstring>(const std::vector&lt; VkPresentModeKHR &gt; &amp;availablePresentModes)</argsstring>
+        <name>chooseSwapPresentMode</name>
+        <qualifiedname>narc_engine::SwapChain::chooseSwapPresentMode</qualifiedname>
+        <param>
+          <type>const std::vector&lt; VkPresentModeKHR &gt; &amp;</type>
+          <declname>availablePresentModes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="45" column="33" bodyfile="src/rendering/narc_engine/src/renderer/SwapChain.cpp" bodystart="178" bodyend="189"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::SwapChain</label>
+        <link refid="classnarc__engine_1_1_swap_chain"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::SwapChain</label>
+        <link refid="classnarc__engine_1_1_swap_chain"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/rendering/narc_engine/include/renderer/SwapChain.h" line="12" column="5" bodyfile="src/rendering/narc_engine/include/renderer/SwapChain.h" bodystart="13" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_swap_chain_1aaa93e43077b166960e61c7d0d8704ada" prot="public" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>acquireNextImage</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a1fcdec59a047144cbfc1280da685fc60" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>chooseSwapExtent</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a0802e813e7c262b20f326dd1698fa34e" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>chooseSwapPresentMode</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a5b3c87a936c623ffd813243f66c181a4" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>chooseSwapSurfaceFormat</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a953a06b6c0f047574936d5b174394c35" prot="public" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>cleanRenderPass</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1af17ebf1c5f94be3c696c6852c8188d57" prot="public" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>cleanSwapChain</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a42620f21b3421c4ec3993e2143c93ed7" prot="public" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>create</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1abe378ec4f7198f3378ec936e904b9a03" prot="public" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>createFramebuffers</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a796ec331b850755e5f0cf966c1f6bee0" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>createImageViews</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a82dd08ff5dc8d2b3d77378cb35e18c3c" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>createSwapChain</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a44e5c6e36511eb129377b05b98d3a7e8" prot="public" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>getRenderPass</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1adf5ce13acb3781160959ebf32553e80c" prot="public" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>getRenderPassBeginInfos</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a3856490288f7422d0c91ffa42e4a0461" prot="public" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>getSwapChain</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a1c2c167c75a39c4ea8690d555273d042" prot="public" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>getSwapChainExtent</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a70241b396cc93f1abfdd88111fe9913d" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>m_depthResources</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a0f5af69b2845443a8cf70d8cb3f56530" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>m_renderPass</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a6225493a5d50360d6cec55ad61ed7f25" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>m_swapChain</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a5608d546f102d7dbabf9a20d574c62f8" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>m_swapChainExtent</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a685548742e9a36690a143c68198d958b" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>m_swapChainFramebuffers</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a980630510b7f7c629c6cab8693a2d031" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>m_swapChainImageFormat</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a9f78bee02d9abb5cfc3c55c706ea946e" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>m_swapChainImages</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1ade74cd29dcb0ff16596c6cb01b9db42a" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>m_swapChainImageViews</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1a1e246509c572306084468b2c4038c5b5" prot="private" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>m_window</name></member>
+      <member refid="classnarc__engine_1_1_swap_chain_1af2b88a62f620b23b87f76ad9a1c0e034" prot="public" virt="non-virtual"><scope>narc_engine::SwapChain</scope><name>reCreate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

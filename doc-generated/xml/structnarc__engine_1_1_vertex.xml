@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structnarc__engine_1_1_vertex" kind="struct" language="C++" prot="public">
+    <compoundname>narc_engine::Vertex</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnarc__engine_1_1_vertex_1aa010d818367d5b804178b9a21840d459" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 narc_engine::Vertex::Pos</definition>
+        <argsstring></argsstring>
+        <name>Pos</name>
+        <qualifiedname>narc_engine::Vertex::Pos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Vertex.h" line="11" column="19" bodyfile="src/rendering/narc_engine/include/models/Vertex.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnarc__engine_1_1_vertex_1ab2fb9c362a639bc2e1849f3b17f7f5a6" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 narc_engine::Vertex::Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <qualifiedname>narc_engine::Vertex::Color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Vertex.h" line="12" column="19" bodyfile="src/rendering/narc_engine/include/models/Vertex.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnarc__engine_1_1_vertex_1a5147542ab3fbdb2c9e05b53a1cd18a55" prot="public" static="no" mutable="no">
+        <type>glm::vec2</type>
+        <definition>glm::vec2 narc_engine::Vertex::TexCoord</definition>
+        <argsstring></argsstring>
+        <name>TexCoord</name>
+        <qualifiedname>narc_engine::Vertex::TexCoord</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Vertex.h" line="13" column="19" bodyfile="src/rendering/narc_engine/include/models/Vertex.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structnarc__engine_1_1_vertex_1af476cdf287727a9e4baf1c2aca650a0d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkVertexInputBindingDescription</type>
+        <definition>VkVertexInputBindingDescription narc_engine::Vertex::getBindingDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getBindingDescription</name>
+        <qualifiedname>narc_engine::Vertex::getBindingDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Vertex.h" line="15" column="48" bodyfile="src/rendering/narc_engine/src/models/Vertex.cpp" bodystart="9" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structnarc__engine_1_1_vertex_1a60703fffe43daba9efc197117e8089ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; VkVertexInputAttributeDescription, 3 &gt;</type>
+        <definition>std::array&lt; VkVertexInputAttributeDescription, 3 &gt; narc_engine::Vertex::getAttributeDescriptions</definition>
+        <argsstring>()</argsstring>
+        <name>getAttributeDescriptions</name>
+        <qualifiedname>narc_engine::Vertex::getAttributeDescriptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/Vertex.h" line="16" column="27" bodyfile="src/rendering/narc_engine/src/models/Vertex.cpp" bodystart="19" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/models/Vertex.h" line="9" column="5" bodyfile="src/rendering/narc_engine/include/models/Vertex.h" bodystart="10" bodyend="17"/>
+    <listofallmembers>
+      <member refid="structnarc__engine_1_1_vertex_1ab2fb9c362a639bc2e1849f3b17f7f5a6" prot="public" virt="non-virtual"><scope>narc_engine::Vertex</scope><name>Color</name></member>
+      <member refid="structnarc__engine_1_1_vertex_1a60703fffe43daba9efc197117e8089ce" prot="public" virt="non-virtual"><scope>narc_engine::Vertex</scope><name>getAttributeDescriptions</name></member>
+      <member refid="structnarc__engine_1_1_vertex_1af476cdf287727a9e4baf1c2aca650a0d" prot="public" virt="non-virtual"><scope>narc_engine::Vertex</scope><name>getBindingDescription</name></member>
+      <member refid="structnarc__engine_1_1_vertex_1aa010d818367d5b804178b9a21840d459" prot="public" virt="non-virtual"><scope>narc_engine::Vertex</scope><name>Pos</name></member>
+      <member refid="structnarc__engine_1_1_vertex_1a5147542ab3fbdb2c9e05b53a1cd18a55" prot="public" virt="non-virtual"><scope>narc_engine::Vertex</scope><name>TexCoord</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

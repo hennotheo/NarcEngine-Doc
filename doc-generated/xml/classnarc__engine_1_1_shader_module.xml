@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_shader_module" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::ShaderModule</compoundname>
+    <basecompoundref refid="classnarc__engine_1_1_device_component" prot="public" virt="non-virtual">narc_engine::DeviceComponent</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_shader_module_1aaf3c50796b2755304c9dc25c46b50a75" prot="private" static="no" mutable="no">
+        <type>VkShaderModule</type>
+        <definition>VkShaderModule narc_engine::ShaderModule::m_shaderModule</definition>
+        <argsstring></argsstring>
+        <name>m_shaderModule</name>
+        <qualifiedname>narc_engine::ShaderModule::m_shaderModule</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/ShaderModule.h" line="23" column="24" bodyfile="src/rendering/narc_engine/include/models/ShaderModule.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_shader_module_1a911abb7af5eb1a973cd05c4625816ff5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::ShaderModule::ShaderModule</definition>
+        <argsstring>(const std::string &amp;filename)</argsstring>
+        <name>ShaderModule</name>
+        <qualifiedname>narc_engine::ShaderModule::ShaderModule</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/ShaderModule.h" line="17" column="18" bodyfile="src/rendering/narc_engine/src/models/ShaderModule.cpp" bodystart="13" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_shader_module_1aed081c89cc266b131cf46311deacb372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::ShaderModule::~ShaderModule</definition>
+        <argsstring>()</argsstring>
+        <name>~ShaderModule</name>
+        <qualifiedname>narc_engine::ShaderModule::~ShaderModule</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/ShaderModule.h" line="18" column="9" bodyfile="src/rendering/narc_engine/src/models/ShaderModule.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_shader_module_1a186d124a92c5eca65beb198b8268dd84" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPipelineShaderStageCreateInfo</type>
+        <definition>VkPipelineShaderStageCreateInfo narc_engine::ShaderModule::configureShaderStage</definition>
+        <argsstring>(const char *entryPoint, VkShaderStageFlagBits stage) const</argsstring>
+        <name>configureShaderStage</name>
+        <qualifiedname>narc_engine::ShaderModule::configureShaderStage</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>entryPoint</declname>
+        </param>
+        <param>
+          <type>VkShaderStageFlagBits</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/models/ShaderModule.h" line="20" column="41" bodyfile="src/rendering/narc_engine/src/models/ShaderModule.cpp" bodystart="33" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::ShaderModule</label>
+        <link refid="classnarc__engine_1_1_shader_module"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::ShaderModule</label>
+        <link refid="classnarc__engine_1_1_shader_module"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/rendering/narc_engine/include/models/ShaderModule.h" line="14" column="5" bodyfile="src/rendering/narc_engine/include/models/ShaderModule.h" bodystart="15" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_shader_module_1a186d124a92c5eca65beb198b8268dd84" prot="public" virt="non-virtual"><scope>narc_engine::ShaderModule</scope><name>configureShaderStage</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::ShaderModule</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::ShaderModule</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::ShaderModule</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_shader_module_1aaf3c50796b2755304c9dc25c46b50a75" prot="private" virt="non-virtual"><scope>narc_engine::ShaderModule</scope><name>m_shaderModule</name></member>
+      <member refid="classnarc__engine_1_1_shader_module_1a911abb7af5eb1a973cd05c4625816ff5" prot="public" virt="non-virtual"><scope>narc_engine::ShaderModule</scope><name>ShaderModule</name></member>
+      <member refid="classnarc__engine_1_1_shader_module_1aed081c89cc266b131cf46311deacb372" prot="public" virt="non-virtual"><scope>narc_engine::ShaderModule</scope><name>~ShaderModule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

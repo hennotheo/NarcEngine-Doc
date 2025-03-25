@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_67420ce46651edb4d8d59d3297206e1c" kind="dir">
+    <compoundname>src/core/narclog/include</compoundname>
+    <innerdir refid="dir_9d103580cc7f540dda5715416c8f331c">src/core/narclog/include/exceptions</innerdir>
+    <innerdir refid="dir_32aec9cf6a830a6692e43cdd6f2c59eb">src/core/narclog/include/keywords</innerdir>
+    <innerdir refid="dir_5e20dcf68d9b953181611deee0939630">src/core/narclog/include/platform</innerdir>
+    <innerfile refid="core_2narclog_2include_2_core_8h">Core.h</innerfile>
+    <innerfile refid="_file_logger_8h">FileLogger.h</innerfile>
+    <innerfile refid="_logger_8h">Logger.h</innerfile>
+    <innerfile refid="_narc_log_8h">NarcLog.h</innerfile>
+    <innerfile refid="core_2narclog_2include_2pch_8h">pch.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narclog/include/"/>
+  </compounddef>
+</doxygen>

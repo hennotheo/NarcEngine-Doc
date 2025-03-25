@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_narc_i_o_8h" kind="file" language="C++">
+    <compoundname>NarcIO.h</compoundname>
+    <includes refid="core_2narcio_2include_2pch_8h" local="yes">pch.h</includes>
+    <includes refid="core_2narcio_2include_2_core_8h" local="yes">Core.h</includes>
+    <includes refid="_image_8h" local="yes">models/Image.h</includes>
+    <includes refid="_model3_d_8h" local="yes">models/Model3D.h</includes>
+    <includes refid="_file_reader_8h" local="yes">FileReader.h</includes>
+    <includedby refid="_application_8cpp" local="no">src/application/src/Application.cpp</includedby>
+    <includedby refid="core_2narcio_2include_2pch_8h" local="yes">src/core/narcio/include/pch.h</includedby>
+    <includedby refid="rendering_2narc__engine_2include_2pch_8h" local="no">src/rendering/narc_engine/include/pch.h</includedby>
+    <includedby refid="_shader_module_8cpp" local="no">src/rendering/narc_engine/src/models/ShaderModule.cpp</includedby>
+    <includedby refid="_texture2_d_resource_8cpp" local="no">src/rendering/narc_engine/src/resources/Texture2DResource.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>NarcCore.h</label>
+        <link refid="_narc_core_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>pch.h</label>
+        <link refid="core_2core_2include_2pch_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>NarcMath.h</label>
+        <link refid="_narc_math_8h_source"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Core.h</label>
+        <link refid="core_2narcio_2include_2_core_8h_source"/>
+      </node>
+      <node id="32">
+        <label>FileReader.h</label>
+        <link refid="_file_reader_8h_source"/>
+      </node>
+      <node id="1">
+        <label>src/core/narcio/include/NarcIO.h</label>
+        <link refid="_narc_i_o_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>models/Image.h</label>
+        <link refid="_image_8h_source"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>models/Model3D.h</label>
+        <link refid="_model3_d_8h_source"/>
+      </node>
+      <node id="2">
+        <label>pch.h</label>
+        <link refid="core_2narcio_2include_2pch_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>algorithm</label>
+      </node>
+      <node id="6">
+        <label>array</label>
+      </node>
+      <node id="7">
+        <label>chrono</label>
+      </node>
+      <node id="8">
+        <label>cstdint</label>
+      </node>
+      <node id="9">
+        <label>cstring</label>
+      </node>
+      <node id="10">
+        <label>ctime</label>
+      </node>
+      <node id="11">
+        <label>exception</label>
+      </node>
+      <node id="12">
+        <label>filesystem</label>
+      </node>
+      <node id="13">
+        <label>fstream</label>
+      </node>
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="27">
+        <label>glm/ext/matrix_clip_space.hpp</label>
+      </node>
+      <node id="28">
+        <label>glm/ext/matrix_transform.hpp</label>
+      </node>
+      <node id="29">
+        <label>glm/ext/scalar_constants.hpp</label>
+      </node>
+      <node id="25">
+        <label>glm/glm.hpp</label>
+      </node>
+      <node id="26">
+        <label>glm/gtx/hash.hpp</label>
+      </node>
+      <node id="15">
+        <label>iostream</label>
+      </node>
+      <node id="16">
+        <label>map</label>
+      </node>
+      <node id="17">
+        <label>memory</label>
+      </node>
+      <node id="18">
+        <label>optional</label>
+      </node>
+      <node id="19">
+        <label>set</label>
+      </node>
+      <node id="20">
+        <label>stdexcept</label>
+      </node>
+      <node id="21">
+        <label>string</label>
+      </node>
+      <node id="22">
+        <label>type_traits</label>
+      </node>
+      <node id="23">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>src/application/include/Application.h</label>
+        <link refid="_application_8h_source"/>
+      </node>
+      <node id="1">
+        <label>src/core/narcio/include/NarcIO.h</label>
+        <link refid="_narc_i_o_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/core/narcio/include/pch.h</label>
+        <link refid="core_2narcio_2include_2pch_8h_source"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>src/rendering/narc_engine/include/Engine.h</label>
+        <link refid="_engine_8h_source"/>
+      </node>
+      <node id="4">
+        <label>src/rendering/narc_engine/include/NarcEngine.h</label>
+        <link refid="_narc_engine_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/rendering/narc_engine/include/interfaces/IEngine.h</label>
+        <link refid="_i_engine_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/rendering/narc_engine/include/pch.h</label>
+        <link refid="rendering_2narc__engine_2include_2pch_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pch.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Core.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/Image.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;models/Model3D.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FileReader.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/core/narcio/include/NarcIO.h"/>
+  </compounddef>
+</doxygen>

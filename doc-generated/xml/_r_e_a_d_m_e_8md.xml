@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>NarcEngine</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">NarcEngine<sp/>is<sp/>a<sp/>C++<sp/>game<sp/>engine<sp/>that<sp/>leverages<sp/>Vulkan<sp/>for<sp/>high-performance<sp/>graphics<sp/>rendering.<sp/>This<sp/>project<sp/>includes<sp/>several<sp/>dependencies<sp/>and<sp/>is<sp/>structured<sp/>to<sp/>facilitate<sp/>easy<sp/>development<sp/>and<sp/>integration.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>High-performance<sp/>graphics<sp/>rendering<sp/>using<sp/>Vulkan</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Modular<sp/>architecture<sp/>with<sp/>separate<sp/>components<sp/>for<sp/>IO<sp/>and<sp/>core<sp/>engine<sp/>functionality</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Integration<sp/>with<sp/>GLFW<sp/>for<sp/>window<sp/>management<sp/>and<sp/>input<sp/>handling</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Integration<sp/>with<sp/>GLM<sp/>for<sp/>mathematics<sp/>operations</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Dependencies</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>[Vulkan<sp/>SDK](https://vulkan.lunarg.com/sdk/home)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[GLFW](https://github.com/glfw/glfw)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[GLM](https://github.com/g-truc/glm)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[Python](https://www.python.org/)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[CMake](https://cmake.org/)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[STB](https://github.com/nothings/stb.git)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[Tinyobjloader](https://github.com/tinyobjloader/tinyobjloader.git)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Building<sp/>the<sp/>Project</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Prerequisites</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>CMake<sp/>3.10<sp/>or<sp/>higher</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>A<sp/>C++17<sp/>compatible<sp/>compiler</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Vulkan<sp/>SDK<sp/>installed</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Python<sp/>3.6<sp/>or<sp/>higher<sp/>(for<sp/>building<sp/>dependencies)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Steps</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1.<sp/>Clone<sp/>the<sp/>repository:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```sh</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>git<sp/>clone<sp/>https://github.com/hennotheo/NarcEngine.git</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>cd<sp/>NarcEngine</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">2.<sp/>Create<sp/>a<sp/>build<sp/>directory<sp/>and<sp/>navigate<sp/>into<sp/>it:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```sh</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>mkdir<sp/>build</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>cd<sp/>build</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">3.<sp/>Configure<sp/>the<sp/>project<sp/>with<sp/>CMake:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```sh</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>cmake<sp/>..</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">4.<sp/>Build<sp/>the<sp/>project:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```sh</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>cmake<sp/>--build<sp/>.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">To<sp/>use<sp/>the<sp/>NarcEngine<sp/>in<sp/>your<sp/>project,<sp/>link<sp/>against<sp/>the<sp/>`NarcEngine`<sp/>library<sp/>and<sp/>include<sp/>the<sp/>necessary<sp/>headers.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>License</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>project<sp/>is<sp/>licensed<sp/>under<sp/>the<sp/>MIT<sp/>License.<sp/>See<sp/>the<sp/>`LICENSE`<sp/>file<sp/>for<sp/>details.</highlight></codeline>
+    </programlisting>
+    <location file="src/README.md"/>
+  </compounddef>
+</doxygen>

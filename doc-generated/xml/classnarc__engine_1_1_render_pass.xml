@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_render_pass" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::RenderPass</compoundname>
+    <basecompoundref refid="classnarc__engine_1_1_device_component" prot="public" virt="non-virtual">narc_engine::DeviceComponent</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_render_pass_1a4055c7eaf1a046a207da584c61d6205c" prot="private" static="no" mutable="no">
+        <type>VkRenderPass</type>
+        <definition>VkRenderPass narc_engine::RenderPass::m_renderPass</definition>
+        <argsstring></argsstring>
+        <name>m_renderPass</name>
+        <qualifiedname>narc_engine::RenderPass::m_renderPass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/RenderPass.h" line="23" column="22" bodyfile="src/rendering/narc_engine/include/renderer/RenderPass.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_render_pass_1afe8f2fa8441acab126b012c412e26b79" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::RenderPass::RenderPass</definition>
+        <argsstring>(VkFormat colorFormat)</argsstring>
+        <name>RenderPass</name>
+        <qualifiedname>narc_engine::RenderPass::RenderPass</qualifiedname>
+        <param>
+          <type>VkFormat</type>
+          <declname>colorFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/RenderPass.h" line="17" column="18" bodyfile="src/rendering/narc_engine/src/renderer/RenderPass.cpp" bodystart="12" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_render_pass_1ad3fa98a05b9240e10ac04f0efcd45972" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::RenderPass::~RenderPass</definition>
+        <argsstring>()</argsstring>
+        <name>~RenderPass</name>
+        <qualifiedname>narc_engine::RenderPass::~RenderPass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/RenderPass.h" line="18" column="9" bodyfile="src/rendering/narc_engine/src/renderer/RenderPass.cpp" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_render_pass_1a67a1048af1cf008efc9234fccdfee8f3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const VkRenderPass &amp;</type>
+        <definition>const VkRenderPass &amp; narc_engine::RenderPass::getRenderPass</definition>
+        <argsstring>() const</argsstring>
+        <name>getRenderPass</name>
+        <qualifiedname>narc_engine::RenderPass::getRenderPass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/RenderPass.h" line="20" column="28" bodyfile="src/rendering/narc_engine/include/renderer/RenderPass.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::RenderPass</label>
+        <link refid="classnarc__engine_1_1_render_pass"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::RenderPass</label>
+        <link refid="classnarc__engine_1_1_render_pass"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/rendering/narc_engine/include/renderer/RenderPass.h" line="14" column="5" bodyfile="src/rendering/narc_engine/include/renderer/RenderPass.h" bodystart="15" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::RenderPass</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::RenderPass</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_render_pass_1a67a1048af1cf008efc9234fccdfee8f3" prot="public" virt="non-virtual"><scope>narc_engine::RenderPass</scope><name>getRenderPass</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::RenderPass</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_render_pass_1a4055c7eaf1a046a207da584c61d6205c" prot="private" virt="non-virtual"><scope>narc_engine::RenderPass</scope><name>m_renderPass</name></member>
+      <member refid="classnarc__engine_1_1_render_pass_1afe8f2fa8441acab126b012c412e26b79" prot="public" virt="non-virtual"><scope>narc_engine::RenderPass</scope><name>RenderPass</name></member>
+      <member refid="classnarc__engine_1_1_render_pass_1ad3fa98a05b9240e10ac04f0efcd45972" prot="public" virt="non-virtual"><scope>narc_engine::RenderPass</scope><name>~RenderPass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

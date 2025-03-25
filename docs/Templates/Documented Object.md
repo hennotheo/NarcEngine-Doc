@@ -1,5 +1,0 @@
----
-Assembly: "[[]]"
-namespace: 
-dependencies: []
----

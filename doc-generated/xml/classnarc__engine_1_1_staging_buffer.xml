@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_staging_buffer" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>narc_engine::StagingBuffer</compoundname>
+    <basecompoundref refid="classnarc__engine_1_1_buffer" prot="public" virt="non-virtual">narc_engine::Buffer</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_staging_buffer_1a57a1402aa17d22cf125019ed048172b5" prot="private" static="no" mutable="no">
+        <type>VkDeviceSize</type>
+        <definition>VkDeviceSize narc_engine::StagingBuffer::m_bufferSize</definition>
+        <argsstring></argsstring>
+        <name>m_bufferSize</name>
+        <qualifiedname>narc_engine::StagingBuffer::m_bufferSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/buffers/StagingBuffer.h" line="16" column="22" bodyfile="src/rendering/narc_engine/include/buffers/StagingBuffer.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_staging_buffer_1a585a495752ad34cef50c033f69264dfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::StagingBuffer::StagingBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>StagingBuffer</name>
+        <qualifiedname>narc_engine::StagingBuffer::StagingBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/buffers/StagingBuffer.h" line="10" column="9" bodyfile="src/rendering/narc_engine/include/buffers/StagingBuffer.h" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_staging_buffer_1a9fa1b53e5bffe8fab80935c3b7851ca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::StagingBuffer::create</definition>
+        <argsstring>(VkDeviceSize bufferSize)</argsstring>
+        <name>create</name>
+        <qualifiedname>narc_engine::StagingBuffer::create</qualifiedname>
+        <param>
+          <type>VkDeviceSize</type>
+          <declname>bufferSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/buffers/StagingBuffer.h" line="12" column="14" bodyfile="src/rendering/narc_engine/src/buffers/StagingBuffer.cpp" bodystart="7" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_staging_buffer_1a25ca402e2301bebf867bb503be016887" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::StagingBuffer::input</definition>
+        <argsstring>(const void *input)</argsstring>
+        <name>input</name>
+        <qualifiedname>narc_engine::StagingBuffer::input</qualifiedname>
+        <param>
+          <type>const void *</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/buffers/StagingBuffer.h" line="13" column="14" bodyfile="src/rendering/narc_engine/src/buffers/StagingBuffer.cpp" bodystart="13" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::Buffer</label>
+        <link refid="classnarc__engine_1_1_buffer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::StagingBuffer</label>
+        <link refid="classnarc__engine_1_1_staging_buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>narc_engine::Buffer</label>
+        <link refid="classnarc__engine_1_1_buffer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::StagingBuffer</label>
+        <link refid="classnarc__engine_1_1_staging_buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/rendering/narc_engine/include/buffers/StagingBuffer.h" line="7" column="5" bodyfile="src/rendering/narc_engine/include/buffers/StagingBuffer.h" bodystart="8" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_buffer_1ae4ac2cb0186650e1fdeda6104c2cf0a9" prot="public" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>Buffer</name></member>
+      <member refid="classnarc__engine_1_1_staging_buffer_1a9fa1b53e5bffe8fab80935c3b7851ca8" prot="public" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>create</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a013a4be1fef844d9c9d5a80fb7086f38" prot="protected" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>createBuffer</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a7a8d8bf33f0fbc9b5fdaf85c9d6f6349" prot="public" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>getBuffer</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_staging_buffer_1a25ca402e2301bebf867bb503be016887" prot="public" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>input</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a3dd0400968a714a89de71c09963b7b77" prot="protected" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>m_buffer</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1ad7cf12cd94efba3f89a49ee8a8780805" prot="protected" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>m_bufferMemory</name></member>
+      <member refid="classnarc__engine_1_1_staging_buffer_1a57a1402aa17d22cf125019ed048172b5" prot="private" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>m_bufferSize</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a964d1cd685431b1ef62abd49cadd745e" prot="protected" virt="virtual"><scope>narc_engine::StagingBuffer</scope><name>release</name></member>
+      <member refid="classnarc__engine_1_1_staging_buffer_1a585a495752ad34cef50c033f69264dfc" prot="public" virt="non-virtual"><scope>narc_engine::StagingBuffer</scope><name>StagingBuffer</name></member>
+      <member refid="classnarc__engine_1_1_buffer_1a36ccdf30bcd37f5d3c988c0c5c910ec1" prot="public" virt="virtual"><scope>narc_engine::StagingBuffer</scope><name>~Buffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespacecompile__shaders" kind="namespace" language="Python">
+    <compoundname>compile_shaders</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="compile__shaders_8py_1a665bd67272ca5f76fe69b6ce83e89b10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>compile_shaders.compile_shader</definition>
+        <argsstring>(shader_path, output_path)</argsstring>
+        <name>compile_shader</name>
+        <qualifiedname>compile_shaders.compile_shader</qualifiedname>
+        <param>
+          <type>shader_path</type>
+          <defname>shader_path</defname>
+        </param>
+        <param>
+          <type>output_path</type>
+          <defname>output_path</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/shaders/compile_shaders.py" line="5" column="1" bodyfile="src/rendering/shaders/compile_shaders.py" bodystart="5" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="compile__shaders_8py_1aa7b85a1347db6b99cd656aa60bfcc53e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>compile_shaders.find_files_with_extension</definition>
+        <argsstring>(extension)</argsstring>
+        <name>find_files_with_extension</name>
+        <qualifiedname>compile_shaders.find_files_with_extension</qualifiedname>
+        <param>
+          <type>extension</type>
+          <defname>extension</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/shaders/compile_shaders.py" line="13" column="1" bodyfile="src/rendering/shaders/compile_shaders.py" bodystart="13" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="compile__shaders_8py_1a68957f39c3ff0803899aa1c588069528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>compile_shaders.main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <qualifiedname>compile_shaders.main</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/shaders/compile_shaders.py" line="22" column="1" bodyfile="src/rendering/shaders/compile_shaders.py" bodystart="22" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/shaders/compile_shaders.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

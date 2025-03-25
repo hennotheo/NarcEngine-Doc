@@ -1,0 +1,54 @@
+html {
+    --background-color: #f0f0f0;
+    --text-color: #333;
+    --link-color: #0066cc;
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+}
+
+html.dark-mode {
+    --background-color: #333;
+    --text-color: #f0f0f0;
+    --link-color: #ffcc00;
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.title {
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: var(--link-color);
+}
+
+div.header{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.navpath {
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+.ui-resizable .ui-resizable-handle {
+    background-color: var(--primary-color);
+}
+
+#nav-tree {
+    background-color: var(--background-color);
+    background-image: none;
+    color: var(--text-color);
+}
+
+#nav-tree .selected {
+    background-color: var(--background-color);
+    background-image: none;
+    color: var(--text-color);
+}

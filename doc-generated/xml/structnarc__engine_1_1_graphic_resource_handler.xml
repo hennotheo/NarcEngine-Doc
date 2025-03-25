@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structnarc__engine_1_1_graphic_resource_handler" kind="struct" language="C++" prot="public">
+    <compoundname>narc_engine::GraphicResourceHandler</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnarc__engine_1_1_graphic_resource_handler_1a5c69a4afedb8405c4d6c0d69036ad53f" prot="public" static="no" mutable="no">
+        <type>const uint32_t</type>
+        <definition>const uint32_t narc_engine::GraphicResourceHandler::ResourceID</definition>
+        <argsstring></argsstring>
+        <name>ResourceID</name>
+        <qualifiedname>narc_engine::GraphicResourceHandler::ResourceID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/resources/GraphicResourceHandler.h" line="13" column="24" bodyfile="src/rendering/narc_engine/include/resources/GraphicResourceHandler.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnarc__engine_1_1_graphic_resource_handler_1a4d143222177228f2aa69529fde802d7e" prot="public" static="no" mutable="no">
+        <type>const GraphicResourceType</type>
+        <definition>const GraphicResourceType narc_engine::GraphicResourceHandler::Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <qualifiedname>narc_engine::GraphicResourceHandler::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/resources/GraphicResourceHandler.h" line="14" column="35" bodyfile="src/rendering/narc_engine/include/resources/GraphicResourceHandler.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/resources/GraphicResourceHandler.h" line="11" column="5" bodyfile="src/rendering/narc_engine/include/resources/GraphicResourceHandler.h" bodystart="12" bodyend="15"/>
+    <listofallmembers>
+      <member refid="structnarc__engine_1_1_graphic_resource_handler_1a5c69a4afedb8405c4d6c0d69036ad53f" prot="public" virt="non-virtual"><scope>narc_engine::GraphicResourceHandler</scope><name>ResourceID</name></member>
+      <member refid="structnarc__engine_1_1_graphic_resource_handler_1a4d143222177228f2aa69529fde802d7e" prot="public" virt="non-virtual"><scope>narc_engine::GraphicResourceHandler</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

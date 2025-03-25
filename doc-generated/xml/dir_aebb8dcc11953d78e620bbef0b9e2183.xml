@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_aebb8dcc11953d78e620bbef0b9e2183" kind="dir">
+    <compoundname>src/core</compoundname>
+    <innerdir refid="dir_0ad15ebe3b26ea81468f8b0c2f656040">src/core/core</innerdir>
+    <innerdir refid="dir_04e93dcfab3d93bd961f360053d7ab74">src/core/narc_math</innerdir>
+    <innerdir refid="dir_63c5d7a4ea52c41ac05e00ac4a31778a">src/core/narcio</innerdir>
+    <innerdir refid="dir_d6fa8af019d732995f96e29c3b71e21c">src/core/narclog</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/"/>
+  </compounddef>
+</doxygen>

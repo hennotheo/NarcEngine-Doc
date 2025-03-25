@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_vertex_8h" kind="file" language="C++">
+    <compoundname>Vertex.h</compoundname>
+    <includes refid="_narc_math_8h" local="no">NarcMath.h</includes>
+    <includedby refid="_narc_engine_8h" local="yes">src/rendering/narc_engine/include/NarcEngine.h</includedby>
+    <includedby refid="_engine_8cpp" local="yes">src/rendering/narc_engine/src/Engine.cpp</includedby>
+    <includedby refid="_graphics_buffer_8cpp" local="yes">src/rendering/narc_engine/src/buffers/GraphicsBuffer.cpp</includedby>
+    <includedby refid="_vertex_8cpp" local="yes">src/rendering/narc_engine/src/models/Vertex.cpp</includedby>
+    <includedby refid="_graphics_pipeline_8cpp" local="yes">src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>NarcMath.h</label>
+        <link refid="_narc_math_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/rendering/narc_engine/include/models/Vertex.h</label>
+        <link refid="_vertex_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>glm/ext/matrix_clip_space.hpp</label>
+      </node>
+      <node id="6">
+        <label>glm/ext/matrix_transform.hpp</label>
+      </node>
+      <node id="7">
+        <label>glm/ext/scalar_constants.hpp</label>
+      </node>
+      <node id="3">
+        <label>glm/glm.hpp</label>
+      </node>
+      <node id="4">
+        <label>glm/gtx/hash.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>src/application/include/Application.h</label>
+        <link refid="_application_8h_source"/>
+      </node>
+      <node id="5">
+        <label>src/rendering/narc_engine/include/Engine.h</label>
+        <link refid="_engine_8h_source"/>
+      </node>
+      <node id="2">
+        <label>src/rendering/narc_engine/include/NarcEngine.h</label>
+        <link refid="_narc_engine_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/rendering/narc_engine/include/interfaces/IEngine.h</label>
+        <link refid="_i_engine_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/rendering/narc_engine/include/models/Vertex.h</label>
+        <link refid="_vertex_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structnarc__engine_1_1_vertex" prot="public">narc_engine::Vertex</innerclass>
+    <innernamespace refid="namespacenarc__engine">narc_engine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;NarcMath.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">VkVertexInputBindingDescription;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">VkVertexInputAttributeDescription;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">narc_engine<sp/>{</highlight></codeline>
+<codeline lineno="9" refid="structnarc__engine_1_1_vertex" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">NARC_ENGINE_API<sp/><ref refid="structnarc__engine_1_1_vertex" kindref="compound">Vertex</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glm::vec3<sp/>Pos;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glm::vec3<sp/>Color;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glm::vec2<sp/>TexCoord;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>VkVertexInputBindingDescription<sp/>getBindingDescription();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::array&lt;VkVertexInputAttributeDescription,<sp/>3&gt;<sp/>getAttributeDescriptions();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/rendering/narc_engine/include/models/Vertex.h"/>
+  </compounddef>
+</doxygen>

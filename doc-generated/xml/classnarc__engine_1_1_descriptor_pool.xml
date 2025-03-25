@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_descriptor_pool" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::DescriptorPool</compoundname>
+    <basecompoundref refid="classnarc__engine_1_1_device_component" prot="public" virt="non-virtual">narc_engine::DeviceComponent</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_descriptor_pool_1af2d4ed26bed187bcc2c37f48ec7d3bd4" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="structnarc__engine_1_1_descriptor_pool_builder" kindref="compound">DescriptorPoolBuilder</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;DescriptorPoolBuilder&gt; narc_engine::DescriptorPool::m_builder</definition>
+        <argsstring></argsstring>
+        <name>m_builder</name>
+        <qualifiedname>narc_engine::DescriptorPool::m_builder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPool.h" line="25" column="25" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPool.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_descriptor_pool_1ab48098436561969e8efc76b4434bd627" prot="private" static="no" mutable="no">
+        <type>VkDescriptorPool</type>
+        <definition>VkDescriptorPool narc_engine::DescriptorPool::m_descriptorPool</definition>
+        <argsstring></argsstring>
+        <name>m_descriptorPool</name>
+        <qualifiedname>narc_engine::DescriptorPool::m_descriptorPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPool.h" line="27" column="26" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPool.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_descriptor_pool_1ae904ca8fda63d5b4965646db163beb05" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool narc_engine::DescriptorPool::m_allocated</definition>
+        <argsstring></argsstring>
+        <name>m_allocated</name>
+        <qualifiedname>narc_engine::DescriptorPool::m_allocated</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPool.h" line="29" column="14" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPool.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_descriptor_pool_1aa14b58868983889f7f647c050c3e8f62" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::DescriptorPool::DescriptorPool</definition>
+        <argsstring>(uint32_t poolCount)</argsstring>
+        <name>DescriptorPool</name>
+        <qualifiedname>narc_engine::DescriptorPool::DescriptorPool</qualifiedname>
+        <param>
+          <type>uint32_t</type>
+          <declname>poolCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPool.h" line="13" column="18" bodyfile="src/rendering/narc_engine/src/renderer/DescriptorPool.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_descriptor_pool_1a647895030dd07df2c3d474d49ac4ec22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::DescriptorPool::~DescriptorPool</definition>
+        <argsstring>()</argsstring>
+        <name>~DescriptorPool</name>
+        <qualifiedname>narc_engine::DescriptorPool::~DescriptorPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPool.h" line="14" column="9" bodyfile="src/rendering/narc_engine/src/renderer/DescriptorPool.cpp" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_descriptor_pool_1a0411d327662ed51364ff8b7dc7b549fb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER <ref refid="structnarc__engine_1_1_descriptor_pool_builder" kindref="compound">DescriptorPoolBuilder</ref> *</type>
+        <definition>GETTER DescriptorPoolBuilder * narc_engine::DescriptorPool::builder</definition>
+        <argsstring>() const</argsstring>
+        <name>builder</name>
+        <qualifiedname>narc_engine::DescriptorPool::builder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPool.h" line="16" column="38" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPool.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_descriptor_pool_1a3f20b6a449f61e2d71a7f7311f73daba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::DescriptorPool::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>narc_engine::DescriptorPool::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPool.h" line="18" column="14" bodyfile="src/rendering/narc_engine/src/renderer/DescriptorPool.cpp" bodystart="19" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_descriptor_pool_1a9b23b784f259658532de7337f02abe03" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::DescriptorPool::allocateDescriptorSets</definition>
+        <argsstring>(VkDescriptorSetAllocateInfo *allocInfo, VkDescriptorSet *descriptorSets) const</argsstring>
+        <name>allocateDescriptorSets</name>
+        <qualifiedname>narc_engine::DescriptorPool::allocateDescriptorSets</qualifiedname>
+        <param>
+          <type>VkDescriptorSetAllocateInfo *</type>
+          <declname>allocInfo</declname>
+        </param>
+        <param>
+          <type>VkDescriptorSet *</type>
+          <declname>descriptorSets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPool.h" line="20" column="14" bodyfile="src/rendering/narc_engine/src/renderer/DescriptorPool.cpp" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_descriptor_pool_1af858764deffb0bde6b848d8970c88d41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::DescriptorPool::release</definition>
+        <argsstring>()</argsstring>
+        <name>release</name>
+        <qualifiedname>narc_engine::DescriptorPool::release</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/DescriptorPool.h" line="22" column="14" bodyfile="src/rendering/narc_engine/src/renderer/DescriptorPool.cpp" bodystart="39" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>narc_engine::DescriptorPool</label>
+        <link refid="classnarc__engine_1_1_descriptor_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>narc_engine::DescriptorPool</label>
+        <link refid="classnarc__engine_1_1_descriptor_pool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/rendering/narc_engine/include/renderer/DescriptorPool.h" line="10" column="5" bodyfile="src/rendering/narc_engine/include/renderer/DescriptorPool.h" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_descriptor_pool_1a9b23b784f259658532de7337f02abe03" prot="public" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>allocateDescriptorSets</name></member>
+      <member refid="classnarc__engine_1_1_descriptor_pool_1a0411d327662ed51364ff8b7dc7b549fb" prot="public" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>builder</name></member>
+      <member refid="classnarc__engine_1_1_descriptor_pool_1a3f20b6a449f61e2d71a7f7311f73daba" prot="public" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>create</name></member>
+      <member refid="classnarc__engine_1_1_descriptor_pool_1aa14b58868983889f7f647c050c3e8f62" prot="public" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>DescriptorPool</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_descriptor_pool_1ae904ca8fda63d5b4965646db163beb05" prot="private" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>m_allocated</name></member>
+      <member refid="classnarc__engine_1_1_descriptor_pool_1af2d4ed26bed187bcc2c37f48ec7d3bd4" prot="private" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>m_builder</name></member>
+      <member refid="classnarc__engine_1_1_descriptor_pool_1ab48098436561969e8efc76b4434bd627" prot="private" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>m_descriptorPool</name></member>
+      <member refid="classnarc__engine_1_1_descriptor_pool_1af858764deffb0bde6b848d8970c88d41" prot="public" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>release</name></member>
+      <member refid="classnarc__engine_1_1_descriptor_pool_1a647895030dd07df2c3d474d49ac4ec22" prot="public" virt="non-virtual"><scope>narc_engine::DescriptorPool</scope><name>~DescriptorPool</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

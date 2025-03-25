@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_32aec9cf6a830a6692e43cdd6f2c59eb" kind="dir">
+    <compoundname>src/core/narclog/include/keywords</compoundname>
+    <innerfile refid="_console_style_8h">ConsoleStyle.h</innerfile>
+    <innerfile refid="_key_words_8h">KeyWords.h</innerfile>
+    <innerfile refid="_log_level_8h">LogLevel.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narclog/include/keywords/"/>
+  </compounddef>
+</doxygen>

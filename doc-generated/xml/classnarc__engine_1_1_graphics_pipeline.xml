@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_graphics_pipeline" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::GraphicsPipeline</compoundname>
+    <basecompoundref refid="classnarc__engine_1_1_device_component" prot="public" virt="non-virtual">narc_engine::DeviceComponent</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_graphics_pipeline_1aecc69653f551696053578dec275908ca" prot="private" static="no" mutable="no">
+        <type>VkPipeline</type>
+        <definition>VkPipeline narc_engine::GraphicsPipeline::m_pipeline</definition>
+        <argsstring></argsstring>
+        <name>m_pipeline</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::m_pipeline</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="34" column="20" bodyfile="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnarc__engine_1_1_graphics_pipeline_1ac0d494aac6671f2775a1b97f907524b3" prot="private" static="no" mutable="no">
+        <type>VkPipelineLayout</type>
+        <definition>VkPipelineLayout narc_engine::GraphicsPipeline::m_pipelineLayout</definition>
+        <argsstring></argsstring>
+        <name>m_pipelineLayout</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::m_pipelineLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="35" column="26" bodyfile="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1a64a1a4b2806bce53b271a37ef82e6855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPipelineInputAssemblyStateCreateInfo</type>
+        <definition>VkPipelineInputAssemblyStateCreateInfo narc_engine::GraphicsPipeline::createInputAssemblyStateInfo</definition>
+        <argsstring>()</argsstring>
+        <name>createInputAssemblyStateInfo</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::createInputAssemblyStateInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="17" column="48" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="96" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1a610fa136afc3d8906e4c5468cf6a1d87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPipelineViewportStateCreateInfo</type>
+        <definition>VkPipelineViewportStateCreateInfo narc_engine::GraphicsPipeline::createViewportStateInfo</definition>
+        <argsstring>()</argsstring>
+        <name>createViewportStateInfo</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::createViewportStateInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="18" column="43" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="106" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1ad105ada55f4541d71b8456721b9afcf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPipelineDepthStencilStateCreateInfo</type>
+        <definition>VkPipelineDepthStencilStateCreateInfo narc_engine::GraphicsPipeline::createDepthStencilStateInfo</definition>
+        <argsstring>()</argsstring>
+        <name>createDepthStencilStateInfo</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::createDepthStencilStateInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="19" column="47" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="116" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1aa6e9621e4f9429ed22cf42e1b7edd831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPipelineRasterizationStateCreateInfo</type>
+        <definition>VkPipelineRasterizationStateCreateInfo narc_engine::GraphicsPipeline::createRasterizationStateInfo</definition>
+        <argsstring>()</argsstring>
+        <name>createRasterizationStateInfo</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::createRasterizationStateInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="20" column="48" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="133" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1a31098ee948e53d20766038aa37a0d201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPipelineMultisampleStateCreateInfo</type>
+        <definition>VkPipelineMultisampleStateCreateInfo narc_engine::GraphicsPipeline::createMultisampleStateInfo</definition>
+        <argsstring>()</argsstring>
+        <name>createMultisampleStateInfo</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::createMultisampleStateInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="21" column="46" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="151" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1a06a1a3009de8b9eec02c68abc827afb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPipelineColorBlendAttachmentState</type>
+        <definition>VkPipelineColorBlendAttachmentState narc_engine::GraphicsPipeline::createColorBlendAttachmentState</definition>
+        <argsstring>()</argsstring>
+        <name>createColorBlendAttachmentState</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::createColorBlendAttachmentState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="22" column="45" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="165" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1a87e15242d8cb96e93f0df7411ce0f6d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPipelineColorBlendStateCreateInfo</type>
+        <definition>VkPipelineColorBlendStateCreateInfo narc_engine::GraphicsPipeline::createColorBlendStateInfo</definition>
+        <argsstring>(const VkPipelineColorBlendAttachmentState &amp;colorBlendAttachment)</argsstring>
+        <name>createColorBlendStateInfo</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::createColorBlendStateInfo</qualifiedname>
+        <param>
+          <type>const VkPipelineColorBlendAttachmentState &amp;</type>
+          <declname>colorBlendAttachment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="23" column="45" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="175" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1a7a27e204c63f33d9c25584e6a6494e4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPipelineDynamicStateCreateInfo</type>
+        <definition>VkPipelineDynamicStateCreateInfo narc_engine::GraphicsPipeline::createDynamicStateInfo</definition>
+        <argsstring>(const std::vector&lt; VkDynamicState &gt; &amp;dynamicStates)</argsstring>
+        <name>createDynamicStateInfo</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::createDynamicStateInfo</qualifiedname>
+        <param>
+          <type>const std::vector&lt; VkDynamicState &gt; &amp;</type>
+          <declname>dynamicStates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="24" column="42" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="191" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1a9f1a5d97c56fc052303b4de193c742cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPipelineLayoutCreateInfo</type>
+        <definition>VkPipelineLayoutCreateInfo narc_engine::GraphicsPipeline::createLayoutInfo</definition>
+        <argsstring>(const VkDescriptorSetLayout *descriptorSetLayout)</argsstring>
+        <name>createLayoutInfo</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::createLayoutInfo</qualifiedname>
+        <param>
+          <type>const VkDescriptorSetLayout *</type>
+          <declname>descriptorSetLayout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="25" column="36" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="201" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1a9d07c3122e395732195eb163f8ae00dd" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::GraphicsPipeline::GraphicsPipeline</definition>
+        <argsstring>(const SwapChain *swapChain, const VkDescriptorSetLayout *descriptorSetLayout)</argsstring>
+        <name>GraphicsPipeline</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::GraphicsPipeline</qualifiedname>
+        <param>
+          <type>const <ref refid="classnarc__engine_1_1_swap_chain" kindref="compound">SwapChain</ref> *</type>
+          <declname>swapChain</declname>
+        </param>
+        <param>
+          <type>const VkDescriptorSetLayout *</type>
+          <declname>descriptorSetLayout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="26" column="18" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="14" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1a42041cac536235e25d3040f5a8a99d4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::GraphicsPipeline::~GraphicsPipeline</definition>
+        <argsstring>()</argsstring>
+        <name>~GraphicsPipeline</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::~GraphicsPipeline</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="27" column="9" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1ac4070c19af142b0bcdcb752b5e4fdec8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER VkPipelineLayout</type>
+        <definition>GETTER VkPipelineLayout narc_engine::GraphicsPipeline::getLayout</definition>
+        <argsstring>() const</argsstring>
+        <name>getLayout</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::getLayout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="29" column="33" bodyfile="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1a152acb6eaf8fe1b206e8c93ae0c7f2a1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narc_engine::GraphicsPipeline::bindPipeline</definition>
+        <argsstring>(const CommandBuffer *commandBuffer) const</argsstring>
+        <name>bindPipeline</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::bindPipeline</qualifiedname>
+        <param>
+          <type>const <ref refid="classnarc__engine_1_1_command_buffer" kindref="compound">CommandBuffer</ref> *</type>
+          <declname>commandBuffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="31" column="14" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="214" bodyend="217"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_graphics_pipeline_1a946b8dab82647eb0faa4c2fc2cb7ee13" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VkPipelineVertexInputStateCreateInfo</type>
+        <definition>VkPipelineVertexInputStateCreateInfo narc_engine::GraphicsPipeline::createPipelineVertexInputInfo</definition>
+        <argsstring>(VkVertexInputBindingDescription vertexDescriptions, const std::array&lt; VkVertexInputAttributeDescription, 3 &gt; &amp;attributeDescription)</argsstring>
+        <name>createPipelineVertexInputInfo</name>
+        <qualifiedname>narc_engine::GraphicsPipeline::createPipelineVertexInputInfo</qualifiedname>
+        <param>
+          <type>VkVertexInputBindingDescription</type>
+          <declname>vertexDescriptions</declname>
+        </param>
+        <param>
+          <type>const std::array&lt; VkVertexInputAttributeDescription, 3 &gt; &amp;</type>
+          <declname>attributeDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="37" column="46" bodyfile="src/rendering/narc_engine/src/renderer/GraphicsPipeline.cpp" bodystart="83" bodyend="94"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::GraphicsPipeline</label>
+        <link refid="classnarc__engine_1_1_graphics_pipeline"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::GraphicsPipeline</label>
+        <link refid="classnarc__engine_1_1_graphics_pipeline"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" line="14" column="5" bodyfile="src/rendering/narc_engine/include/renderer/GraphicsPipeline.h" bodystart="15" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1a152acb6eaf8fe1b206e8c93ae0c7f2a1" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>bindPipeline</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1a06a1a3009de8b9eec02c68abc827afb6" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>createColorBlendAttachmentState</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1a87e15242d8cb96e93f0df7411ce0f6d3" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>createColorBlendStateInfo</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1ad105ada55f4541d71b8456721b9afcf4" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>createDepthStencilStateInfo</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1a7a27e204c63f33d9c25584e6a6494e4f" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>createDynamicStateInfo</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1a64a1a4b2806bce53b271a37ef82e6855" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>createInputAssemblyStateInfo</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1a9f1a5d97c56fc052303b4de193c742cd" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>createLayoutInfo</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1a31098ee948e53d20766038aa37a0d201" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>createMultisampleStateInfo</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1a946b8dab82647eb0faa4c2fc2cb7ee13" prot="private" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>createPipelineVertexInputInfo</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1aa6e9621e4f9429ed22cf42e1b7edd831" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>createRasterizationStateInfo</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1a610fa136afc3d8906e4c5468cf6a1d87" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>createViewportStateInfo</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1ac4070c19af142b0bcdcb752b5e4fdec8" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>getLayout</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1a9d07c3122e395732195eb163f8ae00dd" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>GraphicsPipeline</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1aecc69653f551696053578dec275908ca" prot="private" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>m_pipeline</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1ac0d494aac6671f2775a1b97f907524b3" prot="private" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>m_pipelineLayout</name></member>
+      <member refid="classnarc__engine_1_1_graphics_pipeline_1a42041cac536235e25d3040f5a8a99d4e" prot="public" virt="non-virtual"><scope>narc_engine::GraphicsPipeline</scope><name>~GraphicsPipeline</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

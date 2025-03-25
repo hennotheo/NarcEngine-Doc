@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_graphic_resource" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::GraphicResource</compoundname>
+    <basecompoundref refid="classnarc__engine_1_1_device_component" prot="public" virt="non-virtual">narc_engine::DeviceComponent</basecompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_texture2_d_resource" prot="public" virt="non-virtual">narc_engine::Texture2DResource</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_graphic_resource_1a7a66904799c6e030fdf4f946ff5aa8c7" prot="private" static="no" mutable="no">
+        <type>const <ref refid="structnarc__engine_1_1_graphic_resource_handler" kindref="compound">GraphicResourceHandler</ref></type>
+        <definition>const GraphicResourceHandler narc_engine::GraphicResource::m_resourceHandler</definition>
+        <argsstring></argsstring>
+        <name>m_resourceHandler</name>
+        <qualifiedname>narc_engine::GraphicResource::m_resourceHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/resources/GraphicResource.h" line="25" column="38" bodyfile="src/rendering/narc_engine/include/resources/GraphicResource.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_graphic_resource_1ae3b6c47681552710265fefcb1bc27bbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>narc_engine::GraphicResource::~GraphicResource</definition>
+        <argsstring>()</argsstring>
+        <name>~GraphicResource</name>
+        <qualifiedname>narc_engine::GraphicResource::~GraphicResource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/resources/GraphicResource.h" line="17" column="17" bodyfile="src/rendering/narc_engine/src/resources/GraphicResource.cpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_graphic_resource_1addb46bb6f0c9e40aca1154550f34100e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER const <ref refid="structnarc__engine_1_1_graphic_resource_handler" kindref="compound">GraphicResourceHandler</ref> &amp;</type>
+        <definition>GETTER const GraphicResourceHandler &amp; narc_engine::GraphicResource::getResourceHandler</definition>
+        <argsstring>() const</argsstring>
+        <name>getResourceHandler</name>
+        <qualifiedname>narc_engine::GraphicResource::getResourceHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/resources/GraphicResource.h" line="19" column="45" bodyfile="src/rendering/narc_engine/include/resources/GraphicResource.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_graphic_resource_1ae51373306fb00b936dc65a5c17c037bb" prot="protected" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::GraphicResource::GraphicResource</definition>
+        <argsstring>(GraphicResourceType type, uint32_t resourceID)</argsstring>
+        <name>GraphicResource</name>
+        <qualifiedname>narc_engine::GraphicResource::GraphicResource</qualifiedname>
+        <param>
+          <type>GraphicResourceType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>resourceID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/resources/GraphicResource.h" line="22" column="18" bodyfile="src/rendering/narc_engine/src/resources/GraphicResource.cpp" bodystart="10" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::GraphicResource</label>
+        <link refid="classnarc__engine_1_1_graphic_resource"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>narc_engine::Texture2DResource</label>
+        <link refid="classnarc__engine_1_1_texture2_d_resource"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="1">
+        <label>narc_engine::GraphicResource</label>
+        <link refid="classnarc__engine_1_1_graphic_resource"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/rendering/narc_engine/include/resources/GraphicResource.h" line="14" column="5" bodyfile="src/rendering/narc_engine/include/resources/GraphicResource.h" bodystart="15" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::GraphicResource</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::GraphicResource</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_graphic_resource_1addb46bb6f0c9e40aca1154550f34100e" prot="public" virt="non-virtual"><scope>narc_engine::GraphicResource</scope><name>getResourceHandler</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::GraphicResource</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_graphic_resource_1ae51373306fb00b936dc65a5c17c037bb" prot="protected" virt="non-virtual"><scope>narc_engine::GraphicResource</scope><name>GraphicResource</name></member>
+      <member refid="classnarc__engine_1_1_graphic_resource_1a7a66904799c6e030fdf4f946ff5aa8c7" prot="private" virt="non-virtual"><scope>narc_engine::GraphicResource</scope><name>m_resourceHandler</name></member>
+      <member refid="classnarc__engine_1_1_graphic_resource_1ae3b6c47681552710265fefcb1bc27bbe" prot="public" virt="virtual"><scope>narc_engine::GraphicResource</scope><name>~GraphicResource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

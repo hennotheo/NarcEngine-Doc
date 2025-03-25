@@ -1,1 +1,0 @@
-[[Vulkan API]] Describe ressources passed to the shader.

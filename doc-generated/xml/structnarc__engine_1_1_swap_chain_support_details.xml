@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="structnarc__engine_1_1_swap_chain_support_details" kind="struct" language="C++" prot="public">
+    <compoundname>narc_engine::SwapChainSupportDetails</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnarc__engine_1_1_swap_chain_support_details_1a60c16f812f667166a007e62f50524b2c" prot="public" static="no" mutable="no">
+        <type>VkSurfaceCapabilitiesKHR</type>
+        <definition>VkSurfaceCapabilitiesKHR narc_engine::SwapChainSupportDetails::Capabilities</definition>
+        <argsstring></argsstring>
+        <name>Capabilities</name>
+        <qualifiedname>narc_engine::SwapChainSupportDetails::Capabilities</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChainSupportDetails.h" line="7" column="34" bodyfile="src/rendering/narc_engine/include/renderer/SwapChainSupportDetails.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnarc__engine_1_1_swap_chain_support_details_1a1b138f96fb5bc862bc60294ad68274a1" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; VkSurfaceFormatKHR &gt;</type>
+        <definition>std::vector&lt;VkSurfaceFormatKHR&gt; narc_engine::SwapChainSupportDetails::Formats</definition>
+        <argsstring></argsstring>
+        <name>Formats</name>
+        <qualifiedname>narc_engine::SwapChainSupportDetails::Formats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChainSupportDetails.h" line="8" column="21" bodyfile="src/rendering/narc_engine/include/renderer/SwapChainSupportDetails.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnarc__engine_1_1_swap_chain_support_details_1a3e2b427896b839331e551203c924d47b" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; VkPresentModeKHR &gt;</type>
+        <definition>std::vector&lt;VkPresentModeKHR&gt; narc_engine::SwapChainSupportDetails::PresentModes</definition>
+        <argsstring></argsstring>
+        <name>PresentModes</name>
+        <qualifiedname>narc_engine::SwapChainSupportDetails::PresentModes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/renderer/SwapChainSupportDetails.h" line="9" column="21" bodyfile="src/rendering/narc_engine/include/renderer/SwapChainSupportDetails.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/rendering/narc_engine/include/renderer/SwapChainSupportDetails.h" line="5" column="5" bodyfile="src/rendering/narc_engine/include/renderer/SwapChainSupportDetails.h" bodystart="6" bodyend="10"/>
+    <listofallmembers>
+      <member refid="structnarc__engine_1_1_swap_chain_support_details_1a60c16f812f667166a007e62f50524b2c" prot="public" virt="non-virtual"><scope>narc_engine::SwapChainSupportDetails</scope><name>Capabilities</name></member>
+      <member refid="structnarc__engine_1_1_swap_chain_support_details_1a1b138f96fb5bc862bc60294ad68274a1" prot="public" virt="non-virtual"><scope>narc_engine::SwapChainSupportDetails</scope><name>Formats</name></member>
+      <member refid="structnarc__engine_1_1_swap_chain_support_details_1a3e2b427896b839331e551203c924d47b" prot="public" virt="non-virtual"><scope>narc_engine::SwapChainSupportDetails</scope><name>PresentModes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

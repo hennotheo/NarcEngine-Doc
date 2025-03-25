@@ -1,0 +1,933 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.13.2" xml:lang="en-US">
+  <compound refid="classnarc_1_1_application" kind="class"><name>narc::Application</name>
+    <member refid="classnarc_1_1_application_1a40c4ef15db86e5356859251bbb239fb4" kind="variable"><name>m_engine</name></member>
+    <member refid="classnarc_1_1_application_1ad85f660efeb3b4f2e99a03a4b02775e9" kind="variable"><name>m_renderMaterial</name></member>
+    <member refid="classnarc_1_1_application_1af3817b1ce6a1835ff3b5f352e9ff2b5d" kind="variable"><name>m_renderMaterial2</name></member>
+    <member refid="classnarc_1_1_application_1a244a03a4d391909504312546a3c2e64b" kind="variable"><name>m_mesh</name></member>
+    <member refid="classnarc_1_1_application_1ae41e09a8c3b7bc386c683377cff7e6d0" kind="variable"><name>m_renderer</name></member>
+    <member refid="classnarc_1_1_application_1ac31cfc460111aad3d946dcc67c6b6d60" kind="variable"><name>m_renderer2</name></member>
+    <member refid="classnarc_1_1_application_1a844e39852a1693fcbc1bd58ab04c6c01" kind="function"><name>Application</name></member>
+    <member refid="classnarc_1_1_application_1ae763477ae013ac0245fc5afd5eda4765" kind="function"><name>~Application</name></member>
+    <member refid="classnarc_1_1_application_1ac57ae4328787f6e6960e81949a8db01a" kind="function"><name>shouldClose</name></member>
+    <member refid="classnarc_1_1_application_1ab94f9a31f0c8e6f36761b7d59881645e" kind="function"><name>start</name></member>
+    <member refid="classnarc_1_1_application_1abb85e0861b08fe0bdbfb835cff077666" kind="function"><name>appLoopBody</name></member>
+    <member refid="classnarc_1_1_application_1acbf7f5fa7fdea71b76148b475da9b823" kind="function"><name>stop</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_buffer" kind="class"><name>narc_engine::Buffer</name>
+    <member refid="classnarc__engine_1_1_buffer_1a3dd0400968a714a89de71c09963b7b77" kind="variable"><name>m_buffer</name></member>
+    <member refid="classnarc__engine_1_1_buffer_1ad7cf12cd94efba3f89a49ee8a8780805" kind="variable"><name>m_bufferMemory</name></member>
+    <member refid="classnarc__engine_1_1_buffer_1ae4ac2cb0186650e1fdeda6104c2cf0a9" kind="function"><name>Buffer</name></member>
+    <member refid="classnarc__engine_1_1_buffer_1a36ccdf30bcd37f5d3c988c0c5c910ec1" kind="function"><name>~Buffer</name></member>
+    <member refid="classnarc__engine_1_1_buffer_1a7a8d8bf33f0fbc9b5fdaf85c9d6f6349" kind="function"><name>getBuffer</name></member>
+    <member refid="classnarc__engine_1_1_buffer_1a013a4be1fef844d9c9d5a80fb7086f38" kind="function"><name>createBuffer</name></member>
+    <member refid="classnarc__engine_1_1_buffer_1a964d1cd685431b1ef62abd49cadd745e" kind="function"><name>release</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_command_buffer" kind="class"><name>narc_engine::CommandBuffer</name>
+    <member refid="classnarc__engine_1_1_command_buffer_1a5a2db4775b95a48c332b336f5fc9e201" kind="variable"><name>m_commandBuffer</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1aeee52f5824edea80ed4a003239f90bcc" kind="variable"><name>m_allocated</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a8c9c72704d5f08f72d4511b29b69406d" kind="function"><name>getVkCommandBuffer</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1ab6c9fc74f28c319ed876c0c429704b78" kind="function"><name>allocate</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1ac05d6c8119af26d75b4af293ea7d6582" kind="function"><name>reset</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a9c6a5ae16b9daa1593f72e2398ca342a" kind="function"><name>begin</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1aa520bdee8b788c29bb1c18a68923b954" kind="function"><name>end</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a3f838abb66b7fec46b5fe1b99a9f30e8" kind="function"><name>release</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a389547b86753d95c4bef4261852708c2" kind="function"><name>cmdBeginRenderPass</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a111d0628086b89ef99373362c8f2ba27" kind="function"><name>cmdBindPipeline</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a00b7f3528d2f2a170bc0dbc5360983d1" kind="function"><name>cmdSetViewport</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a77084252e8d65021ae8b0105bec08c67" kind="function"><name>cmdSetScissor</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a0ba86ed2a141d2e51ef535f308fd518b" kind="function"><name>cmdBindVertexBuffers</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1ace87aef16f26257c573932c9c56d7439" kind="function"><name>cmdBindIndexBuffer</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a9a99fa9c48ed987dd24fff8af1951f06" kind="function"><name>cmdBindDescriptorSets</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a4ad8d274cc64e873d91e6b958cc74c9e" kind="function"><name>cmdDrawIndexed</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a68ec3a82f6a2cdbfeb678c56b53f66fb" kind="function"><name>cmdEndRenderPass</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a4a8cd2cd7fc23768cf4e2408382e2fc5" kind="function"><name>cmdPipelineBarrier</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a352a1173855925f88cff3ed25a085ada" kind="function"><name>cmdCopyBufferImage</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1abe014825af9d6ebe8e6f10648bc1a1c4" kind="function"><name>cmdCopyBuffer</name></member>
+    <member refid="classnarc__engine_1_1_command_buffer_1a5f90ba1ef3484199f90d7fe03d6ff1bc" kind="function"><name>allocateBuffers</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_command_pool" kind="class"><name>narc_engine::CommandPool</name>
+    <member refid="classnarc__engine_1_1_command_pool_1a8314157813ff62b0523969dc670d34a2" kind="variable"><name>m_commandPool</name></member>
+    <member refid="classnarc__engine_1_1_command_pool_1ad77e1141255f1dd767e2a713e353ecf5" kind="variable"><name>m_commandBuffers</name></member>
+    <member refid="classnarc__engine_1_1_command_pool_1ae18256e5406eb8ad54f6ab03a7d5d42e" kind="function"><name>CommandPool</name></member>
+    <member refid="classnarc__engine_1_1_command_pool_1afdee67f4ba2004e0dcee88ef768e7c34" kind="function"><name>~CommandPool</name></member>
+    <member refid="classnarc__engine_1_1_command_pool_1aca75b9bd6a8f89305cc567fd2fea4167" kind="function"><name>getCommandBuffer</name></member>
+    <member refid="classnarc__engine_1_1_command_pool_1a3f7771ff3e2cc165fbbf5b5b2cf146c7" kind="function"><name>createCommandBuffers</name></member>
+    <member refid="classnarc__engine_1_1_command_pool_1a448f1e25e0a82157ef2788f61a22e5bf" kind="function"><name>beginSingleTimeCommands</name></member>
+    <member refid="classnarc__engine_1_1_command_pool_1ab76009c3dcab8e77bf867aa8cf8412d9" kind="function"><name>endSingleTimeCommands</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_depth_resources" kind="class"><name>narc_engine::DepthResources</name>
+    <member refid="classnarc__engine_1_1_depth_resources_1ada6e4733a11eabc2a535762f6c6b20f6" kind="variable"><name>m_depthImage</name></member>
+    <member refid="classnarc__engine_1_1_depth_resources_1ae6721939c022301714ef78b51b2ca02f" kind="variable"><name>m_depthImageMemory</name></member>
+    <member refid="classnarc__engine_1_1_depth_resources_1ad6066b343541d8ad1d527562e34c36b2" kind="variable"><name>m_depthImageView</name></member>
+    <member refid="classnarc__engine_1_1_depth_resources_1a82d213aad7fe1b11aaeb642d592e7f3d" kind="function"><name>DepthResources</name></member>
+    <member refid="classnarc__engine_1_1_depth_resources_1ac99db3cd064db11af4071c326c142d36" kind="function"><name>~DepthResources</name></member>
+    <member refid="classnarc__engine_1_1_depth_resources_1a7764afa272f72cd351a5e31fa9a07e58" kind="function"><name>getImageView</name></member>
+    <member refid="classnarc__engine_1_1_depth_resources_1aa1637f957f8225d45cd3e2afd983349e" kind="function"><name>create</name></member>
+    <member refid="classnarc__engine_1_1_depth_resources_1a3308c964c5977dd97d25845bb6d468fc" kind="function"><name>release</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_descriptor_pool" kind="class"><name>narc_engine::DescriptorPool</name>
+    <member refid="classnarc__engine_1_1_descriptor_pool_1af2d4ed26bed187bcc2c37f48ec7d3bd4" kind="variable"><name>m_builder</name></member>
+    <member refid="classnarc__engine_1_1_descriptor_pool_1ab48098436561969e8efc76b4434bd627" kind="variable"><name>m_descriptorPool</name></member>
+    <member refid="classnarc__engine_1_1_descriptor_pool_1ae904ca8fda63d5b4965646db163beb05" kind="variable"><name>m_allocated</name></member>
+    <member refid="classnarc__engine_1_1_descriptor_pool_1aa14b58868983889f7f647c050c3e8f62" kind="function"><name>DescriptorPool</name></member>
+    <member refid="classnarc__engine_1_1_descriptor_pool_1a647895030dd07df2c3d474d49ac4ec22" kind="function"><name>~DescriptorPool</name></member>
+    <member refid="classnarc__engine_1_1_descriptor_pool_1a0411d327662ed51364ff8b7dc7b549fb" kind="function"><name>builder</name></member>
+    <member refid="classnarc__engine_1_1_descriptor_pool_1a3f20b6a449f61e2d71a7f7311f73daba" kind="function"><name>create</name></member>
+    <member refid="classnarc__engine_1_1_descriptor_pool_1a9b23b784f259658532de7337f02abe03" kind="function"><name>allocateDescriptorSets</name></member>
+    <member refid="classnarc__engine_1_1_descriptor_pool_1af858764deffb0bde6b848d8970c88d41" kind="function"><name>release</name></member>
+  </compound>
+  <compound refid="structnarc__engine_1_1_descriptor_pool_builder" kind="struct"><name>narc_engine::DescriptorPoolBuilder</name>
+    <member refid="structnarc__engine_1_1_descriptor_pool_builder_1a580b2e7743fb5db76d84a307272a3cec" kind="friend"><name>DescriptorPool</name></member>
+    <member refid="structnarc__engine_1_1_descriptor_pool_builder_1a48a9701ffb894983120e66b00fb3a03d" kind="variable"><name>m_poolCount</name></member>
+    <member refid="structnarc__engine_1_1_descriptor_pool_builder_1a6c87eac96938c5d965f9109140fd7add" kind="variable"><name>m_poolInfo</name></member>
+    <member refid="structnarc__engine_1_1_descriptor_pool_builder_1a0f25f5ba833a86954da6b04b6eceefeb" kind="variable"><name>m_poolSizes</name></member>
+    <member refid="structnarc__engine_1_1_descriptor_pool_builder_1ab1b2d0e0ce5437e70f303e4882fa4fab" kind="function"><name>setMaxSet</name></member>
+    <member refid="structnarc__engine_1_1_descriptor_pool_builder_1aca96875559db9ffacb989fc9d209d476" kind="function"><name>addPoolSize</name></member>
+    <member refid="structnarc__engine_1_1_descriptor_pool_builder_1a9024edf853864d7b3a13af8a0fc6ef09" kind="function"><name>DescriptorPoolBuilder</name></member>
+    <member refid="structnarc__engine_1_1_descriptor_pool_builder_1abb09a1e922d6befa285da866a297bc84" kind="function"><name>build</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_device_component" kind="class"><name>narc_engine::DeviceComponent</name>
+    <member refid="classnarc__engine_1_1_device_component_1af3ffdcd38e6e715e6a56ab5c8f3b5b3f" kind="variable"><name>m_device</name></member>
+    <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" kind="function"><name>DeviceComponent</name></member>
+    <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" kind="function"><name>getDeviceHandler</name></member>
+    <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" kind="function"><name>getVkDevice</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_device_handler" kind="class"><name>narc_engine::DeviceHandler</name>
+    <member refid="classnarc__engine_1_1_device_handler_1ac4dc513d429f7aab2887af180b323b0c" kind="variable"><name>m_device</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1af9f7bb1fd3e3226abe6dddfddf73c097" kind="variable"><name>m_physicalDevice</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a64a81631cbb4efab453af4b5d2559421" kind="variable"><name>m_presentQueue</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a93441b206b7ca9651c16124c968dfacc" kind="variable"><name>m_graphicsQueue</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a74adec26485ebb186c6d50821a93d704" kind="variable"><name>m_physicalDeviceProperties</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1aab32704b1a10719037e3997b8ca23683" kind="variable"><name>m_instance</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1af655546de71b4a220fc3d8fd2afc23c4" kind="variable"><name>m_window</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a45bc620f5b7a63e3c37d6b78a4e90e68" kind="function"><name>DeviceHandler</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a3044f1b1bdcff878087b37459af1aa5c" kind="function"><name>~DeviceHandler</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a0e6f837d7c3752a8527f434fce5a83e7" kind="function"><name>getDevice</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a38da569a2b6c53f32104a2d56e524dd8" kind="function"><name>getPhysicalDevice</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a4c27f297cddf794096fc664e980b52ff" kind="function"><name>getPhysicalDeviceProperties</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1adcb71ec91d806d2a156dc0c8be50d8ed" kind="function"><name>createSwapChain</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a6a60a82e65dd6645a271cb9b5ca45b74" kind="function"><name>createCommandPool</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1ad4ea0f2301fe089f8924f5cda79d6961" kind="function"><name>createImageView</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a0a4db2449b5bef73b1ac47b084841fbd" kind="function"><name>waitDeviceIdle</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1aa98829cda175d668ea63f10e49a48f2f" kind="function"><name>waitGraphicsQueueIdle</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a72ce9eb239815259567e935f5a775167" kind="function"><name>submitGraphicsQueue</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1aff0c149cf420208496ae9095f6360b07" kind="function"><name>presentKHR</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a8686be5be7b767a91071d7260ae41d72" kind="function"><name>findMemoryType</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a31a9191e2b8f515ad76cee3b7b43f8df" kind="function"><name>findDepthFormat</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a25168bfd058fd876c2573d601c3a27c5" kind="function"><name>findSupportedFormat</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a9c89d108169f7f7a4b62129583550e0a" kind="function"><name>pickPhysicalDevice</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1ab7f9add291914e0bfcb43c783b5f76e1" kind="function"><name>findQueueFamilies</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a3c8dae50adec854ba4496d89d8e77d0b" kind="function"><name>createLogicalDevice</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1a270167e8f8f54b6a7bd9acc2479a88ba" kind="function"><name>rateDeviceSuitability</name></member>
+    <member refid="classnarc__engine_1_1_device_handler_1ad381f9a27bdfd6d8984648d16961e28a" kind="function"><name>checkDeviceExtensionSupport</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_engine" kind="class"><name>narc_engine::Engine</name>
+    <member refid="classnarc__engine_1_1_engine_1ac2a570cf29d05edf6c9051eb0c6a543a" kind="variable"><name>EngineBinder</name></member>
+    <member refid="classnarc__engine_1_1_engine_1af52e2bb362e42628c84ca56fb38cad2d" kind="variable"><name>m_instance</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a325bd64b196a80906db1fef913daa844" kind="variable"><name>m_window</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a9ef351c3ace9cea1403d1c054552cd4a" kind="variable"><name>m_debugLogger</name></member>
+    <member refid="classnarc__engine_1_1_engine_1aca27fbca7c67eb5ea156d53586f0be8e" kind="variable"><name>m_deviceHandler</name></member>
+    <member refid="classnarc__engine_1_1_engine_1aeba87a508b8a459ffb212b3c52d045bd" kind="variable"><name>m_commandPool</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a2ed7e6017dc8952d6b3c80abd856ce5c" kind="variable"><name>m_renderer</name></member>
+    <member refid="classnarc__engine_1_1_engine_1aad9e68302e2a2efcc4548e8317cc06aa" kind="variable"><name>m_engineBinder</name></member>
+    <member refid="classnarc__engine_1_1_engine_1abf0f9fc912787e62f42ba53c06064c7f" kind="variable"><name>m_resourcesManager</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a9b710b894abcbd8070257d7767e4a71c" kind="function"><name>Engine</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a89049a6e51a19718bbaf848208b5dfff" kind="function"><name>~Engine</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a7943fb821d740f7cddc1ab46a5ca5060" kind="function"><name>pollEvents</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a181b0956217eff099af02702cdc367ef" kind="function"><name>shouldClose</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a771949878a4604d5285b267899aaec3b" kind="function"><name>render</name></member>
+    <member refid="classnarc__engine_1_1_engine_1accf4650dfcd86634f7f36a4c03c76de3" kind="function"><name>waitDeviceIdle</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a42969115b9575bb6dcffd4cea5f8c322" kind="function"><name>binder</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a18a280f92bc608049215f07bfda50002" kind="function"><name>resourceManager</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a91aedffd641b81050acad665eb518dcb" kind="function"><name>getDevice</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a934c381429e949c4964415b9e0b3cff0" kind="function"><name>getWindow</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a005abb8b5e4f08bc56f1bdb9efcd9163" kind="function"><name>copyBuffer</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a201f5f005ebcf40b8746c6fc0ee75bd1" kind="function"><name>transitionImageLayout</name></member>
+    <member refid="classnarc__engine_1_1_engine_1ad6be558861551bdbe37dfb5f3ec9eb7f" kind="function"><name>copyBufferToImage</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a4fc0a2173e3ed2054d87ef0a6b07225e" kind="function"><name>createImage</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a6f53e9848c1e1971c8df778124f8da9c" kind="function"><name>createImage</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a8d65fb40a2122c5fe2c1d73f96c87370" kind="function"><name>getInstance</name></member>
+    <member refid="classnarc__engine_1_1_engine_1af9aa32f380d2ad122313e35a57705503" kind="function"><name>getCommandPool</name></member>
+    <member refid="classnarc__engine_1_1_engine_1a1f1ea893149b4cd2ccb19de75875b43d" kind="function"><name>hasStencilComponent</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_engine_binder" kind="class"><name>narc_engine::EngineBinder</name>
+    <member refid="classnarc__engine_1_1_engine_binder_1a62613caf51c12106427bd47a95ff61c8" kind="variable"><name>m_engine</name></member>
+    <member refid="classnarc__engine_1_1_engine_binder_1a75ec8d65943d1625239dd156482cd14f" kind="function"><name>EngineBinder</name></member>
+    <member refid="classnarc__engine_1_1_engine_binder_1ac264132c1be6758cb24079cee569aea9" kind="function"><name>attachRenderer</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_engine_debug_logger" kind="class"><name>narc_engine::EngineDebugLogger</name>
+    <member refid="classnarc__engine_1_1_engine_debug_logger_1a148922777e3ae9d99b327bcf7752356e" kind="variable"><name>m_debugMessenger</name></member>
+    <member refid="classnarc__engine_1_1_engine_debug_logger_1acac13bb0177b5c7f4485a6301ac30d01" kind="variable"><name>m_instance</name></member>
+    <member refid="classnarc__engine_1_1_engine_debug_logger_1adee4081d15c8ce2f83438d19fcd1fe03" kind="function"><name>EngineDebugLogger</name></member>
+    <member refid="classnarc__engine_1_1_engine_debug_logger_1a8e28b42ccd7ed34d30dc9ab6f109078d" kind="function"><name>~EngineDebugLogger</name></member>
+    <member refid="classnarc__engine_1_1_engine_debug_logger_1a68cd94d83386fb255357850bc93a0753" kind="function"><name>linkToDevice</name></member>
+    <member refid="classnarc__engine_1_1_engine_debug_logger_1a1bb1b4a0c4fea58945ac96b18dd76ef5" kind="function"><name>linkToInstance</name></member>
+    <member refid="classnarc__engine_1_1_engine_debug_logger_1a4ff0b6c2694bd6f8c1d7997f54717b5e" kind="function"><name>getRequiredExtensions</name></member>
+    <member refid="classnarc__engine_1_1_engine_debug_logger_1ab553de3e45824b23e2a0f13047807f75" kind="function"><name>checkValidationLayerSupport</name></member>
+    <member refid="classnarc__engine_1_1_engine_debug_logger_1a3ab15060eff05897a66986017603d5f1" kind="function"><name>populateDebugMessengerCreateInfo</name></member>
+    <member refid="classnarc__engine_1_1_engine_debug_logger_1a85cd181479ad0b29b8eb6c0d1ef51509" kind="function"><name>debugCallback</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_engine_instance" kind="class"><name>narc_engine::EngineInstance</name>
+    <member refid="classnarc__engine_1_1_engine_instance_1a2f73fcbfc0d6ad13518e4d6b4c96db2b" kind="variable"><name>m_instance</name></member>
+    <member refid="classnarc__engine_1_1_engine_instance_1a4abd391fb43d3755f93c93e54c6870a4" kind="function"><name>EngineInstance</name></member>
+    <member refid="classnarc__engine_1_1_engine_instance_1a466aa325feaecdc99454760869855570" kind="function"><name>~EngineInstance</name></member>
+    <member refid="classnarc__engine_1_1_engine_instance_1ac610f3c35ee62a79fb3d4033ea3625f8" kind="function"><name>getAllPhysicalDevices</name></member>
+    <member refid="classnarc__engine_1_1_engine_instance_1a980b7b5a36c09055eaff290f8a28b7d4" kind="function"><name>createGLFWSurface</name></member>
+    <member refid="classnarc__engine_1_1_engine_instance_1a2952fc67be0dd5d9516a4419a4a2593f" kind="function"><name>createDebugUtilsMessenger</name></member>
+    <member refid="classnarc__engine_1_1_engine_instance_1a300bb6f243b7730ab458ab5893928774" kind="function"><name>destroyGLFWSurface</name></member>
+    <member refid="classnarc__engine_1_1_engine_instance_1ace5a266b63286d45817d785ea1cc5e7e" kind="function"><name>destroyDebugUtilsMessenger</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_engine_renderer" kind="class"><name>narc_engine::EngineRenderer</name>
+    <member refid="classnarc__engine_1_1_engine_renderer_1a348595c99b6bdc681f277fa75b752a62" kind="friend"><name>EngineBinder</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1a3e1914489e4bed4f9f23cdeab34a43dc" kind="friend"><name>Engine</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1a431f68c98cec5f3302cd6a6f68347a60" kind="variable"><name>m_swapChain</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1a637037e90175e3f3baefbdcdea8806b8" kind="variable"><name>m_frameManager</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1a3639ac94baf3b6812c64c051b63a0b50" kind="variable"><name>m_rendererTasks</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1aeb992faf2f03225fb83a4f014dba8cde" kind="variable"><name>m_descriptorSetLayout</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1a29f81cd9f3ae4c2394b8f160bd27ffd9" kind="function"><name>EngineRenderer</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1ae72373b9c8abe50251caa23634c5ee1d" kind="function"><name>~EngineRenderer</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1ae7d8f611715b9eecc1b03e24ca606a99" kind="function"><name>drawFrame</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1abbd177925ade338ad3144975ad2e8265" kind="function"><name>updateUniformBuffer</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1a4c7c3a13f0056a6c567c7fc8d88ab4e4" kind="function"><name>attachRenderer</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1a1bff12a9a7c587bb4de31bd98fed515b" kind="function"><name>createDescriptorSetLayout</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1aaf509f069170dad6181b3fadb4b1eaf6" kind="function"><name>recordCommandBuffer</name></member>
+    <member refid="classnarc__engine_1_1_engine_renderer_1a8a28c82809203df7deb0d3ca4a1b06f1" kind="function"><name>createRenderTask</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_engine_resources_manager" kind="class"><name>narc_engine::EngineResourcesManager</name>
+    <member refid="classnarc__engine_1_1_engine_resources_manager_1a77143fafe1f00dc2b7ae966a9f4d86f2" kind="variable"><name>m_resourceIDCounter</name></member>
+    <member refid="classnarc__engine_1_1_engine_resources_manager_1a9f6efce8ace674e48ffe8c072d3987b7" kind="variable"><name>m_resources</name></member>
+    <member refid="classnarc__engine_1_1_engine_resources_manager_1a4cd93881c7f2dcca77df137c4e90bada" kind="function"><name>EngineResourcesManager</name></member>
+    <member refid="classnarc__engine_1_1_engine_resources_manager_1a52b61d9552f24664774940367139048f" kind="function"><name>~EngineResourcesManager</name></member>
+    <member refid="classnarc__engine_1_1_engine_resources_manager_1af2f9e62de46a32a5310c9d82aabaae04" kind="function"><name>createTexture2D</name></member>
+    <member refid="classnarc__engine_1_1_engine_resources_manager_1a8cd8b03b6a615876ce6b30869ed41640" kind="function"><name>getResource</name></member>
+  </compound>
+  <compound refid="classnarclog_1_1_error_exception" kind="class"><name>narclog::ErrorException</name>
+    <member refid="classnarclog_1_1_error_exception_1ade69ba720c6f187d5e277b8d08eaef3e" kind="function"><name>ErrorException</name></member>
+  </compound>
+  <compound refid="classnarclog_1_1_exception_handler_builder" kind="class"><name>narclog::ExceptionHandlerBuilder</name>
+    <member refid="classnarclog_1_1_exception_handler_builder_1afd8d1c1b8d885a3d29ddc193bae0b427" kind="variable"><name>m_function</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1a4f5777dbe9a3975ebf97469cc38cba1d" kind="variable"><name>m_finallyCallback</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1a6a489e5ca4f4d9a6bf213f698459e12a" kind="variable"><name>m_handleAllNonFatalExceptionAsFatal</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1abefa582196f3ebd4561dcf095b084c34" kind="variable"><name>m_rethrowFatal</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1a416ec78ca6397fbca9518a86506fc9a5" kind="variable"><name>m_name</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1a157bd1e880a4c8de061d7c60e69f25b4" kind="function"><name>bind</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1a4402738d27305f47f1dae32050e3374f" kind="function"><name>bindFinally</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1a4fc3f1bf5673f23ec157860c22f45dcd" kind="function"><name>handleAllNonFatalExceptionAsFatal</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1a71d9cc2bc8fb928075d4996768411f94" kind="function"><name>handleAllNonFatalExceptionAsErrorLog</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1aa4fc8d39a981bd719a88c752883b860d" kind="function"><name>rethrowFatal</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1a86016302f841357558b6dd2c1792aa49" kind="function"><name>handleFatal</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1a9d8ffd294ea4edf27ed77bdc2a4b318d" kind="function"><name>setName</name></member>
+    <member refid="classnarclog_1_1_exception_handler_builder_1a5ef094f9057475890b6ee1ddf5c3cefb" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="classnarclog_1_1_fatal_exception" kind="class"><name>narclog::FatalException</name>
+    <member refid="classnarclog_1_1_fatal_exception_1a4120a831619a5222b14e30a65cc99227" kind="friend"><name>MethodExceptionHandler</name></member>
+    <member refid="classnarclog_1_1_fatal_exception_1a03d20ed358d7b238d64d9c4fe1cd47c0" kind="variable"><name>m_name</name></member>
+    <member refid="classnarclog_1_1_fatal_exception_1a95246ff8bfcf7afd0a19eafd63b282b6" kind="function"><name>FatalException</name></member>
+  </compound>
+  <compound refid="classnarclog_1_1_file_logger" kind="class"><name>narclog::FileLogger</name>
+    <member refid="classnarclog_1_1_file_logger_1a279a88889556f0aefaef5e6f721e8327" kind="variable"><name>m_date</name></member>
+    <member refid="classnarclog_1_1_file_logger_1a64235ce349cc79e8341efa1403798198" kind="variable"><name>m_lines</name></member>
+    <member refid="classnarclog_1_1_file_logger_1a6c3ae494c26d8162ddcada9b338d99c3" kind="variable"><name>m_alwaysWriteLogs</name></member>
+    <member refid="classnarclog_1_1_file_logger_1a7f4f1bf2785a08625a1d8bcad62309b2" kind="variable"><name>m_alreadyWritten</name></member>
+    <member refid="classnarclog_1_1_file_logger_1a8eb025963d8347f3b13fe6e3a057c7b8" kind="function"><name>FileLogger</name></member>
+    <member refid="classnarclog_1_1_file_logger_1a7448d160536da3f160b939bd5cfda206" kind="function"><name>~FileLogger</name></member>
+    <member refid="classnarclog_1_1_file_logger_1ac215e99b6fc3ceca206c91a88e8d630e" kind="function"><name>addLine</name></member>
+    <member refid="classnarclog_1_1_file_logger_1a1dd5ac17ca0995f4b9dac5172903e8b7" kind="function"><name>writeFile</name></member>
+  </compound>
+  <compound refid="classnarc__io_1_1_file_reader" kind="class"><name>narc_io::FileReader</name>
+    <member refid="classnarc__io_1_1_file_reader_1aa2c716c2532cde0ae3105b528f6d894f" kind="function"><name>FileReader</name></member>
+    <member refid="classnarc__io_1_1_file_reader_1a9026143057243ee11b650762d81a82f6" kind="function"><name>~FileReader</name></member>
+    <member refid="classnarc__io_1_1_file_reader_1a89c0eb318386bc7fda8550f2db49ac0c" kind="function"><name>readFile</name></member>
+    <member refid="classnarc__io_1_1_file_reader_1aaf9bd5401c67645a68e1f2a03e5b9715" kind="function"><name>load3DModel</name></member>
+    <member refid="classnarc__io_1_1_file_reader_1a73d6961dc68a049bd515a6eff20598c4" kind="function"><name>readImage</name></member>
+    <member refid="classnarc__io_1_1_file_reader_1a9a476d3140748f12f2b28946b04fc7c2" kind="function"><name>releaseImage</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_frame_handler" kind="class"><name>narc_engine::FrameHandler</name>
+    <member refid="classnarc__engine_1_1_frame_handler_1a24a6fc8570717f23c346ec772bf5a95a" kind="friend"><name>MultiFrameManager</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1a0f16e6b07e5a2893a00946a225abd3d2" kind="variable"><name>m_commandPool</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1a14971f5d05774292e7bd78daa04a2508" kind="variable"><name>m_imageAvailableSemaphore</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1a560b73bdb6cc53e7f8913bdf16574c05" kind="variable"><name>m_renderFinishedSemaphore</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1a1fea8aa7c277119cb6d31f9938891356" kind="variable"><name>m_inFlightFence</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1a190a4d35aeb8b06748adf4ce2f494fc5" kind="variable"><name>m_uniformBuffer</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1aa294dac5276ec361e0d7313fd6f728f2" kind="variable"><name>m_descriptorSets</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1a87bca51da9ecc4585ed67d2246aa3b51" kind="function"><name>FrameHandler</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1a30a284a8d6b1b427de556e662ef7c97c" kind="function"><name>~FrameHandler</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1a95e112159619f4c416a594b381514cda" kind="function"><name>getCommandPool</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1a7a6e89925ec0e6f47940c101e5a6e639" kind="function"><name>getImageAvailableSemaphore</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1a0970d560526cef7163fbf9eb1db6d079" kind="function"><name>getRenderFinishedSemaphore</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1af340ebd2ec2b6bff75acffa4b66e75ed" kind="function"><name>getInFlightFence</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1ada4d14b2f5e90d30efb1b3c1219cb46a" kind="function"><name>getUniformBuffer</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1a71d41279542a45ee2ff4da23c041eb83" kind="function"><name>getDescriptorSets</name></member>
+    <member refid="classnarc__engine_1_1_frame_handler_1aa08787b22c3d4941f9a799700ab26e3c" kind="function"><name>addDescriptorSets</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_graphic_resource" kind="class"><name>narc_engine::GraphicResource</name>
+    <member refid="classnarc__engine_1_1_graphic_resource_1a7a66904799c6e030fdf4f946ff5aa8c7" kind="variable"><name>m_resourceHandler</name></member>
+    <member refid="classnarc__engine_1_1_graphic_resource_1ae3b6c47681552710265fefcb1bc27bbe" kind="function"><name>~GraphicResource</name></member>
+    <member refid="classnarc__engine_1_1_graphic_resource_1addb46bb6f0c9e40aca1154550f34100e" kind="function"><name>getResourceHandler</name></member>
+    <member refid="classnarc__engine_1_1_graphic_resource_1ae51373306fb00b936dc65a5c17c037bb" kind="function"><name>GraphicResource</name></member>
+  </compound>
+  <compound refid="structnarc__engine_1_1_graphic_resource_handler" kind="struct"><name>narc_engine::GraphicResourceHandler</name>
+    <member refid="structnarc__engine_1_1_graphic_resource_handler_1a5c69a4afedb8405c4d6c0d69036ad53f" kind="variable"><name>ResourceID</name></member>
+    <member refid="structnarc__engine_1_1_graphic_resource_handler_1a4d143222177228f2aa69529fde802d7e" kind="variable"><name>Type</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_graphics_buffer" kind="class"><name>narc_engine::GraphicsBuffer</name>
+    <member refid="classnarc__engine_1_1_graphics_buffer_1a787050cbef9f804bdd013aa3968c6d75" kind="function"><name>GraphicsBuffer</name></member>
+    <member refid="classnarc__engine_1_1_graphics_buffer_1a8ba2289f2c1fe1f16fb43caafdb31343" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_graphics_pipeline" kind="class"><name>narc_engine::GraphicsPipeline</name>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1aecc69653f551696053578dec275908ca" kind="variable"><name>m_pipeline</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1ac0d494aac6671f2775a1b97f907524b3" kind="variable"><name>m_pipelineLayout</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1a64a1a4b2806bce53b271a37ef82e6855" kind="function"><name>createInputAssemblyStateInfo</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1a610fa136afc3d8906e4c5468cf6a1d87" kind="function"><name>createViewportStateInfo</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1ad105ada55f4541d71b8456721b9afcf4" kind="function"><name>createDepthStencilStateInfo</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1aa6e9621e4f9429ed22cf42e1b7edd831" kind="function"><name>createRasterizationStateInfo</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1a31098ee948e53d20766038aa37a0d201" kind="function"><name>createMultisampleStateInfo</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1a06a1a3009de8b9eec02c68abc827afb6" kind="function"><name>createColorBlendAttachmentState</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1a87e15242d8cb96e93f0df7411ce0f6d3" kind="function"><name>createColorBlendStateInfo</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1a7a27e204c63f33d9c25584e6a6494e4f" kind="function"><name>createDynamicStateInfo</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1a9f1a5d97c56fc052303b4de193c742cd" kind="function"><name>createLayoutInfo</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1a9d07c3122e395732195eb163f8ae00dd" kind="function"><name>GraphicsPipeline</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1a42041cac536235e25d3040f5a8a99d4e" kind="function"><name>~GraphicsPipeline</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1ac4070c19af142b0bcdcb752b5e4fdec8" kind="function"><name>getLayout</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1a152acb6eaf8fe1b206e8c93ae0c7f2a1" kind="function"><name>bindPipeline</name></member>
+    <member refid="classnarc__engine_1_1_graphics_pipeline_1a946b8dab82647eb0faa4c2fc2cb7ee13" kind="function"><name>createPipelineVertexInputInfo</name></member>
+  </compound>
+  <compound refid="structstd_1_1hash_3_01vertex_01_4" kind="struct"><name>std::hash&lt; vertex &gt;</name>
+    <member refid="structstd_1_1hash_3_01vertex_01_4_1a7d04736af4810e1dd976408616c280d2" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_i_engine" kind="class"><name>narc_engine::IEngine</name>
+    <member refid="classnarc__engine_1_1_i_engine_1a348595c99b6bdc681f277fa75b752a62" kind="friend"><name>EngineBinder</name></member>
+    <member refid="classnarc__engine_1_1_i_engine_1a52d1b6eec21bc47e93052c00b5388ba3" kind="function"><name>~IEngine</name></member>
+    <member refid="classnarc__engine_1_1_i_engine_1a980c9e0be288ae8f09869c574c040aab" kind="function"><name>binder</name></member>
+    <member refid="classnarc__engine_1_1_i_engine_1a4f802f0487b9e9ffb39e942a658f750e" kind="function"><name>resourceManager</name></member>
+    <member refid="classnarc__engine_1_1_i_engine_1a31dc11746397ab54de20f327e78aab16" kind="function"><name>shouldClose</name></member>
+    <member refid="classnarc__engine_1_1_i_engine_1aef330b371820527fc15f7b2ef08453ae" kind="function"><name>pollEvents</name></member>
+    <member refid="classnarc__engine_1_1_i_engine_1ade4d2d5a9008350ade41e526a96ac187" kind="function"><name>render</name></member>
+    <member refid="classnarc__engine_1_1_i_engine_1a078d493bfd5571c7ea8ba9056c1e1adf" kind="function"><name>waitDeviceIdle</name></member>
+  </compound>
+  <compound refid="structnarc__io_1_1_image" kind="struct"><name>narc_io::Image</name>
+    <member refid="structnarc__io_1_1_image_1adffc0f3783ef498cd7705f60f8590290" kind="friend"><name>FileReader</name></member>
+    <member refid="structnarc__io_1_1_image_1a30db1e61f919a9cb1f50ee5c299749c4" kind="variable"><name>m_width</name></member>
+    <member refid="structnarc__io_1_1_image_1aba3004f30b105604dc43ea0332518e5e" kind="variable"><name>m_height</name></member>
+    <member refid="structnarc__io_1_1_image_1aeda994993998ea5984687d77d67f797f" kind="variable"><name>m_channels</name></member>
+    <member refid="structnarc__io_1_1_image_1a105a534f6b1b9affecafd48e310a2b3c" kind="variable"><name>m_data</name></member>
+    <member refid="structnarc__io_1_1_image_1a54e7f03c7f565ef23694e73e5d901185" kind="function"><name>~Image</name></member>
+    <member refid="structnarc__io_1_1_image_1a215263b4c7abf7da8d432b3122d6ec07" kind="function"><name>getWidth</name></member>
+    <member refid="structnarc__io_1_1_image_1aba621271653b54cb6b1dfb9e6e94d860" kind="function"><name>getHeight</name></member>
+    <member refid="structnarc__io_1_1_image_1a1931c5332d107a25df270d0a5751ce7f" kind="function"><name>getChannels</name></member>
+    <member refid="structnarc__io_1_1_image_1ad14df863475ba169e21325aa003cc26d" kind="function"><name>getData</name></member>
+    <member refid="structnarc__io_1_1_image_1aacb9aec74d9dc3c7116805c770300523" kind="function"><name>Image</name></member>
+  </compound>
+  <compound refid="classnarclog_1_1_logger" kind="class"><name>narclog::Logger</name>
+    <member refid="classnarclog_1_1_logger_1aca30b86ee3cdbbecf4cfbf20ab53f036" kind="variable"><name>m_fileLogger</name></member>
+    <member refid="classnarclog_1_1_logger_1a41162702ffa5a0ecb1f3c11559e23f5f" kind="function"><name>Logger</name></member>
+    <member refid="classnarclog_1_1_logger_1ac1ccfd41fb9e681ee69b37852b471bb1" kind="function"><name>~Logger</name></member>
+    <member refid="classnarclog_1_1_logger_1ad17fb9b535e6a6244676fc6506a14c2b" kind="function"><name>log</name></member>
+    <member refid="classnarclog_1_1_logger_1a63ae635b000b1c7f53e0aec1ba0d62af" kind="function"><name>currentDateTime</name></member>
+    <member refid="classnarclog_1_1_logger_1ace0a7b8686cb969028a310aa228edcea" kind="function"><name>prefixForLevel</name></member>
+    <member refid="classnarclog_1_1_logger_1abd9cc2e0791c2a9912ff7044fc7f599a" kind="function"><name>colorForLevel</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_material" kind="class"><name>narc_engine::Material</name>
+    <member refid="classnarc__engine_1_1_material_1a0c98f4f154e2e66557ec2d2c1de3e391" kind="variable"><name>s_materialCounter</name></member>
+    <member refid="classnarc__engine_1_1_material_1a6c93e35906da5ab9677e720d60cedc2a" kind="variable"><name>m_materialID</name></member>
+    <member refid="classnarc__engine_1_1_material_1a56262d942207e7f5a3e00b7d29106a18" kind="variable"><name>m_mainTexture</name></member>
+    <member refid="classnarc__engine_1_1_material_1a11d7320d259c92b319b173ec06a5ce4b" kind="function"><name>Material</name></member>
+    <member refid="classnarc__engine_1_1_material_1a540f60f1f28278b714e8442dc006ee32" kind="function"><name>~Material</name></member>
+    <member refid="classnarc__engine_1_1_material_1a6539a87323f40cb584e706eca57b095c" kind="function"><name>getMaterialID</name></member>
+    <member refid="classnarc__engine_1_1_material_1a7e802f106ebd0130fc96d37996597d08" kind="function"><name>getMainTexture</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_mesh" kind="class"><name>narc_engine::Mesh</name>
+    <member refid="classnarc__engine_1_1_mesh_1a58ff3d47b2587b6128b59fd551ce0bdd" kind="variable"><name>m_vertexBuffer</name></member>
+    <member refid="classnarc__engine_1_1_mesh_1a3d66f3b06f29a93a3f8cd745fdd06729" kind="variable"><name>m_indexBuffer</name></member>
+    <member refid="classnarc__engine_1_1_mesh_1a687fcf72427bae38f243f889d4f3951f" kind="variable"><name>m_indexCount</name></member>
+    <member refid="classnarc__engine_1_1_mesh_1afbf9b7c34cbb6419483ca192cd0c403b" kind="function"><name>Mesh</name></member>
+    <member refid="classnarc__engine_1_1_mesh_1ab6acae2bc098f80541f7d549d277d04c" kind="function"><name>~Mesh</name></member>
+    <member refid="classnarc__engine_1_1_mesh_1a2c845f207823b2a7f39ceae4c7e43c4f" kind="function"><name>getVertexBuffer</name></member>
+    <member refid="classnarc__engine_1_1_mesh_1a0129eda9b3a4003563efc7900a4dd1d2" kind="function"><name>getIndexBuffer</name></member>
+    <member refid="classnarc__engine_1_1_mesh_1a99cebb456879bbfb4facad6817147e2a" kind="function"><name>getIndexCount</name></member>
+  </compound>
+  <compound refid="classnarclog_1_1_method_exception_handler" kind="class"><name>narclog::MethodExceptionHandler</name>
+    <member refid="classnarclog_1_1_method_exception_handler_1ac77e39a0b793a71ea47c0251c7f8cb2d" kind="friend"><name>ExceptionHandlerBuilder</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1a3aaf679c433a5cfbcca6c3ffa9145a9f" kind="variable"><name>m_function</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1a6224c39bbb153a208ba25b17565af491" kind="variable"><name>m_finallyCallback</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1af522d38de38299391af89ccdb645d771" kind="variable"><name>m_handleAllNonFatalExceptionAsFatal</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1acd3cfd68974f90d7b8b4db58c4088bed" kind="variable"><name>m_rethrowFatal</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1a8190c94c8b5123141993918a1fbc7731" kind="variable"><name>m_name</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1a1371084b68dae789071980b9a5d6cdd5" kind="function"><name>~MethodExceptionHandler</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1acc8556646598f316d39e04118ac0e6f8" kind="function"><name>invoke</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1aa1ee59dd82c05996d5be055bfcee3230" kind="function"><name>execute</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1aadf28cb1a3ebb4e374fedff2908573f8" kind="function"><name>MethodExceptionHandler</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1a44ae7a9d67d3a2e1e78ca92d128cb67b" kind="function"><name>fatalExceptionHandler</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1aad813fccab48f840fd470007ad9c93df" kind="function"><name>errorExceptionHandler</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1a872b69b9082da9b230e21c11fccc4c1b" kind="function"><name>format</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1a31335ebbd210f3ec5e8ada58e21e66c4" kind="function"><name>format</name></member>
+    <member refid="classnarclog_1_1_method_exception_handler_1a04ba3bf36174caa40dd9ea19ec923fed" kind="function"><name>finally</name></member>
+  </compound>
+  <compound refid="structnarc__io_1_1_model3_d" kind="struct"><name>narc_io::Model3D</name>
+    <member refid="structnarc__io_1_1_model3_d_1adffc0f3783ef498cd7705f60f8590290" kind="friend"><name>FileReader</name></member>
+    <member refid="structnarc__io_1_1_model3_d_1a68a5242fe26b6aafd63702e287a993f6" kind="variable"><name>m_vertices</name></member>
+    <member refid="structnarc__io_1_1_model3_d_1af208295d2ab6ac865d2d25cdb7c6c1b8" kind="variable"><name>m_texCoords</name></member>
+    <member refid="structnarc__io_1_1_model3_d_1ab7d1d4c0c45c74775561b0859005d984" kind="variable"><name>m_colors</name></member>
+    <member refid="structnarc__io_1_1_model3_d_1a3c8481b4184c062cc965f4859fc619aa" kind="variable"><name>m_indices</name></member>
+    <member refid="structnarc__io_1_1_model3_d_1a0936d1cefeba6ae9f66a148037029ca6" kind="function"><name>getVerticesCount</name></member>
+    <member refid="structnarc__io_1_1_model3_d_1a8b8b329fc7861e96990ee6ed0c7d82a4" kind="function"><name>getVertices</name></member>
+    <member refid="structnarc__io_1_1_model3_d_1a2ee6e11a9fd0208808870476e4afc4b4" kind="function"><name>getTexCoords</name></member>
+    <member refid="structnarc__io_1_1_model3_d_1aaabdd8b7700a3a5b8bb697a50da188a8" kind="function"><name>getColors</name></member>
+    <member refid="structnarc__io_1_1_model3_d_1a1aaf69d135b320e4c871609cd032f543" kind="function"><name>getIndices</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_multi_frame_manager" kind="class"><name>narc_engine::MultiFrameManager</name>
+    <member refid="classnarc__engine_1_1_multi_frame_manager_1ad7d4639d1d60adbcd5018261d316df00" kind="variable"><name>m_maxFrameInFlight</name></member>
+    <member refid="classnarc__engine_1_1_multi_frame_manager_1abd1db7a73c7fc6f30b75de4c1bf5836d" kind="variable"><name>m_descriptorPool</name></member>
+    <member refid="classnarc__engine_1_1_multi_frame_manager_1a126908d074238bd0bd1696d60cd60e2d" kind="variable"><name>m_frames</name></member>
+    <member refid="classnarc__engine_1_1_multi_frame_manager_1adb52b8ddd4e4cbc9edd06b0bed1a6e29" kind="variable"><name>m_currentFrame</name></member>
+    <member refid="classnarc__engine_1_1_multi_frame_manager_1a642985c1f93d57042163b2c47739acfc" kind="function"><name>MultiFrameManager</name></member>
+    <member refid="classnarc__engine_1_1_multi_frame_manager_1afa5883511d2c54cb23d5f1f514108d93" kind="function"><name>~MultiFrameManager</name></member>
+    <member refid="classnarc__engine_1_1_multi_frame_manager_1a7edd36ef22c76ef1d544e13bdc881851" kind="function"><name>getCurrentFrameHandler</name></member>
+    <member refid="classnarc__engine_1_1_multi_frame_manager_1ad8dcb65f77e6de390e7ae10081037e89" kind="function"><name>nextFrame</name></member>
+    <member refid="classnarc__engine_1_1_multi_frame_manager_1a54cc87930a0bf375f6091e721a36cfbc" kind="function"><name>allocateDescriptorSets</name></member>
+  </compound>
+  <compound refid="structnarc__engine_1_1_queue_family_indices" kind="struct"><name>narc_engine::QueueFamilyIndices</name>
+    <member refid="structnarc__engine_1_1_queue_family_indices_1ab425d917a089a2dbab60d99a3392fdfe" kind="variable"><name>GraphicsFamily</name></member>
+    <member refid="structnarc__engine_1_1_queue_family_indices_1a5c92bd07d44761f0ae26d61ed64d9f31" kind="variable"><name>PresentFamily</name></member>
+    <member refid="structnarc__engine_1_1_queue_family_indices_1a2c5f04b73db6d568d4b1fd14f2f36679" kind="function"><name>isComplete</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_renderer" kind="class"><name>narc_engine::Renderer</name>
+    <member refid="classnarc__engine_1_1_renderer_1a6c7dfd1063334f9b369c5d2a1c30548e" kind="variable"><name>m_mesh</name></member>
+    <member refid="classnarc__engine_1_1_renderer_1af6ecd640bb76e00391b8cddd5b7c72a0" kind="variable"><name>m_material</name></member>
+    <member refid="classnarc__engine_1_1_renderer_1aeba4dd03958b2ecc11761c0d10b0b234" kind="variable"><name>m_modelMatrix</name></member>
+    <member refid="classnarc__engine_1_1_renderer_1a360b7fdfa4d16f8d3dc659ea844a0ead" kind="function"><name>Renderer</name></member>
+    <member refid="classnarc__engine_1_1_renderer_1ac954c8521c2893478c20c8eb3bb95717" kind="function"><name>~Renderer</name></member>
+    <member refid="classnarc__engine_1_1_renderer_1ad479de6e83077ac925893a9957a9aa87" kind="function"><name>getMaterial</name></member>
+    <member refid="classnarc__engine_1_1_renderer_1af43f92f396441f2a42863f547699bccb" kind="function"><name>getMesh</name></member>
+    <member refid="classnarc__engine_1_1_renderer_1a65bac7b99b5a01b55b653d8c56548c1c" kind="function"><name>getModelMatrix</name></member>
+    <member refid="classnarc__engine_1_1_renderer_1a29836b9d7dd6ded9f8146ec054230f2c" kind="function"><name>setModelMatrix</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_render_pass" kind="class"><name>narc_engine::RenderPass</name>
+    <member refid="classnarc__engine_1_1_render_pass_1a4055c7eaf1a046a207da584c61d6205c" kind="variable"><name>m_renderPass</name></member>
+    <member refid="classnarc__engine_1_1_render_pass_1afe8f2fa8441acab126b012c412e26b79" kind="function"><name>RenderPass</name></member>
+    <member refid="classnarc__engine_1_1_render_pass_1ad3fa98a05b9240e10ac04f0efcd45972" kind="function"><name>~RenderPass</name></member>
+    <member refid="classnarc__engine_1_1_render_pass_1a67a1048af1cf008efc9234fccdfee8f3" kind="function"><name>getRenderPass</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_render_task" kind="class"><name>narc_engine::RenderTask</name>
+    <member refid="classnarc__engine_1_1_render_task_1af3f4f592b2b0117d6af7f2049b2ad43e" kind="variable"><name>m_pipeline</name></member>
+    <member refid="classnarc__engine_1_1_render_task_1a30bc42e71e8217b0ae3feabef603a707" kind="variable"><name>m_renderers</name></member>
+    <member refid="classnarc__engine_1_1_render_task_1af284d66b11dab69f38faf8a1effca527" kind="variable"><name>m_material</name></member>
+    <member refid="classnarc__engine_1_1_render_task_1aa403ab875601ad5d7c8fadf6dd4f6482" kind="function"><name>RenderTask</name></member>
+    <member refid="classnarc__engine_1_1_render_task_1a0c1075aad51b576417058c1d4de13d9e" kind="function"><name>~RenderTask</name></member>
+    <member refid="classnarc__engine_1_1_render_task_1ae0f711daff5e5d4be74115de9e0a8e50" kind="function"><name>recordTask</name></member>
+    <member refid="classnarc__engine_1_1_render_task_1a2e7ba0660196bf692df2ddd23d210f26" kind="function"><name>updateDescriptorSet</name></member>
+    <member refid="classnarc__engine_1_1_render_task_1a4d2df1d2e85ecee92835e598c051b0ee" kind="function"><name>bindRenderer</name></member>
+    <member refid="classnarc__engine_1_1_render_task_1aa5c5d6f4befac17186e959746358c865" kind="function"><name>unbindRenderer</name></member>
+    <member refid="classnarc__engine_1_1_render_task_1a24fd41943cf6e743d0be182bbbb0b09c" kind="function"><name>getRenderers</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_shader_module" kind="class"><name>narc_engine::ShaderModule</name>
+    <member refid="classnarc__engine_1_1_shader_module_1aaf3c50796b2755304c9dc25c46b50a75" kind="variable"><name>m_shaderModule</name></member>
+    <member refid="classnarc__engine_1_1_shader_module_1a911abb7af5eb1a973cd05c4625816ff5" kind="function"><name>ShaderModule</name></member>
+    <member refid="classnarc__engine_1_1_shader_module_1aed081c89cc266b131cf46311deacb372" kind="function"><name>~ShaderModule</name></member>
+    <member refid="classnarc__engine_1_1_shader_module_1a186d124a92c5eca65beb198b8268dd84" kind="function"><name>configureShaderStage</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_staging_buffer" kind="class"><name>narc_engine::StagingBuffer</name>
+    <member refid="classnarc__engine_1_1_staging_buffer_1a57a1402aa17d22cf125019ed048172b5" kind="variable"><name>m_bufferSize</name></member>
+    <member refid="classnarc__engine_1_1_staging_buffer_1a585a495752ad34cef50c033f69264dfc" kind="function"><name>StagingBuffer</name></member>
+    <member refid="classnarc__engine_1_1_staging_buffer_1a9fa1b53e5bffe8fab80935c3b7851ca8" kind="function"><name>create</name></member>
+    <member refid="classnarc__engine_1_1_staging_buffer_1a25ca402e2301bebf867bb503be016887" kind="function"><name>input</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_swap_chain" kind="class"><name>narc_engine::SwapChain</name>
+    <member refid="classnarc__engine_1_1_swap_chain_1a6225493a5d50360d6cec55ad61ed7f25" kind="variable"><name>m_swapChain</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a9f78bee02d9abb5cfc3c55c706ea946e" kind="variable"><name>m_swapChainImages</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a980630510b7f7c629c6cab8693a2d031" kind="variable"><name>m_swapChainImageFormat</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a5608d546f102d7dbabf9a20d574c62f8" kind="variable"><name>m_swapChainExtent</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1ade74cd29dcb0ff16596c6cb01b9db42a" kind="variable"><name>m_swapChainImageViews</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a685548742e9a36690a143c68198d958b" kind="variable"><name>m_swapChainFramebuffers</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a70241b396cc93f1abfdd88111fe9913d" kind="variable"><name>m_depthResources</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a0f5af69b2845443a8cf70d8cb3f56530" kind="variable"><name>m_renderPass</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a1e246509c572306084468b2c4038c5b5" kind="variable"><name>m_window</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a1c2c167c75a39c4ea8690d555273d042" kind="function"><name>getSwapChainExtent</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a44e5c6e36511eb129377b05b98d3a7e8" kind="function"><name>getRenderPass</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a3856490288f7422d0c91ffa42e4a0461" kind="function"><name>getSwapChain</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a42620f21b3421c4ec3993e2143c93ed7" kind="function"><name>create</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1abe378ec4f7198f3378ec936e904b9a03" kind="function"><name>createFramebuffers</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1adf5ce13acb3781160959ebf32553e80c" kind="function"><name>getRenderPassBeginInfos</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1aaa93e43077b166960e61c7d0d8704ada" kind="function"><name>acquireNextImage</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1af2b88a62f620b23b87f76ad9a1c0e034" kind="function"><name>reCreate</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1af17ebf1c5f94be3c696c6852c8188d57" kind="function"><name>cleanSwapChain</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a953a06b6c0f047574936d5b174394c35" kind="function"><name>cleanRenderPass</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a82dd08ff5dc8d2b3d77378cb35e18c3c" kind="function"><name>createSwapChain</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a796ec331b850755e5f0cf966c1f6bee0" kind="function"><name>createImageViews</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a1fcdec59a047144cbfc1280da685fc60" kind="function"><name>chooseSwapExtent</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a5b3c87a936c623ffd813243f66c181a4" kind="function"><name>chooseSwapSurfaceFormat</name></member>
+    <member refid="classnarc__engine_1_1_swap_chain_1a0802e813e7c262b20f326dd1698fa34e" kind="function"><name>chooseSwapPresentMode</name></member>
+  </compound>
+  <compound refid="structnarc__engine_1_1_swap_chain_support_details" kind="struct"><name>narc_engine::SwapChainSupportDetails</name>
+    <member refid="structnarc__engine_1_1_swap_chain_support_details_1a60c16f812f667166a007e62f50524b2c" kind="variable"><name>Capabilities</name></member>
+    <member refid="structnarc__engine_1_1_swap_chain_support_details_1a1b138f96fb5bc862bc60294ad68274a1" kind="variable"><name>Formats</name></member>
+    <member refid="structnarc__engine_1_1_swap_chain_support_details_1a3e2b427896b839331e551203c924d47b" kind="variable"><name>PresentModes</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_texture2_d_resource" kind="class"><name>narc_engine::Texture2DResource</name>
+    <member refid="classnarc__engine_1_1_texture2_d_resource_1aa792a98a21e421752a07d9b5d2587f82" kind="variable"><name>m_textureImage</name></member>
+    <member refid="classnarc__engine_1_1_texture2_d_resource_1add04baaa84c999df321ccf233c9bf4f8" kind="variable"><name>m_textureImageMemory</name></member>
+    <member refid="classnarc__engine_1_1_texture2_d_resource_1aa81dc8918a9c7f80935bade133cd80ed" kind="variable"><name>m_textureImageView</name></member>
+    <member refid="classnarc__engine_1_1_texture2_d_resource_1ac3c7c6f871503f207a061660b59c7e89" kind="variable"><name>m_textureSampler</name></member>
+    <member refid="classnarc__engine_1_1_texture2_d_resource_1a34944b55048ab98fdb8579d860c64c94" kind="function"><name>Texture2DResource</name></member>
+    <member refid="classnarc__engine_1_1_texture2_d_resource_1a17cd363baedf1472641dd0433aca138e" kind="function"><name>~Texture2DResource</name></member>
+    <member refid="classnarc__engine_1_1_texture2_d_resource_1a9297d457b17f4393c29f825f80dbd1d4" kind="function"><name>getImageView</name></member>
+    <member refid="classnarc__engine_1_1_texture2_d_resource_1aed5815d3a26cc0afb2ff6d2517212b56" kind="function"><name>getSampler</name></member>
+    <member refid="classnarc__engine_1_1_texture2_d_resource_1a93f05b4b0906cb04ae5fc63ba9bca70e" kind="function"><name>createTextureImage</name></member>
+    <member refid="classnarc__engine_1_1_texture2_d_resource_1a50226c717260e3b615ee2300471a83ed" kind="function"><name>createTextureSampler</name></member>
+    <member refid="classnarc__engine_1_1_texture2_d_resource_1aec805f7d0a93e3e2543c63c7652c2709" kind="function"><name>createImageTextureView</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_uniform_buffer" kind="class"><name>narc_engine::UniformBuffer</name>
+    <member refid="classnarc__engine_1_1_uniform_buffer_1adfb7ad0d761ab8c0cd5416700d9becf3" kind="variable"><name>uniformBuffersMapped</name></member>
+    <member refid="classnarc__engine_1_1_uniform_buffer_1a0fbc804839243707837eeff72da7d367" kind="function"><name>UniformBuffer</name></member>
+    <member refid="classnarc__engine_1_1_uniform_buffer_1a0575346a2a83c3ed256f3e08588a2b47" kind="function"><name>setData</name></member>
+  </compound>
+  <compound refid="structnarc__engine_1_1_uniform_buffer_object" kind="struct"><name>narc_engine::UniformBufferObject</name>
+    <member refid="structnarc__engine_1_1_uniform_buffer_object_1a5074d7216b38ce0c0e3cdfd92b3e1ffc" kind="variable"><name>Model</name></member>
+    <member refid="structnarc__engine_1_1_uniform_buffer_object_1a75398385b141f0e9263c9893b631f1ae" kind="variable"><name>View</name></member>
+    <member refid="structnarc__engine_1_1_uniform_buffer_object_1a4dc07cd5aada667b54211ebfb599b912" kind="variable"><name>Proj</name></member>
+  </compound>
+  <compound refid="structnarc__engine_1_1_vertex" kind="struct"><name>narc_engine::Vertex</name>
+    <member refid="structnarc__engine_1_1_vertex_1aa010d818367d5b804178b9a21840d459" kind="variable"><name>Pos</name></member>
+    <member refid="structnarc__engine_1_1_vertex_1ab2fb9c362a639bc2e1849f3b17f7f5a6" kind="variable"><name>Color</name></member>
+    <member refid="structnarc__engine_1_1_vertex_1a5147542ab3fbdb2c9e05b53a1cd18a55" kind="variable"><name>TexCoord</name></member>
+    <member refid="structnarc__engine_1_1_vertex_1af476cdf287727a9e4baf1c2aca650a0d" kind="function"><name>getBindingDescription</name></member>
+    <member refid="structnarc__engine_1_1_vertex_1a60703fffe43daba9efc197117e8089ce" kind="function"><name>getAttributeDescriptions</name></member>
+  </compound>
+  <compound refid="structvertex" kind="struct"><name>vertex</name>
+    <member refid="structvertex_1a565f0e00859fefb4b226a4d6d26a223b" kind="variable"><name>pos</name></member>
+    <member refid="structvertex_1a6b9a4d49465117369bc1eb347e6e65b2" kind="variable"><name>color</name></member>
+    <member refid="structvertex_1afc9e07325d97dfd2971cd03de3db6092" kind="variable"><name>tex</name></member>
+    <member refid="structvertex_1a50c17b0eaa547f8db9828ca08a099a1d" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classnarc__engine_1_1_window" kind="class"><name>narc_engine::Window</name>
+    <member refid="classnarc__engine_1_1_window_1a401bc6b3263d5eabbb072681c02f2af6" kind="variable"><name>m_window</name></member>
+    <member refid="classnarc__engine_1_1_window_1a774e0fe7dd8caf2f8fe78b5a70b8dca5" kind="variable"><name>m_surface</name></member>
+    <member refid="classnarc__engine_1_1_window_1a36f34cb6c970e84b5adfbd17634744d7" kind="variable"><name>m_framebufferResized</name></member>
+    <member refid="classnarc__engine_1_1_window_1a94507c98f0a72541cfe3870aef5582a8" kind="variable"><name>m_shouldClose</name></member>
+    <member refid="classnarc__engine_1_1_window_1ae49d3f1d58973c5d9b83d97cd0cc4943" kind="variable"><name>m_engineInstance</name></member>
+    <member refid="classnarc__engine_1_1_window_1a3b0a7cb8d564d68993401f4fae8c2aaa" kind="function"><name>Window</name></member>
+    <member refid="classnarc__engine_1_1_window_1a4999c7cbe3ee77f0bad1451ccbafd414" kind="function"><name>~Window</name></member>
+    <member refid="classnarc__engine_1_1_window_1a6af5f272afd58b297a7f6f48d8f08267" kind="function"><name>init</name></member>
+    <member refid="classnarc__engine_1_1_window_1a002ba9dd2564e0fb12ff9a6385499235" kind="function"><name>isFramebufferResized</name></member>
+    <member refid="classnarc__engine_1_1_window_1a5181fc5483be57b4159cef9c7ea8bd44" kind="function"><name>shouldClose</name></member>
+    <member refid="classnarc__engine_1_1_window_1a107dc5fed30294767d5b40f0edd2722c" kind="function"><name>getSurface</name></member>
+    <member refid="classnarc__engine_1_1_window_1aa7f11b008a33660cf72bd955823c1f89" kind="function"><name>querySwapChainSupport</name></member>
+    <member refid="classnarc__engine_1_1_window_1a9ff92855a5f927f5f1506fb3964e20f1" kind="function"><name>getValidFramebufferSize</name></member>
+    <member refid="classnarc__engine_1_1_window_1a50e8eff982d379904d631ed806c6199b" kind="function"><name>getFramebufferSize</name></member>
+    <member refid="classnarc__engine_1_1_window_1a2d1c219de87939e96f1197f2c99a1c44" kind="function"><name>isPhysicalDeviceSupported</name></member>
+    <member refid="classnarc__engine_1_1_window_1a9fbd46d3838f558baa6c217f4e0d921d" kind="function"><name>update</name></member>
+    <member refid="classnarc__engine_1_1_window_1ae701817f95447f5d5127e42d8091d511" kind="function"><name>setFramebufferResized</name></member>
+    <member refid="classnarc__engine_1_1_window_1a769a0043055cac1e54a2f72ace6f1466" kind="function"><name>getRequiredInstanceExtensions</name></member>
+    <member refid="classnarc__engine_1_1_window_1a5daf2277ba74e62906512d0b9a5fc2ad" kind="function"><name>framebufferResizeCallback</name></member>
+  </compound>
+  <compound refid="conceptnarclog_1_1_arithmetic_concept" kind="concept"><name>narclog::ArithmeticConcept</name>
+  </compound>
+  <compound refid="conceptnarclog_1_1_log_concept" kind="concept"><name>narclog::LogConcept</name>
+  </compound>
+  <compound refid="conceptnarclog_1_1_message_concept" kind="concept"><name>narclog::MessageConcept</name>
+  </compound>
+  <compound refid="namespacecompile__shaders" kind="namespace"><name>compile_shaders</name>
+    <member refid="compile__shaders_8py_1a665bd67272ca5f76fe69b6ce83e89b10" kind="function"><name>compile_shader</name></member>
+    <member refid="compile__shaders_8py_1aa7b85a1347db6b99cd656aa60bfcc53e" kind="function"><name>find_files_with_extension</name></member>
+    <member refid="compile__shaders_8py_1a68957f39c3ff0803899aa1c588069528" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="namespacenarc" kind="namespace"><name>narc</name>
+    <member refid="_application_8cpp_1abce06dca6d18cc7327beee44bde25ee2" kind="variable"><name>g_modelPath</name></member>
+    <member refid="_application_8cpp_1ac96f9366314cfa541343b5e707845812" kind="variable"><name>g_model2Path</name></member>
+    <member refid="_application_8cpp_1a105373d2efadd261267a9201f75b89e7" kind="variable"><name>g_texturePath</name></member>
+    <member refid="_application_8cpp_1a0ab5135ffce8358d192cdbf0b6d950eb" kind="variable"><name>g_texture2Path</name></member>
+  </compound>
+  <compound refid="namespacenarc__engine" kind="namespace"><name>narc_engine</name>
+    <member refid="_graphic_resource_type_8h_1aa216aad9c938db718f698f71861040f5" kind="enum"><name>GraphicResourceType</name></member>
+    <member refid="_graphic_resource_type_8h_1aa216aad9c938db718f698f71861040f5a0db45d2a4141101bdfe48e3314cfbca3" kind="enumvalue"><name>UNDEFINED</name></member>
+    <member refid="_graphic_resource_type_8h_1aa216aad9c938db718f698f71861040f5acc301ce75e16247f3b96a3907519096c" kind="enumvalue"><name>TEXTURE_2D</name></member>
+    <member refid="_mesh_8h_1a1178b93e198e6ad044f5767a33a254aa" kind="typedef"><name>VertexBuffer</name></member>
+    <member refid="_mesh_8h_1ab69c025b495f49a18df46298c5707506" kind="typedef"><name>IndexBuffer</name></member>
+    <member refid="_device_handler_8cpp_1aea386e222ceb9413a1b0103cb440e908" kind="variable"><name>g_deviceExtensions</name></member>
+    <member refid="_engine_debug_logger_8cpp_1a5157dff9ff30a541c950c13d77b8adcf" kind="variable"><name>g_validationLayers</name></member>
+    <member refid="_window_8cpp_1abdeeaa1cd0f5eb5d37b92948c54733f2" kind="variable"><name>g_width</name></member>
+    <member refid="_window_8cpp_1a954d7835cbe5a05fd0e97d13242caad9" kind="variable"><name>g_height</name></member>
+    <member refid="_engine_8cpp_1a2a32c5d161d17b271ee69188deab84ee" kind="variable"><name>s_instance</name></member>
+    <member refid="_engine_renderer_8cpp_1a7d077e6a5c4b8b64ea785171091cf8e2" kind="variable"><name>g_maxFramesInFlight</name></member>
+    <member refid="_engine_debug_logger_8h_1a7eb73e7b80c5b4834ad6fc66493fb69f" kind="function"><name>destroyDebugUtilsMessengerEXT</name></member>
+    <member refid="_engine_debug_logger_8h_1a8f497d11c0a15240608a924cdc9ffb43" kind="function"><name>createDebugUtilsMessengerEXT</name></member>
+    <member refid="_i_engine_8h_1a0b5003b9a095cbc5248b904574fc9bc7" kind="function"><name>getEngine</name></member>
+    <member refid="_i_engine_8h_1a0fffe345d1d54c7eaddf7db21cf0989f" kind="function"><name>createEngine</name></member>
+  </compound>
+  <compound refid="namespacenarc__io" kind="namespace"><name>narc_io</name>
+    <member refid="_model3_d_8h_1a2d1355c7f6fa0bf9207ad2f424eac0ae" kind="typedef"><name>VertexList</name></member>
+    <member refid="_model3_d_8h_1a3c7c92f84ed7d4489357900ef37092e3" kind="typedef"><name>ColorList</name></member>
+    <member refid="_model3_d_8h_1ad488a411e4f2e124747f73cbb4949aad" kind="typedef"><name>TexCoordList</name></member>
+    <member refid="_model3_d_8h_1a5cf15022811a370f893d02481f7f7746" kind="typedef"><name>IndexList</name></member>
+  </compound>
+  <compound refid="namespacenarclog" kind="namespace"><name>narclog</name>
+    <member refid="_file_logger_8cpp_1af8f126ca91762aa29b3d9930f82f4094" kind="variable"><name>g_path</name></member>
+    <member refid="_file_logger_8cpp_1a33e965ed307743aa07da2dceed5f6ede" kind="variable"><name>g_extension</name></member>
+    <member refid="_narc_log_8cpp_1a77452c16ecb2a6cd459a7a84342d77c4" kind="variable"><name>g_logger</name></member>
+    <member refid="_narc_log_8h_1a9665b40fa600a2cca5fce7f7927fce04" kind="function"><name>createLogger</name></member>
+    <member refid="_narc_log_8h_1a76dfdae011df049aa88773c418584109" kind="function"><name>destroyLogger</name></member>
+    <member refid="_narc_log_8h_1a90ec5ad63c08f873e0875e4d79f584df" kind="function"><name>log</name></member>
+    <member refid="_narc_log_8cpp_1a9b5ff4e871518b4b0883e559e09e518b" kind="function"><name>log</name></member>
+    <member refid="_narc_log_8cpp_1aa5a0a2f35d7881c71560e7980ac1907a" kind="function"><name>log&lt; const char * &gt;</name></member>
+    <member refid="_narc_log_8cpp_1abaa03d3deabe12837e8bb9222be026c4" kind="function"><name>log&lt; const std::string &amp; &gt;</name></member>
+    <member refid="_narc_log_8cpp_1ad8e6807deda51c3b127255ecd3e962f0" kind="function"><name>log&lt; std::string &gt;</name></member>
+    <member refid="_narc_log_8cpp_1a869e9e9b5f5cb5f8ef30ac51f78c9dea" kind="function"><name>log&lt; std::string &amp; &gt;</name></member>
+    <member refid="_narc_log_8cpp_1a75deb9160b3f35ef404fa0f96066d2e4" kind="function"><name>log&lt; size_t &gt;</name></member>
+    <member refid="_narc_log_8cpp_1a60c6979d14d923be124e0e3cee8f7838" kind="function"><name>log&lt; uint32_t &gt;</name></member>
+    <member refid="_narc_log_8cpp_1a61bd3c0b4451a2239215fceafa81b2f2" kind="function"><name>log&lt; uint16_t &gt;</name></member>
+    <member refid="_narc_log_8cpp_1a5073ac95a6f376c418ab535da9665d27" kind="function"><name>log&lt; bool &gt;</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_application_8h" kind="file"><name>Application.h</name>
+  </compound>
+  <compound refid="_application_8cpp" kind="file"><name>Application.cpp</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+  </compound>
+  <compound refid="_narc_core_8h" kind="file"><name>NarcCore.h</name>
+    <member refid="_narc_core_8h_1ae9b33f8debca6a6b2fc6d579c6bfd3e6" kind="define"><name>GETTER</name></member>
+    <member refid="_narc_core_8h_1ac1e8a42306d8e67cb94ca31c3956ee78" kind="define"><name>DEPRECATED</name></member>
+    <member refid="_narc_core_8h_1af40e60899752b378d3cdc46b361f4d1d" kind="define"><name>TEMP_CODE</name></member>
+  </compound>
+  <compound refid="core_2core_2include_2pch_8h" kind="file"><name>pch.h</name>
+  </compound>
+  <compound refid="core_2narc__math_2include_2pch_8h" kind="file"><name>pch.h</name>
+  </compound>
+  <compound refid="core_2narcio_2include_2pch_8h" kind="file"><name>pch.h</name>
+  </compound>
+  <compound refid="core_2narclog_2include_2pch_8h" kind="file"><name>pch.h</name>
+  </compound>
+  <compound refid="rendering_2narc__engine_2include_2pch_8h" kind="file"><name>pch.h</name>
+  </compound>
+  <compound refid="_narcore_8cpp" kind="file"><name>Narcore.cpp</name>
+  </compound>
+  <compound refid="_narc_math_8h" kind="file"><name>NarcMath.h</name>
+    <member refid="_narc_math_8h_1a53aeecf6b7ba36273b6998fbd206ca7d" kind="define"><name>GLM_FORCE_DEFAULT_ALIGNED_GENTYPES</name></member>
+    <member refid="_narc_math_8h_1aa53e0967978ad7a8792f6961156ec968" kind="define"><name>GLM_FORCE_DEPTH_ZERO_TO_ONE</name></member>
+    <member refid="_narc_math_8h_1abd75661fe7969e19439052a5f69ba5d1" kind="define"><name>GLM_ENABLE_EXPERIMENTAL</name></member>
+  </compound>
+  <compound refid="_narc_math_8cpp" kind="file"><name>NarcMath.cpp</name>
+  </compound>
+  <compound refid="core_2narcio_2include_2_core_8h" kind="file"><name>Core.h</name>
+    <member refid="core_2narcio_2include_2_core_8h_1aa0440b05fa65ec1fb301316c16dfe4e3" kind="define"><name>NARC_IO_API</name></member>
+  </compound>
+  <compound refid="core_2narclog_2include_2_core_8h" kind="file"><name>Core.h</name>
+    <member refid="core_2narclog_2include_2_core_8h_1ac45eb1a05bc96cfc08ca3daf23ecb2f8" kind="define"><name>NARCLOG_API</name></member>
+  </compound>
+  <compound refid="rendering_2narc__engine_2include_2_core_8h" kind="file"><name>Core.h</name>
+    <member refid="rendering_2narc__engine_2include_2_core_8h_1af8357eb42e37c3a5273d2426a16d3eca" kind="define"><name>NARC_ENGINE_API</name></member>
+  </compound>
+  <compound refid="_file_reader_8h" kind="file"><name>FileReader.h</name>
+  </compound>
+  <compound refid="_image_8h" kind="file"><name>Image.h</name>
+  </compound>
+  <compound refid="_model3_d_8h" kind="file"><name>Model3D.h</name>
+  </compound>
+  <compound refid="_narc_i_o_8h" kind="file"><name>NarcIO.h</name>
+  </compound>
+  <compound refid="_file_reader_8cpp" kind="file"><name>FileReader.cpp</name>
+    <member refid="_file_reader_8cpp_1a18372412ad2fc3ce1e3240b3cf0efe78" kind="define"><name>STB_IMAGE_IMPLEMENTATION</name></member>
+    <member refid="_file_reader_8cpp_1af14fac7fbc250522a78849d58d5b0811" kind="define"><name>TINYOBJLOADER_IMPLEMENTATION</name></member>
+  </compound>
+  <compound refid="_error_exception_8h" kind="file"><name>ErrorException.h</name>
+  </compound>
+  <compound refid="_exception_handler_builder_8h" kind="file"><name>ExceptionHandlerBuilder.h</name>
+    <member refid="_exception_handler_builder_8h_1a7a49c3628953a86fea67f76284b25524" kind="define"><name>NARCLOG_HANDLED_METHOD_NAME</name></member>
+    <member refid="_exception_handler_builder_8h_1a3d5f5a2bc66830a8e95565ab445641df" kind="define"><name>NARCLOG_PREPARE_HANDLER</name></member>
+    <member refid="_exception_handler_builder_8h_1aa467c4f1d29a7d28274e2025dc37e36f" kind="define"><name>NARCLOG_EXECUTE_FATAL_SAFE</name></member>
+    <member refid="_exception_handler_builder_8h_1afc1d39bd172a8070c94c95355ea95d5f" kind="define"><name>NARCLOG_EXECUTE_FINALLY_FATAL_SAFE</name></member>
+  </compound>
+  <compound refid="_fatal_exception_8h" kind="file"><name>FatalException.h</name>
+  </compound>
+  <compound refid="_method_exception_handler_8h" kind="file"><name>MethodExceptionHandler.h</name>
+    <member refid="_method_exception_handler_8h_1ab9fac16d6fee493aff3d97f6e8314d85" kind="define"><name>NARC_EXECUTE_HANDLED</name></member>
+  </compound>
+  <compound refid="_file_logger_8h" kind="file"><name>FileLogger.h</name>
+  </compound>
+  <compound refid="_console_style_8h" kind="file"><name>ConsoleStyle.h</name>
+    <member refid="_console_style_8h_1a69bd5bdc0c6d7661484a0dc607467b05" kind="define"><name>CONSOLE_TEXT_COLOR_BLACK</name></member>
+    <member refid="_console_style_8h_1ab113309de186441b0d4620b60e083b33" kind="define"><name>CONSOLE_TEXT_COLOR_RED</name></member>
+    <member refid="_console_style_8h_1a1131ff6afd066a8b75abcb9d3875bb7d" kind="define"><name>CONSOLE_TEXT_COLOR_GREEN</name></member>
+    <member refid="_console_style_8h_1aec2546c81fa7aa6dee330d42b2fa27f2" kind="define"><name>CONSOLE_TEXT_COLOR_YELLOW</name></member>
+    <member refid="_console_style_8h_1a89c8a566ed1858e462f88740cf88d18f" kind="define"><name>CONSOLE_TEXT_COLOR_BLUE</name></member>
+    <member refid="_console_style_8h_1a67ca9d174b72cf7fbcc4ca5812a8dd3f" kind="define"><name>CONSOLE_TEXT_COLOR_MAGENTA</name></member>
+    <member refid="_console_style_8h_1a2cf951b642148dfb06bc61b12e0de552" kind="define"><name>CONSOLE_TEXT_COLOR_CYAN</name></member>
+    <member refid="_console_style_8h_1abada78c91e0a077e741d6d0289fd3362" kind="define"><name>CONSOLE_TEXT_COLOR_WHITE</name></member>
+    <member refid="_console_style_8h_1a60a5afe059e1a47fc543d67ba215e346" kind="define"><name>CONSOLE_TEXT_COLOR_DEFAULT</name></member>
+    <member refid="_console_style_8h_1a46c27dde24b2ba6742e277c599e8b6d3" kind="define"><name>CONSOLE_TEXT_BOLD</name></member>
+    <member refid="_console_style_8h_1a5baaf35ff942d5b17f2310e9468de6a6" kind="define"><name>CONSOLE_TEXT_DIM</name></member>
+    <member refid="_console_style_8h_1a18791d52b39b397a8ee3777be3f129a1" kind="define"><name>CONSOLE_TEXT_ITALIC</name></member>
+    <member refid="_console_style_8h_1affd4f2809e8379fd0f05882068cb0591" kind="define"><name>CONSOLE_TEXT_UNDERLINE</name></member>
+    <member refid="_console_style_8h_1a4f28b562ae01682bf8287b4a63be6fd2" kind="define"><name>CONSOLE_TEXT_BLINK</name></member>
+    <member refid="_console_style_8h_1aa26746a9a7f07a045a7c5b8762c374ee" kind="define"><name>CONSOLE_TEXT_REVERSE</name></member>
+    <member refid="_console_style_8h_1a4ccdd6875d4ebe3d86f675bff4b9a713" kind="define"><name>CONSOLE_TEXT_INVISIBLE</name></member>
+    <member refid="_console_style_8h_1a73a27627898c11473ef7606db6effaa5" kind="define"><name>CONSOLE_MESSAGE_PREFIX_FATAL</name></member>
+    <member refid="_console_style_8h_1a348b073d296e132a6b765b37f38037b4" kind="define"><name>CONSOLE_MESSAGE_PREFIX_ERROR</name></member>
+    <member refid="_console_style_8h_1a5e6b1b44695a4bc20e9c381d937f27c5" kind="define"><name>CONSOLE_MESSAGE_PREFIX_WARNING</name></member>
+    <member refid="_console_style_8h_1a167d93b86c753f37b6e792de88cc2cd3" kind="define"><name>CONSOLE_MESSAGE_PREFIX_INFO</name></member>
+    <member refid="_console_style_8h_1a5d89780d85a4821441b501765a724cb6" kind="define"><name>CONSOLE_MESSAGE_PREFIX_DEBUG</name></member>
+    <member refid="_console_style_8h_1ae2a86963a0ac68744d51db7019e58c2b" kind="define"><name>LOG_MESSAGE_FORMATER</name></member>
+    <member refid="_console_style_8h_1a79ffe31c266599f7dee0b2a8f21190d4" kind="define"><name>CONSOLE_MESSAGE_FORMATER</name></member>
+  </compound>
+  <compound refid="_key_words_8h" kind="file"><name>KeyWords.h</name>
+  </compound>
+  <compound refid="_log_level_8h" kind="file"><name>LogLevel.h</name>
+    <member refid="_log_level_8h_1aca1fd1d8935433e6ba2e3918214e07f9" kind="enum"><name>LogLevel</name></member>
+    <member refid="_log_level_8h_1aca1fd1d8935433e6ba2e3918214e07f9a651d8a47a6976d6fe05c0e03fb4cd2d0" kind="enumvalue"><name>FATAL</name></member>
+    <member refid="_log_level_8h_1aca1fd1d8935433e6ba2e3918214e07f9a2fd6f336d08340583bd620a7f5694c90" kind="enumvalue"><name>ERROR</name></member>
+    <member refid="_log_level_8h_1aca1fd1d8935433e6ba2e3918214e07f9a984de77c680eaff141ec910e25568a81" kind="enumvalue"><name>WARNING</name></member>
+    <member refid="_log_level_8h_1aca1fd1d8935433e6ba2e3918214e07f9a748005382152808a72b1a9177d9dc806" kind="enumvalue"><name>INFO</name></member>
+    <member refid="_log_level_8h_1aca1fd1d8935433e6ba2e3918214e07f9a0593585da9181e972974c1274d8f2b4f" kind="enumvalue"><name>DEBUG</name></member>
+  </compound>
+  <compound refid="_logger_8h" kind="file"><name>Logger.h</name>
+  </compound>
+  <compound refid="_narc_log_8h" kind="file"><name>NarcLog.h</name>
+    <member refid="_narc_log_8h_1ae5869c23b56a2cdb2d39f6b39e6e8909" kind="define"><name>NARCLOG_FATAL</name></member>
+    <member refid="_narc_log_8h_1a731ec445bd6934694bfdd3eee35faa6d" kind="define"><name>NARCLOG_ERROR</name></member>
+    <member refid="_narc_log_8h_1a53a95d6720c1f4d1b930b047d101bed4" kind="define"><name>NARCLOG_WARNING</name></member>
+    <member refid="_narc_log_8h_1ac8b48bcf3f4a0d81c949b8934a27291a" kind="define"><name>NARCLOG_INFO</name></member>
+    <member refid="_narc_log_8h_1ae4709dfc6a29502ed55b45a7fcafe8dc" kind="define"><name>NARCLOG_DEBUG</name></member>
+  </compound>
+  <compound refid="_windows_logger_8h" kind="file"><name>WindowsLogger.h</name>
+  </compound>
+  <compound refid="_exception_handler_builder_8cpp" kind="file"><name>ExceptionHandlerBuilder.cpp</name>
+  </compound>
+  <compound refid="_method_exception_handler_8cpp" kind="file"><name>MethodExceptionHandler.cpp</name>
+  </compound>
+  <compound refid="_file_logger_8cpp" kind="file"><name>FileLogger.cpp</name>
+  </compound>
+  <compound refid="_logger_8cpp" kind="file"><name>Logger.cpp</name>
+  </compound>
+  <compound refid="_narc_log_8cpp" kind="file"><name>NarcLog.cpp</name>
+  </compound>
+  <compound refid="_windows_logger_8cpp" kind="file"><name>WindowsLogger.cpp</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_buffer_8h" kind="file"><name>Buffer.h</name>
+  </compound>
+  <compound refid="_graphics_buffer_8h" kind="file"><name>GraphicsBuffer.h</name>
+  </compound>
+  <compound refid="_staging_buffer_8h" kind="file"><name>StagingBuffer.h</name>
+  </compound>
+  <compound refid="_uniform_buffer_8h" kind="file"><name>UniformBuffer.h</name>
+  </compound>
+  <compound refid="_command_buffer_8h" kind="file"><name>CommandBuffer.h</name>
+  </compound>
+  <compound refid="_command_pool_8h" kind="file"><name>CommandPool.h</name>
+  </compound>
+  <compound refid="_device_component_8h" kind="file"><name>DeviceComponent.h</name>
+  </compound>
+  <compound refid="_device_handler_8h" kind="file"><name>DeviceHandler.h</name>
+  </compound>
+  <compound refid="_engine_binder_8h" kind="file"><name>EngineBinder.h</name>
+  </compound>
+  <compound refid="_engine_debug_logger_8h" kind="file"><name>EngineDebugLogger.h</name>
+  </compound>
+  <compound refid="_engine_instance_8h" kind="file"><name>EngineInstance.h</name>
+    <member refid="_engine_instance_8h_1ab91f325a54d3e35fe831a86d6382c2a9" kind="define"><name>GLFW_INCLUDE_VULKAN</name></member>
+  </compound>
+  <compound refid="_engine_resources_manager_8h" kind="file"><name>EngineResourcesManager.h</name>
+  </compound>
+  <compound refid="_queue_family_indices_8h" kind="file"><name>QueueFamilyIndices.h</name>
+  </compound>
+  <compound refid="_window_8h" kind="file"><name>Window.h</name>
+    <member refid="_window_8h_1ab91f325a54d3e35fe831a86d6382c2a9" kind="define"><name>GLFW_INCLUDE_VULKAN</name></member>
+  </compound>
+  <compound refid="_engine_8h" kind="file"><name>Engine.h</name>
+  </compound>
+  <compound refid="_i_engine_8h" kind="file"><name>IEngine.h</name>
+  </compound>
+  <compound refid="_material_8h" kind="file"><name>Material.h</name>
+  </compound>
+  <compound refid="_mesh_8h" kind="file"><name>Mesh.h</name>
+  </compound>
+  <compound refid="_renderer_8h" kind="file"><name>Renderer.h</name>
+  </compound>
+  <compound refid="_shader_module_8h" kind="file"><name>ShaderModule.h</name>
+  </compound>
+  <compound refid="_uniform_buffer_object_8h" kind="file"><name>UniformBufferObject.h</name>
+  </compound>
+  <compound refid="_vertex_8h" kind="file"><name>Vertex.h</name>
+  </compound>
+  <compound refid="_narc_engine_8h" kind="file"><name>NarcEngine.h</name>
+  </compound>
+  <compound refid="_depth_resources_8h" kind="file"><name>DepthResources.h</name>
+  </compound>
+  <compound refid="_descriptor_pool_8h" kind="file"><name>DescriptorPool.h</name>
+  </compound>
+  <compound refid="_descriptor_pool_builder_8h" kind="file"><name>DescriptorPoolBuilder.h</name>
+  </compound>
+  <compound refid="_engine_renderer_8h" kind="file"><name>EngineRenderer.h</name>
+  </compound>
+  <compound refid="_frame_handler_8h" kind="file"><name>FrameHandler.h</name>
+  </compound>
+  <compound refid="_graphics_pipeline_8h" kind="file"><name>GraphicsPipeline.h</name>
+  </compound>
+  <compound refid="_multi_frame_manager_8h" kind="file"><name>MultiFrameManager.h</name>
+  </compound>
+  <compound refid="_render_pass_8h" kind="file"><name>RenderPass.h</name>
+  </compound>
+  <compound refid="_render_task_8h" kind="file"><name>RenderTask.h</name>
+  </compound>
+  <compound refid="_swap_chain_8h" kind="file"><name>SwapChain.h</name>
+  </compound>
+  <compound refid="_swap_chain_support_details_8h" kind="file"><name>SwapChainSupportDetails.h</name>
+  </compound>
+  <compound refid="_graphic_resource_8h" kind="file"><name>GraphicResource.h</name>
+  </compound>
+  <compound refid="_graphic_resource_handler_8h" kind="file"><name>GraphicResourceHandler.h</name>
+  </compound>
+  <compound refid="_graphic_resource_type_8h" kind="file"><name>GraphicResourceType.h</name>
+  </compound>
+  <compound refid="_texture2_d_resource_8h" kind="file"><name>Texture2DResource.h</name>
+  </compound>
+  <compound refid="_buffer_8cpp" kind="file"><name>Buffer.cpp</name>
+  </compound>
+  <compound refid="_graphics_buffer_8cpp" kind="file"><name>GraphicsBuffer.cpp</name>
+  </compound>
+  <compound refid="_staging_buffer_8cpp" kind="file"><name>StagingBuffer.cpp</name>
+  </compound>
+  <compound refid="_uniform_buffer_8cpp" kind="file"><name>UniformBuffer.cpp</name>
+  </compound>
+  <compound refid="_command_buffer_8cpp" kind="file"><name>CommandBuffer.cpp</name>
+  </compound>
+  <compound refid="_command_pool_8cpp" kind="file"><name>CommandPool.cpp</name>
+  </compound>
+  <compound refid="_device_component_8cpp" kind="file"><name>DeviceComponent.cpp</name>
+  </compound>
+  <compound refid="_device_handler_8cpp" kind="file"><name>DeviceHandler.cpp</name>
+  </compound>
+  <compound refid="_engine_binder_8cpp" kind="file"><name>EngineBinder.cpp</name>
+  </compound>
+  <compound refid="_engine_debug_logger_8cpp" kind="file"><name>EngineDebugLogger.cpp</name>
+  </compound>
+  <compound refid="_engine_instance_8cpp" kind="file"><name>EngineInstance.cpp</name>
+  </compound>
+  <compound refid="_engine_resources_manager_8cpp" kind="file"><name>EngineResourcesManager.cpp</name>
+  </compound>
+  <compound refid="_window_8cpp" kind="file"><name>Window.cpp</name>
+  </compound>
+  <compound refid="_engine_8cpp" kind="file"><name>Engine.cpp</name>
+  </compound>
+  <compound refid="_material_8cpp" kind="file"><name>Material.cpp</name>
+  </compound>
+  <compound refid="_mesh_8cpp" kind="file"><name>Mesh.cpp</name>
+  </compound>
+  <compound refid="_renderer_8cpp" kind="file"><name>Renderer.cpp</name>
+  </compound>
+  <compound refid="_shader_module_8cpp" kind="file"><name>ShaderModule.cpp</name>
+  </compound>
+  <compound refid="_vertex_8cpp" kind="file"><name>Vertex.cpp</name>
+  </compound>
+  <compound refid="_depth_resources_8cpp" kind="file"><name>DepthResources.cpp</name>
+  </compound>
+  <compound refid="_descriptor_pool_8cpp" kind="file"><name>DescriptorPool.cpp</name>
+  </compound>
+  <compound refid="_engine_renderer_8cpp" kind="file"><name>EngineRenderer.cpp</name>
+  </compound>
+  <compound refid="_frame_handler_8cpp" kind="file"><name>FrameHandler.cpp</name>
+  </compound>
+  <compound refid="_graphics_pipeline_8cpp" kind="file"><name>GraphicsPipeline.cpp</name>
+  </compound>
+  <compound refid="_multi_frame_manager_8cpp" kind="file"><name>MultiFrameManager.cpp</name>
+  </compound>
+  <compound refid="_render_pass_8cpp" kind="file"><name>RenderPass.cpp</name>
+  </compound>
+  <compound refid="_render_task_8cpp" kind="file"><name>RenderTask.cpp</name>
+  </compound>
+  <compound refid="_swap_chain_8cpp" kind="file"><name>SwapChain.cpp</name>
+  </compound>
+  <compound refid="_graphic_resource_8cpp" kind="file"><name>GraphicResource.cpp</name>
+  </compound>
+  <compound refid="_texture2_d_resource_8cpp" kind="file"><name>Texture2DResource.cpp</name>
+  </compound>
+  <compound refid="compile__shaders_8py" kind="file"><name>compile_shaders.py</name>
+  </compound>
+  <compound refid="dir_844f6ab5c2ae79211596f3dcdd81adb7" kind="dir"><name>src/application</name>
+  </compound>
+  <compound refid="dir_8bf26e107a278ffe7b97581b7e656bed" kind="dir"><name>src/rendering/narc_engine/include/buffers</name>
+  </compound>
+  <compound refid="dir_96fd879f88e243ce1beea680fbb38535" kind="dir"><name>src/rendering/narc_engine/src/buffers</name>
+  </compound>
+  <compound refid="dir_aebb8dcc11953d78e620bbef0b9e2183" kind="dir"><name>src/core</name>
+  </compound>
+  <compound refid="dir_0ad15ebe3b26ea81468f8b0c2f656040" kind="dir"><name>src/core/core</name>
+  </compound>
+  <compound refid="dir_67e5d8aa62f1cc59cc4f8a6ff3bd4a61" kind="dir"><name>src/rendering/narc_engine/include/core</name>
+  </compound>
+  <compound refid="dir_a9e5eda6e09e3f0263bcfe4c45f8c903" kind="dir"><name>src/rendering/narc_engine/src/core</name>
+  </compound>
+  <compound refid="dir_9d103580cc7f540dda5715416c8f331c" kind="dir"><name>src/core/narclog/include/exceptions</name>
+  </compound>
+  <compound refid="dir_90fcd826012fcbac9e944b10845f935c" kind="dir"><name>src/core/narclog/src/exceptions</name>
+  </compound>
+  <compound refid="dir_5cd7edbd97f255a8330d45885b6b55ed" kind="dir"><name>src/application/include</name>
+  </compound>
+  <compound refid="dir_0ba06525b6b00f094137ffad1e011bd2" kind="dir"><name>src/core/core/include</name>
+  </compound>
+  <compound refid="dir_d1a0832ba1e4b8f33b4bd6db56d95aab" kind="dir"><name>src/core/narc_math/include</name>
+  </compound>
+  <compound refid="dir_2c7de9042e5bcdd7bd8c9d2265a83a4e" kind="dir"><name>src/core/narcio/include</name>
+  </compound>
+  <compound refid="dir_67420ce46651edb4d8d59d3297206e1c" kind="dir"><name>src/core/narclog/include</name>
+  </compound>
+  <compound refid="dir_dbb93f0ed4f38bca67b820d482be2ab5" kind="dir"><name>src/rendering/narc_engine/include</name>
+  </compound>
+  <compound refid="dir_f9d608fbee870081aeaebc375b79c1b9" kind="dir"><name>src/rendering/narc_engine/include/interfaces</name>
+  </compound>
+  <compound refid="dir_32aec9cf6a830a6692e43cdd6f2c59eb" kind="dir"><name>src/core/narclog/include/keywords</name>
+  </compound>
+  <compound refid="dir_62da3c0d0909acc48fa7ef1f413a76f6" kind="dir"><name>src/core/narcio/include/models</name>
+  </compound>
+  <compound refid="dir_98667597ee9b8e52daf563354eec60ad" kind="dir"><name>src/rendering/narc_engine/include/models</name>
+  </compound>
+  <compound refid="dir_7bbe2ecc3ed50a3f5d9fa1e7366ea747" kind="dir"><name>src/rendering/narc_engine/src/models</name>
+  </compound>
+  <compound refid="dir_33c138db1917dc9f905bf554c805583a" kind="dir"><name>src/rendering/narc_engine</name>
+  </compound>
+  <compound refid="dir_04e93dcfab3d93bd961f360053d7ab74" kind="dir"><name>src/core/narc_math</name>
+  </compound>
+  <compound refid="dir_63c5d7a4ea52c41ac05e00ac4a31778a" kind="dir"><name>src/core/narcio</name>
+  </compound>
+  <compound refid="dir_d6fa8af019d732995f96e29c3b71e21c" kind="dir"><name>src/core/narclog</name>
+  </compound>
+  <compound refid="dir_5e20dcf68d9b953181611deee0939630" kind="dir"><name>src/core/narclog/include/platform</name>
+  </compound>
+  <compound refid="dir_91710358133bdea7c20678c123f59e78" kind="dir"><name>src/core/narclog/src/platforms</name>
+  </compound>
+  <compound refid="dir_ba4eed870949016d6ca7853c50544116" kind="dir"><name>src/rendering/narc_engine/include/renderer</name>
+  </compound>
+  <compound refid="dir_b46eecf1db443cbc502ae596a0f714f1" kind="dir"><name>src/rendering/narc_engine/src/renderer</name>
+  </compound>
+  <compound refid="dir_1243271318b2b38807a3b1d2ca08dd72" kind="dir"><name>src/rendering</name>
+  </compound>
+  <compound refid="dir_ae1e9a96e577876a8e649b73a18e4c3d" kind="dir"><name>src/rendering/narc_engine/include/resources</name>
+  </compound>
+  <compound refid="dir_c4093fd5b807b5bfdd55531986737e1a" kind="dir"><name>src/rendering/narc_engine/src/resources</name>
+  </compound>
+  <compound refid="dir_3636ba0dcfc4d869c467e3af768e5d80" kind="dir"><name>src/rendering/shaders</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_2c8fcbacf0d599c7b4a52fc06575c460" kind="dir"><name>src/application/src</name>
+  </compound>
+  <compound refid="dir_2a1b17329f496a97438a0fd277f6b175" kind="dir"><name>src/core/core/src</name>
+  </compound>
+  <compound refid="dir_d4e14f4ed55457398144bb7cd0988c3a" kind="dir"><name>src/core/narc_math/src</name>
+  </compound>
+  <compound refid="dir_a24922659e3e0e71e0a5c2b2bdc45e6b" kind="dir"><name>src/core/narcio/src</name>
+  </compound>
+  <compound refid="dir_7906d23a2dfe9a319f349c3cca4d1c61" kind="dir"><name>src/core/narclog/src</name>
+  </compound>
+  <compound refid="dir_a8e33928f691c13413f5e2dd4addb4c5" kind="dir"><name>src/rendering/narc_engine/src</name>
+  </compound>
+  <compound refid="dir_05ee871924d5b35d6c24d4c9c8be8f73" kind="dir"><name>src/core/narclog/include/platform/windows</name>
+  </compound>
+  <compound refid="dir_1cf274f0769d1a04147739022e7262df" kind="dir"><name>src/core/narclog/src/platforms/windows</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

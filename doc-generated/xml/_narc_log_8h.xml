@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_narc_log_8h" kind="file" language="C++">
+    <compoundname>NarcLog.h</compoundname>
+    <includes refid="core_2narclog_2include_2pch_8h" local="yes">pch.h</includes>
+    <includes refid="core_2narclog_2include_2_core_8h" local="yes">Core.h</includes>
+    <includes refid="_key_words_8h" local="yes">keywords/KeyWords.h</includes>
+    <includes refid="_log_level_8h" local="yes">keywords/LogLevel.h</includes>
+    <includes refid="_error_exception_8h" local="yes">exceptions/ErrorException.h</includes>
+    <includes refid="_fatal_exception_8h" local="yes">exceptions/FatalException.h</includes>
+    <includes refid="_exception_handler_builder_8h" local="yes">exceptions/ExceptionHandlerBuilder.h</includes>
+    <includes refid="_method_exception_handler_8h" local="yes">exceptions/MethodExceptionHandler.h</includes>
+    <includedby refid="_application_8cpp" local="no">src/application/src/Application.cpp</includedby>
+    <includedby refid="main_8cpp" local="no">src/application/src/main.cpp</includedby>
+    <includedby refid="_file_reader_8cpp" local="no">src/core/narcio/src/FileReader.cpp</includedby>
+    <includedby refid="core_2narclog_2include_2pch_8h" local="yes">src/core/narclog/include/pch.h</includedby>
+    <includedby refid="_file_logger_8cpp" local="no">src/core/narclog/src/FileLogger.cpp</includedby>
+    <includedby refid="_narc_log_8cpp" local="yes">src/core/narclog/src/NarcLog.cpp</includedby>
+    <includedby refid="_exception_handler_builder_8cpp" local="no">src/core/narclog/src/exceptions/ExceptionHandlerBuilder.cpp</includedby>
+    <includedby refid="rendering_2narc__engine_2include_2pch_8h" local="no">src/rendering/narc_engine/include/pch.h</includedby>
+    <includedby refid="_command_buffer_8cpp" local="no">src/rendering/narc_engine/src/CommandBuffer.cpp</includedby>
+    <includedby refid="_buffer_8cpp" local="no">src/rendering/narc_engine/src/buffers/Buffer.cpp</includedby>
+    <includedby refid="_device_handler_8cpp" local="no">src/rendering/narc_engine/src/core/DeviceHandler.cpp</includedby>
+    <includedby refid="_engine_debug_logger_8cpp" local="no">src/rendering/narc_engine/src/core/EngineDebugLogger.cpp</includedby>
+    <includedby refid="_engine_instance_8cpp" local="no">src/rendering/narc_engine/src/core/EngineInstance.cpp</includedby>
+    <includedby refid="_engine_resources_manager_8cpp" local="yes">src/rendering/narc_engine/src/core/EngineResourcesManager.cpp</includedby>
+    <includedby refid="_window_8cpp" local="no">src/rendering/narc_engine/src/core/Window.cpp</includedby>
+    <includedby refid="_shader_module_8cpp" local="no">src/rendering/narc_engine/src/models/ShaderModule.cpp</includedby>
+    <includedby refid="_descriptor_pool_8cpp" local="no">src/rendering/narc_engine/src/renderer/DescriptorPool.cpp</includedby>
+    <includedby refid="_engine_renderer_8cpp" local="no">src/rendering/narc_engine/src/renderer/EngineRenderer.cpp</includedby>
+    <includedby refid="_frame_handler_8cpp" local="no">src/rendering/narc_engine/src/renderer/FrameHandler.cpp</includedby>
+    <includedby refid="_multi_frame_manager_8cpp" local="yes">src/rendering/narc_engine/src/renderer/MultiFrameManager.cpp</includedby>
+    <includedby refid="_render_pass_8cpp" local="no">src/rendering/narc_engine/src/renderer/RenderPass.cpp</includedby>
+    <includedby refid="_swap_chain_8cpp" local="no">src/rendering/narc_engine/src/renderer/SwapChain.cpp</includedby>
+    <includedby refid="_texture2_d_resource_8cpp" local="no">src/rendering/narc_engine/src/resources/Texture2DResource.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>NarcCore.h</label>
+        <link refid="_narc_core_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>pch.h</label>
+        <link refid="core_2core_2include_2pch_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>Core.h</label>
+        <link refid="core_2narclog_2include_2_core_8h_source"/>
+      </node>
+      <node id="1">
+        <label>src/core/narclog/include/NarcLog.h</label>
+        <link refid="_narc_log_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>exceptions/ErrorException.h</label>
+        <link refid="_error_exception_8h_source"/>
+      </node>
+      <node id="29">
+        <label>exceptions/ExceptionHandlerBuilder.h</label>
+        <link refid="_exception_handler_builder_8h_source"/>
+      </node>
+      <node id="28">
+        <label>exceptions/FatalException.h</label>
+        <link refid="_fatal_exception_8h_source"/>
+      </node>
+      <node id="30">
+        <label>exceptions/MethodExceptionHandler.h</label>
+        <link refid="_method_exception_handler_8h_source"/>
+      </node>
+      <node id="25">
+        <label>keywords/KeyWords.h</label>
+        <link refid="_key_words_8h_source"/>
+      </node>
+      <node id="26">
+        <label>keywords/LogLevel.h</label>
+        <link refid="_log_level_8h_source"/>
+      </node>
+      <node id="2">
+        <label>pch.h</label>
+        <link refid="core_2narclog_2include_2pch_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>algorithm</label>
+      </node>
+      <node id="6">
+        <label>array</label>
+      </node>
+      <node id="7">
+        <label>chrono</label>
+      </node>
+      <node id="8">
+        <label>cstdint</label>
+      </node>
+      <node id="9">
+        <label>cstring</label>
+      </node>
+      <node id="10">
+        <label>ctime</label>
+      </node>
+      <node id="11">
+        <label>exception</label>
+      </node>
+      <node id="12">
+        <label>filesystem</label>
+      </node>
+      <node id="13">
+        <label>fstream</label>
+      </node>
+      <node id="14">
+        <label>functional</label>
+      </node>
+      <node id="15">
+        <label>iostream</label>
+      </node>
+      <node id="16">
+        <label>map</label>
+      </node>
+      <node id="17">
+        <label>memory</label>
+      </node>
+      <node id="18">
+        <label>optional</label>
+      </node>
+      <node id="19">
+        <label>set</label>
+      </node>
+      <node id="20">
+        <label>stdexcept</label>
+      </node>
+      <node id="21">
+        <label>string</label>
+      </node>
+      <node id="22">
+        <label>type_traits</label>
+      </node>
+      <node id="23">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>src/application/include/Application.h</label>
+        <link refid="_application_8h_source"/>
+      </node>
+      <node id="1">
+        <label>src/core/narclog/include/NarcLog.h</label>
+        <link refid="_narc_log_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/core/narclog/include/pch.h</label>
+        <link refid="core_2narclog_2include_2pch_8h_source"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>src/rendering/narc_engine/include/Engine.h</label>
+        <link refid="_engine_8h_source"/>
+      </node>
+      <node id="4">
+        <label>src/rendering/narc_engine/include/NarcEngine.h</label>
+        <link refid="_narc_engine_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/rendering/narc_engine/include/interfaces/IEngine.h</label>
+        <link refid="_i_engine_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/rendering/narc_engine/include/pch.h</label>
+        <link refid="rendering_2narc__engine_2include_2pch_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenarclog">narclog</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_narc_log_8h_1ae5869c23b56a2cdb2d39f6b39e6e8909" prot="public" static="no">
+        <name>NARCLOG_FATAL</name>
+        <param><defname>message</defname></param>
+        <initializer>throw <ref refid="classnarclog_1_1_fatal_exception" kindref="compound">narclog::FatalException</ref>(message)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/NarcLog.h" line="3" column="9" bodyfile="src/core/narclog/include/NarcLog.h" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_narc_log_8h_1a731ec445bd6934694bfdd3eee35faa6d" prot="public" static="no">
+        <name>NARCLOG_ERROR</name>
+        <param><defname>message</defname></param>
+        <initializer>throw <ref refid="classnarclog_1_1_error_exception" kindref="compound">narclog::ErrorException</ref>(message)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/NarcLog.h" line="4" column="9" bodyfile="src/core/narclog/include/NarcLog.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_narc_log_8h_1a53a95d6720c1f4d1b930b047d101bed4" prot="public" static="no">
+        <name>NARCLOG_WARNING</name>
+        <param><defname>message</defname></param>
+        <initializer>narclog::log(WARNING, message)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/NarcLog.h" line="5" column="9" bodyfile="src/core/narclog/include/NarcLog.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_narc_log_8h_1ac8b48bcf3f4a0d81c949b8934a27291a" prot="public" static="no">
+        <name>NARCLOG_INFO</name>
+        <param><defname>message</defname></param>
+        <initializer>narclog::log(INFO, message)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/NarcLog.h" line="6" column="9" bodyfile="src/core/narclog/include/NarcLog.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_narc_log_8h_1ae4709dfc6a29502ed55b45a7fcafe8dc" prot="public" static="no">
+        <name>NARCLOG_DEBUG</name>
+        <param><defname>message</defname></param>
+        <initializer>narclog::log(DEBUG, message)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/NarcLog.h" line="7" column="9" bodyfile="src/core/narclog/include/NarcLog.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NARCLOG_FATAL(message)<sp/>throw<sp/>narclog::FatalException(message)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NARCLOG_ERROR(message)<sp/>throw<sp/>narclog::ErrorException(message)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NARCLOG_WARNING(message)<sp/>narclog::log(WARNING,<sp/>message)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NARCLOG_INFO(message)<sp/>narclog::log(INFO,<sp/>message)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NARCLOG_DEBUG(message)<sp/>narclog::log(DEBUG,<sp/>message)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pch.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Core.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;keywords/KeyWords.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;keywords/LogLevel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exceptions/ErrorException.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exceptions/FatalException.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exceptions/ExceptionHandlerBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exceptions/MethodExceptionHandler.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">narclog</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>NARCLOG_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>createLogger();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>NARCLOG_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>destroyLogger();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;LogConcept<sp/>TMsg&gt;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>NARCLOG_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>log(LogLevel<sp/>level,<sp/>TMsg<sp/>message);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/core/narclog/include/NarcLog.h"/>
+  </compounddef>
+</doxygen>

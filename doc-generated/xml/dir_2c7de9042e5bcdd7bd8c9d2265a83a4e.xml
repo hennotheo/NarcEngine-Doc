@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_2c7de9042e5bcdd7bd8c9d2265a83a4e" kind="dir">
+    <compoundname>src/core/narcio/include</compoundname>
+    <innerdir refid="dir_62da3c0d0909acc48fa7ef1f413a76f6">src/core/narcio/include/models</innerdir>
+    <innerfile refid="core_2narcio_2include_2_core_8h">Core.h</innerfile>
+    <innerfile refid="_file_reader_8h">FileReader.h</innerfile>
+    <innerfile refid="_narc_i_o_8h">NarcIO.h</innerfile>
+    <innerfile refid="core_2narcio_2include_2pch_8h">pch.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narcio/include/"/>
+  </compounddef>
+</doxygen>

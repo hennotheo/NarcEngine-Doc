@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarclog_1_1_logger" kind="class" language="C++" prot="public">
+    <compoundname>narclog::Logger</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarclog_1_1_logger_1aca30b86ee3cdbbecf4cfbf20ab53f036" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classnarclog_1_1_file_logger" kindref="compound">FileLogger</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;FileLogger&gt; narclog::Logger::m_fileLogger</definition>
+        <argsstring></argsstring>
+        <name>m_fileLogger</name>
+        <qualifiedname>narclog::Logger::m_fileLogger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/Logger.h" line="21" column="25" bodyfile="src/core/narclog/include/Logger.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarclog_1_1_logger_1a41162702ffa5a0ecb1f3c11559e23f5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narclog::Logger::Logger</definition>
+        <argsstring>()</argsstring>
+        <name>Logger</name>
+        <qualifiedname>narclog::Logger::Logger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/Logger.h" line="13" column="9" bodyfile="src/core/narclog/src/Logger.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarclog_1_1_logger_1ac1ccfd41fb9e681ee69b37852b471bb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>narclog::Logger::~Logger</definition>
+        <argsstring>()</argsstring>
+        <name>~Logger</name>
+        <qualifiedname>narclog::Logger::~Logger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/Logger.h" line="14" column="17" bodyfile="src/core/narclog/src/Logger.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarclog_1_1_logger_1ad17fb9b535e6a6244676fc6506a14c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void narclog::Logger::log</definition>
+        <argsstring>(LogLevel level, const std::string &amp;message)</argsstring>
+        <name>log</name>
+        <qualifiedname>narclog::Logger::log</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/Logger.h" line="16" column="14" bodyfile="src/core/narclog/src/Logger.cpp" bodystart="22" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classnarclog_1_1_logger_1a63ae635b000b1c7f53e0aec1ba0d62af" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string narclog::Logger::currentDateTime</definition>
+        <argsstring>(const char *format)</argsstring>
+        <name>currentDateTime</name>
+        <qualifiedname>narclog::Logger::currentDateTime</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/Logger.h" line="18" column="28" bodyfile="src/core/narclog/src/Logger.cpp" bodystart="42" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classnarclog_1_1_logger_1ace0a7b8686cb969028a310aa228edcea" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string narclog::Logger::prefixForLevel</definition>
+        <argsstring>(LogLevel level)</argsstring>
+        <name>prefixForLevel</name>
+        <qualifiedname>narclog::Logger::prefixForLevel</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/Logger.h" line="23" column="28" bodyfile="src/core/narclog/src/Logger.cpp" bodystart="50" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarclog_1_1_logger_1abd9cc2e0791c2a9912ff7044fc7f599a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string narclog::Logger::colorForLevel</definition>
+        <argsstring>(LogLevel level)</argsstring>
+        <name>colorForLevel</name>
+        <qualifiedname>narclog::Logger::colorForLevel</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/narclog/include/Logger.h" line="24" column="28" bodyfile="src/core/narclog/src/Logger.cpp" bodystart="63" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/narclog/include/Logger.h" line="10" column="5" bodyfile="src/core/narclog/include/Logger.h" bodystart="11" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classnarclog_1_1_logger_1abd9cc2e0791c2a9912ff7044fc7f599a" prot="private" virt="non-virtual"><scope>narclog::Logger</scope><name>colorForLevel</name></member>
+      <member refid="classnarclog_1_1_logger_1a63ae635b000b1c7f53e0aec1ba0d62af" prot="public" virt="non-virtual"><scope>narclog::Logger</scope><name>currentDateTime</name></member>
+      <member refid="classnarclog_1_1_logger_1ad17fb9b535e6a6244676fc6506a14c2b" prot="public" virt="non-virtual"><scope>narclog::Logger</scope><name>log</name></member>
+      <member refid="classnarclog_1_1_logger_1a41162702ffa5a0ecb1f3c11559e23f5f" prot="public" virt="non-virtual"><scope>narclog::Logger</scope><name>Logger</name></member>
+      <member refid="classnarclog_1_1_logger_1aca30b86ee3cdbbecf4cfbf20ab53f036" prot="private" virt="non-virtual"><scope>narclog::Logger</scope><name>m_fileLogger</name></member>
+      <member refid="classnarclog_1_1_logger_1ace0a7b8686cb969028a310aa228edcea" prot="private" virt="non-virtual"><scope>narclog::Logger</scope><name>prefixForLevel</name></member>
+      <member refid="classnarclog_1_1_logger_1ac1ccfd41fb9e681ee69b37852b471bb1" prot="public" virt="virtual"><scope>narclog::Logger</scope><name>~Logger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

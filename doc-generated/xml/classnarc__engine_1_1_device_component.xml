@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="classnarc__engine_1_1_device_component" kind="class" language="C++" prot="public">
+    <compoundname>narc_engine::DeviceComponent</compoundname>
+    <derivedcompoundref refid="classnarc__engine_1_1_buffer" prot="public" virt="non-virtual">narc_engine::Buffer</derivedcompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_command_pool" prot="public" virt="non-virtual">narc_engine::CommandPool</derivedcompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_depth_resources" prot="public" virt="non-virtual">narc_engine::DepthResources</derivedcompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_descriptor_pool" prot="public" virt="non-virtual">narc_engine::DescriptorPool</derivedcompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_engine_renderer" prot="public" virt="non-virtual">narc_engine::EngineRenderer</derivedcompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_frame_handler" prot="public" virt="non-virtual">narc_engine::FrameHandler</derivedcompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_graphic_resource" prot="public" virt="non-virtual">narc_engine::GraphicResource</derivedcompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_graphics_pipeline" prot="public" virt="non-virtual">narc_engine::GraphicsPipeline</derivedcompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_render_pass" prot="public" virt="non-virtual">narc_engine::RenderPass</derivedcompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_render_task" prot="public" virt="non-virtual">narc_engine::RenderTask</derivedcompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_shader_module" prot="public" virt="non-virtual">narc_engine::ShaderModule</derivedcompoundref>
+    <derivedcompoundref refid="classnarc__engine_1_1_swap_chain" prot="public" virt="non-virtual">narc_engine::SwapChain</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnarc__engine_1_1_device_component_1af3ffdcd38e6e715e6a56ab5c8f3b5b3f" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classnarc__engine_1_1_device_handler" kindref="compound">DeviceHandler</ref> *</type>
+        <definition>const DeviceHandler* narc_engine::DeviceComponent::m_device</definition>
+        <argsstring></argsstring>
+        <name>m_device</name>
+        <qualifiedname>narc_engine::DeviceComponent::m_device</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/DeviceComponent.h" line="21" column="29" bodyfile="src/rendering/narc_engine/include/core/DeviceComponent.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>narc_engine::DeviceComponent::DeviceComponent</definition>
+        <argsstring>()</argsstring>
+        <name>DeviceComponent</name>
+        <qualifiedname>narc_engine::DeviceComponent::DeviceComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/DeviceComponent.h" line="14" column="9" bodyfile="src/rendering/narc_engine/src/core/DeviceComponent.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER const <ref refid="classnarc__engine_1_1_device_handler" kindref="compound">DeviceHandler</ref> *</type>
+        <definition>GETTER const DeviceHandler * narc_engine::DeviceComponent::getDeviceHandler</definition>
+        <argsstring>() const</argsstring>
+        <name>getDeviceHandler</name>
+        <qualifiedname>narc_engine::DeviceComponent::getDeviceHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/DeviceComponent.h" line="17" column="36" bodyfile="src/rendering/narc_engine/include/core/DeviceComponent.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GETTER VkDevice</type>
+        <definition>GETTER VkDevice narc_engine::DeviceComponent::getVkDevice</definition>
+        <argsstring>() const</argsstring>
+        <name>getVkDevice</name>
+        <qualifiedname>narc_engine::DeviceComponent::getVkDevice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/rendering/narc_engine/include/core/DeviceComponent.h" line="18" column="25" bodyfile="src/rendering/narc_engine/include/core/DeviceComponent.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>narc_engine::Buffer</label>
+        <link refid="classnarc__engine_1_1_buffer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>narc_engine::CommandPool</label>
+        <link refid="classnarc__engine_1_1_command_pool"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>narc_engine::DepthResources</label>
+        <link refid="classnarc__engine_1_1_depth_resources"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>narc_engine::DescriptorPool</label>
+        <link refid="classnarc__engine_1_1_descriptor_pool"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>narc_engine::DeviceComponent</label>
+        <link refid="classnarc__engine_1_1_device_component"/>
+      </node>
+      <node id="11">
+        <label>narc_engine::EngineRenderer</label>
+        <link refid="classnarc__engine_1_1_engine_renderer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>narc_engine::FrameHandler</label>
+        <link refid="classnarc__engine_1_1_frame_handler"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>narc_engine::GraphicResource</label>
+        <link refid="classnarc__engine_1_1_graphic_resource"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>narc_engine::GraphicsBuffer&lt; T &gt;</label>
+        <link refid="classnarc__engine_1_1_graphics_buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>narc_engine::GraphicsBuffer&lt; Vertex &gt;</label>
+        <link refid="classnarc__engine_1_1_graphics_buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>narc_engine::GraphicsBuffer&lt; uint32_t &gt;</label>
+        <link refid="classnarc__engine_1_1_graphics_buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>narc_engine::GraphicsPipeline</label>
+        <link refid="classnarc__engine_1_1_graphics_pipeline"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>narc_engine::RenderPass</label>
+        <link refid="classnarc__engine_1_1_render_pass"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>narc_engine::RenderTask</label>
+        <link refid="classnarc__engine_1_1_render_task"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>narc_engine::ShaderModule</label>
+        <link refid="classnarc__engine_1_1_shader_module"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>narc_engine::StagingBuffer</label>
+        <link refid="classnarc__engine_1_1_staging_buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>narc_engine::SwapChain</label>
+        <link refid="classnarc__engine_1_1_swap_chain"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>narc_engine::Texture2DResource</label>
+        <link refid="classnarc__engine_1_1_texture2_d_resource"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>narc_engine::UniformBuffer</label>
+        <link refid="classnarc__engine_1_1_uniform_buffer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="src/rendering/narc_engine/include/core/DeviceComponent.h" line="11" column="5" bodyfile="src/rendering/narc_engine/include/core/DeviceComponent.h" bodystart="12" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classnarc__engine_1_1_device_component_1a70eb210b9b5eb28ad0d9d03be81443cc" prot="public" virt="non-virtual"><scope>narc_engine::DeviceComponent</scope><name>DeviceComponent</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1a5eeae8f85cd04ff5a9ad13319bc05566" prot="protected" virt="non-virtual"><scope>narc_engine::DeviceComponent</scope><name>getDeviceHandler</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1ac829bf9f25cb1bdb64f0018c9c57e495" prot="protected" virt="non-virtual"><scope>narc_engine::DeviceComponent</scope><name>getVkDevice</name></member>
+      <member refid="classnarc__engine_1_1_device_component_1af3ffdcd38e6e715e6a56ab5c8f3b5b3f" prot="private" virt="non-virtual"><scope>narc_engine::DeviceComponent</scope><name>m_device</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
